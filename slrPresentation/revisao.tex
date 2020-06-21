@@ -108,7 +108,7 @@
 { 
 University of Extremadura ~~~~~~~~~~~~~~~% Your institution for the title page
 \medskip
-\textit{pesobreiro@gmail.com} % Your email address
+\textit{pdealexa@alumnos.unex.es} % Your email address
 }
 \date{Webinar, 26 June 2020} % Date, can be changed to a custom date
 
@@ -136,9 +136,9 @@ Dropout predicting is challenging analysis process which requires appropriate ap
 \end{comment}
 
 \begin{frame}
-	\frametitle{Objetivo do estudo}
+	\frametitle{Research goals}
 	% Vamos colocar os objetivos do estudo 
-	\Large{Compreender a perceção dos professores do ensino superior em atividades de ensino online numa situação de emergência provocada pelo COVID-19 e obter indicadores para auxiliar na tomada de decisão.}
+	\Large{What is the current state of machine learning research studies to predict dropout in contractual settings?}
 
 	
 \end{frame}
@@ -152,9 +152,10 @@ Esta investigação, desenvolvida através da técnica de inquérito por questio
 \begin{frame}
 	\frametitle{Introduction}
 	\Large
-	\textbf{Ensino online}\\
+	\textbf{Data mining}\\
 		\begin{itemize} \normalsize
-			\item Customer analysis is fundamental to develop business and marketing intelligence \footnotesize(Sheth, Mittal, \& Newman, 1998)\normalsize
+			\item Customer analysis is fundamental to develop business and marketing intelligence \footnotesize(Sheth, Mittal, \& Newman, 1998)\normalsize, supporting the understanding of historical data identifying trends and patterns \footnotesize(Berry \& Linoff, 2004)\normalsize
+			\item This process is also known as data mining, the extraction of knowledge from data (Han \& Kamber, 2006)
 
 		\end{itemize}	
 
@@ -167,33 +168,52 @@ Esta investigação, desenvolvida através da técnica de inquérito por questio
 
 \end{frame}
 
-\section{Metodologia}
+\section{Methodology}
 \begin{comment}
 The data was anonymised, removing all personal information before being retrieved from the management system.
 Esta investigação, desenvolvida através da técnica de inquérito por questionário, pretende avaliar como é que esses docentes encararam essa realidade. O trabalho de campo foi realizado na primeira quinzena de abril de 2020 envolvendo docentes de uma instituição de ensino superior portuguesa tendo-se obtido 35 respostas válidas.
 \end{comment}
 \begin{frame}
-	\frametitle{Metodologia}
+	\frametitle{Methodology}
 	\begin{itemize}
-		\item Foram tratados dados de 34 docentes de uma instituição de ensino superior;
-		\item O estudo está numa fase exploratória e está a ser desenvolvido. Utilizamos um questionário validado (Martinho, 2014);
-		\item O tratamento de dados foi realizado com o Anaconda e IPython \footnotesize(Continuum Analytics, 2016)\normalsize ~e recorrendo ao Pandas \footnotesize(McKinney \& others, 2010) \normalsize e NumPy \footnotesize(Walt, Colbert, \& Varoquaux, 2011)\normalsize;
-		\item Realizamos o teste de normalidade às variáveis, onde não detetamos uma distribuição normal com p$<$0.05. As correlações foram realizadas com o coeficiente Spearman;
-
-
+		\item Was developed a Systematic Literature Review (SLR) developed in three stages \footnotesize(Kitchenham \& Charters, 2007)\normalsize: Plan, Conduct and Report;
 
 	\end{itemize}
 	\tiny 
-	~~~~Martinho, D. S. (2014). O Ensino Online nas Instituições de Ensino Superior Privado. As perspetivas: Docente e discente e as implicações na tomada de decisão institucional.\\
-	~~~~~Continuum Analytics. (2016). Anaconda Software Distribution. Obtido 20 de Julho de 2017, de https://www.anaconda.com/download/ \\
-	~~~~~McKinney, W., \& others. (2010). Data structures for statistical computing in python. Em Proceedings of the 9th Python in Science Conference (Vol. 445, pp. 51–56). SciPy Austin, TX. Obtido de https://pdfs.semanticscholar.org/f6da/c1c52d3b07c993fe52513b8964f86e8fe381.pdf\\
-	~~~~~Walt, S. van der, Colbert, S. C., \& Varoquaux, G. (2011). The NumPy Array: A Structure for Efficient Numerical Computation. Computing in Science \& Engineering, 13(2), 22–30. doi:10.1109/MCSE.2011.37
-
+	~~~~Kitchenham, B., \& Charters, S. (2007). Guidelines for performing structural literature reviews in software engineering (pp. 1–26) [Joint technical report]. Australia: Keele Univ., and Empirical Software Eng., Nat’l ICT.\\
 
 \end{frame}
 
+\begin{frame}
+	\frametitle{Systematic Literature Review Phases}
+	\begin{figure}
+		\includegraphics[scale=0.5]{../img/slr_phases.png}
+		\caption{SLR phases based on Kitchenham and Charter (2007)}
+		\label{figure1}
+	\end{figure}
+\end{frame}
 
-\section{Resultados}
+\begin{frame}
+	\frametitle{Research questions}
+	What is the current state of machine learning research studies to predict dropout in contractual settings? Based in this question were identified the following questions:
+	\begin{itemize}
+		\item RQ1: What studies have been published?;
+		\item RQ2: Which algorithms have been used to predict the dropout?
+		\item RQ3: What are the more relevant features related to predicting customer dropout?
+		\item RQ4: When the dropout occurs? 
+		\item RQ5: What is the accuracy of the machine learning algorithms to predict dropout?
+	\end{itemize}
+\end{frame}
+\begin{comment}
+RQ1: aims to identify what researches have been published so far in the area. This will allow to understand the extent of the research being developed. 
+RQ2: aim to identify which different types of machine learning algorithms used to predict the dropout (RQ2) to deep the knowledge of the approaches being used to address the dropout. 
+RQ3: explores which features are being used to predict the dropout. 
+RQ4: Intends to understand if the timing related to the customer dropout is considered, this question explores if any study explores the advantage of using survival analysis, considering that allows also to examine if an event occurs but also how long took to occur (Williams, 2008). This perspective entails the understanding if is also covered the timings of the dropout event in the potential research to be explored. 
+RQ5: aims to identify the accuracy of machine learning algorithms to predict the dropout. The goal of the prediction in the dropout is to develop classification task,  according to Rätsch (2004) is to find a functional mapping between the input data X, describing the input pattern, to a class label Y, such that Y=f(X), where the aim is to accurately predict the correct label on unseen data. However should be used appropriate performance measures, e.g. if the data is imbalanced should be considered the use of accuracy (Chawla, Bowyer, Hall, & Kegelmeyer, 2002)
+\end{comment}
+
+
+\section{Results}
 \begin{comment} 
 \begin{frame}
 	\frametitle{Determinação do número de clusters}
@@ -214,7 +234,7 @@ Esta investigação, desenvolvida através da técnica de inquérito por questio
 \end{frame}
 \end{comment}
 
-\begin{frame}[fragile]{Resultados}
+\begin{frame}[fragile]{Results}
   	\begin{itemize}
 		\item Os resultados revelam que a maioria dos professores que responderam ao questionário são do sexo masculino (56\%)
 		\item Questionados sobre a avaliação da qualidade do ensino online versus ensino presencial 24\% considera que é inferior, 44\% refere que não existem diferenças e 26\% por vezes é superior
@@ -242,7 +262,7 @@ Esta investigação, desenvolvida através da técnica de inquérito por questio
 \end{frame}
 
 
-\section{Discussão e conclusões}
+\section{Conclusion}
 \begin{frame}
 	\frametitle{Discussão e Conclusões}
 	\begin{itemize}
