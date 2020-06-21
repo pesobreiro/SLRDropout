@@ -265,55 +265,95 @@ RQ5: aims to identify the accuracy of machine learning algorithms to predict the
 
 \end{comment}
 
+\begin{frame}[fragile]{Results IEEE}
+  	\begin{itemize}
+		\item 218 studies were found in the first step of the conduct (Identify research);
+		\item 24 duplicates were removed
+		\item 166 were removed after ASReview
+		\item 1 paper rejected during data extraction
+		\item 28 papers selected
+	\end{itemize}
+\end{frame}
+
 \begin{frame}[fragile]{Results}
-  	\begin{itemize}
-		\item Os resultados revelam que a maioria dos professores que responderam ao questionário são do sexo masculino (56\%)
-		\item Questionados sobre a avaliação da qualidade do ensino online versus ensino presencial 24\% considera que é inferior, 44\% refere que não existem diferenças e 26\% por vezes é superior
-		\item Quando confrontados com gosto pelo ensino online em relação ao seu gosto pelo ensino presencial 6\% considera inferior, 29\% por vezes inferior, 21\% não apresenta preferência, 38\% acha que é por vezes superior e 6\% considera superior
-		\item Em relação à disponibilidade para o ensino online em relação à sua disponibilidade para o ensino presencial 18\% apresenta mais disponibilidade para o ensino online, 41\% considera a sua disponibilidade por vezes superior, 35\% é indiferente e 6\% considera ter menos disponibilidade.
-	\end{itemize}
+	\frametitle{RQ1. What studies have been published?}
+	\begin{figure}
+		\includegraphics[scale=0.5]{../img/articles_by_Year.png}
+		\caption{Articles per year after quality assessment}
+		\label{figure2}
+	\end{figure}
 \end{frame}
 
-\begin{frame}[fragile]{Resultados}
-  	\begin{itemize}
-		\item Quando questionados sobre os aspetos tecnológicos, 100\% apresenta experiência de mais de 6 anos na utilização processadores de texto e email. 97\% PowerPoint e motores de busca;
-		\item Em relação a ferramentas de videoconferência verifica-se que 56\% dos respondentes têm mais de 6 anos de experiência com o Zoom, 21\% de 3 a 6 anos e 24\% até 3 anos de experiência
-		\item Na utilização de ferramentas para chat 76\% mais de 6 anos, 15\% de 3 a 6 anos, 6\% menos de 3 e 3\% não apresentava nenhuma experiência
-		\item Na utilização do Moodle 53\% apresentava mais de 6 anos de experiência, 29\% 3 a 6 anos e 18\% menos de 3 anos
-	\end{itemize}
+\begin{frame}[fragile]{Results}
+	\frametitle{RQ1. What studies have been published?}
+	\begin{figure}
+		\includegraphics[scale=0.5]{../img/studiesByBusiness.png}
+		\caption{The number of studies per business context}
+		\label{figure3}
+	\end{figure}
 \end{frame}
 
-\begin{frame}[fragile]{Resultados}
-  	\begin{itemize}
-		\item A análise de correlação mostrou relações com elevado significado estatístico entre a qualidade do ensino online versus ensino presencial* e: (1) gosto em ensinar presencialmente (r\textsubscript{s}=.51,p$<$.01); (2) disponibilidade para o ensino online (r\textsubscript{s}=.44,p$<$.01); (3) preferência por testes online (r\textsubscript{s}=.46,p$<$.01); (4) preferência com apresentações orais(r\textsubscript{s}=.40,p$<$.05); (5) experiência com chat (r\textsubscript{s}=.36,p$<$.05);
-		\item Não se identificaram relações significativas entre qualidade do ensino online e: (1) idade, (2) anos docência, (2) satisfação com Moodle, Zoom e Google Docs;
-	\end{itemize}
-	\tiny * Escala de likert com as opções: 1-Inferior; 2- Por vezes inferior; 3 – Sem diferenças significativas ; 4-Por vezes superior;  5-Superior 
+\begin{frame}[fragile]{Results}
+	\frametitle{RQ2: Which algorithms have been used to predict the dropout?}
+	\begin{figure}
+		\includegraphics[scale=0.5]{../img/mainAlgorithms.png}
+		\caption{Main algorithms used in the analysed papers}
+		\label{figure3}
+	\end{figure}
+\end{frame}
 
+\begin{frame}[fragile]{Results}
+	\frametitle{RQ3: What are the more relevant features related to predicting customer dropout?}
+	\begin{figure}
+		\includegraphics[scale=0.5]{../img/relevantFeatures.png}
+		\caption{Percentage of studies identifying the relevant features}
+		\label{figure4}
+	\end{figure}
+\end{frame}
+
+
+\begin{frame}[fragile]{Results}
+	\frametitle{RQ4: When the dropout occurs?}
+	\begin{figure}
+		\includegraphics[scale=0.5]{../img/dropoutTimings.png}
+		\caption{The number of studies addressing the dropout timings}
+		\label{figure4}
+	\end{figure}
+\end{frame}
+
+\begin{frame}[fragile]{Results}
+	\frametitle{RQ5: What is the accuracy of the machine learning algorithms to predict dropout?}
+	\begin{figure}
+		\includegraphics[scale=0.5]{../img/predictionAccuracy.png}
+		\caption{Number of studies identifying the prediction accuracy}
+		\label{figure3}
+	\end{figure}
 \end{frame}
 
 
 \section{Conclusion}
 \begin{frame}
-	\frametitle{Discussão e Conclusões}
+	\frametitle{Conclusion}
 	\begin{itemize}
 
- 		\item A dimensão da amostra não permite a generalização dos resultados obtidos pelo que o trabalho de campo vai continuar com o alargamento da amostra dos respondentes para outras instituições do ensino superior;
-
-		\item Pretende-se ainda investigar outros aspetos, nomeadamente como é que os professores perspetivam o ensino online para o desenvolvimento dos estudantes, da sua carreira profissional e das instituições de ensino superior;
+ 		\item The telecommunications sector is the area where are being developing most of the studies, which identifies some business areas that need to be addressed;
+ 		\item Algorithms to predict dropout using also survival analysis approaches is an area under researched, only three research papers, however  considering the number of citations these approaches getting the attention (Perianez et al., 2016);
+ 		\item The use of algorithms to explore the timings when the dropout will occur is an approach that could complement the dropout prediction, supporting the development of actions considering both the probability and when should be developed countermeasures to avoid the customer dropout
 
 
 	\end{itemize}
 	\tiny 
+	~~~~Perianez, A., Saas, A., Guitart, A., \& Magne, C. (2016). Churn Prediction in Mobile Social Games: Towards a Complete Assessment Using Survival Ensembles. 2016 IEEE International Conference on Data Science and Advanced Analytics (DSAA), 564–573. doi: 10/ggtgjh
+
 \end{frame}
 
 
 \begin{frame}
-\frametitle{Obrigado!}
+\frametitle{Thanks!}
 \normalsize
-	Pedro Sobreiro - IPSantarém  \\~\\
-	Domingos Martinho - ISLA Santarém \\~\\
-	Marco Tereso - ISLA Santarém \\~\\
+	\large End 
+	
+	Start where you are. Use what you have. Do what you can. \\ Arthur Ashe 
 \end{frame}
 
 
