@@ -13,6 +13,7 @@ RQ4. When the dropout occurs?
 RQ5. What is the accuracy of the machine learning algorithms to predict dropout? 
 ```
 
+# Search strategy
 ## Scopus
 ALL ( ( ( customer )  AND  ( dropout )  OR  ( "churn" ) )  AND  "machine learning"  AND  ( "contractual"  OR  "membership" ) )  AND  PUBYEAR  >  1999  AND  PUBYEAR  <  2021  AND  ( LIMIT-TO ( DOCTYPE ,  "ar" )  OR  LIMIT-TO ( DOCTYPE ,  "cp" ) )  AND  ( LIMIT-TO ( LANGUAGE ,  "English"))
 
