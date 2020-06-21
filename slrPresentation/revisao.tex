@@ -177,7 +177,9 @@ Esta investigação, desenvolvida através da técnica de inquérito por questio
 	\frametitle{Methodology}
 	\begin{itemize}
 		\item Was developed a Systematic Literature Review (SLR) developed in three stages \footnotesize(Kitchenham \& Charters, 2007)\normalsize: Plan, Conduct and Report;
-
+		\item Plan: definition of the research need, identification of the research questions and the development of the review protocol;
+		\item Conduct: research identification, study selections, quality assessment, data extraction, finishing with the data synthesis;
+		\item Report: stage that develops the activity report review.
 	\end{itemize}
 	\tiny 
 	~~~~Kitchenham, B., \& Charters, S. (2007). Guidelines for performing structural literature reviews in software engineering (pp. 1–26) [Joint technical report]. Australia: Keele Univ., and Empirical Software Eng., Nat’l ICT.\\
@@ -212,26 +214,55 @@ RQ4: Intends to understand if the timing related to the customer dropout is cons
 RQ5: aims to identify the accuracy of machine learning algorithms to predict the dropout. The goal of the prediction in the dropout is to develop classification task,  according to Rätsch (2004) is to find a functional mapping between the input data X, describing the input pattern, to a class label Y, such that Y=f(X), where the aim is to accurately predict the correct label on unseen data. However should be used appropriate performance measures, e.g. if the data is imbalanced should be considered the use of accuracy (Chawla, Bowyer, Hall, & Kegelmeyer, 2002)
 \end{comment}
 
+\begin{frame}
+	\frametitle{Population, Intervention, Comparison, Outcomes and Context}
+\begin{center}
+\begin{table}
+  \centering
+  \scriptsize
+  \caption{
+  	PICOC criteria
+  	}
+    \begin{tabular}{p{3cm} p{5cm}}
+    \toprule
+    PICOC & Description\\
+    \midrule
+	Population & Research papers about dropout with contractual settings \\ \hline
+	Intervention &  Machine learning algorithms to predict dropout	\\ \hline	
+	Comparison & Studies addressing machine learning algorithms to predict dropout \\ \hline 
+	Outcome & Synthesis identifying research questions, gaps in the research domain and also best practices identified \\ \hline
+	Context & Academia and industry\\
+\bottomrule
+\end{tabular}
+\label{Abordagens analisadas}
+\begin{flushleft}
+	Note: Context (PICOC) as suggested Kitchenham and Charters (2007) and proposed by Petticrew and Roberts (Petticrew \& Roberts, 2006) to support the development of the search string.
+\end{flushleft}
+\end{table}
+\end{center}
+	\tiny 
+~~~~Kitchenham, B., \& Charters, S. (2007). Guidelines for performing structural literature reviews in software engineering (pp. 1–26) [Joint technical report]. Australia: Keele Univ., and Empirical Software Eng., Nat l ICT.\\
+~~~~Petticrew, M., \& Roberts, H. (2006). Systematic reviews in the social sciences: A practical guide. Malden, MA ; Oxford: Blackwell Pub.\\
+\end{frame}
+
+\begin{frame}
+	\frametitle{Search }
+	\begin{itemize}
+		\item Search string: ((“customer dropout”) OR (“customer churn”) AND “machine learning” AND (“contractual” OR “membership”));
+		\item Applied to the title, abstract, and keywords in the search period between January 2000 and June 2020
+		\item The exclusion criteria were Books, Non-English articles, patents, and thesis
+		\item The selection process was developed using ASReview (ASReview Core Development Team, 2019) creating a dataset of the identified articles, providing five relevant papers and five irrelevant papers to train Machine Learning model Naïve Bayes;
+		\\~\\
+	\end{itemize}
+		\tiny 
+~~~~Kitchenham, B., \& Charters, S. (2007). Guidelines for performing structural literature reviews in software engineering (pp. 1–26) [Joint technical report]. Australia: Keele Univ., and Empirical Software Eng., Nat l ICT.\\
+~~~~Petticrew, M., \& Roberts, H. (2006). Systematic reviews in the social sciences: A practical guide. Malden, MA ; Oxford: Blackwell Pub.\\
+\end{frame}
+
 
 \section{Results}
 \begin{comment} 
-\begin{frame}
-	\frametitle{Determinação do número de clusters}
-	\begin{figure}
-		\includegraphics[scale=0.25]{images/elbowAnalysis.png}
-		\caption{Representação para identificação visual do número de clusters}
-		\label{figure1}
-	\end{figure}
-\end{frame}
 
-\begin{frame}
-	\frametitle{Representação dos dados 2D}
-	\begin{figure}
-		\includegraphics[scale=0.25]{images/clusters2D.png}
-		\caption{Reduzimos a as variáveis a duas dimensões recorrendo ao \emph{Principal Components Analysis} para facilitar a representação}
-		\label{figure2}
-	\end{figure}
-\end{frame}
 \end{comment}
 
 \begin{frame}[fragile]{Results}
