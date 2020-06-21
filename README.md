@@ -14,12 +14,19 @@ RQ5. What is the accuracy of the machine learning algorithms to predict dropout?
 ```
 
 # Search strategy
+All searches where limited to the time interval between 2000 and 2020. Limited to articles in english.
 ## Scopus
 ALL ( ( ( customer )  AND  ( dropout )  OR  ( "churn" ) )  AND  "machine learning"  AND  ( "contractual"  OR  "membership" ) )  AND  PUBYEAR  >  1999  AND  PUBYEAR  <  2021  AND  ( LIMIT-TO ( DOCTYPE ,  "ar" )  OR  LIMIT-TO ( DOCTYPE ,  "cp" ) )  AND  ( LIMIT-TO ( LANGUAGE ,  "English"))
 
 [Scopus Studies selection (bibtex)](scopus/scopus.bib)
 
-## IEEE
-((“customer dropout”) OR (“customer churn”) AND “machine learning” AND (“contractual” OR “membership”))
+## IEEE Digital Library
+(((“customer") AND  ("dropout" OR “churn”)) AND “machine learning” AND (“contractual” OR “membership”))
 
-## 
+## SpringerLink
+
+## Science@Direct
+
+## ISI Web of Science
+
+## ACM Digital Library
