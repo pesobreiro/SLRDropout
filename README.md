@@ -21,3 +21,5 @@ ALL ( ( ( customer )  AND  ( dropout )  OR  ( "churn" ) )  AND  "machine learnin
 
 ## IEEE
 ((“customer dropout”) OR (“customer churn”) AND “machine learning” AND (“contractual” OR “membership”))
+
+## 
