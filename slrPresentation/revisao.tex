@@ -47,8 +47,8 @@
 %\usetheme{Rochester}
 %\usetheme{Singapore}
 %\usetheme{Szeged}
-%\usetheme{Warsaw}
-\usetheme[progressbar=frametitle]{metropolis}
+\usetheme{Warsaw}
+%\usetheme[progressbar=frametitle]{metropolis}
 % As well as themes, the Beamer class has a number of color themes
 % for any slide theme. Uncomment each of these in turn to see how it
 % changes the colors of your current slide theme.
@@ -71,7 +71,7 @@
 %\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
 %\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
 
-%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
 }
 \usepackage{appendixnumberbeamer}
 \usepackage{booktabs}
@@ -88,6 +88,7 @@
 %\usepackage[portuguese]{babel} % Para termos texto em português, e.g. legendas e datas
 %\usepackage[english]{babel}
 %\setbeamertemplate{caption}[numbered] %para numerar os captions
+\setbeamertemplate{navigation symbols}{}
 %\usepackage[labelfont=scriptsize,labelfont=bf,font=scriptsize,belowskip=-15pt,aboveskip=5pt]{caption}
 
 %----------------------------------------------------------------------------------------
@@ -96,14 +97,14 @@
 %----------------------------------------------------------------------------------------
 
 \title[Dropout Prediction]{Dropout Prediction: A Systematic Literature Review} 
-\subtitle{Preliminar results} 
+\subtitle{Preliminary results} 
 % The short title appears at the bottom of every slide, the full title is only on the title page
 
 \begin{comment} % Estrutura da apresentação
 
 \end{comment}
 
-\author{Pedro Sobreiro, Javier Berrocal (Thesis Supervisor), José Garcia Alonso (Co-supervisor), } % Your name
+\author[Sobreiro, Berrocal, Alonso]{Pedro Sobreiro, Javier Berrocal (Thesis Supervisor), José Garcia Alonso (Co-supervisor), } % Your name
 \institute[UNEX] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
 { 
 University of Extremadura ~~~~~~~~~~~~~~~% Your institution for the title page
@@ -138,7 +139,7 @@ Dropout predicting is challenging analysis process which requires appropriate ap
 \begin{frame}
 	\frametitle{Research goals}
 	% Vamos colocar os objetivos do estudo 
-	\Large{What is the current state of machine learning research studies to predict dropout in contractual settings?}
+	\Large{What is the current state of machine learning research studies to predict dropout with contractual settings?}
 
 	
 \end{frame}
@@ -152,11 +153,11 @@ Esta investigação, desenvolvida através da técnica de inquérito por questio
 \begin{frame}
 	\frametitle{Introduction}
 	\Large
-	\textbf{Data mining}\\
+	\textbf{Some background...}\\
 		\begin{itemize} \normalsize
-			\item Customer analysis is fundamental to develop business and marketing intelligence \footnotesize(Sheth, Mittal, \& Newman, 1998)\normalsize, supporting the understanding of historical data identifying trends and patterns \footnotesize(Berry \& Linoff, 2004)\normalsize
-			\item This process is also known as data mining, the extraction of knowledge from data \footnotesize(Han \& Kamber, 2006)\normalsize
-			\item According to \footnotesize Han, Kamber, and Pei (2012)\normalsize, these tasks present many similarities between data mining and machine learning
+			\item Customer analysis is fundamental to develop business and marketing intelligence \footnotesize(Sheth, Mittal, \& Newman, 1998)\normalsize, supporting the understanding of historical data identifying trends and patterns \footnotesize(Berry \& Linoff, 2004)\normalsize;
+			\item This process is also known as data mining, the extraction of knowledge from data \footnotesize(Han \& Kamber, 2006)\normalsize;
+			\item According to \footnotesize Han, Kamber, and Pei (2012)\normalsize, these tasks present many similarities between data mining and machine learning;
 		\end{itemize}	
 	\tiny
 	~~~~Sheth, J. N., Mittal, B., \& Newman, B. (1998). Customer Behavior: Consumer Behavior and Beyond (1 edition). Fort Worth, TX: South-Western College Pub. \\
@@ -169,11 +170,11 @@ Esta investigação, desenvolvida através da técnica de inquérito por questio
 \begin{frame}
 	\frametitle{Introduction}
 	\Large
-	\textbf{Data mining}\\
+	\textbf{Some background...}\\
 		\begin{itemize} \normalsize
-			\item Machine learning could be used to extract knowledge to understand dropout with the development of effective retention strategies \footnotesize(Verbeke, Martens, Mues, \& Baesens, 2011)\normalsize
-			\item Machine learning algorithms have been used to predict customer dropout \footnotesize(Bandara, Perera, \& Alahakoon, 2013)\normalsize, without however to consider the timings of the dropout
-			\item Machine learning can be used to develop of customer retention strategies based on existing data \footnotesize(Verbeke et al., 2011)\normalsize, extracting patterns from data \footnotesize(Kelleher et al., 2015)\normalsize, that support the development of counteractions before an event occurs
+			\item Machine learning could be used to extract knowledge to understand dropout for the development of effective retention strategies \footnotesize(Verbeke, Martens, Mues, \& Baesens, 2011)\normalsize;
+			\item Machine learning algorithms have been used to predict customer dropout \footnotesize(Bandara, Perera, \& Alahakoon, 2013)\normalsize, without however to consider the timings of the dropout;
+			\item Machine learning can be used to develop of customer retention strategies based on existing data \footnotesize(Verbeke et al., 2011)\normalsize, extracting patterns from data \footnotesize(Kelleher et al., 2015)\normalsize, that support the development of counteractions before an event occurs.
 		\end{itemize}	
 	\tiny
 	~~~~Verbeke, W., Martens, D., Mues, C., \& Baesens, B. (2011). Building comprehensible customer churn prediction models with advanced rule induction techniques. Expert Systems with Applications, 38(3), 2354–2364. doi: 10.1016/j.eswa.2010.08.023 \\
@@ -184,11 +185,11 @@ Esta investigação, desenvolvida através da técnica de inquérito por questio
 \begin{frame}
 	\frametitle{Introduction}
 	\Large
-	\textbf{Contractual settings}\\
+	\textbf{Some background...}\\
 		\begin{itemize} \normalsize
-			\item The identification of the dropout can be developed in different contexts: customers that buy in contractual settings and non-contractual settings where a firm have to infer if the customer is still active \footnotesize(Gupta et al. ,2006) \normalsize
-			\item The main characteristic of a contractual setting is a contact of the customer cancelling a subscription \footnotesize(Fader \& Hardie, 2007)\normalsize;
-			\item This research analyses state of the art and identifies Machine Learning studies to predict customer dropout.
+			\item The identification of the dropout can be developed in different contexts: customers that buy in contractual settings and non-contractual settings where a firm have to infer if the customer is still active \footnotesize(Gupta et al. ,2006) \normalsize;
+			\item The main characteristic of a contractual setting is a contact of the customer canceling a subscription \footnotesize(Fader \& Hardie, 2007)\normalsize;
+			\item Customer dropout prediction should consider the context, where there is a contractual or non-contractual setting.
 		\end{itemize}	
 	\tiny
 	~~~~Gupta, S., Hanssens, D., Hardie, B., Kahn, W., Kumar, V., Lin, N., … Sriram, S. (2006). Modeling Customer Lifetime Value. Journal of Service Research, 9(2), 139–155. doi: 10.1177/1094670506293810 \\
@@ -199,22 +200,29 @@ customers that buy in contractual settings, for example cellular phones, magazin
 \end{comment}
 
 \begin{frame}
-	\frametitle{Research gap}
+	\frametitle{Introduction}
 	\Large
+	\textbf{Some background...}\\
 		\begin{itemize} \normalsize
-			\item Considering the lack of an overview of research related to the use of machine learning techniques to target customer dropout with contractual settings;	
-			\item The costs of retaining customers are lower when compared to the costs of attracting new ones \footnotesize(Edward \& Sahadev, 2011)\normalsize, reinforced by that the reduction of the dropout rates could represent an increase in the profits \footnotesize(Reichheld, 1996)\normalsize;
-			\item Machine learning algorithms have been used to predict customer dropout \footnotesize(Bandara, Perera, \& Alahakoon, 2013)\normalsize, without however to our knowledge considering the timings of the dropout;
-			\item This research tries  analyses state of the art and identifies Machine Learning studies to predict customer dropout to the development of counteractions before the customer churns considering also when it occurs.
+
+			\item It is also know, that the costs of retaining customers are lower when compared to the costs of attracting new ones \footnotesize(Edward \& Sahadev, 2011)\normalsize, reinforced by that the reduction of the dropout rates could represent an increase in the profits \footnotesize(Reichheld, 1996)\normalsize;
+			\item Machine learning algorithms have been used to predict customer dropout \footnotesize(Bandara, Perera, \& Alahakoon, 2013)\normalsize;
+			\item But, to our knowledge, there is a lack of an overview of research related to the use of machine learning techniques to target customer dropout with contractual settings considering also the timings of the dropout.
+			
 		\end{itemize}	
 	\tiny
 	~~~~Edward, M., \& Sahadev, S. (2011). Role of switching costs in the service quality, perceived value, customer satisfaction and customer retention linkage. Asia Pacific Journal of Marketing and Logistics, 23(3), 327–345. doi: 10.1108/13555851111143240 \\
-	~~~~Reichheld, F. F. (1996, Março 1). Learning from Customer Defections. Harvard Business Review, (March–April 1996). Obtido de https://hbr.org/1996/03/learning-from-customer-defections \\
+	~~~~Reichheld, F. F. (1996, Março 1). Learning from Customer Defections. Harvard Business Review, (March–April 1996). Retrieved from https://hbr.org/1996/03/learning-from-customer-defections \\
 	~~~~Bandara, W. M. C., Perera, A. S., \& Alahakoon, D. (2013). Churn prediction methodologies in the telecommunications sector: A survey. 2013 International Conference on Advances in ICT for Emerging Regions (ICTer), 172–176. doi: 10/ggtgjg\\
 \end{frame}
+
+\begin{frame}
+	\frametitle{Research gap}
+	% Vamos colocar os objetivos do estudo 
+	\textbf{\large{Considering this context, this research tries to analyze the state of the art to identify Machine Learning studies to predict customer dropout to support the development of counteractions before the customer churns, considering also when it occurs.}}
+\end{frame}
+
 \begin{comment}
-
-
 \section{Methodology}
 \begin{comment}
 The data was anonymised, removing all personal information before being retrieved from the management system.
@@ -344,7 +352,7 @@ RQ5: aims to identify the accuracy of machine learning algorithms to predict the
 	\frametitle{RQ2: Which algorithms have been used to predict the dropout?}
 	\begin{figure}
 		\includegraphics[scale=0.5]{../img/mainAlgorithms.png}
-		\caption{Main algorithms used in the analysed papers}
+		\caption{Main algorithms used in the analyzed papers}
 		\label{figure3}
 	\end{figure}
 \end{frame}
@@ -357,6 +365,9 @@ RQ5: aims to identify the accuracy of machine learning algorithms to predict the
 		\label{figure4}
 	\end{figure}
 \end{frame}
+\begin{comment}
+	We only retrieved the information if the studies address the features but we need clarify better which are the best predictors
+\end{comment}
 
 
 \begin{frame}[fragile]{Results}
@@ -376,7 +387,9 @@ RQ5: aims to identify the accuracy of machine learning algorithms to predict the
 		\label{figure3}
 	\end{figure}
 \end{frame}
-
+\begin{comment}
+	We only retrieved the information if the studies address the accuracy but we need to improve exploring the accuracy of existing studies... however this requires a deeper understanting about the quality of the data, imbalanced datasets and how to measure the performance considering the limitations of the accuracy 
+\end{comment}
 
 \section{Conclusion}
 \begin{frame}
