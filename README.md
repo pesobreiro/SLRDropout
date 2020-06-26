@@ -13,6 +13,9 @@ RQ4. When the dropout occurs?
 RQ5. What is the accuracy of the machine learning algorithms to predict dropout? 
 ```
 
+# Activity 6 presention feedback
+Consider the identification of type of machine learning algorithms according business area. This allows to identify which algorithms are used in each business area to address dropout. 
+
 # Search strategy
 All searches where limited to the time interval between 2000 and 2020. Limited to articles in english.
 ## Scopus
