@@ -1,0 +1,265 @@
+﻿FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Routh, Pallav
+   Roy, Arkajyoti
+   Meyer, Jeff
+TI Estimating customer churn under competing risks
+SO JOURNAL OF THE OPERATIONAL RESEARCH SOCIETY
+DI 10.1080/01605682.2020.1776166
+EA AUG 2020
+PY 2020
+AB Customer churn management focuses on identifying potential churners and
+   implementing incentives that can cure churn. The success of a churn
+   management program depends on accurately identifying potential churners
+   and understanding what conditions contribute to churn. However, in the
+   presence of uncertainties in the process of churn, such as competing
+   risks and unpredictable customer behaviour, the accuracy of the
+   prediction models can be limited. To overcome this, we employ a
+   competing risk methodology within a random survival forest framework
+   that accurately computes the risks of churn and identifies relationships
+   between the risks and customer behaviour. In contrast to existing
+   methods, the proposed model does not rely on a specific functional form
+   to model the relationships between risk and behaviour, and does not have
+   underlying distributional assumptions, both of which are limitations
+   faced in practice. The performance of the method is evaluated using data
+   from a membership-based firm in the hospitality industry, where
+   customers face two competing churning events. The proposed model
+   improves prediction accuracy by up to 20%, compared to conventional
+   models. The findings from this work can allow marketers to identify and
+   understand churners, and develop strategies on how to design and
+   implement incentives.
+ZB 0
+TC 0
+ZA 0
+ZR 0
+Z8 0
+ZS 0
+Z9 0
+SN 0160-5682
+EI 1476-9360
+UT WOS:000556458600001
+ER
+
+PT J
+AU Martinez, Andres
+   Schmuck, Claudia
+   Pereverzyev, Sergiy, Jr.
+   Pirker, Clemens
+   Haltmeier, Markus
+TI A machine learning framework for customer purchase prediction in the
+   non-contractual setting
+SO EUROPEAN JOURNAL OF OPERATIONAL RESEARCH
+VL 281
+IS 3
+BP 588
+EP 596
+DI 10.1016/j.ejor.2018.04.034
+PD MAR 16 2020
+PY 2020
+AB Predicting future customer behavior provides key information for
+   efficiently directing resources at sales and marketing departments. Such
+   information supports planning the inventory at the warehouse and point
+   of sales, as well strategic decisions during manufacturing processes. In
+   this paper, we develop advanced analytics tools that predict future
+   customer behavior in the non-contractual setting. We establish a dynamic
+   and data driven framework for predicting whether a customer is going to
+   make purchase at the company within a certain time frame in the near
+   future. For that purpose, we propose a new set of customer relevant
+   features that derives from times and values of previous purchases. These
+   customer features are updated every month, and state of the art machine
+   learning algorithms are applied for purchase prediction. In our studies,
+   the gradient tree boosting method turns out to be the best performing
+   method. Using a data set containing more than 10000 customers and a
+   total number of 200000 purchases we obtain an accuracy score of 89% and
+   an AUC value of 0.95 for predicting next moth purchases on the test data
+   set. (C) 2018 Elsevier B.V. All rights reserved.
+RI Haltmeier, Markus/B-6388-2016
+OI Haltmeier, Markus/0000-0001-5715-0331
+ZS 0
+ZR 0
+Z8 0
+ZA 0
+TC 5
+ZB 0
+Z9 5
+SN 0377-2217
+EI 1872-6860
+UT WOS:000501657600009
+ER
+
+PT J
+AU Brmez, Simon
+   Znidarsic, Martin
+TI A Case of Churn Prediction in Telecommunications Industry
+SO IPSI BGD TRANSACTIONS ON INTERNET RESEARCH
+VL 15
+IS 2
+SI SI
+PD JUL 2019
+PY 2019
+AB Churn prediction is the practice of assigning a probability to the event
+   of a customer ending his contract with a service provider. Traditional
+   data mining approaches to churn prediction in telecommunications
+   industry are based on detecting patterns from customer contractual
+   information, traffic related data, bills and payments, CRM data and
+   customer service logs. The study presented in this paper has employed
+   various machine learning approaches and assessed their performances
+   using the data of a European mobile operator. The feature importance
+   rankings which were used for feature selection yielded also some initial
+   guidelines for acting on churn prevention in practice.
+Z8 0
+ZA 0
+TC 0
+ZS 0
+ZR 0
+ZB 0
+Z9 0
+SN 1820-4503
+UT WOS:000473335900002
+ER
+
+PT B
+AU Semrl, Jas
+   Matei, Alexandru
+BE Demazeau, Y
+   Gao, J
+   Xu, G
+   Kozlak, J
+   Muller, K
+   Razzak, I
+   Chen, H
+   Gu, Y
+TI Churn Prediction Model for Effective Gym Customer Retention
+SO PROCEEDINGS OF 4TH INTERNATIONAL CONFERENCE ON BEHAVIORAL, ECONOMIC
+   ADVANCE IN BEHAVIORAL, ECONOMIC, SOCIOCULTURAL COMPUTING (BESC)
+PD 2017
+PY 2017
+AB In the fitness industry, rolling gym membership contracts allow
+   customers to terminate a contract with little advanced notice. Customer
+   churn prediction is a well known area in Machine Learning research. Many
+   companies, however, face a data science skills gap when trying to
+   translate this research onto their own datasets and IT infrastructure.
+   In this paper we present a series of experiments that aim to predict
+   customer behaviour, in order to increase gym utilisation and customer
+   retention. We use two off-the-shelf machine learning platforms, so that
+   we can evaluate whether these platforms, used by non ML experts, can
+   help companies improve their services.
+CT 4th International Conference on Behavioral, Economic Advance in
+   Behavioral, Economic, Socio-Cultural Computing (BESC)
+CY OCT 16-18, 2017
+CL Krakow, POLAND
+ZB 0
+ZA 0
+Z8 0
+TC 0
+ZS 0
+ZR 0
+Z9 0
+BN 978-1-5386-2365-7
+UT WOS:000425236400021
+ER
+
+PT B
+AU Semrl, Jas
+   Matei, Alexandru
+BE Demazeau, Y
+   Gao, J
+   Xu, G
+   Kozlak, J
+   Muller, K
+   Razzak, I
+   Chen, H
+   Gu, Y
+TI Churn Prediction Model for Effective Gym Customer Retention
+SO PROCEEDINGS OF 4TH INTERNATIONAL CONFERENCE ON BEHAVIORAL, ECONOMIC
+   ADVANCE IN BEHAVIORAL, ECONOMIC, SOCIOCULTURAL COMPUTING (BESC)
+PD 2017
+PY 2017
+AB In the fitness industry, rolling gym membership contracts allow
+   customers to terminate a contract with little advanced notice. Customer
+   churn prediction is a well known area in Machine Learning research. Many
+   companies, however, face a data science skills gap when trying to
+   translate this research onto their own datasets and IT infrastructure.
+   In this paper we present a series of experiments that aim to predict
+   customer behaviour, in order to increase gym utilisation and customer
+   retention. We use two off-the-shelf machine learning platforms, so that
+   we can evaluate whether these platforms, used by non ML experts, can
+   help companies improve their services.
+CT 4th International Conference on Behavioral, Economic Advance in
+   Behavioral, Economic, Socio-Cultural Computing (BESC)
+CY OCT 16-18, 2017
+CL Krakow, POLAND
+ZA 0
+Z8 0
+ZB 0
+ZS 0
+ZR 0
+TC 0
+Z9 0
+BN 978-1-5386-2365-7
+UT WOS:000425236400026
+ER
+
+PT S
+AU Buckinx, W
+   Baesens, B
+   Van den Poel, D
+   Van Kenhove, P
+   Vanthienen, J
+BE Zanasi, A
+   Brebbia, CA
+   Ebecken, NFF
+   Melli, P
+TI Using machine learning techniques to predict defection of top clients
+SO DATA MINING III
+SE MANAGEMENT INFORMATION SYSTEMS
+VL 6
+BP 509
+EP 517
+PD 2002
+PY 2002
+AB Fierce competition in many industries causes switching behavior of
+   customers. Because foregone profits of defected customers are
+   significant, an increase of the retention rate can be very profitable.
+   In this paper, we focus on the treatment of companies' most promising
+   current customers in a non-contractual setting. We build a model in
+   order to predict chum behavior of top clients who will (partially)
+   defect in the near future. We applied the following classification
+   techniques: logistic regression, linear discriminant analysis, quadratic
+   discriminant analysis, C4.5, neural networks and Naive Bayes. Their
+   performance is quantified by the classification accuracy and the area
+   under the receiver operating characteristic curve (AUROC). The
+   experiments were carried out on a real life data set obtained by a
+   Belgian retailer. The article contributes in many ways. The results show
+   that past customer behavior has predictive power to indicate future
+   partial defection. This finding is from a companies' point of view even
+   more important than being able to define total defectors, which was
+   until now the traditional goal in attrition research. It was found that
+   neural networks performed better than the other classification
+   techniques in terms of both classification accuracy and AUROC. Although
+   the performance benefits are sometimes small in absolute terms, they are
+   statistically significant and relevant from a marketing perspective.
+   Finally it was found that the number of past shop visits and the time
+   between past shop incidences are amongst the most predictive inputs for
+   the problem at hand.
+CT 3rd International Conference on Data Mining
+CY SEP 25-27, 2002
+CL BOLOGNA, ITALY
+SP Wessex Inst Technol
+RI Vanthienen, Jan/L-5375-2019; Vanthienen, Jan J/A-1668-2018; Vanthienen, Jan/P-7425-2019
+OI Vanthienen, Jan J/0000-0002-3867-7055; Vanthienen,
+   Jan/0000-0002-3867-7055
+ZA 0
+ZR 0
+Z8 0
+ZS 0
+ZB 0
+TC 0
+Z9 0
+SN 1470-6326
+BN 1-85312-925-9
+UT WOS:000180301500049
+ER
+
+EF

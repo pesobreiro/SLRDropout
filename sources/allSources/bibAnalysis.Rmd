@@ -1,0 +1,511 @@
+---
+title: "R Notebook"
+output:
+  html_notebook: default
+  pdf_document: default
+  word_document: default
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. With the cleaning of a dataframe used in a Systematic Review. 
+
+
+https://cran.r-project.org/web/packages/bibtex/bibtex.pdf
+
+# Import Libraries
+
+```{r warning=FALSE}
+# Setup library
+
+#install.packages("bib2df")
+#install.packages('journalabbr')
+library(journalabbr)
+library(bib2df)
+library(bibtex)
+library(tibble)
+library(dplyr)
+
+setwd('C:/nuvem/Dropbox/doutoramento/tese/SLRDropout/sources/allSources')
+```
+
+List all the files with bib extension
+
+```{r}
+files<-list.files(pattern = '\\.bib$')
+files
+```
+Reading bibtex source files
+ACM
+```{r warning=FALSE}
+acm<-bib2df(file = 'acm.bib')
+dim(acm)
+```
+
+IEEE
+```{r}
+ieee<-bib2df(file = 'ieee.bib')
+dim(ieee)
+
+```
+Messy with 182 columns. Using read.bib instead.
+
+```{r}
+ieee<-read.bib('ieee.bib')
+write.bib(ieee,'tempieee.bib')
+ieee<-bib2df(file = 'tempieee.bib')
+dim(ieee)
+```
+
+# Science Direct
+```{r}
+science1<-bib2df(file = 'scienceDirect_withContractual1.bib')
+science1
+dim(science1)
+```
+messy with 182 columns. Using read.bib instead.
+```{r warning=FALSE}
+science1<-read.bib('scienceDirect_withContractual1.bib')
+write.bib(science1,'tempscienceDirect_withContractual1.bib')
+science1<-bib2df(file = 'tempscienceDirect_withContractual1.bib')
+dim(science1)
+
+science2<-read.bib('scienceDirect_withContractual2.bib')
+write.bib(science2,'tempscienceDirect_withContractual2.bib')
+science2<-bib2df(file = 'tempscienceDirect_withContractual2.bib')
+dim(science2)
+
+#merge two dataframes
+science <- rbind(science1,science2)
+dim(science)
+
+ls() # check object in workspace
+#remove dataframes
+rm(science1)
+rm(science2)
+```
+Incorrect data discarded 8 incomplete information tot
+
+
+# Scopus
+The data exported from scopus to the bibtex file had a lot of problems and missing data. To solve the problem we used the DOIs to gather the articles info using the Zotero importing feature
+
+```{r warning=FALSE}
+#scopus<-read.bib('scopus.bib')
+#write.bib(scopus,'tempscopus.bib')
+#scopus<-bib2df(file = 'tempscopus.bib')
+#dim(scopus)
+#names(scopus)
+
+
+scopus<-read.bib('scopus_zotero.bib')
+write.bib(scopus,'tempscopus_zotero.bib')
+scopus<-bib2df(file = 'tempscopus_zotero.bib')
+dim(scopus)
+names(scopus)
+
+```
+
+This code gets the abstract using the paper link
+We are going to use (rvest)[http://rvest.tidyverse.org/]
+Get the node with abstract using the css selector .c-article-section__content or .Para. An easy way is to identify the css selector is to use the inspector.
+
+
+```{r}
+library(rvest)
+library(httr)
+library(utils)
+
+springer<-bib2df('springer_Exported Items.bib')
+
+#Replace the abstract with same link
+springer$ABSTRACT = ''
+
+print("Progress springer:")
+pb = txtProgressBar(min = 0, max = length(springer$URL), initial = 0,); i<-1
+#springer$URL
+for (x in springer$URL) {
+    url<-x
+    webpage<-GET(url,timeout(300))
+    webpage<-read_html(webpage)
+    if(length(html_nodes(webpage,'.c-article-section__content')) != 0)
+    {
+        abstract<-html_text(html_nodes(webpage,'.c-article-section__content')[1])
+    
+    } else {
+        abstract<-html_text(html_nodes(webpage,'.Para')[1])
+    }
+    #print(abstract)
+    if(length(abstract!=0)) { springer$ABSTRACT[springer$URL==x]=abstract }
+    setTxtProgressBar(pb,i)    
+    i<-i+1
+}
+
+```
+
+
+# Web of Knowledge
+```{r}
+wos<-bib2df('webofscience_Exported Items.bib')
+wAbstract<-wos[is.na(wos$ABSTRACT),]
+dim(wAbstract)
+# two articles without abstract
+urls<-wAbstract$URL
+wos$ABSTRACT[wos$URL==urls[1]]<-'Customer churn management focuses on identifying potential churners and implementing incentives that can cure churn. The success of a churn management program depends on accurately identifying potential churners and understanding what conditions contribute to churn. However, in the presence of uncertainties in the process of churn, such as competing risks and unpredictable customer behaviour, the accuracy of the prediction models can be limited. To overcome this, we employ a competing risk methodology within a random survival forest framework that accurately computes the risks of churn and identifies relationships between the risks and customer behaviour. In contrast to existing methods, the proposed model does not rely on a specific functional form to model the relationships between risk and behaviour, and does not have underlying distributional assumptions, both of which are limitations faced in practice. The performance of the method is evaluated using data from a membership-based firm in the hospitality industry, where customers face two competing churning events. The proposed model improves prediction accuracy by up to 20%, compared to conventional models. The findings from this work can allow marketers to identify and understand churners, and develop strategies on how to design and implement incentives.'
+
+wos$ABSTRACT[wos$URL==urls[2]]<-'Predicting future customer behavior provides key information for efficiently directing resources at sales and marketing departments. Such information supports planning the inventory at the warehouse and point of sales, as well strategic decisions during manufacturing processes. In this paper, we develop advanced analytics tools that predict future customer behavior in the non-contractual setting. We establish a dynamic and data driven framework for predicting whether a customer is going to make purchase at the company within a certain time frame in the near future. For that purpose, we propose a new set of customer relevant features that derives from times and values of previous purchases. These customer features are updated every month, and state of the art machine learning algorithms are applied for purchase prediction. In our studies, the gradient tree boosting method turns out to be the best performing method. Using a data set containing more than 10 000 customers and a total number of 200 000 purchases we obtain an accuracy score of 89% and an AUC value of 0.95 for predicting next moth purchases on the test data set.'
+
+incomplete<-wos$TITLE[is.na(wos$DOI)]
+
+incomplete
+wos$DOI[wos$TITLE=="A {Case} of {Churn} {Prediction} in {Telecommunications} {Industry"]='10.1007/978-3-319-10774-5_8'
+wos$DOI[wos$TITLE=="Churn {Prediction} {Model} for {Effective} {Gym} {Customer} {Retention"]='10.1109/BESC.2017.8256385'
+wos$DOI[wos$TITLE=="Using machine learning techniques to preduct defection of top clients"]='10.2495/DATA020491'
+
+```
+
+
+# Create a dataframe for analysis
+```{r}
+acm2<-data.table::copy(acm)
+data_articles <- data.frame(acm$YEAR,acm$TITLE,acm$ABSTRACT,acm$DOI)
+
+names(data_articles)<- c('year','title','abstract','doi')
+data_articles$source <- 'ACM'
+
+#IEEE
+if(!exists('ieee2')){
+    ieee2<-data.table::copy(ieee) #Copy the dataset
+    ieee<-ieee2 %>% select(YEAR,TITLE,ABSTRACT,DOI )
+    names(ieee)<-c('year','title','abstract','doi')
+    ieee$source <-'IEEE'
+    
+    data_articles<-rbind(data_articles,ieee)
+}  
+
+#SCIENCE
+if(!exists('science2')){
+    science2<-data.table::copy(science)
+    science<-science2 %>% select(YEAR,TITLE,ABSTRACT,DOI)
+    names(science)<-c('year','title','abstract','doi')
+    science$source <- 'SCIENCE'
+  
+    data_articles<-rbind(data_articles,science)
+}
+
+#SCOPUS
+if(!exists('scopus2')){
+    scopus2<-data.table::copy(scopus) 
+    scopus<-scopus2 %>% select(YEAR,TITLE,ABSTRACT,DOI)
+    names(scopus)<-c('year','title','abstract','doi')
+    scopus$source <- 'SCOPUS'
+  
+    data_articles<-rbind(data_articles,scopus)
+}
+
+#SPRINGER
+if(!exists('springer2')){
+    springer2<-data.table::copy(springer)
+    springer<-springer2 %>% select(YEAR,TITLE,ABSTRACT,DOI)
+    names(springer)<-c('year','title','abstract','doi')
+    springer$source <- 'SPRINGER'
+
+    data_articles<-rbind(data_articles,springer)
+}
+
+#WOS
+if(!exists('wos2')){
+    wos2<-data.table::copy(wos) #Copy the dataset
+    wos<-wos2 %>% select(YEAR,TITLE,ABSTRACT,DOI)
+    names(wos)<-c('year','title','abstract','doi')
+    wos$source <- 'WOS'
+
+    data_articles<-rbind(data_articles,wos)
+}
+
+str(data_articles)
+data_articles
+#Export data to excel
+#write.xlsx2(data_articles,file = 'temp.xlsx',sheetName = '1')
+```
+
+#Final cleanup
+```{r warning=FALSE}
+#Check null abstracts
+#View(data_articles[is.na(data_articles$abstract),])
+
+missing_abstracts<-data_articles$doi[is.na(data_articles$abstract)]
+missing_abstracts
+
+# science
+# DOI: https://doi.org/10.1016/B978-0-12-804291-5.00027-1 is a book remove
+dim(data_articles)
+data_articles<-data_articles[!data_articles$doi=="https://doi.org/10.1016/B978-0-12-804291-5.00027-1",]
+
+#Vamos remover linhas com NAN doi,source and title
+data_articles<-data_articles[complete.cases(data_articles[,c('doi','source','title')]),]
+
+data_articles$abstract[data_articles$doi=="10.1109/ICSCEE.2018.8538420"] = 'Customer churn refers to when a customer ceases their relationship with a company. A churn rate, used to estimate growth, is now considered as important a metric as financial profit. With growing competition in the market, companies are desperate to keep the churn rate as low as possible. Thus, churn prediction has gained critical importance, not just for existing customers, but also for predicting trends of future customers. This paper demonstrates prediction of churn on a Telco dataset using a Deep Learning Approach. A multilayered Neural Network was designed to build a non-linear classification model. The churn prediction model works on customer features, support features, usage features and contextual features. The possibility of churn as well as the determining factors are predicted. The trained model then applies the final weights on these features and predict the possibility of churn for that customer. An accuracy of 80.03% was achieved. Since the model also provides the churn factors, it can be used by companies to analyze the reasons for these factors and take steps to eliminate them.'
+
+#doi 10.2174/1874479611003010028
+data_articles$abstract[data_articles$doi=="10.2174/1874479611003010028"] = 'Customer churn prediction is one of the most important problems in customer relationship management (CRM). Its aim is to retain valuable customers to maximize the profit of a company. To predict whether a customer will be a churner or non-churner, there are a number of data mining techniques applied for churn prediction, such as artificial neural networks, decision trees, and support vector machines. This paper reviews some recent patents along with 21 related studies published from 2000 to 2009 and compares them in terms of the domain dataset used, data pre-processing and prediction techniques considered, etc. Future research issues are discussed.'
+
+dim(data_articles)
+
+str(data_articles)
+head(data_articles[data_articles$year==2021,])
+
+data_articles <- data_articles[!data_articles$year==2021,]
+
+```
+
+Records to analyse
+```{r warning=FALSE}
+print(paste('acm:',dim(acm)[1]))
+print(paste('ieee',dim(ieee)[1]))
+print(paste('scopus',dim(scopus)[1]))
+print(paste('science',dim(science)[1]))
+print(paste('springer',dim(springer)[1]))
+print(paste('wos',dim(wos)[1]))
+print(paste('all',dim(data_articles)[1]))
+
+```
+# Articles by source
+```{r barplot_source, warning=FALSE}
+#Create contigency table for source column
+unique(data_articles$source)
+tb<-table(data_articles$source)
+#Change names
+tb
+names(tb)
+names(tb)[1]='ACM'
+names(tb)[2]='IEEE'
+names(tb)[3]='Science'
+names(tb)[4]='Scopus'
+names(tb)[5]='Springer'
+names(tb)[6]='WOS'
+# barplot with articles by source
+bb<-barplot(height = tb,ylim = c(0,250),las=1)
+text(x = bb,y = tb+10,labels = tb)
+```
+# Articles by year
+```{r barplot_source, warning=FALSE}
+#Create contigency table for source column
+unique(data_articles$year)
+tb<-table(data_articles$year)
+#Change names
+tb
+# barplot with articles by year
+bb<-barplot(height = tb,ylim = c(0,250),las=1)
+text(x = bb,y = tb+10,labels = tb)
+```
+
+
+# Export
+```{r}
+library(xlsx)
+
+write.xlsx()
+str(data_articles2)
+
+```
+
+
+
+# Remove duplicates
+```{r}
+print(paste('Articles:',nrow(all_articles)))
+print(unique(all_articles$status))
+all_articles<-all_articles %>% filter(all_articles$status=="Unclassified")
+print(paste('Duplicates removed remain:',nrow(all_articles)))
+```
+# Cleaning some references and preparing to ASReview
+
+The requirements for ASReview:
+
+* title
+* abstract
+* author
+* date
+* keywords
+* doi
+
+```{r}
+dim(all_articles)
+names(all_articles)
+all_articles<-all_articles %>% select(title,abstract,author,year,keywords,doi,source)
+summary(all_articles)
+
+# sapply with anonymous function
+sapply(all_articles, function(x) sum(is.na(x)))
+```
+Several values missing checking the articles with missing doi. 
+There are a lot of missing abstracts. ASReview requires manly title and abstract, with 391 missing values.
+
+
+```{r}
+articles_wdoi<-all_articles%>%filter(is.na(doi))
+articles_wdoi$title
+
+```
+# Check if missing are duplicated by name
+```{r}
+for (x in articles_wdoi$title){
+    if(nrow(filter(articles_wdoi,articles_wdoi$title==x))!=1){
+        print(paste(x,'=',nrow(filter(articles_wdoi,articles_wdoi$title==x))[1]))    
+    }
+}
+```
+# Remove errors
+Tasks
+
+* SIGMOID
+* Remove special characters and search again
+* Try to identify DOI or remove the others
+
+
+# Correct data
+```{r}
+filter(all_articles,title==articles_wdoi$title[2])
+clean=gsub(articles_wdoi$title[2],pattern = "\\{|\\}",replacement = '')
+all_articles$title[all_articles$title==articles_wdoi$title[2]]=clean
+all_articles$doi[all_articles$title==clean]='10.1186/s40537-019-0191-6'
+filter(all_articles,title==clean)
+
+#Drop sigmoid
+print(articles_wdoi$title[1])
+all_articles<-all_articles[!(all_articles$title==articles_wdoi$title[1]),]
+
+#Correct Using Machine Learning preduct to predict 
+title='Using machine learning techniques to predict defection of top clients'
+all_articles$name[all_articles$title==articles_wdoi$title[3]]=title
+all_articles$doi[all_articles$title==title]='10.2495/DATA020491'
+
+filter(all_articles,title=='Using machine learning techniques to predict defection of top clients')
+
+# Replace all characters { | } in the title
+all_articles<-gsub(all_articles$title,pattern = "\\{|\\}",replacement = '')
+
+```
+
+```{r}
+nas<-sapply(all_articles, function(x) sum(is.na(x)))
+nas['doi']
+
+```
+```{r}
+
+nrow(all_articles)
+dois<-as.data.frame(all_articles$doi)
+str(dois)
+names(dois)<-'doi'
+write.xlsx(dois,'dois.xlsx',col.names = TRUE)
+```
+
+```{r}
+print(sapply(all_articles, function(x) sum(is.na(x))))
+
+print(dim(all_articles))
+```
+
+```{r}
+str(all_articles)
+
+```
+# Create a new dataset
+
+* Using DOIs we will create a new dataframe using cross_ref
+* Update the source in the new dataframe
+```{r}
+all_cross<-read_bib2tib(file = 'all_articles_crossRef.bib')
+
+str(all_cross)
+head(all_cross)
+```
+
+
+```{r}
+library(rcrossref)
+cr_works(dois = "10.7710/2162-3309.1252")
+cr_abstract(doi = '10.1007/978-3-642-04595-0_26')
+```
+```{r}
+library("fulltext")
+ft_abstract('10.7710/2162-3309.1252',from = 'crossref')
+ft_search(query='ecology', from='crossref')
+```
+
+# A lot of problems using bib instead
+```{r}
+#ACM
+sapply(acm, function(x) sum(is.na(x)))
+
+#IEEE
+sapply(ieee, function(x) sum(is.na(x)))
+
+#science direct
+sapply(springer, function(x) sum(is.na(x)))
+science1
+science2
+
+#scopus
+sapply(scopus, function(x) sum(is.na(x)))
+nrow(scopus)
+
+#springer
+sapply(springer, function(x) sum(is.na(x)))
+nrow(springer)
+
+#wos
+sapply(wos, function(x) sum(is.na(x)))
+nrow(wos)
+
+scopus<-bib2df(file = files[5])
+dim(scopus)
+springer<-bib2df(file = files[6])
+
+
+```
+
+# Some tests 
+
+To access scopus we need a api key: https://dev.elsevier.com/
+
+```{r}
+# Abstract isnt avaliable
+library(fulltext)
+doi
+ft_abstract(unique(scopus$DOI),from = 'plos')
+
+Sys.setenv('ELSEVIER_SCOPUS_KEY'='2461a3366fb00ec7c7903759cb6d69f9')
+opts = list(Sys.getenv(('ELSEVIER_SCOPUS_KEY')))
+res<-ft_search(query='doi:10.1109/TEVC.2003.819264',from = 'scopus',scopusopts = opts)
+res$scopus$data$`dc:identifier`
+
+res$scopus$data$res$scopus$data$`dc:identifier`
+library(fulltext)
+strextract(res$scopus$data$`dc:identifier`, "[0-9]+")
+ft_abstract(x='85082350111',from = 'scopus',list(key=Sys.getenv('ELSEVIER_SCOPUS_KEY'),id_type = "scopus_id"))
+
+
+Sys.setenv('Elsevier_API'='2461a3366fb00ec7c7903759cb6d69f9')
+article<-abstract_retrieval('10.1109/TEVC.2003.819264',identifier = 'doi',opts = list(Sys.getenv('Elsevier_API')))
+
+article$content$`abstracts-retrieval-response`$coredata
+
+
+URL <- "https://link.springer.com/article/10.1007%2Fs11235-018-0514-5"
+
+session<-html_session(login)
+session_history(session)
+login_form<-html_form(session)
+
+
+temp <- tempfile(fileext = ".html")
+html<-GET(url = URL,user_agent("Mozilla/5.0"))
+read_html('https://link.springer.com/article/10.1007%2Fs11235-018-0514-5',options = )
+
+
+library(XML) 
+artigo <- readHTMLTable(URL, header=T, which=1,stringsAsFactors=F)
+artigo2<-read_html(URL)
+```
+
