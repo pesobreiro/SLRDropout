@@ -204,7 +204,7 @@ University of Extremadura ~~~~~~~~~~~~~~~% Your institution for the title page
 	% Vamos colocar os objetivos do estudo 
 	\begin{enumerate}
 		\item Developing the systematic literature review supporting the thesis: "Dropout Prediction: A Systematic Literature Review" (in progress)
-		\item Exploring existing machine learning techniques to predict dropout (supported also in background developments)
+		\item Exploring existing machine learning techniques to predict dropout (supported also in other developments already executed)
 		\item Creation of an ensemble method to improve dropout prediction accuracy
 		\item Developing article addressing an ensemble method using a case study
 		\item Finishing and thesis delivery
@@ -225,7 +225,7 @@ University of Extremadura ~~~~~~~~~~~~~~~% Your institution for the title page
 \begin{frame}
 	\frametitle{Introduction}
 	\Large
-	\textbf{Some background...}\\
+	\textbf{Why this research?}\\
 		\begin{itemize} \normalsize
 			\item Customer analysis is fundamental to develop business and marketing intelligence \footnotesize(Sheth, Mittal, \& Newman, 1998)\normalsize, supporting the understanding of historical data identifying trends and patterns \footnotesize(Berry \& Linoff, 2004)\normalsize;
 			\item This process is also known as data mining, the extraction of knowledge from data \footnotesize(Han \& Kamber, 2006)\normalsize;
@@ -241,7 +241,7 @@ University of Extremadura ~~~~~~~~~~~~~~~% Your institution for the title page
 \begin{frame}
 	\frametitle{Introduction}
 	\Large
-	\textbf{Some background...}\\
+	\textbf{Why this research?}\\
 		\begin{itemize} \normalsize
 			\item Machine learning could be used to extract knowledge to understand dropout for the development of effective retention strategies \footnotesize(Verbeke, Martens, Mues, \& Baesens, 2011)\normalsize;
 			\item Machine learning algorithms have been used to predict customer dropout \footnotesize(Bandara, Perera, \& Alahakoon, 2013)\normalsize, without however to consider the timings of the dropout;
@@ -256,7 +256,7 @@ University of Extremadura ~~~~~~~~~~~~~~~% Your institution for the title page
 \begin{frame}
 	\frametitle{Introduction}
 	\Large
-	\textbf{Some background...}\\
+	\textbf{Why this research?}\\
 		\begin{itemize} \normalsize
 			\item The identification of the dropout can be developed in different contexts: customers that buy in contractual settings and non-contractual settings where a firm have to infer if the customer is still active \footnotesize(Gupta et al. ,2006) \normalsize;
 			\item The main characteristic of a contractual setting is a contact of the customer canceling a subscription \footnotesize(Fader \& Hardie, 2007)\normalsize;
@@ -273,7 +273,7 @@ customers that buy in contractual settings, for example cellular phones, magazin
 \begin{frame}
 	\frametitle{Introduction}
 	\Large
-	\textbf{Summary}\\
+	\textbf{Why this research?}\\
 		\begin{itemize} \normalsize
 
 			\item It is also know, that the costs of retaining customers are lower when compared to the costs of attracting new ones \footnotesize(Edward \& Sahadev, 2011)\normalsize, reinforced by that the reduction of the dropout rates could represent an increase in the profits \footnotesize(Reichheld, 1996)\normalsize;
@@ -321,7 +321,7 @@ Dropout predicting is challenging analysis process which requires appropriate ap
 	\begin{itemize}
 		\item RQ1: What studies have been published?;
 		\item RQ2: Which algorithms have been used to predict the dropout? This question will also address algorithms used by business area (as suggested in activity 6)
-		\item RQ3: What are the more relevant features related to predicting customer dropout?
+		\item RQ3: What are the more relevant features to predict customer dropout?
 		\item RQ4: When the dropout occurs? 
 		\item RQ5: What is the accuracy of the machine learning algorithms to predict dropout?
 	\end{itemize}
@@ -367,10 +367,11 @@ RQ5: aims to identify the accuracy of machine learning algorithms to predict the
 	\frametitle{Search }
 	\begin{itemize}
 		\item Search string: ((“customer dropout”) OR (“customer churn”) AND “machine learning” AND (“contractual” OR “membership”));
-		\item Applied to the title, abstract, and keywords in the search period between January 2000 and June 2020
-		\item The exclusion criteria were Books, Non-English articles, patents, and thesis
-		\item Sources SpringerLink, Scopus, Science@Direct, ISI Web of Science, IEEE Digital Library, and ACM Digital Library
-		\item The selection process using the abstract was developed using ASReview (van de Schoot et al., 2020) creating a dataset of the identified articles, providing at least five relevant papers and five irrelevant papers to train Machine Learning model Naïve Bayes;
+		\item Applied to the title, abstract, and keywords in the search period between January 2000 and June 2020;
+		\item The exclusion criteria were Books, Non-English articles, patents, and thesis;
+		\item Sources SpringerLink, Scopus, Science@Direct, ISI Web of Science, IEEE Digital Library, and ACM Digital Library;
+		\item The selection process using the abstract was developed with ASReview (van de Schoot et al., 2020), creating a dataset of the identified articles based in 
+		the identification of at least five relevant papers and five irrelevant papers to train a Machine Learning algorithm;
 		\\~\\
 	\end{itemize}
 		\tiny 
@@ -378,7 +379,7 @@ RQ5: aims to identify the accuracy of machine learning algorithms to predict the
 \end{frame}
 
 \begin{frame}
-	\frametitle{Search }
+	\frametitle{Search results}
 	\begin{center}
 		\begin{table}
 		  \centering
@@ -399,11 +400,14 @@ RQ5: aims to identify the accuracy of machine learning algorithms to predict the
 			\end{tabular}
 			\label{Sources}
 		\begin{flushleft}
-			Note: After was removed 20 incomplete entries, 16 duplicates and 335 papers not addressed the research topic after abstract analysis. 
-			The next steps related to the quality assessment of the 78 studies remaining are being developed.
+			Note: After the initial dataset where removed 20 incomplete entries, 16 duplicates and 335 papers that don't addressed the research topic after abstract analysis. 
+			The next steps related to the quality assessment of the 78 studies remaining are being developed. \\
+			The steps developed and the data used for the SLR are available in github \href{https://github.com/pesobreiro/SLRDropout}{\color{red}{here}} and
+			the script in R to process the initial dataset \href{https://github.com/pesobreiro/SLRDropout/blob/master/analysis/bibtexCleaning.Rmd}{\color{red}{here}}.
 		\end{flushleft}
 		\end{table}
 	\end{center}
+	
 \end{frame}
 
 
@@ -411,11 +415,11 @@ RQ5: aims to identify the accuracy of machine learning algorithms to predict the
 \begin{frame}
 	\frametitle{Exploring existing machine learning techniques}
 	\begin{itemize}
-		\item Was tested class train/test stratification in the target variable, imbalance datasets, grid search optimization targeting AUC for classification (dropout,non-dropout)
-		\item The class imbalance approaches to adjust the weights inversely proportional to class frequencies in the input data using the library scikit-learn (Pedregosa et al., 2011). 
-		\item Hyper-parameters optimization developed using grid search targeting AUC as the optimization goal considering the discriminatory power (Emeterio et al., 2016). 
-		\item Logistic Regression (LR), Decision Tree Classifier (DTC), Random Forest Classifier (RFC), and Gradient Boosting Classifier (GBC) best performances in GBC (accuracy, sensitivity, precision, F1 Score) and RFC in AUC.
-		\item Code book, dataset and Jupyter notebook \href{https://github.com/pesobreiro/dropoutPredFitness}{\color{red}{code}}
+		\item Was tested class train/test stratification in the target variable, imbalance datasets, grid search optimization targeting AUC for classification (dropout,non-dropout);
+		\item The class imbalance approaches to adjust the weights inversely proportional to class frequencies in the input data using the library scikit-learn (Pedregosa et al., 2011);
+		\item Hyper-parameters optimization developed using grid search targeting AUC as the optimization goal considering the discriminatory power (Emeterio et al., 2016);
+		\item Logistic Regression (LR), Decision Tree Classifier (DTC), Random Forest Classifier (RFC), and Gradient Boosting Classifier (GBC) best performances in GBC (accuracy, sensitivity, precision, F1 Score) and RFC in AUC;
+		\item Code book, dataset and Jupyter notebook available in github \href{https://github.com/pesobreiro/dropoutPredFitness}{\color{red}{here}}.
 	\end{itemize}
 \end{frame}
 \begin{comment}
@@ -437,9 +441,9 @@ RQ5: aims to identify the accuracy of machine learning algorithms to predict the
 	\frametitle{Case study}
 	\begin{itemize}
 		\item Dataset for the case study will use data from Portuguese Software company that provides solution for sport 
-			  clubs using a business model of a software as a service (SaS)
-		\item They want to improve their application to support the retention
-		\item These case study support the achievement of our thesis goals Q1 (Patterns related to dropout), 
+			  clubs using a business model of a software as a service (SaS);
+		\item They want to improve their software to support the customer retention of organizations using their solution;
+		\item This case study support the achievement of our thesis goals Q1 (Patterns related to dropout), 
 			  Q2 (Temporal patterns related to dropout) and Q3 (Increase the lifetime value).
 	\end{itemize}
 \end{frame}
@@ -448,8 +452,14 @@ RQ5: aims to identify the accuracy of machine learning algorithms to predict the
 	\frametitle{Research outcomes}
 	\begin{itemize}
 
-		\item SLR is in progress and is expected to produce a submission to a Journal indexed
-		\item Publication of another article using the ensemble method to improve dropout prediction  
+		\item SLR is in progress and is expected to produce an article submitted to a indexed Journal addressing existing research to predict
+		dropout of customer with contractual settings until the end of this year;
+		\item Publication of an article addressing a case study of an ensemble method to create an approach for dropout prediction, selecting the 
+		most relevant features, to support lines of action that managers and marketing researchers can employ, and allowing the identifications 
+		of the timings related to the dropout;
+		\item Thesis wrapping SLR, existing approaches to predict dropout and a case study in the context of the research being developed;
+		\item The potential research direction is to investigate how the dropout prediction can increase the Customer Lifetime Value using existing
+		information about customers and historical data.
 	\end{itemize}
 	\tiny 
 
