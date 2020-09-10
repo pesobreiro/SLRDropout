@@ -77,6 +77,7 @@
 \usepackage{booktabs}
 \usepackage[scale=2]{ccicons}
 \usepackage{pgfplots}
+\pgfplotsset{width=10cm,compat=1.9}
 \usepgfplotslibrary{dateplot}
 \usepackage{xspace}
 \newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
@@ -203,7 +204,7 @@ University of Extremadura ~~~~~~~~~~~~~~~% Your institution for the title page
 	% Vamos colocar os objetivos do estudo 
 	\begin{enumerate}
 		\item Developing the systematic literature review supporting the thesis: "Dropout Prediction: A Systematic Literature Review" (in progress)
-		\item Exploring existing machine learning techniques to predict dropout (in progress)
+		\item Exploring existing machine learning techniques to predict dropout (supported also in background developments)
 		\item Creation of an ensemble method to improve dropout prediction accuracy
 		\item Developing article addressing an ensemble method using a case study
 		\item Finishing and thesis delivery
@@ -214,7 +215,7 @@ University of Extremadura ~~~~~~~~~~~~~~~% Your institution for the title page
 	\frametitle{Research plan}
 	% Vamos colocar os objetivos do estudo 
 	\begin{figure}
-		\includegraphics[scale=0.5]{../img/chronogram.png}
+		\includegraphics[scale=0.65]{../img/chronogram.png}
 		\caption{Activities timeline}
 		\label{figure1}
 	\end{figure}
@@ -228,14 +229,13 @@ University of Extremadura ~~~~~~~~~~~~~~~% Your institution for the title page
 		\begin{itemize} \normalsize
 			\item Customer analysis is fundamental to develop business and marketing intelligence \footnotesize(Sheth, Mittal, \& Newman, 1998)\normalsize, supporting the understanding of historical data identifying trends and patterns \footnotesize(Berry \& Linoff, 2004)\normalsize;
 			\item This process is also known as data mining, the extraction of knowledge from data \footnotesize(Han \& Kamber, 2006)\normalsize;
-			\item According to \footnotesize Han, Kamber, and Pei (2012)\normalsize, these tasks present many similarities between data mining and machine learning;
+			\item According to \footnotesize Han, Kamber, and Pei (2012)\normalsize, these tasks present many similarities between data mining and machine learning; 
 		\end{itemize}	
 	\tiny
 	~~~~Sheth, J. N., Mittal, B., \& Newman, B. (1998). Customer Behavior: Consumer Behavior and Beyond (1 edition). Fort Worth, TX: South-Western College Pub. \\
 	~~~~Berry, M. J. A., \& Linoff, G. (2004). Data mining techniques: For marketing, sales, and customer relationship management (2nd ed). Indianapolis, Ind: Wiley Pub.\\
 	~~~~Han, J., \& Kamber, M. (2006). Data mining: Concepts and techniques (2nd ed). Amsterdam; Boston: San Francisco, CA: Elsevier; Morgan Kaufmann.\\
 	~~~~Han, J., Kamber, M., \& Pei, J. (2012). Data mining: Concepts and techniques (3. ed). Amsterdam: Elsevier; Morgan Kaufmann.\\
-
 \end{frame}
 
 \begin{frame}
@@ -293,19 +293,19 @@ customers that buy in contractual settings, for example cellular phones, magazin
 	\textbf{\large{Considering this context, this research tries to analyze the state of the art to identify Machine Learning studies to predict customer dropout to support the development of counteractions before the customer churns, considering also when it occurs.}}
 \end{frame}
 
-\section{Methodology}
+\section{SLR}
 \begin{comment}
 Dropout predicting is challenging analysis process which requires appropriate approaches to address the dropout. Existing approaches are applied in different areas such as education, telecommunications, retail, social networks, and banking services. The goal is to identify customers in the risk of dropout to support retention strategies. This research developed a systematic literature review to evaluate the development of existing studies to predict dropout using machine learning,  following the guidelines recommended by Kitchenham and Peterson. The systematic review followed three phases planning, conducting and reporting. The selection of the most relevant articles was based on the use of Active Systematic Review tool using artificial intelligence algorithms. The criteria identified 28 articles and several research lines where identified. Dropout is a transversal problem for several sectors of economic activity, where it can be taken countermeasures before it happens if detected early.	
 \end{comment}
 \begin{frame}
-	\frametitle{Methodology}
+	\frametitle{Systematic Literature Review}
 	\begin{itemize}
 		\item Was developed a Systematic Literature Review (SLR) in three stages \footnotesize(Kitchenham \& Charters, 2007)\normalsize: Plan, Conduct and Report;
 		\item Plan: definition of the research need, identification of the research questions and the development of the review protocol;
 		\item Conduct: research identification, study selections, quality assessment, data extraction, finishing with the data synthesis;
-		\item Report: stage that develops the activity report review.
+		\item Report: stage that develops the activity report review.\\~\\~\\
 	\end{itemize}
-	\tiny 
+	\tiny
 	~~~~Kitchenham, B., \& Charters, S. (2007). Guidelines for performing structural literature reviews in software engineering (pp. 1–26) [Joint technical report]. Australia: Keele Univ., and Empirical Software Eng., Nat’l ICT.\\
 \end{frame}
 \begin{comment}
@@ -317,7 +317,7 @@ Dropout predicting is challenging analysis process which requires appropriate ap
 	\begin{figure}
 		\includegraphics[scale=0.5]{../img/slr_phases.png}
 		\caption{SLR phases based on Kitchenham and Charter (2007)}
-		\label{figure1}
+		\label{figure2}
 	\end{figure}
 \end{frame}
 
@@ -342,33 +342,31 @@ RQ5: aims to identify the accuracy of machine learning algorithms to predict the
 
 \begin{frame}
 	\frametitle{Population, Intervention, Comparison, Outcomes and Context}
-\begin{center}
-\begin{table}
-  \centering
-  \scriptsize
-  \caption{
-  	PICOC criteria
-  	}
-    \begin{tabular}{p{3cm} p{5cm}}
-    \toprule
-    PICOC & Description\\
-    \midrule
-	Population & Research papers about dropout with contractual settings \\ \hline
-	Intervention &  Machine learning algorithms to predict dropout	\\ \hline	
-	Comparison & Studies addressing machine learning algorithms to predict dropout \\ \hline 
-	Outcome & Synthesis identifying research questions, gaps in the research domain and also best practices identified \\ \hline
-	Context & Academia and industry\\
-\bottomrule
-\end{tabular}
-\label{Abordagens analisadas}
-\begin{flushleft}
-	Note: Context (PICOC) as suggested Kitchenham and Charters (2007) and proposed by Petticrew and Roberts (Petticrew \& Roberts, 2006) to support the development of the search string.
-\end{flushleft}
-\end{table}
-\end{center}
+	\begin{center}
+		\begin{table}
+		  \centering
+		  \scriptsize
+		  \caption{PICOC criteria}
+		    \begin{tabular}{p{3cm} p{5cm}}
+		    \toprule
+		    PICOC & Description\\
+		    \midrule
+			Population & Research papers about dropout with contractual settings \\ \hline
+			Intervention &  Machine learning algorithms to predict dropout	\\ \hline	
+			Comparison & Studies addressing machine learning algorithms to predict dropout \\ \hline 
+			Outcome & Synthesis identifying research questions, gaps in the research domain and also best practices identified \\ \hline
+			Context & Academia and industry\\
+		\bottomrule
+		\end{tabular}
+		\label{Abordagens analisadas}
+		\begin{flushleft}
+			Note: Context (PICOC) as suggested Kitchenham and Charters (2007) and proposed by Petticrew and Roberts (Petticrew \& Roberts, 2006) to support the development of the search string.
+		\end{flushleft}
+		\end{table}
+	\end{center}
 	\tiny 
-~~~~Kitchenham, B., \& Charters, S. (2007). Guidelines for performing structural literature reviews in software engineering (pp. 1–26) [Joint technical report]. Australia: Keele Univ., and Empirical Software Eng., Nat l ICT.\\
-~~~~Petticrew, M., \& Roberts, H. (2006). Systematic reviews in the social sciences: A practical guide. Malden, MA ; Oxford: Blackwell Pub.\\
+	~~~~Kitchenham, B., \& Charters, S. (2007). Guidelines for performing structural literature reviews in software engineering (pp. 1–26) [Joint technical report]. Australia: Keele Univ., and Empirical Software Eng., Nat l ICT.\\
+	~~~~Petticrew, M., \& Roberts, H. (2006). Systematic reviews in the social sciences: A practical guide. Malden, MA ; Oxford: Blackwell Pub.\\
 \end{frame}
 
 \begin{frame}
@@ -378,105 +376,49 @@ RQ5: aims to identify the accuracy of machine learning algorithms to predict the
 		\item Applied to the title, abstract, and keywords in the search period between January 2000 and June 2020
 		\item The exclusion criteria were Books, Non-English articles, patents, and thesis
 		\item Sources SpringerLink, Scopus, Science@Direct, ISI Web of Science, IEEE Digital Library, and ACM Digital Library
-		\item The selection process was developed using ASReview (ASReview Core Development Team, 2019) creating a dataset of the identified articles, providing five relevant papers and five irrelevant papers to train Machine Learning model Naïve Bayes;
+		\item The selection process using the abstract was developed using ASReview (van de Schoot et al., 2020) creating a dataset of the identified articles, providing at least five relevant papers and five irrelevant papers to train Machine Learning model Naïve Bayes;
 		\\~\\
 	\end{itemize}
 		\tiny 
-~~~~Kitchenham, B., \& Charters, S. (2007). Guidelines for performing structural literature reviews in software engineering (pp. 1–26) [Joint technical report]. Australia: Keele Univ., and Empirical Software Eng., Nat l ICT.\\
-~~~~Petticrew, M., \& Roberts, H. (2006). Systematic reviews in the social sciences: A practical guide. Malden, MA ; Oxford: Blackwell Pub.\\
+		~~~~van de Schoot, R., de Bruin, J., Schram, R., Zahedi, P., de Boer, J., Weijdema, F., … Oberski, D. (2020). ASReview: Open Source Software for Efficient and Transparent Active Learning for Systematic Reviews. arXiv:2006.12166 [cs]. Retrieved from http://arxiv.org/abs/2006.12166 \\
 \end{frame}
 
-
-\section{Results}
-\begin{comment} 
-
-\end{comment}
-
-\begin{frame}[fragile]{Results}
-  	\begin{itemize}
-		\item 449 studies were found: Scopus 210; IEEE 20; SpringerLink	79; Science Direct 126; ISI Web of Knowledge 6 and ACM 8
-) in the first step of the conduct (Identify research);
-		\item 20 incomplete items were removed
-		\item 16 duplicates were removed
-		\item 335 were removed after ASReview
-		\item 78 papers selected
-		\item Data analysis procedure available \href{https://github.com/pesobreiro/dropoutPredFitness}{\color{red}{here}}.
-	\end{itemize}
-\end{frame}
-\begin{comment}
-	1.	Selected randomly some articles and are identified as relevant and irrelevant, at least 5 each. ASReview suggests when to stop;
-	2.	ASReview orders the publications in such a way that you see the most relevant publications first
-	3.	Stopping criterium could be stopping after n presented abstracts were labeled irrelevant, or if your time is up. You can use the chart in the statistics panel to follow your progress" 
-\end{comment}
-
-\begin{frame}[fragile]{Results}
-	\frametitle{RQ1. What studies have been published?}
-	\begin{figure}
-		\includegraphics[scale=0.5]{../img/articles_by_Year.png}
-		\caption{Articles per year after quality assessment}
-		\label{figure2}
-	\end{figure}
+\begin{frame}
+	\frametitle{Search }
+	\begin{center}
+		\begin{table}
+		  \centering
+		  \scriptsize
+		  \caption{Articles identified in the initial dataset}
+		    \begin{tabular}{p{4cm} p{2cm}}
+			    \toprule
+			    Source & Articles\\
+			    \midrule
+				Scopus & 210 \\ 
+				IEEE &  20	\\ 
+				SpringerLink & 79 \\ 
+				Science Direct & 126 \\ 
+				ISI Web of Knowledge & 6\\ 
+				ACM & 8 \\ \hline
+				Total & 449 \\
+				\bottomrule
+			\end{tabular}
+			\label{Abordagens analisadas}
+		\begin{flushleft}
+			Note: After was removed 20 incomplete entries, 16 duplicates and 335 papers not addressed the research topic
+		\end{flushleft}
+		\end{table}
+	\end{center}
 \end{frame}
 
-\begin{frame}[fragile]{Results}
-	\frametitle{RQ1. What studies have been published?}
-	\begin{figure}
-		\includegraphics[scale=0.5]{../img/studiesByBusiness.png}
-		\caption{The number of studies per business context}
-		\label{figure3}
-	\end{figure}
-\end{frame}
-
-\begin{frame}[fragile]{Results}
-	\frametitle{RQ2: Which algorithms have been used to predict the dropout?}
-	\begin{figure}
-		\includegraphics[scale=0.5]{../img/mainAlgorithms.png}
-		\caption{Main algorithms used in the analyzed papers}
-		\label{figure3}
-	\end{figure}
-\end{frame}
-
-\begin{frame}[fragile]{Results}
-	\frametitle{RQ3: What are the more relevant features related to predicting customer dropout?}
-	\begin{figure}
-		\includegraphics[scale=0.5]{../img/relevantFeatures.png}
-		\caption{Percentage of studies identifying the relevant features}
-		\label{figure4}
-	\end{figure}
-\end{frame}
-\begin{comment}
-	We only retrieved the information if the studies address the features but we need clarify better which are the best predictors
-\end{comment}
-
-
-\begin{frame}[fragile]{Results}
-	\frametitle{RQ4: When the dropout occurs?}
-	\begin{figure}
-		\includegraphics[scale=0.5]{../img/dropoutTimings.png}
-		\caption{The number of studies addressing the dropout timings}
-		\label{figure4}
-	\end{figure}
-\end{frame}
-
-\begin{frame}[fragile]{Results}
-	\frametitle{RQ5: What is the accuracy of the machine learning algorithms to predict dropout?}
-	\begin{figure}
-		\includegraphics[scale=0.5]{../img/predictionAccuracy.png}
-		\caption{Number of studies identifying the prediction accuracy}
-		\label{figure3}
-	\end{figure}
-\end{frame}
-\begin{comment}
-	We only retrieved the information if the studies address the accuracy but we need to improve exploring the accuracy of existing studies... however this requires a deeper understanting about the quality of the data, imbalanced datasets and how to measure the performance considering the limitations of the accuracy 
-\end{comment}
 
 \section{Work in progress}
 \begin{frame}
 	\frametitle{Exploring existing machine learning techniques}
 	\begin{itemize}
 		\item Was tested class train/test stratification in the target variable, imbalance datasets, grid search optimization targeting AUC for classification (dropout,non-dropout)
-		\item The class imbalance aproaches to adjust the weights inversely proportional to class frequencies in the input data using the library scikit-learn (Pedregosa et al., 2011). 
-		\item Hyperparameters optimisation developed using grid search targeting AUC as the optimization goal considering the discriminatory power (Emeterio et al., 2016). 
+		\item The class imbalance approaches to adjust the weights inversely proportional to class frequencies in the input data using the library scikit-learn (Pedregosa et al., 2011). 
+		\item Hyper-parameters optimization developed using grid search targeting AUC as the optimization goal considering the discriminatory power (Emeterio et al., 2016). 
 		\item Logistic Regression (LR), Decision Tree Classifier (DTC), Random Forest Classifier (RFC), and Gradient Boosting Classifier (GBC) best performances in GBC (accuracy, sensitivity, precision, F1 Score) and RFC in AUC.
 		\item Code book, dataset and Jupyter notebook \href{https://github.com/pesobreiro/dropoutPredFitness}{\color{red}{code}}
 	\end{itemize}
@@ -492,12 +434,19 @@ RQ5: aims to identify the accuracy of machine learning algorithms to predict the
 	\frametitle{Exploring existing machine learning techniques}
 	\begin{figure}
 		\includegraphics[scale=0.4]{../img/pub1.png}
-		\caption{Publication using an technique for Q3 "Is possible to increase customer lifetime value employing machine learning techniques?"}
+		\caption{Publication using an technique for research goal (Q3) "Is possible to increase customer lifetime value employing machine learning techniques?"}
 		\label{figure3}
 	\end{figure}
 \end{frame}
-
-
+\begin{frame}
+	\frametitle{Case study}
+	\begin{itemize}
+		\item Dataset for the case study will use data from Portuguese Software company that provides solution for sport 
+		clubs using a business model of a software as a service (SaS)
+		\item They want to improve their application to support the retention
+		\item These case study support the achievement of our thesis goals Q1 (Patterns related to dropout), Q2 (Temporal patterns related to dropout) and Q3 (Increase the lifetime value).
+	\end{itemize}
+\end{frame}
 \section{Conclusion}
 \begin{frame}
 	\frametitle{Conclusion}
