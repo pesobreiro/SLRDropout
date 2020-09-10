@@ -20,7 +20,7 @@ Consider the identification of type of machine learning algorithms according bus
 
 
 
-# Search strategy
+# Methodology SLR
 All searches where limited to the time interval between 2000 and 2020. Limited to articles in english.
 
 ## Parsifal
@@ -90,14 +90,14 @@ Full Query Sintax:
 "query": { (“customer dropout”) OR (“customer churn”) AND “machine learning” AND (“contractual” OR “membership”) } 
 "filter": { Publication Date: (01/01/2000 TO 12/31/2018), ACM Content: DL, NOT VirtualContent: true }
 ```
-__results__: 9
+__results__: 8
 
 Full Query Sintax:
 "query": { AllField:((“customer dropout”) OR (“customer churn”) AND “machine learning”) }
 "filter": { Publication Date: (01/01/2000 TO 12/31/2020), ACM Content: DL, NOT VirtualContent: true }
 __results__: 86
 
-# Data Analysis
+## Data Analysis
 Articles identified in the initial dataset
 
 |Source 		|Articles|
@@ -116,5 +116,5 @@ Science Direct incomplete items where 8, Scopus 11 and IEEE 1. Remaining 429. 16
 2.	ASReview orders the publications in such a way that you see the most relevant publications first
 3.	Stopping criterium could be stopping after n presented abstracts were labeled irrelevant, or if your time is up. You can use the chart in the statistics panel to follow your progress" 
 
+Data processing is available in a [R Script](analysis/bibtexCleaning.Rmd) 
 
-Análise dos dados em C:\nuvem\Dropbox\doutoramento\tese\SLRDropout\sources\data_extraction.xls
