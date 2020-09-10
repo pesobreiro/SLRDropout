@@ -91,16 +91,54 @@
 \setbeamertemplate{navigation symbols}{}
 %\usepackage[labelfont=scriptsize,labelfont=bf,font=scriptsize,belowskip=-15pt,aboveskip=5pt]{caption}
 
-%----------------------------------------------------------------------------------------
-%	Otimização da gestão de instalações desportivas nas empresas municipais
-%   Aplicação de uma abordagem baseada na gestão por processos
-%----------------------------------------------------------------------------------------
-
-\title[Dropout Prediction]{Dropout Prediction: A Systematic Literature Review} 
-\subtitle{Preliminary results} 
+\title[Dropout Prediction]{Prediction customer dropout using machine learning} 
+\subtitle{Current situation} 
 % The short title appears at the bottom of every slide, the full title is only on the title page
 
 \begin{comment} % Estrutura da apresentação
+
+Introduction:
+Customer analysis is fundamental to develop business and marketing intelligence (Sheth, Mittal, & Newman, 1998), supporting
+the understanding of historical data identifying trends and patterns (Berry & Linoff, 2004). The comprehension when
+customers dropout, which are the factors related to dropout? What are the patterns¿ related to dropout? Moreover, when this
+dropout occurs? Are questions of interest for marketing researchers and business analysts. Information that can be employed to
+develop better communications to the customers and appropriate strategies to increase their Customer Lifetime Value. This
+thesis addresses state-of-the-art data mining and machine learning technics used to predict dropout and to understand when it
+occurred and which factors are related. This insight allows us to propose a a retention system to reduce dropout in customers in
+a contractual setting.
+
+Reseach plan:
+	1. Developing the systematic literature review supporting the thesis: Dropout Prediction: A Systematic Literature Review
+	2. Exploring existing machine learning approaches to predict dropout
+	3. Creation of an ensemble method to improve dropout prediction accuracy
+	4. Developing article addressing an ensemble method
+	5. Finishing and thesis delivery
+
+Methodology:
+SLR
+For the development of the systematic literature review was adopted, the methodology applied by Kitchenham & Charters (2007) 
+developed in three stages: Planning, Implementation Conduct and Results. The planning involves the definition of the research 
+need, identification of the research questions and the development of the review protocol. The stage of conducting involves 
+research identification, study selections, quality assessment, data extraction, finishing with the data synthesis. 
+The last stage develops one activity, report review.
+
+Propose an ensemble of technics to create a voting system for dropout prediction and selecting the most relevant features to anticipate dropout, to support lines of action
+that managers and marketing researchers can employ. Allow the identifications of the timmings related to the dropout in a
+business context. The employed tasks are according to the business interest are classification; estimation; prediction; affinity
+grouping; clustering and description, and profiling. Is also proposed a retention system combining the developed tasks to
+increase the Customer Lifetime Value developing a case-study.
+Development of a case study using an information system of a Portuguese Software company that provides solution for sport clubs 
+using a business model of a software as a service (SaS).
+
+
+Results:
+
+
+Explicar o que foi feito...
+A análise de dados que vai ser realizada...
+
+Criação de um ensemble method to increase the accuracy to dropout predicting...
+
 
 \end{comment}
 
@@ -111,7 +149,7 @@ University of Extremadura ~~~~~~~~~~~~~~~% Your institution for the title page
 \medskip
 \textit{pdealexa@alumnos.unex.es} % Your email address
 }
-\date{Webinar, 26 June 2020} % Date, can be changed to a custom date
+\date{Webinar, 11 September 2020} % Date, can be changed to a custom date
 
 \begin{document}
 
@@ -130,7 +168,7 @@ University of Extremadura ~~~~~~~~~~~~~~~% Your institution for the title page
 %----------------------------------------------------------------------------------------
 
 %------------------------------------------------
-\section{Research goals} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
+\section{Introduction} % A subsection can be created just before a set of slides with a common theme to further break down your presentation into chunks
 %------------------------------------------------
 \begin{comment}
 
@@ -139,16 +177,50 @@ University of Extremadura ~~~~~~~~~~~~~~~% Your institution for the title page
 \begin{frame}
 	\frametitle{Research goals}
 	% Vamos colocar os objetivos do estudo 
-	\Large{What is the current state of machine learning research studies to predict dropout with contractual settings?}
-
+	\Large{This thesis focuses in applying machine learning techniques aiming to find answers to the following questions:} \normalsize
+	\begin{itemize}
+		\item Q1: Which are the patterns related to dropout?
+		\item Q2: There are temporal patterns related to the dropout?
+		\item Q3: Is possible to increase customer lifetime value employing machine learning techniques? 
+	\end{itemize}
+	These questions are supported in a Systematic Literature Review, establishing the state of the art in this research area. Our aim is to 
+	identify information that can be employed to increase their Customer Lifetime Value, which allows us to develop insights 
+	to support retention systems to reduce dropout in customers in a contractual setting.
 	
 \end{frame}
 
-\section{Introduction} % A subsection can be created just before a set of slides with a common theme to further break down your presentation into chunks
+
 \begin{comment}
-
+	Reseach plan:
+	1. Developing the systematic literature review supporting the thesis: Dropout Prediction: A Systematic Literature Review
+	2. Exploring existing machine learning approaches to predict dropout
+	3. Creation of an ensemble method to improve dropout prediction accuracy
+	4. Developing article addressing an ensemble method using a case study
+	5. Finishing and thesis delivery
 \end{comment}
+\begin{frame}
+	\frametitle{Research plan}
+	% Vamos colocar os objetivos do estudo 
+	\begin{enumerate}
+		\item Developing the systematic literature review supporting the thesis: "Dropout Prediction: A Systematic Literature Review" (in progress)
+		\item Exploring existing machine learning techniques to predict dropout (in progress)
+		\item Creation of an ensemble method to improve dropout prediction accuracy
+		\item Developing article addressing an ensemble method using a case study
+		\item Finishing and thesis delivery
+	\end{enumerate}
+\end{frame}
 
+\begin{frame}
+	\frametitle{Research plan}
+	% Vamos colocar os objetivos do estudo 
+	\begin{figure}
+		\includegraphics[scale=0.5]{../img/chronogram.png}
+		\caption{Activities timeline}
+		\label{figure1}
+	\end{figure}
+\end{frame}
+
+\section{Theoretical background}
 \begin{frame}
 	\frametitle{Introduction}
 	\Large
@@ -201,7 +273,7 @@ customers that buy in contractual settings, for example cellular phones, magazin
 \begin{frame}
 	\frametitle{Introduction}
 	\Large
-	\textbf{Some background...}\\
+	\textbf{Summary}\\
 		\begin{itemize} \normalsize
 
 			\item It is also know, that the costs of retaining customers are lower when compared to the costs of attracting new ones \footnotesize(Edward \& Sahadev, 2011)\normalsize, reinforced by that the reduction of the dropout rates could represent an increase in the profits \footnotesize(Reichheld, 1996)\normalsize;
@@ -254,7 +326,7 @@ Dropout predicting is challenging analysis process which requires appropriate ap
 	What is the current state of machine learning research in existing studies to predict dropout in contractual settings? Based in this question were identified the following questions:
 	\begin{itemize}
 		\item RQ1: What studies have been published?;
-		\item RQ2: Which algorithms have been used to predict the dropout?
+		\item RQ2: Which algorithms have been used to predict the dropout? This question will also address algorithms used by business area (as suggested in activity 6)
 		\item RQ3: What are the more relevant features related to predicting customer dropout?
 		\item RQ4: When the dropout occurs? 
 		\item RQ5: What is the accuracy of the machine learning algorithms to predict dropout?
@@ -305,6 +377,7 @@ RQ5: aims to identify the accuracy of machine learning algorithms to predict the
 		\item Search string: ((“customer dropout”) OR (“customer churn”) AND “machine learning” AND (“contractual” OR “membership”));
 		\item Applied to the title, abstract, and keywords in the search period between January 2000 and June 2020
 		\item The exclusion criteria were Books, Non-English articles, patents, and thesis
+		\item Sources SpringerLink, Scopus, Science@Direct, ISI Web of Science, IEEE Digital Library, and ACM Digital Library
 		\item The selection process was developed using ASReview (ASReview Core Development Team, 2019) creating a dataset of the identified articles, providing five relevant papers and five irrelevant papers to train Machine Learning model Naïve Bayes;
 		\\~\\
 	\end{itemize}
@@ -319,15 +392,22 @@ RQ5: aims to identify the accuracy of machine learning algorithms to predict the
 
 \end{comment}
 
-\begin{frame}[fragile]{Results IEEE}
+\begin{frame}[fragile]{Results}
   	\begin{itemize}
-		\item 218 studies were found in the first step of the conduct (Identify research);
-		\item 24 duplicates were removed
-		\item 166 were removed after ASReview
-		\item 1 paper rejected during data extraction
-		\item 28 papers selected
+		\item 449 studies were found: Scopus 210; IEEE 20; SpringerLink	79; Science Direct 126; ISI Web of Knowledge 6 and ACM 8
+) in the first step of the conduct (Identify research);
+		\item 20 incomplete items were removed
+		\item 16 duplicates were removed
+		\item 335 were removed after ASReview
+		\item 78 papers selected
+		\item Data analysis procedure available \href{https://github.com/pesobreiro/dropoutPredFitness}{\color{red}{here}}.
 	\end{itemize}
 \end{frame}
+\begin{comment}
+	1.	Selected randomly some articles and are identified as relevant and irrelevant, at least 5 each. ASReview suggests when to stop;
+	2.	ASReview orders the publications in such a way that you see the most relevant publications first
+	3.	Stopping criterium could be stopping after n presented abstracts were labeled irrelevant, or if your time is up. You can use the chart in the statistics panel to follow your progress" 
+\end{comment}
 
 \begin{frame}[fragile]{Results}
 	\frametitle{RQ1. What studies have been published?}
@@ -389,6 +469,34 @@ RQ5: aims to identify the accuracy of machine learning algorithms to predict the
 \begin{comment}
 	We only retrieved the information if the studies address the accuracy but we need to improve exploring the accuracy of existing studies... however this requires a deeper understanting about the quality of the data, imbalanced datasets and how to measure the performance considering the limitations of the accuracy 
 \end{comment}
+
+\section{Work in progress}
+\begin{frame}
+	\frametitle{Exploring existing machine learning techniques}
+	\begin{itemize}
+		\item Was tested class train/test stratification in the target variable, imbalance datasets, grid search optimization targeting AUC for classification (dropout,non-dropout)
+		\item The class imbalance aproaches to adjust the weights inversely proportional to class frequencies in the input data using the library scikit-learn (Pedregosa et al., 2011). 
+		\item Hyperparameters optimisation developed using grid search targeting AUC as the optimization goal considering the discriminatory power (Emeterio et al., 2016). 
+		\item Logistic Regression (LR), Decision Tree Classifier (DTC), Random Forest Classifier (RFC), and Gradient Boosting Classifier (GBC) best performances in GBC (accuracy, sensitivity, precision, F1 Score) and RFC in AUC.
+		\item Code book, dataset and Jupyter notebook \href{https://github.com/pesobreiro/dropoutPredFitness}{\color{red}{code}}
+	\end{itemize}
+\end{frame}
+\begin{comment}
+	1.	Sensitivity (SN): True positive rate = TP/(TP+FN) 
+	2.	Specificity (SP): True negative rate = TN/(TN+FP)
+	3.	Precision: True predicted ‘no dropouts’ against all predicted ‘no dropouts’ true or not TP/(TP+FP)
+	4.	F1-Score: Combines precision and sensitivity representing their harmonic mean 2×TP/ (2×TP + FP + FN)
+	5.	Receiver Operating Characteristic (ROC) Curve: Representing the model capability to distinguish dropout and non-dropout. Higher AUC (Area Under The Curve) better model prediction 0 and 1;.
+\end{comment}
+\begin{frame}[fragile]{Results}
+	\frametitle{Exploring existing machine learning techniques}
+	\begin{figure}
+		\includegraphics[scale=0.4]{../img/pub1.png}
+		\caption{Publication using an technique for Q3 "Is possible to increase customer lifetime value employing machine learning techniques?"}
+		\label{figure3}
+	\end{figure}
+\end{frame}
+
 
 \section{Conclusion}
 \begin{frame}
