@@ -1,0 +1,199 @@
+---
+title: 'Dropout Prediction: A Systematic Literature Review'
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  html_notebook: default
+  word_document: default
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. With the cleaning of a dataframe used in a Systematic Review. 
+https://cran.r-project.org/web/packages/bibtex/bibtex.pdf
+
+
+This was tested with bib2df version 1.1.1, installation instructions available [here][1], 
+and one example [here][2]. Github project is available [here][3]
+
+[1]: https://docs.ropensci.org/bib2df/
+[2]: https://docs.ropensci.org/bib2df/articles/bib2df.html
+[3]: https://github.com/ropensci/bib2df
+
+Is better to confirm that the files are in UTF-8 encoding. 
+The bibtex files must be checked. There should be spaces between "=":
+```
+@Article{Binmore2008,
+  Title = {Do Conventions Need to Be Common Knowledge?},
+  Author = {Binmore, Ken},
+  Journal = {Topoi},
+  Year = {2008},
+  Number = {1},
+  Pages = {17--27},
+  Volume = {27}
+}
+```
+This code correct that:
+```
+tx<-readLines(file)
+tx2<-gsub(pattern = "=\\{",replacement = " = {",x = tx)
+writeLines(text = tx2,con = 'corrected_scopus.bib')
+
+```
+
+The metagear package
+
+
+# Import Libraries
+
+```{r message=FALSE, warning=FALSE}
+# Setup library
+library(bib2df)
+library(bibtex)
+library(tibble)
+library(dplyr)
+library(readxl)
+
+# get rmarkdown directory
+caminho<-getwd()
+# set working directory
+setwd(caminho)
+```
+
+#Select only select articles
+```{r}
+data_asreview <- read_excel("asreview/asreview_result_dropout-prediction-a-systematic-literature-review-v3_FINAL.xlsx")
+str(data_asreview)
+data_asreview <- data_asreview[data_asreview$final_included==1,]
+
+str(data_asreview)
+
+```
+# Copy DOIs to clipboard to import to Zotero
+
+```{r}
+text<-as.character(data_asreview$doi)
+text
+
+# writeClipboard(text)
+
+length(text)
+```
+# Final list 91 records 
+
+Os artigos foram importados e vamos comparar quantos tempos no zotero e quantos tivemos no 
+Wasnt possible to retrieve 
+- A Case of Churn Prediction in Telecommunications Industry
+Duplicates:
+- Improving customer churn prediction by data augmentation using pictorial stimulus-choice data
+- Preventing Churn in Telecommunications: The Forgotten Network
+- Churn Prediction Model for Effective Gym Customer Retention
+
+PDFs available to analyze 88.
+
+```{r}
+articles.remove=c('A Case of Churn Prediction in Telecommunications Industry',
+                  'Improving customer churn prediction by data augmentation using pictorial stimulus-choice data',
+                  'Churn Prediction Model for Effective Gym Customer Retention',
+                  'Preventing churn in telecommunications: The forgotten network')
+
+data_asreview %>%subset(subset = (title %in% articles.remove)) %>% arrange(title)
+```
+Remover o que não interessa
+
+```{r}
+articles.remove=c('399','400','284','264')
+
+data_asreview<-data_asreview %>%subset(subset = !(record_id %in% articles.remove)) %>% arrange(title)
+```
+
+
+
+
+'C:/nuvem/Dropbox/doutoramento/tese/SLRDropout/analysis/selected_articles/final_dataset/FinalDataset.bib'
+
+```{r}
+data_asreview %>% select(title,doi) %>% distinct(title,.keep_all = TRUE) %>% arrange(title)
+```
+
+## 
+```{r message=FALSE, warning=FALSE}
+library(metagear)
+```
+
+### Prisma Flow diagram
+phases <- c("START_PHASE: 448 of studies identified through database searching",
+            "START_PHASE: # of additional studies identified through other sources",
+            "# of studies after duplicates removed",
+            "# of studies with title and abstract screened",
+            "EXCLUDE_PHASE: # of studies excluded",
+            "# of full-text articles assessed for eligibility",
+            "EXCLUDE_PHASE: # of full-text excluded, not fitting eligibility criteria",
+            "# of studies included in qualitative synthesis",
+            "EXCLUDE_PHASE: # studies excluded, incomplete data reported",
+            "final # of studies included in quantitative synthesis (meta-analysis)")
+
+```{r}
+phases <- c("START_PHASE: 448 of studies identified through database searching",
+            "EXCLUDE_PHASE: 26 of studies excluded",
+            "402 of full-text articles assessed for eligibility",
+            "EXCLUDE_PHASE: 311 of full-text excluded, not fitting eligibility criteria",
+            "91 of studies included in qualitative synthesis",
+            "EXCLUDE_PHASE: 4 studies excluded, incomplete data reported",
+            "final 87 of studies included in quantitative synthesis (meta-analysis)")
+metagear::plot_PRISMA(phases, design = c(E = "lightcoral", flatArrow = TRUE,fontSize='10'))
+```
+```{r}
+str(data_asreview)
+```
+## Articles by Year
+```{r barplot_year,warning=FALSE}
+library(lattice)
+#Create contigency table for source column
+tb<-table(data_asreview$year)
+
+barchart(tb,horizontal = FALSE, scales = list(x = list(rot = 45)),ylab='Number of articles',xlab='years')
+```
+## Articles by Journal
+```{r barplot_source_journal, fig.height=6, fig.width=15, warning=FALSE}
+library(lattice)
+#Create contigency table for source column
+tb<-table(substr(data_asreview$journal[!data_asreview$journal==''], start = 1, stop = 40))
+
+barchart(tb,horizontal = FALSE, scales = list(x = list(rot = 45)),ylab='Number of articles',xlab='years')
+```
+
+A bit messy. Trying to regroup the magazines... replace journal with proceedings...
+```{r}
+table(substr(data_asreview$journal, start = 1, stop = 40))
+
+journals <- unique(data_asreview$journal)
+sort(journals)
+sort(journals[grepl(pattern = "Conference|conference",x = journals)])
+
+```
+## Articles by Sources
+```{r barplot_sources, warning=FALSE}
+library(lattice)
+#Create contigency table for source column
+tb<-table(data_asreview$source)
+
+barchart(tb,horizontal = FALSE, scales = list(x = list(rot = 45)),ylab='Number of articles',xlab='source')
+```
+
+
+## Articles by Category
+```{r barplot_category, warning=FALSE}
+library(lattice)
+#Create contigency table for source column
+tb<-table(data_asreview$category)
+
+barchart(tb,horizontal = FALSE, scales = list(x = list(rot = 45)),ylab='Number of articles',xlab='category')
+```
+
+
+
+
+
+
+
+

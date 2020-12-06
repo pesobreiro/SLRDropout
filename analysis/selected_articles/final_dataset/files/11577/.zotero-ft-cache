@@ -1,0 +1,517 @@
+
+JavaScript is disabled on your browser. Please enable JavaScript to use all the features on this page. Skip to main content Skip to article
+Elsevier logo ScienceDirect
+
+    Journals & Books 
+
+Pedro Sobreiro
+Brought to you by: B-on Consortium of Portugal
+ 
+Download PDF Download
+Share
+Export
+Advanced
+Outline
+
+    Abstract
+    Keywords
+    1. Introduction
+    2. Classification methods
+    3. Evaluation criteria
+    4. Extracting emotions from client/company interaction emails
+    5. Research setting
+    6. Empirical results
+    7. Conclusion and further research
+    Acknowledgements
+    Appendix A.
+    References 
+
+Show full outline
+Figures (1)
+
+    Fig. 1. Window of analysis
+
+Tables (9)
+
+    Table 1
+    Table 2
+    Table 3
+    Table 4
+    Table 5
+    Table 6 
+
+Show all tables
+Elsevier
+Expert Systems with Applications
+Volume 36, Issue 3, Part 2 , April 2009, Pages 6127-6134
+Expert Systems with Applications
+Improving customer attrition prediction by integrating emotions from client/company interaction emails and evaluating multiple classifiers
+Author links open overlay panel Kristof Coussement Dirk Van den Poel
+Show more
+https://doi.org/10.1016/j.eswa.2008.07.021 Get rights and content
+Abstract
+
+Predicting customer churn with the purpose of retaining customers is a hot topic in academy as well as in today’s business environment. Targeting the right customers for a specific retention campaign carries a high priority. This study focuses on two aspects in which churn prediction models could be improved by (i) relying on customer information type diversity and (ii) choosing the best performing classification technique. (i) With the upcoming interest in new media (e.g. blogs, emails, ...), client/company interactions are facilitated. Consequently, new types of information are available which generate new opportunities to increase the prediction power of a churn model. This study contributes to the literature by finding evidence that adding emotions expressed in client/company emails increases the predictive performance of an extended RFM churn model. As a substantive contribution, an in-depth study of the impact of the emotionality indicators on churn behavior is done. (ii) This study compares three classification techniques – i.e. Logistic Regression, Support Vector Machines and Random Forests – to distinguish churners from non-churners. This paper shows that Random Forests is a viable opportunity to improve predictive performance compared to Support Vector Machines and Logistic Regression which both exhibit an equal performance.
+
+    Previous article in issue
+    Next article in issue 
+
+Keywords
+Churn prediction
+Subscription services
+Call center email
+Classification
+Random Forests
+Support Vector Machines
+1. Introduction
+
+As markets become increasingly saturated, academic researchers and companies have acknowledged that focussing on identifying customer most likely to churn is of crucial importance ( Keaveney & Parthasarathy, 2001 ). Reinartz, Krafft, and Hoyer (2004) remark that organizations are realizing that not all customers generate the same economic value to the company. Establishing valuable relationships with existing customers produces higher revenues and margins than attracting new customers ( Reichheld & Sasser, 1990 ). Consequently, investments for retention strategies have a higher net return than for acquisitions. So, it is supported that companies first spend their marketing resources to keep existing customers rather than to attract new ones ( Rust & Zahorik, 1993 ). In order to preserve the existing customer base, marketing consultants try to proactively target those customers most likely to churn. Indeed, companies are moving away from traditional mass marketing strategies in favour of a customer-focussed strategy ( Burez & Van den Poel, 2007 ). As such, Customer Intelligence researchers are increasingly investigating the underlying break-through of improving customer attrition modelling in several research settings (e.g. Burez and Van den Poel, 2009 , Larivière and Van den Poel, 2004 ).
+
+In recent years, data mining techniques explore and analyze huge amounts of available data in order to assist with the selection of customers most prone to switch ( Hung, Yen, & Wang, 2006 ). Many academics and practitioners have built different model types that attempt to predict customers’ future behavior. The research on improving the methodology of churn prediction models is still growing because of (a) it is worthwhile to target customers proactively based on a churn prediction model by sending them churn prevention actions. For instance, a field experiment by Burez and Van den Poel (2007) has shown that companies can double their profits by sending prevention actions to their most likely churners based on a prediction model, (b) keeping existing customers is less expensive than acquiring new ones which are often characterized by a high attrition rate ( Reinartz & Kumar, 2003 ) and (c) the churn prediction system has to be as accurate as possible, because Van den Poel and Larivière (2004) have shown that even a small change in retention rate can result in significant changes in contribution.
+
+This study focuses on two aspects on how to optimize a classification model, i.e. (i) incorporated information and (ii) classification technique. (i) Different types of information are available for churn prediction. Fader, Hardie, and Lee (2005) conclude that customer’s past behavior is an important predictor for one’s future behavior. In the direct marketing literature, it is common practice to summarize customers’ past behavior in terms of their Recency (i.e. the elapsed time since last purchase or renewal), Frequency (i.e. the number of prior purchases or renewals) and Monetary value (i.e. the total amount of purchases) or their RFM characteristics. However, attrition models are often more complex because several other variables, such as socio-demographics and other transactional data, are included on top of the RFM characteristics. We will refer to such a model as an extended RFM model (or eRFM model).
+
+Nowadays, new opportunities arise to increase the prediction power of an eRFM model by incorporating information from new media (e.g. websites, blogs and emails). New valuable information is available to the data analyst because customers interact more frequently with the company through these media types. Indeed, Weng and Liu (2004) conclude that clients become more familiar with sending emails as a substitute for traditional communication. Moreover, the customer relationship literature states that interactions between client and company are potentially important ( Ganesan, 1994 ). As a consequence, academics and marketing consultants try to improve customer relationships by incorporating client/company information in their analysis. For instance, online feedback mechanisms experience growing popularity and have important implications for a wide range of management activities including customer acquisition and retention ( Dellarocas, 2003 ). Moreover, call centers which handle telephone calls as well as emails are often seen as the link between customers and the organization. They are potentially important because they offer clients the possibility (a) to report service failures or (b) to ask product related information. (a) Indeed, complaint handling is an important tool to win competitive advantage ( Brown, 1997 ) and it provides a good way to enhance the retention of customers who experience service problems (e.g. Hart, Heskett, & Sasser, 1990 ). (b) Besides complaints, information requests are another way in which clients interact with the company. For instance, a lot of customers ask information about promotional deals and subscription related aspects. However, it is remarkable that the impact of information requests on customer churn is under investigated. All client/company interaction information offers the marketing manager a unique opportunity to explore the client/company relationship and to improve the performance of their churn model. More specifically, Mattsson, Lemmink, and McColl (2004) focus on the fact that client/company interactions express several emotions via the words they contain. Commonly, one argues that these interactions are homogeneous in terms of expressed emotions, but this is certainly not the case. A common typology to classify emotions is to consider positive as well as negative emotions ( Chaudhuri, 1998 ). This study investigates whether these distinct emotions from call center emails increase the prediction performance of a churn system. Furthermore, it deepens out the impact of these emotions expressed in client/company emails on one’s attrition behavior.
+
+(ii) Next to the incorporation of new information types, several classification techniques are at the disposal of a data analyst. This study benchmarks the predictive performance of two state-of-the-art classifiers, Support Vector Machines and Random Forests, with the base classifier in marketing, Logistic Regression. It was Neslin, Gupta, Kamakura, Lu, and Mason (2006) who conclude that Logistic Regression is a well-known and robust classification technique in marketing, while Thomas (2000) confirms that it is most often used by predictive model builders in industry. As a consequence, Logistic Regression is used to benchmark Support Vector Machines and Random Forests, two state-of-the-art classifiers within this study. Support Vector Machines have already proven his excellent performance in a wide range of industries like bioinformatics, beat recognition, image classification,... while over the years it is gaining popularity in churn prediction too (e.g. Kim et al., 2005 , Zhao et al., 2005 , Coussement and Van den Poel, 2008 ). Moreover, Random Forests have also shown their good predictive capabilities in a lot of industries including customer churn prediction (e.g. Larivière & Van den Poel, 2005 ). The purpose of this research study is to find evidence which state-of-the-art classification technique performs best in optimizing the performance of a churn system.
+
+In conclusion, consolidating customer relationships by avoiding attrition is an important issue for marketing managers and CRM consultants. A first step in addressing this issue is finding who to target in retention actions. The choice of the most appropriate classification technique is an important issue in improving the performance of a churn model. This study compares the predictive performance of Logistic Regression, Support Vector Machines and Random Forests in distinguishing churners from non-churners. Moreover, customer’s past behavior is an important predictor for one’s future behavior by which RFM models are typically built. Such models are often extended with other transactional and socio-demographic variables. Due to the rapid development of internet and information technology, new client/company information is available. This study investigates whether the emotions expressed in customer emails have an impact on subsequent churn behavior. Therefore, this paper contributes to the existing literature by investigating (i) whether the predictive performance of an eRFM model increases when emotionality indicators of client/company interaction variables are included? (ii) which classification technique – i.e. Logistic Regression, Support Vector Machines or Random Forests - performs best in distinguishing churners from loyal customers? and (iii) how do emotions expressed in written client/company interactions through call center emails (i.e. service failures and information requests) relate to one’s churn behavior?
+
+This paper is organised as follows. Section 2 gives an overview of the classification methods (i.e. Logistic Regression, Support Vector Machines and Random Forests) used throughout this study, while Section 3 gives an overview of the evaluation criteria for the different classification models. Section 4 describes how the emotionality indicators are extracted from the call center emails. In a next Section, the research setting is explained. The empirical results are given in Section 6 , while in a last Section conclusions are presented.
+2. Classification methods
+
+This paragraph introduces the three classification techniques used throughout this study, i.e. Logistic Regression, Support Vector Machines and Random Forests.
+2.1. Logistic Regression
+
+Logistic Regression is a well-known technique that is often used in traditional marketing applications ( Neslin et al., 2006 ). Moreover, it is a simple technique ( Bucklin & Gupta, 1992 ), while it provides quick and robust results. Furthermore, a closed-form solution for the ‘a posteriori’ probabilities is available. Logistic Regression tries to maximize the log-likelihood function in order to become an appropriate fit to the data ( Allison, 1999 ). Including all predictors into one regression model often results in overfitting and poor predictions, in settings where many variables have little to add to the prediction model. Kim (2006) states that variable selection improves the comprehensibility of the resulting model and makes the resulting models generalize better. As done by many researcher and consultants (e.g. Neslin et al., 2006 ), this study employs a stepwise Logistic Regression for churn prediction.
+2.2. Support Vector Machines
+
+Support Vector Machines (SVMs) were introduced by Vapnik and his colleagues for solving binary classification problems ( Cortes and Vapnik, 1995 , Vapnik, 1998 ). The purpose of SVMs in a binary classification context comes down to finding an optimal hyperplane that maximizes the margin between positive and negative examples. We refer to the tutorial of Burges (1998) for more details about SVMs, while more information on the optimization process is provided by Chang and Lin (2004) .
+
+In order to implement SVMs, a decision on the kernel function is needed. This study uses the RBF kernel (instead of the linear kernel, the sigmoid kernel or the polynomial kernel) as the default kernel function. In contrast to the linear kernel function, RBF kernel makes it possible to map non-linear boundaries of the input-space into a higher dimensional feature space ( Hsu, Chang, & Lin, 2004 ). Lin and Lin (2003) found in their research that the sigmoid kernel behaves like the RBF kernel for certain parameters. When looking at the number of hyperparameters, the polynomial kernel has more hyperparameters than the RBF kernel, which makes the optimization process more complex. Moreover, the RBF kernel has less numerical difficulties because the kernel values lie between zero and one, while the polynomial kernel values may go to infinity or zero while the degree is large. Considering these arguments, the RBF kernel function is used as the default kernel function throughout this study.
+
+In order to obtain an optimal performance using a RBF kernel function, one needs to optimize two parameters, namely C and γ with C the penalty parameter for the error term and γ the kernel parameter. Both parameters play a crucial role in the performance of SVMs (e.g. Hsu et al., 2004 ). This study applies a ‘grid-search’ on C and γ with a twofold cross-validation as described by Hsu et al. (2004) for optimizing these parameters. The best parameter pair ( C , γ ) based on the highest cross-validated AUC is used for further analysis.
+2.3. Random Forests
+
+Random Forests is a classification technique that was introduced by Breiman (2001) . It is an ensemble technique that grows many classification trees in order to overcome the instability of a traditional decision tree ( Hastie, Tibshirani, & Friedman, 2001 ). To classify a new object from an input vector, the input vector is run through each of the trees in the forest. Each tree gives a classification and votes for the most popular class. The forest chooses to classify the case according to the label with the most votes over all the trees in the forest.
+
+We follow Breiman’s (2001) suggestions where the number of variables for growing the tree is set equal to the square root of the total number of variables and a large number of trees – i.e. 1000 – is chosen.
+3. Evaluation criteria
+
+In order to evaluate the performance of the classification techniques, two criteria are used throughout this study, namely the Percentage Correctly Classified (PCC) and the Area Under the receiving operating Curve (AUC). Both measures are often used as performance criteria in different retention studies (e.g. Buckinx & Van den Poel, 2005 ). The PCC compares the ‘a posteriori’ probability of being a churner with the true status of that customer. If TP, FP, TN and FN are the True Positives, False Positives, True Negatives and False Negatives in the confusion matrix, then the PCC is defined as (TP + TN)/(TP + FP + TN + FN). The disadvantage of PCC is that it is not very robust concerning the chosen cut-off value on the ‘a posteriori’ churn probability ( Baesens, Viaene, Van den Poel, Vanthienen, & Dedene, 2002 ). In contrast to PCC, AUC performance takes into account all possible cut-off levels on the ‘a posteriori’ probabilities. For these cut-off points, it considers the sensitivity (i.e. the number of True Positives versus the total number of churners) and the specificity (i.e. the number of True Negatives versus the total number of non-churners) of the confusion matrix in a two-dimensional graph, resulting in the Receiving Operating Curve or ROC curve. The area under the ROC curve is used to evaluate the performance of a classification model ( Hanley & McNeil, 1982 ). In order to compare if two classification models are significantly different in terms of AUC, the non-parametric test of DeLong, DeLong, and Clarke-Pearson (1988) is used.
+4. Extracting emotions from client/company interaction emails
+
+The ways in which individuals write provide windows into their emotive and cognitive worlds. For instance, Pennebaker and Francis (1996) investigated cognitive, emotional and language processes in disclosure, while Newman, Pennebaker, Berry, and Richards (2003) predict deception from language characteristics. Text files are analyzed using the computerized text analysis program Linguistic Inquiry and Word Count, LIWC ( Pennebaker et al., 2001 , Zijlstra et al., 2004 ). As such, it is possible to measure the amount of emotions in written communication.
+
+The scientific program consists of a predefined set of words categorized by psychometric experts into positive and negative emotions. The category of positive emotions is summarized by 690 target words (e.g. happy, good, …), while 1347 target words are used to categorize negative emotions (e.g. hate, sad, . . .). The externally-validated program searches the individual text files on a word-by-word basis. Each word in the text is compared against the predefined set of words. After counting the words in each category, the program computes the percentage of the total words for that text. Besides the fact that computerized word count approaches are typically blind to context in which the words are used, they have shown promising and reliable results in personality, social and clinical psychology (e.g. Mergenthaler, 1996 , Pennebaker et al., 2001 ). In short, the program makes it possible to compile positive as well as negative emotionality indicators from call center emails. These figures can be further employed to investigate their impact of emotions on subsequent churn behavior.
+5. Research setting
+
+For this study, data is collected from the largest Belgian newspaper company. The subscribers have to pay a fixed amount of money for their newspaper. Subscription data is used from January 2002 through September 2005. Fig. 1 visualizes the window of analysis.
+
+    Download : Download full-size image 
+
+Fig. 1 . Window of analysis.
+
+Using this time frame, it is possible to define the dependent variable and the explanatory variables. For defining whether a subscriber is a churner or not, all renewal points between July 2004 and July 2005 are considered within this study. Moreover, only subscriptions having at least one email sent during the last subscription term are included in subsequent analysis. There are 11,836 subscriptions included of which 9600 subscribers (81.11%) renew their subscription and are considered to be behavioural loyal, while 2236 (18.89%) do not renew their product and are considered as churners. Someone is considered a churner when he/she does not renew his/her subscription within a four week period after the renewal date. During this four week period, the newspaper company still delivers the newspapers to the customers in order to give them the opportunity to renew their subscription. Besides the dependent variable, several explanatory variables need to be constructed in order to predict one’s churn behavior. The explanatory variables, such as RFM and other transactional information, contain information covering a 30-month period returning from every individual renewal point. This information is stored in a large transactional database. Moreover, subscribers have the possibility to report service failures or to ask questions via email. All emails are manually labelled by the staff of the call center by which a distinction between information requests and complaint emails is available. All emails from the last term of a subscription are considered for further analysis. There are 18,331 emails of which 6560 complaints (35.79%) and 11,771 information requests (64.21%). Since subscribers can send more than one email during the last term of their subscription, the emotionality indicators extracted using the methodology as explained in Section 4 are averaged per subscription type. In other words, the emotionality variables represent the general positive/negative tone in which subscribers interact with the company by means of written complaints or information requests to the call center.
+
+In order to correctly assess the predictive capabilities of different classification models, the dataset is divided into a training and test set. The former one is composed by randomly assigning 70% of the subscriptions, while the other 30% are assigned to the test set. The training set is used to estimate the different classification models, while the test set is used for assessing the performance of the different models to an unseen data sample. The data set characteristics are given in Table 1 .
+
+Table 1 . Overview of the data characteristics
+	Number of subscriptions	Relative percentage (%)
+Training set
+
+Subscriptions not renewed	1792	18.93
+Subscriptions renewed	7676	81.07
+Total	9468	100
+
+Test set
+
+Subscriptions not renewed	444	18.75
+Subscriptions renewed	1924	81.25
+Total	2368	100
+6. Empirical results
+6.1. Churn predictors
+
+In the CRM literature, it is a common use to summarize customers’ future behavior based on their past behavior. The available data are often stored in large databases and consist of RFM figures, other transactional data and socio-demographic information (see Appendix A for an in-depth overview of the variety of churn predictors). However, new media (e.g. email) can assist with the improvement of client/company relations. As a consequence, additional explanatory variables are extracted from this new information type. Using the methodology as described in Section 4 , several features indicating the emotionality in client/company interactions are extracted from the call center emails (see Table 2 ).
+
+Table 2 . Emotionality indicators extracted from client/company interactions
+Variable name	Description
+Posemo_complaint 	Positive emotions in complaint emails
+Posemo_contact 	Positive emotions in information requests
+Negemo_complaint 	Negative emotions in complaint emails
+Negemo_contact 	Negative emotions in information requests
+Percentage_complaint 	Percentage of complaints from total client/company interactions
+
+Consequently, several measurement models are built to correctly discriminate churners from loyal customers. For validating the hypothesis of additional predictive performance of the emotionality indicators on top of the churn variables (see Section 6.2.1 .) and for comparing the predictive performance of the different classifiers (see Section 6.2.2 .), two different churn models are built. The first one is an extended RFM model (hereafter abbreviated as eRFM) that uses the traditional RFM figures, while also adding other customer information like other transactional data and customer socio-demographics. A second prediction model adds the emotionality related variables from Table 2 to eRFM (hereafter abbreviated as eRFM-EMO). As such these models are used to assess the impact of emotionality from client/company interactions to customer’s churn behavior, while also the performance of the different classification models is compared. In order to correctly verify the impact of emotions in client/company emails on churn behavior, univariate Logistic Regression models are built using only the emotionality indicators (see Section 6.3 ).
+6.2. Predicting churn using emotionality indicators
+6.2.1. Impact of emotionality indicators on predictive performance
+
+This paragraph compares the predictive performance between an eRFM model and that of an eRFM-EMO model. Table 3 gives an overview of the predictive performance of all models in terms of AUC and PCC, while Table 4 contains the significance tests of Delong et al. (1988) for comparing similar classification techniques between an eRFM and eRFM-EMO context. In summary, this paragraph investigates whether adding emotionality indicators to an attrition model, results in an additional increase in predictive performance in distinguishing churners from non-churners. In other words, does an eRFM-EMO model perform better than an eRFM model for a given classifier?
+
+Table 3 . The predictive performance of Logit, Random Forests and SVMs
+Model	eRFM	eRFM-EMO
+AUC	PCC	AUC	PCC
+Logit	Training set	73.59	77.76	74.89	77.99
+Test set	73.24	77.28	74.16	77.70
+
+Random Forests	Training set	74.84	78.26	75.65	78.37
+Test set	75.12	78.29	76.02	78.97
+
+SVMs	Training set	72.99	77.90	74.51	78.43
+Test set	72.53	77.53	73.83	77.87
+
+Table 4 . Pairwise comparison of AUC performance between eRFM models and eRFM-EMO models on test set
+Model	AUC	Significantly different on 95% confidence level?
+eRFM	eRFM-EMO
+Logit	73.24	74.16	Yes
+Random Forests	75.12	76.02	Yes
+SVMs	72.53	73.83	Yes
+
+Table 3 , Table 4 let us conclude that incorporating emotions from client/company interactions is a viable strategy for improving predictive performance of an eRFM churn model. The models including the additional client/company interaction variables perform always better in distinguishing churners from non-churners. Indeed, an eRFM-EMO model always has a higher predictive performance than the corresponding eRFM model in terms of PCC, while also the differences in terms of AUC are significant between similar classifiers ( Delong et al., 1988 ).
+
+In conclusion, incorporating emotions from client/company emails into a traditional customer attrition model is beneficial from a prediction point of view.
+6.2.2. Comparing predictive performance of logit, SVMs and Random Forests
+
+This paragraph compares the predictive performance of Logit, SVMs and Random Forests within this churn context. Table 5 , Table 6 give an overview of the results from the significance test of Delong et al. (1988) .
+
+Table 5 . Pairwise comparison of AUC performance on the eRFM test set
+Model 1	Model 2	AUC	Significantly different on 95% confidence level?
+Model 1	Model 2
+Logit	Random Forests	73.24	75.12	Yes
+SVMs	Random Forests	72.53	75.12	Yes
+Logit	SVMs	73.24	72.53	No
+
+Table 6 . Pairwise comparison of AUC performance on the eRFM-EMO test set
+Model 1	Model 2	AUC	Significantly different on 95% confidence level?
+Model 1	Model 2
+Logit	Random Forests	74.16	76.02	Yes
+SVMs	Random Forests	73.83	76.02	Yes
+Logit	SVMs	74.16	73.83	No
+
+From Table 5 , Table 6 , it is clear that Random Forests performs best in distinguishing churners from non-churners. Its performance is always significantly higher than the performance of Logit and SVMs in terms of PCC, as well as in terms of AUC ( Delong et al., 1988 ).
+
+Besides the excellent performance of Random Forests, one notices that Logit and SVMs perform equally well in this churn context. As one observes from Table 5 , Table 6 , the AUC performance of Logit and SVMs are not significantly different within the different research contexts.
+
+In summary, implementing Random Forests within this churn context is a viable opportunity to improve predictive performance in comparison to the performance of Logit and SVMs which both have an equal performance ( Delong et al., 1988 ).
+6.3. Impact of emotionality indicators on churn behavior
+
+This Section explores the impact of emotions in client/company emails on customer attrition. Table 7 shows the individual standardized parameter estimates, the Wald significance tests and the odds ratios as estimated during a univariate Logistic Regression using the emotionality variables. In other words, this paragraph measures the impact of every single variable from Table 2 on churn behavior.
+
+Table 7 . Univariate standardized parameter estimates, wald significance tests & odds ratio
+Variable name	Standardized estimate	Wald significance tests	Odds ratio
+Posemo_complaint 	−0.1801∗∗	98.1339	0.674
+Posemo_contact 	−0.0006 ns	0.00240	0.999
+Negemo_complaint 	−0.1940∗∗	82.2778	0.561
+Negemo_contact 	−0.1231∗∗	53.3812	0.752
+Percentage_complaint 	−0.3561∗∗	255.994	0.418
+
+∗∗ : p   <  0.001; ns: not significant.
+
+A primary finding of this research is that there is a significant relationship between positive expressed emotions in complaint emails and customer attrition (posemo_complaint: β  = −0.1801, p  < 0.001). This result confirms the findings of Mattsson et al. (2004) who also found that positive emotions expressed during complaining reduce the chance of churning. The positive emotions expressed during the reporting of a service failure are assumed to counteract the eagerness to punish the company for the failure and to indicate the good prior relationship with the company. Moreover, this study shows evidence that a significant relationship exists between negative emotions expressed in complaint emails and customer churn (negemo_complaint: β  = −0.1940, p  < 0.001). Contrary to the results of Mattsson et al. (2004) , we find that the more negative emotional words are used in complaint emails, the lower the risk that the customer will leave the company. Considering that the company has a good failure recovery system, this result is in line with the satisfaction framework of Oliver (1980) . He states that when the gap between the outcome – in this case the service failure recovery – and the expectations – in this case the service recovery expectations – increases, the satisfaction of that particular customer increases. In other words, the more negative emotional words one uses during complaining, the more disillusioned the customer is. However, when the company decently recovers the failure, the customer will be very satisfied.
+
+This study found no significant relationship between positive expressed emotions in information requests and someone’s churn behavior (posemo_contact: β  = −0.0006, ns). Moreover, negative expressed emotions in information requests seem to have a significant influence on customers’ churn behavior (negemo_contact: β  = −0.1231, p  < 0.001). One can say that the more negative emotional words are used in emails other than complaints, the lower the chance that the customer will churn. In intensive markets like the newspaper industry, customer satisfaction level becomes an important issue ( Jones & Sasser, 1995 ). So increasing customer satisfaction is the starting point of the email handling process. For instance, customers are often comparing alternatives for their current product by the end of the subscription period. As such they often come in touch with new promotional deals, they want to capture. These information requests via email are often more negatively connoted than others because they express the disillusion of not having a promotional offer on their current subscription. However, the company tries to handle all questions as efficiently as possible by offering them a comparable subscription deal. This act increases customer satisfaction, because Oliver (1980) states that satisfaction is increased when the final outcome – i.e. here the proposal for a new subscription - exceed the rather bad expectations of fulfilling the request.
+
+Moreover, this study found a strong relationship between the percentage of complaints of all client/company interactions and one’s churn behavior (percentage_complaint: β  = −0.3561, p  < 0.001). The more complaints a customer has in his/her portfolio of emails sent to the company, the more certain he/she stays with the company. As such, complaining does not necessarily mean that the customer will leave the company. For instance, Maxham, 2001 , Keaveney, 1995 state that complaint behavior results in a favourable behavior towards the company when service failure recovery is satisfactory. Moreover, Bougie, Pieters, and Zeelenberg (2003) state that complainers are less vulnerable to switch because they have a higher commitment and trust towards the company (e.g. Tax, Brown, & Chandrashekaran 1998 ). Also Conlon and Murray (1996) state that customer who complain and receive a proper response to their service failures are more likely to stay.
+7. Conclusion and further research
+
+As a conclusion, one can say that the predictive performance of a churn model can be optimized by (i) exploring and adding new types of customer information into a conventional churn model and (ii) choosing the right classification technique. (i) In the last decade, there is a rapid development of the internet and information technology. As such, new information types are available to the data analyst. Nowadays, emails are seen as a valid alternative (next to letters and telephone calls) for customers to interact with the company. Most companies store these huge amounts of textual information in large databases, but hardly use them in their day-to-day analysis. As a consequence, unique opportunities arise to extract information from these emails to enrich churn models. This study shows the beneficial effect of including emotionality indicators extracted from call center emails into a customer attrition model. Indeed, the predictive performance significantly increases when these emotionality indicators are included into a eRFM attrition model. (ii) The predictive performance of two state-of-the-art classifiers SVMs and Random Forests is benchmarked with that of a base classifier, Logistic Regression. It is shown that Random Forests significantly outperforms the other two classification techniques, while the predictive performance of Logistic Regression and Support Vector Machines is not significantly different within this research setting. Compared to Logistic Regression and SVMs, Random Forests’ predictive dominance lies in the ability to discover hidden patterns in the complex data structure by (a) combining several outputs of ‘weak’ classifiers into a strong ensemble of classifiers and (b) by doing a random feature selection to split each node in the individual decision trees ( Breiman, 2001 ).
+
+Despite the fact that differences in performance may not seem large, the impact on the retention rate can be significant when targeting the right customers accordingly. Table 8 shows that increasing the retention rate with only 1% already has large implications for the long-term increase in profitability within this specific case.
+
+Table 8 . Real-life retention example
+Retention rate(=100%–churn%)	No of customers	Average contribution per subscriber per year (in Euro)	Total contribution after 5 year per 1000 subscribers (in Euro)	Additional profit over 82% after 5 year per 1000 subscribers (in Euro)
+Year
+1	2	3	4	5
+82%	1000	820	672	551	452	200	657,355	
+83%	1000	830	689	572	475	200	669,799	12,445
+100%	1000	1000	1000	1000	1000	200	925,979	256,180
+
+In the current situation, about 18% of the clients defect. As such, we expect to keep each year about 82% of the subscribers. Additionally, the ideal situation of 100% retention rate is also included into the analysis for comparison reason only. This situation is utopian because there will always be people who will churn, e.g. due to natural defection. Suppose further that due to an increase in predictive performance and targeting the right customers accordingly, the company can increase the retention rate with 1% – i.e. from 82% to 83% retention rate. Table 8 indicates that an additional increase in retention rate with 1% results in a boost of total contribution over 5 year per 1000 customers from 657,355 Euro to 669,799 Euro having an average contribution of 200 Euro and a discount rate of 4%. If the company succeeds in increasing the retention rate with only 1%, an additional contribution of 12,445 Euro per 1000 customers is gained.
+
+As a substantive contribution, the impact of emotionality indicators on churn is investigated. It is shown that the impact on churn is positive when more emotional related words – i.e. positive emotions or negative emotions – are used. Customers that use more positive emotions in complaint emails are by nature more satisfied and certainly do not want to punish the company for the service failures which decreases of course the fact that one will attrite. The use of negative emotions in emails seems to have a positive influence on one’s churn behavior. This means that people who use more negative emotional connoted words tend to be more loyal. These results have large managerial implications for all managers dealing with call center management and email handling. Emotional emails require special treatment, because these people tend to more loyal than others. Even in the case of a very negative complaint email, the call center agent must be aware of the fact that this customer is of high value for the company. In fact, when customers express their dissatisfaction with the service by writing complaint emails, this does not necessarily mean that these customers will churn. Contrary, this study found that the higher the portion of complaint emails, the lower the chance that this specific customer will churn.
+
+While we strongly believe that this research paper adds value to the current literature, there is still scope for some suggestions for further research. In this study, service recovery data was unavailable to the data analyst. As such, additional efforts could be made in collecting service recovery measures for every client/company interaction. Consequently, additional analysis using this type of data can be introduced in the current framework. Moreover, the proposed framework of customer churn prediction is applied in a newspaper subscription business. There is a wide variety of data mining applications, e.g. cross- and up-sell applications, customer acquisition … in wide range of industries, e.g. retail, financial services, e-commerce … where the incorporation of this type of ‘soft’ data can improve the predictive performance. Additional analysis need to be done to validate the findings proposed in this research paper.
+Acknowledgements
+
+We would like to thank the anonymous Belgian company for providing us with data for testing our research questions and Ghent University for funding the Ph.D. project of Kristof Coussement (BOF 01D26705). Also special thanks to L. Breiman (†) for freely distributing the Random Forests software, as well as C.-C. Chang and C.-J. Lin for sharing their SVM-toolbox, LIBSVM. Moreover, we would like to thank Bart Larivière and Ilse Bellinck for their insights during this project.
+Appendix A.
+
+	Variable type		Description
+	RFM		Elapsed time since last renewal (Recency)
+The number of renewal points (Frequency)
+Monetary value (Monetary value)
+
+eRFM	Other transactional information	Client/company characteristics	The purchase motivator of the subscription
+How the newspaper is delivered
+The number of complaints
+Elapsed time since the last complaint
+The average cost of a complaint (in terms of compensation newspapers)
+The conversions made in distribution channel, payment method and edition
+Elapsed time since last conversion in distribution channel, payment method and edition
+The number of responses on direct marketing actions
+Elapsed time since last response on a direct marketing action
+The number of free newspapers
+	
+Renewal-related variables	Whether the previous subscription was renewed before the expiry date
+How many days before the expiry date, the previous subscription was renewed
+The average number of days the previous subscriptions are renewed before expiry date
+The variance in the number of days the previous subscriptions are renewed before expiry date
+Elapsed time since last step in renewal procedure
+The number of times the churner did not renew a subscription
+Subscription-describing variables	The length of the current subscription
+The number of days a week the newspaper is delivered (intensity indication)
+What product the subscriber has
+The month of contract expiration
+Socio-demographics		Age
+Whether the age is known
+Gender
+Physical person (is the subscriber a company or a physical person)
+Whether contact information (telephone, mobile number, email) is available
+
+References
+
+Allison, 1999
+    P.D. Allison Logistic regression using the SAS system: Theory and application
+    SAS Institute Inc, Cary, NC (1999)
+    Google Scholar
+Baesens et al., 2002
+    B. Baesens, S. Viaene, D. Van den Poel, J. Vanthienen, G. Dedene Bayesian neural network learning for repeat purchase modeling in direct marketing
+    European Journal of Operational Research, 138 (1) (2002), pp. 191-211
+    Article Download PDF View Record in Scopus Google Scholar
+Bougie et al., 2003
+    R. Bougie, R. Pieters, M. Zeelenberg Angry customers don’t come back, they get back: The experience and behavioral implications of anger and dissatisfaction in services
+    Journal of the Academy of Marketing Science, 31 (4) (2003), pp. 377-393
+    View Record in Scopus Google Scholar
+Breiman, 2001
+    L. Breiman Random forests
+    Machine Learning, 45 (1) (2001), pp. 5-32
+    CrossRef View Record in Scopus Google Scholar
+Brown, 1997
+    S.W. Brown Service recovery through IT: Complaint handling will differentiate firms in the future
+    Marketing Management, 6 (3) (1997), pp. 25-27
+    CrossRef View Record in Scopus Google Scholar
+Buckinx and Van den Poel, 2005
+    W. Buckinx, D. Van den Poel Customer base analysis: partial defection of behaviourally loyal clients in a non-contractual FMCG retail setting
+    European Journal of Operational Research, 164 (1) (2005), pp. 252-268
+    Article Download PDF View Record in Scopus Google Scholar
+Bucklin and Gupta, 1992
+    R.E. Bucklin, S. Gupta Brand choice, purchase incidence and segmentation: An integrated modeling approach
+    Journal of Marketing Research, 29 (2) (1992), pp. 201-215
+    CrossRef Google Scholar
+Burez and Van den Poel, 2007
+    J. Burez, D. Van den Poel CRM at Canal + Belgique: Reducing customer attrition through targeted marketing
+    Expert Systems with Applications, 32 (2) (2007), pp. 277-288
+    Article Download PDF View Record in Scopus Google Scholar
+Burez and Van den Poel, 2009
+    J. Burez, D. Van den Poel Handling class imbalance in customer churn prediction
+    Expert Systems with Applications, 36 (2009), pp. 4626-4636
+    Article Download PDF View Record in Scopus Google Scholar
+Burges, 1998
+    C.J.C. Burges A tutorial on support vector machines for pattern recognition
+    Data Mining and Knowledge Discovery, 2 (2) (1998), pp. 121-167
+    View Record in Scopus Google Scholar
+Chang and Lin, 2004
+    Chang, C.-C., & Lin, C.-J. (2004). LIBSVM: A library for support vector machines . Technical Report, Department of Computer Science and Information Engineering, National Taiwan University.
+    Google Scholar
+Chaudhuri, 1998
+    A. Chaudhuri Product class effects on perceived risk: The role of emotion
+    International Journal of Research in Marketing, 15 (1998), pp. 157-168
+    Article Download PDF View Record in Scopus Google Scholar
+Conlon and Murray, 1996
+    D.E. Conlon, N.M. Murray Customer perceptions of corporate responses to product complaints: The role of explanations
+    Academy of Management Journal, 39 (4) (1996), pp. 1040-1056
+    View Record in Scopus Google Scholar
+Cortes and Vapnik, 1995
+    C. Cortes, V. Vapnik Support-vector network
+    Machine Learning, 20 (1995), pp. 273-297
+    CrossRef View Record in Scopus Google Scholar
+Coussement and Van den Poel, 2008
+    K. Coussement, D. Van den Poel Churn prediction in subscription services: An application of support vector machines while comparing two parameter-selection techniques
+    Expert Systems with Applications, 34 (1) (2008), pp. 313-327
+    Article Download PDF View Record in Scopus Google Scholar
+Dellarocas, 2003
+    C. Dellarocas The digitization of word of mouth: Promise and challenges for online feedback mechanisms
+    Management Science, 49 (10) (2003), pp. 1407-1424
+    CrossRef View Record in Scopus Google Scholar
+DeLong et al., 1988
+    E.R. DeLong, D.M. DeLong, D.L. Clarke-Pearson Comparing the areas under two or more correlated receiver operating characteristic curves: A nonparametric approach
+    Biometrics, 44 (3) (1988), pp. 837-845
+    CrossRef View Record in Scopus Google Scholar
+Fader et al., 2005
+    P.S. Fader, B.G.S. Hardie, K.L. Lee RFM and CLV: Using iso-value curves for customer base analysis
+    Journal of Marketing Research, 62 (2005), pp. 415-430
+    CrossRef View Record in Scopus Google Scholar
+Ganesan, 1994
+    S. Ganesan Determinants of long-term orientation in buyer–seller relationships
+    Journal of Marketing, 58 (2) (1994), pp. 1-19
+    CrossRef View Record in Scopus Google Scholar
+Hanley and McNeil, 1982
+    J.A. Hanley, B.J. McNeil The meaning and use of the area under a receiver operating characteristic (ROC) curve
+    Radiology, 143 (1) (1982), pp. 29-36
+    CrossRef View Record in Scopus Google Scholar
+Hart et al., 1990
+    C.W.L. Hart, J.L. Heskett, W.E. Sasser Jr The profitable art of service recovery
+    Harvard Business Review (July–August) (1990), pp. 146-156
+    Google Scholar
+Hastie et al., 2001
+    T. Hastie, R. Tibshirani, J. Friedman The elements of statistical learning: data mining, inference and prediction
+    Springer-Verlag (2001)
+    Google Scholar
+Hsu et al., 2004
+    Hsu, C.-W., Chang, C.-C., & Lin, C.-J. (2004). A practical guide to support vector classification . Technical Report, Department of Computer Science and Information Engineering, National Taiwan University.
+    Google Scholar
+Hung et al., 2006
+    S.-Y. Hung, D.C. Yen, H.-Y. Wang Applying data mining to telecom churn management
+    Expert Systems with Applications, 31 (3) (2006), pp. 515-524
+    Article Download PDF View Record in Scopus Google Scholar
+Jones and Sasser, 1995
+    T.O. Jones, W.E. Sasser Jr Why satisfied customer defect
+    Harvard Business Review, 73 (1995), pp. 88-99
+    View Record in Scopus Google Scholar
+Keaveney, 1995
+    S. Keaveney Customer switching behavior in service industries: An exploratory study
+    Journal of Marketing, 59 (April) (1995), pp. 71-82
+    View Record in Scopus Google Scholar
+Keaveney and Parthasarathy, 2001
+    S. Keaveney, M. Parthasarathy Customer switching behavior in online services: an exploratory study of the role of selected attitudinal, behavioral and demographic factors
+    Journal of the Academy of Marketing Science, 29 (4) (2001), pp. 374-390
+    View Record in Scopus Google Scholar
+Kim, 2006
+    Y.S. Kim Toward a successful CRM: Variable selection, sampling and ensemble
+    Decision Support Systems, 41 (2) (2006), pp. 542-553
+    Article Download PDF CrossRef View Record in Scopus Google Scholar
+Kim et al., 2005
+    S. Kim, K.S. Shin, K. Park An application of support vector machines for customer churn analysis: Credit card case
+    Lecture Notes in Computer Science, 3611 (2005), pp. 636-647
+    CrossRef View Record in Scopus Google Scholar
+Larivière and Van den Poel, 2004
+    B. Larivière, D. Van den Poel Investigating the role of product features in preventing customer churn, by using survival analysis and choice modeling: The case of financial services
+    Expert Systems with Applications, 27 (2) (2004), pp. 277-285
+    Article Download PDF View Record in Scopus Google Scholar
+Larivière and Van den Poel, 2005
+    B. Larivière, D. Van den Poel Predicting customer retention and profitability by using random forests and regression forests techniques
+    Expert Systems with Applications, 29 (2) (2005), pp. 472-484
+    Article Download PDF View Record in Scopus Google Scholar
+Lin and Lin, 2003
+    Lin, H.-T., & Lin, C.-J. (2003). A study on sigmoid kernels for SVM and the training of non-psd kernels by SMO-type methods . Technical report, Department of Computer Science and Information Engineering, National Taiwan University.
+    Google Scholar
+Mattsson et al., 2004
+    J. Mattsson, J. Lemmink, R. McColl The Effect of verbalized emotions on loyalty in written complaints
+    Total Quality Management & Business Excellence, 15 (7) (2004), pp. 941-958
+    View Record in Scopus Google Scholar
+Maxham, 2001
+    J.G. Maxham Service recovery’s influence on consumer satisfaction, positive word-of-mouth, and purchase intentions
+    Journal of Business Research, 54 (1) (2001), pp. 11-24
+    Article Download PDF View Record in Scopus Google Scholar
+Mergenthaler, 1996
+    E. Mergenthaler Emotion-abstraction patterns in verbatim protocols: A new way of describing psychotherapeutic processes
+    Journal of Consulting and Clinical Psychology, 64 (1996), pp. 1306-1315
+    View Record in Scopus Google Scholar
+Neslin et al., 2006
+    S.A. Neslin, S. Gupta, W. Kamakura, J. Lu, C. Mason Defection detection: Measuring and understanding the predictive accuracy of customer churn models
+    Journal of Marketing Research, 43 (2) (2006), pp. 204-211
+    CrossRef View Record in Scopus Google Scholar
+Newman et al., 2003
+    M.L. Newman, J.W. Pennebaker, D.S. Berry, J.M. Richards Lying words: Predicting deception from linguistic style
+    Personality and Social Psychology Bulletin, 29 (2003), pp. 665-675
+    View Record in Scopus Google Scholar
+Oliver, 1980
+    R.L. Oliver A cognitive model of the antecedents and consequences of satisfaction decisions
+    Journal of Marketing Research, 17 (4) (1980), pp. 460-469
+    CrossRef View Record in Scopus Google Scholar
+Pennebaker and Francis, 1996
+    J.W. Pennebaker, M.E. Francis Cognitive, emotional and language processes in disclosure: Physical health and adjustment
+    Cognition and Emotion, 10 (1996), pp. 601-626
+    View Record in Scopus Google Scholar
+Pennebaker et al., 2001
+    J.W. Pennebaker, M.E. Francis, R.J. Booth Linguistic inquiry and word count (LIWC)
+    Erlbaum Publishers, Mahwah, NJ (2001)
+    Google Scholar
+Reichheld and Sasser, 1990
+    F.F. Reichheld, W.E. Sasser Zero defections: Quality comes to services
+    Harvard Business Review, 68 (5) (1990), pp. 105-111
+    View Record in Scopus Google Scholar
+Reinartz et al., 2004
+    W. Reinartz, M. Krafft, W.D. Hoyer The customer relationship management process: its measurement and impact on performance
+    Journal of Marketing Research, 41 (3) (2004), pp. 293-305
+    View Record in Scopus Google Scholar
+Reinartz and Kumar, 2003
+    W. Reinartz, V. Kumar The impact of customer relationship characteristics on profitable lifetime duration
+    Journal of Marketing, 67 (1) (2003), pp. 77-99
+    CrossRef View Record in Scopus Google Scholar
+Rust and Zahorik, 1993
+    R.T. Rust, A.J. Zahorik Customer satisfaction, customer retention, and market share
+    Journal of Retailing, 69 (2) (1993), pp. 193-215
+    Article Download PDF View Record in Scopus Google Scholar
+Tax et al., 1998
+    S.S. Tax, S.W. Brown, M. Chandrashekaran Customer evaluations of service complaint experiences: Implications for relationship marketing
+    Journal of Marketing, 62 (April) (1998), pp. 60-76
+    View Record in Scopus Google Scholar
+Thomas, 2000
+    L.C. Thomas A survey of credit and behavioral scoring: forecasting financial risk of lending to customers
+    International Journal of Forecasting, 16 (2) (2000), pp. 149-172
+    Article Download PDF View Record in Scopus Google Scholar
+Van den Poel and Larivière, 2004
+    D. Van den Poel, B. Larivière Customer attrition analysis for financial services using proportional hazard models
+    European Journal of Operational Research, 157 (1) (2004), pp. 196-217
+    Article Download PDF View Record in Scopus Google Scholar
+Vapnik, 1998
+    V. Vapnik Statistical learning theory
+    Wiley, New York (1998)
+    Google Scholar
+Weng and Liu, 2004
+    S.S. Weng, C.K. Liu Using text classification and multiple concepts to answer emails
+    Expert Systems with Applications, 26 (4) (2004), pp. 529-543
+    Article Download PDF View Record in Scopus Google Scholar
+Zhao et al., 2005
+    Y. Zhao, B. Li, X. Li Customer churn prediction using improved one-class support vector machine
+    Lecture Notes in Artificial Intelligence, 3584 (2005), pp. 300-306
+    CrossRef View Record in Scopus Google Scholar
+Zijlstra et al., 2004
+    H. Zijlstra, T. van Meerveld, H. van Middendorp, J.W. Pennebaker, R. Geenen Dutch version of the linguistic inquiry and word count (LIWC): A computerized text analysis program
+    Behaviour and Health (Dutch Journal) (2004), p. 32
+    Google Scholar
+
+View Abstract
+Copyright © 2008 Elsevier Ltd. All rights reserved.
+Recommended articles
+
+    A hierarchical multiple kernel support vector machine for customer churn prediction using longitudinal behavioral data
+    European Journal of Operational Research, Volume 223, Issue 2, 2012, pp. 461-472
+    Download PDF View details
+    Churn prediction using comprehensible support vector machine: An analytical CRM application
+    Applied Soft Computing, Volume 19, 2014, pp. 31-40
+    Download PDF View details
+    Customer churn prediction in the telecommunication sector using a rough set approach
+    Neurocomputing, Volume 237, 2017, pp. 242-254
+    Download PDF View details
+
+1 2 Next
+Citing articles (77)
+Article Metrics
+Citations
+
+    Citation Indexes: 76 
+
+Captures
+
+    Exports-Saves: 31
+    Readers: 133 
+
+View details
+Elsevier logo
+
+    About ScienceDirect
+    Remote access
+    Shopping cart
+    Advertise
+    Contact and support
+    Terms and conditions
+    Privacy policy 
+
+We use cookies to help provide and enhance our service and tailor content and ads. By continuing you agree to the use of cookies .
+
+Copyright © 2020 Elsevier B.V. or its licensors or contributors. ScienceDirect ® is a registered trademark of Elsevier B.V.
+
+ScienceDirect ® is a registered trademark of Elsevier B.V.
+View PDF

@@ -1,24 +1,48 @@
 ---
-title: "Dropout Prediction: A Systematic Literature Review"
+title: 'Dropout Prediction: A Systematic Literature Review'
 output:
-  html_notebook: default
   pdf_document: default
+  html_document:
+    df_print: paged
+  html_notebook: default
   word_document: default
 ---
-
 This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. With the cleaning of a dataframe used in a Systematic Review. 
-
-
 https://cran.r-project.org/web/packages/bibtex/bibtex.pdf
+
+
+This was tested with bib2df version 1.1.1, installation instructions available [here][1], 
+and one example [here][2]. Github project is available [here][3]
+
+[1]: https://docs.ropensci.org/bib2df/
+[2]: https://docs.ropensci.org/bib2df/articles/bib2df.html
+[3]: https://github.com/ropensci/bib2df
+
+Is better to confirm that the files are in UTF-8 encoding. 
+The bibtex files must be checked. There should be spaces between "=":
+```
+@Article{Binmore2008,
+  Title = {Do Conventions Need to Be Common Knowledge?},
+  Author = {Binmore, Ken},
+  Journal = {Topoi},
+  Year = {2008},
+  Number = {1},
+  Pages = {17--27},
+  Volume = {27}
+}
+```
+This code correct that:
+```
+tx<-readLines(file)
+tx2<-gsub(pattern = "=\\{",replacement = " = {",x = tx)
+writeLines(text = tx2,con = 'corrected_scopus.bib')
+
+```
 
 # Import Libraries
 
 ```{r message=FALSE, warning=FALSE}
 # Setup library
-
-#install.packages("bib2df")
-#install.packages('journalabbr')
-library(journalabbr)
 library(bib2df)
 library(bibtex)
 library(tibble)
@@ -34,90 +58,132 @@ files<-list.files(path = 'articles/',pattern = '\\.bib$')
 files
 ```
 Reading bibtex source files
-ACM
+
+# ACM
 ```{r warning=FALSE}
 acm<-bib2df(file = 'articles/acm.bib')
-dim(acm)
+#str(acm)
+acm2<-read.bib(file = 'articles/acm.bib',encoding = 'UTF8')
+str(acm)
+
+names(acm)
+#Exclude some columns not required for the analysis
+acm <- acm %>% select(-c(CHAPTER:INSTITUTION,KEY:ORGANIZATION,ANNOTE,SCHOOL,TYPE,ISSUE_DATE))
+str(acm)
 ```
 
-IEEE
+
+# IEEE
 ```{r}
 ieee<-bib2df(file = 'articles/ieee.bib')
+names(ieee)
 dim(ieee)
 
 ```
-Messy with 182 columns. Using read.bib instead.
-
-```{r}
-ieee<-read.bib('articles/ieee.bib')
-write.bib(ieee,'articles/tempieee.bib')
-ieee<-bib2df(file = 'articles/tempieee.bib')
-dim(ieee)
-```
-
 # Science Direct
 ```{r}
 science1<-bib2df(file = 'articles/scienceDirect_withContractual1.bib')
-science1
 dim(science1)
-```
-messy with 182 columns. Using read.bib instead.
-```{r warning=FALSE}
-science1<-read.bib('articles/scienceDirect_withContractual1.bib')
-write.bib(science1,'articles/tempscienceDirect_withContractual1.bib')
-science1<-bib2df(file = 'articles/tempscienceDirect_withContractual1.bib')
-dim(science1)
-
-science2<-read.bib('articles/scienceDirect_withContractual2.bib')
-write.bib(science2,'articles/tempscienceDirect_withContractual2.bib')
-science2<-bib2df(file = 'articles/tempscienceDirect_withContractual2.bib')
+science2<-bib2df(file = 'articles/scienceDirect_withContractual2.bib')
 dim(science2)
 
 #merge two dataframes
 science <- rbind(science1,science2)
 dim(science)
 
+names(science)
+
 ls() # check object in workspace
 #remove dataframes
 rm(science1)
 rm(science2)
+
 ```
 Incorrect data discarded 8 incomplete information tot
+```{r}
+dim(science)
+length(unique(science$ABSTRACT))
+```
+There are 6 entries without abstract. 
+```{r}
 
+science_Abstract <- science %>% filter(is.na(ABSTRACT)) %>% select(TITLE,ABSTRACT,URL,DOI)
+str(science_Abstract)
+unique(science_Abstract$TITLE)
+```
+```{r}
+science_Abstract$TITLE
+```
+The entries aren't articles, we will remove them.
+
+```{r}
+science_correct <- science %>% filter(!is.na(ABSTRACT)) 
+
+```
 
 # Scopus
-The data exported from scopus to the bibtex file had a lot of problems and missing data. To solve the problem we used the DOIs to gather the articles info using the Zotero importing feature
-
 ```{r warning=FALSE}
-#scopus<-read.bib('scopus.bib')
-#write.bib(scopus,'tempscopus.bib')
-#scopus<-bib2df(file = 'tempscopus.bib')
-#dim(scopus)
-#names(scopus)
-
-
-scopus<-read.bib('articles/scopus_zotero.bib')
-write.bib(scopus,'articles/tempscopus_zotero.bib')
-scopus<-bib2df(file = 'articles/tempscopus_zotero.bib')
+scopus <- bib2df('articles/scopus.bib')
 dim(scopus)
 names(scopus)
 
 ```
 
+```{r}
+unique(scopus$ABSTRACT)
+```
+Only 2 articles with a abstract. Getting the abstract of the articles.
+
 This code gets the abstract using the paper link
 We are going to use (rvest)[http://rvest.tidyverse.org/]
-Get the node with abstract using the css selector .c-article-section__content or .Para. An easy way is to identify the css selector is to use the inspector.
-
+The xpath was identified using Firefox:
+1. Inspect in the abstract
+2. Right click > Copy > XPath:
+```
+/html/body/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[3]/div[1]/div[1]/div[2]/div[2]/section[7]/p
+```
 
 ```{r}
 library(rvest)
 library(httr)
 library(utils)
 
+#select the articles without abstract
+scopus_abstract <- scopus %>% filter(is.na(ABSTRACT)) 
+
+print("Progress Scopus:")
+
+pb = txtProgressBar(min = 0, max = length(scopus_abstract$URL), initial = 0,); i<-1
+#springer$URL
+
+for (x in scopus_abstract$URL) {
+    url<-x
+    webpage<-GET(url,timeout(300))
+    webpage<-read_html(webpage)
+    xpathAbstract <- '/html/body/div[1]/div[1]/div/div[2]/div/div[3]/div/div[1]/div[1]/div[2]/div[1]/section[7]/p'
+    abstract<-html_text(html_nodes(webpage,xpath = xpathAbstract ))
+    #print(abstract)
+    if(length(abstract!=0)) { 
+      scopus$ABSTRACT[scopus$URL==x]=abstract 
+      }
+    setTxtProgressBar(pb,i)    
+    i<-i+1
+}
+
+```
+# Springer
+```{r}
 springer<-bib2df('articles/springer_Exported Items.bib')
 
+names(springer)
+```
+The bibtex file extracted from Springer don't have abstract. We have to recreate that. We will use the same approach
+that was done to Scopus.
+Get the node with abstract using the css selector .c-article-section__content or .Para. An easy way is to identify the css selector is to use the inspector.
+
+```{r}
 #Replace the abstract with same link
-springer$ABSTRACT = ''
+springer$ABSTRACT = NA
 
 print("Progress springer:")
 pb = txtProgressBar(min = 0, max = length(springer$URL), initial = 0,); i<-1
@@ -141,6 +207,36 @@ for (x in springer$URL) {
 
 ```
 
+```{r}
+ls()
+```
+Checking springer articles without abstract
+```{r}
+dim(springer)
+
+springer %>% filter(is.na(ABSTRACT)) %>% select(TITLE,URL,ABSTRACT,URL,DOI)
+```
+
+
+Replacing missing abstracts
+```
+DOI = 10.1007/3-540-28433-8_9
+https://www.scholars.northwestern.edu/en/publications/applications-of-intelligent-technologies-in-retail-marketing
+Abstract: Over the last two decades, various \"intelligent technologies\" for database analyses have significantly impacted on the design and development of new decision support systems and expert systems in diverse disciplines such as engineering, science, medicine, economics, social sciences and management. So far, however, barring a few noteworthy retailing applications reported in the academic literature, the use of intelligent technologies in retailing management practice is still quite limited. This chapter's objective is to acquaint the reader with the potential of these technologies to provide novel, effective solutions to a number of complex retail management decision problems, as well as stimulating more research and development of such solutions in practice.
+
+DOI = 	10.1057/palgrave.jors.2602597
+https://www.tandfonline.com/doi/full/10.1057/palgrave.jors.2602597
+Abstract: From its foundation, operational research (OR) has made many substantial contributions to practical forecasting in organizations. Equally, researchers in other disciplines have influenced forecasting practice. Since the last survey articles in JORS, forecasting has developed as a discipline with its own journals. While the effect of this increased specialization has been a narrowing of the scope of OR's interest in forecasting, research from an OR perspective remains vigorous. OR has been more receptive than other disciplines to the specialist research published in the forecasting journals, capitalizing on some of their key findings. In this paper, we identify the particular topics of OR interest over the past 25 years. After a brief summary of the current research in forecasting methods, we examine those topic areas that have grabbed the attention of OR researchers: computationally intensive methods and applications in operations and marketing. Applications in operations have proved particularly important, including the management of inventories and the effects of sharing forecast information across the supply chain. The second area of application is marketing, including customer relationship management using data mining and computer-intensive methods. The paper concludes by arguing that the unique contribution that OR can continue to make to forecasting is through developing models that link the effectiveness of new forecasting methods to the organizational context in which the models will be applied. The benefits of examining the system rather than its separate components are likely to be substantial.
+```
+
+```{r}
+abstract = "Over the last two decades, various \"intelligent technologies\" for database analyses have significantly impacted on the design and development of new decision support systems and expert systems in diverse disciplines such as engineering, science, medicine, economics, social sciences and management. So far, however, barring a few noteworthy retailing applications reported in the academic literature, the use of intelligent technologies in retailing management practice is still quite limited. This chapter's objective is to acquaint the reader with the potential of these technologies to provide novel, effective solutions to a number of complex retail management decision problems, as well as stimulating more research and development of such solutions in practice."
+springer$ABSTRACT[springer$DOI=='10.1007/3-540-28433-8_9']=abstract
+
+abstract="From its foundation, operational research (OR) has made many substantial contributions to practical forecasting in organizations. Equally, researchers in other disciplines have influenced forecasting practice. Since the last survey articles in JORS, forecasting has developed as a discipline with its own journals. While the effect of this increased specialization has been a narrowing of the scope of OR's interest in forecasting, research from an OR perspective remains vigorous. OR has been more receptive than other disciplines to the specialist research published in the forecasting journals, capitalizing on some of their key findings. In this paper, we identify the particular topics of OR interest over the past 25 years. After a brief summary of the current research in forecasting methods, we examine those topic areas that have grabbed the attention of OR researchers: computationally intensive methods and applications in operations and marketing. Applications in operations have proved particularly important, including the management of inventories and the effects of sharing forecast information across the supply chain. The second area of application is marketing, including customer relationship management using data mining and computer-intensive methods. The paper concludes by arguing that the unique contribution that OR can continue to make to forecasting is through developing models that link the effectiveness of new forecasting methods to the organizational context in which the models will be applied. The benefits of examining the system rather than its separate components are likely to be substantial."
+springer$ABSTRACT[springer$DOI=='10.1057/palgrave.jors.2602597']=abstract
+```
+
 
 # Web of Knowledge
 ```{r}
@@ -161,8 +257,6 @@ wos$DOI[wos$TITLE=="Churn {Prediction} {Model} for {Effective} {Gym} {Customer} 
 wos$DOI[wos$TITLE=="Using machine learning techniques to preduct defection of top clients"]='10.2495/DATA020491'
 
 ```
-
-
 # Create a dataframe for analysis
 ```{r}
 acm2<-data.table::copy(acm)
@@ -234,40 +328,66 @@ str(data_articles)
 data_articles
 ```
 
-#Final cleanup
-```{r warning=FALSE}
-#Check null abstracts
-#View(data_articles[is.na(data_articles$abstract),])
+#Remove duplicates
+## Check duplicates
 
-missing_abstracts<-data_articles$doi[is.na(data_articles$abstract)]
-missing_abstracts
-
-# science
-# DOI: https://doi.org/10.1016/B978-0-12-804291-5.00027-1 is a book remove
-dim(data_articles)
-data_articles<-data_articles[!data_articles$doi=="https://doi.org/10.1016/B978-0-12-804291-5.00027-1",]
-
-#Vamos remover linhas com NAN doi,source and title
-data_articles<-data_articles[complete.cases(data_articles[,c('doi','source','title')]),]
-
-data_articles$abstract[data_articles$doi=="10.1109/ICSCEE.2018.8538420"] = 'Customer churn refers to when a customer ceases their relationship with a company. A churn rate, used to estimate growth, is now considered as important a metric as financial profit. With growing competition in the market, companies are desperate to keep the churn rate as low as possible. Thus, churn prediction has gained critical importance, not just for existing customers, but also for predicting trends of future customers. This paper demonstrates prediction of churn on a Telco dataset using a Deep Learning Approach. A multilayered Neural Network was designed to build a non-linear classification model. The churn prediction model works on customer features, support features, usage features and contextual features. The possibility of churn as well as the determining factors are predicted. The trained model then applies the final weights on these features and predict the possibility of churn for that customer. An accuracy of 80.03% was achieved. Since the model also provides the churn factors, it can be used by companies to analyze the reasons for these factors and take steps to eliminate them.'
-
-#doi 10.2174/1874479611003010028
-data_articles$abstract[data_articles$doi=="10.2174/1874479611003010028"] = 'Customer churn prediction is one of the most important problems in customer relationship management (CRM). Its aim is to retain valuable customers to maximize the profit of a company. To predict whether a customer will be a churner or non-churner, there are a number of data mining techniques applied for churn prediction, such as artificial neural networks, decision trees, and support vector machines. This paper reviews some recent patents along with 21 related studies published from 2000 to 2009 and compares them in terms of the domain dataset used, data pre-processing and prediction techniques considered, etc. Future research issues are discussed.'
-
-dim(data_articles)
-
-str(data_articles)
-head(data_articles[data_articles$year==2021,])
-
-data_articles <- data_articles[!data_articles$year==2021,]
-
-
+```{r include=FALSE}
+unique(data_articles$title)
+```
+## Remove { replacing by ''
+```{r}
 # Remove { or } from title
 # Escape metacaracthers in R is with \\
 data_articles$title<-gsub("\\{|\\}","",data_articles$title)
 data_articles$author<-gsub("\\{|\\}","",data_articles$author)
 
+```
+```{r include=FALSE}
+unique(data_articles$title)
+```
+```{r}
+dim(data_articles)
+length(unique(data_articles$title))
+```
+## Remove duplicates
+```{r}
+data_articles_w_duplicates<-data_articles %>% distinct(title,.keep_all = TRUE)
+dim(data_articles_w_duplicates)
+```
+
+#Final cleanup
+```{r warning=FALSE}
+#Check null abstracts
+#View(data_articles[is.na(data_articles$abstract),])
+
+missing_abstracts<-data_articles_w_duplicates$doi[is.na(data_articles_w_duplicates$abstract)]
+missing_abstracts
+
+# science
+# DOI: https://doi.org/10.1016/B978-0-12-804291-5.00027-1 is a book remove
+dim(data_articles_w_duplicates)
+data_articles_w_duplicates<-data_articles_w_duplicates[!data_articles_w_duplicates$doi=="https://doi.org/10.1016/B978-0-12-804291-5.00027-1",]
+
+#Vamos remover linhas com NAN doi,source and title
+data_articles_w_duplicates<-data_articles_w_duplicates[complete.cases(data_articles_w_duplicates[,c('doi','source','title')]),]
+
+# DOI: https://doi.org/10.1016/j.fueleneab.2020.07.002 is a book remove
+data_articles_w_duplicates<-data_articles_w_duplicates[!data_articles_w_duplicates$doi=="https://doi.org/10.1016/j.fueleneab.2020.07.002",]
+
+# DOI: https://doi.org/10.3182/20050703-6-CZ-1902.00001 book remove
+data_articles_w_duplicates<-data_articles_w_duplicates[!data_articles_w_duplicates$doi=="https://doi.org/10.3182/20050703-6-CZ-1902.00001",]
+
+# DOI: https://doi.org/10.3182/20090630-4-ES-2003.90003 book remove
+data_articles_w_duplicates<-data_articles_w_duplicates[!data_articles_w_duplicates$doi=="https://doi.org/10.3182/20090630-4-ES-2003.90003",]
+
+# DOI: https://doi.org/10.1016/S1877-0509(17)31783-0 book remove
+data_articles_w_duplicates<-data_articles_w_duplicates[!data_articles_w_duplicates$doi=="https://doi.org/10.1016/S1877-0509(17)31783-0",]
+
+
+
+
+dim(data_articles_w_duplicates)
+str(data_articles_w_duplicates)
 
 ```
 
@@ -285,8 +405,8 @@ print(paste('all',dim(data_articles)[1]))
 # Articles by source
 ```{r barplot_source, warning=FALSE}
 #Create contigency table for source column
-unique(data_articles$source)
-tb<-table(data_articles$source)
+unique(data_articles_w_duplicates$source)
+tb<-table(data_articles_w_duplicates$source)
 #Change names
 tb
 names(tb)
@@ -303,93 +423,57 @@ text(x = bb,y = tb+10,labels = tb)
 # Articles by year
 ```{r barplot_year, warning=FALSE}
 #Create contigency table for source column
-unique(data_articles$year)
-tb<-table(data_articles$year)
+unique(data_articles_w_duplicates$year)
+tb<-table(data_articles_w_duplicates$year)
 #Change names
 tb
 # barplot with articles by year
-bb<-barplot(height = tb,ylim = c(0,250),las=1)
+bb<-barplot(height = tb,ylim = c(0,100),las=1, main = 'Articles by year')
 text(x = bb,y = tb+10,labels = tb)
 ```
 
 
 # Export
-```{r}
+```{r warning=FALSE}
 library(xlsx)
 
-write.xlsx(data_articles,'data_articles.xlsx')
+write.xlsx(data_articles_w_duplicates,'data_articles_w_duplicates.xlsx')
+
+```
+```{r warning=FALSE}
+df2bib(data_articles_w_duplicates,file = 'data_articles_w_duplicates.bib')
 
 ```
 
-
-# Remove duplicates
-```{r}
-print(paste('Articles:',nrow(data_articles)))
-
-temp<-data_articles %>% distinct(doi,.keep_all = TRUE)
-
-
-```
-
-```{r}
-df2bib(data_articles,file = 'data_articles.bib')
-
-```
-
-
-
-# Parsifal Processing
-
-This part is a bit messy. Edit the exported bibtex file and correct some items using sublime the bibtype, because is not placed after '@'. The study was imported to a final list.
-
-1. Export to bibtex to import in Parsifal
-2. The number of articles being processed where 424. Duplicates identified 16.
-3. Exported to articlesParsifal.xls
-
-https://asreview.readthedocs.io/en/latest/datasets.html#data-format
-
-1. Imported articles to asreview
-2. Selected randomly some articles as relevant and irrelevant, at least 5 each. ASReview suggests when to stop
-3. [Start reviewing](https://asreview.readthedocs.io/en/latest/quicktour.html#start-reviewing) selecting relevant and irrelevant articles, when starts only to suggest irrelevant articles whe can stop
-4. Stop the review when [stopping criterium](https://asreview.readthedocs.io/en/latest/quicktour.html#stop-reviewing) "ASReview orders the publications in such a way that you see the most relevant publications first. In other words, there is a point where you can be confident that you have seen (almost) all publications you need, and you can stop reviewing. When to stop is left to the user. A stopping criterium could be stopping after the last X presented abstracts were labeled irrelevant, or if your time is up. You can use the chart in the statistics panel to follow your progress"
+# ASReview processing
 
 Data requirements for ASReview:
 * title 
 * abstract 
 
+https://asreview.readthedocs.io/en/latest/datasets.html#data-format
 
-```{r}
-# Bibtex export Parsifal
-df2bib(data_articles,file = 'articles/parsifal_data_articles.bib')
-
-# 
-data_parsifal<-read.xlsx('articles/articlesParsifal.xls',sheetIndex = 1)
-
-
-data_parsifal<-data_parsifal %>% filter(status=='Accepted') %>% select(title, abstract, author, doi)
-
-# format to asreview
-names(data_parsifal)<-c('title','abstract','authors','doi')
-
-write.xlsx(data_parsifal,'articles/articles_asreview.xlsx')
-
-```
+1. Selected randomly some articles and are identified as relevant and irrelevant, at least 5 each. [Start reviewing](https://asreview.readthedocs.io/en/latest/quicktour.html#start-reviewing);
+2. ASReview orders the publications in such a way that you see the most relevant publications first, simplifying the analysis of the abstracts;
+3. all articles where screened. Although the last 178 didn't identified any relevant articles and that is possible to stop the review when [stopping criterium](https://asreview.readthedocs.io/en/latest/quicktour.html#stop-reviewing) "ASReview orders the publications in such a way that you see the most relevant publications first. In other words, there is a point where you can be confident that you have seen (almost) all publications you need, and you can stop reviewing. When to stop is left to the user. A stopping criterium could be stopping after the last X presented abstracts were labeled irrelevant, or if your time is up. You can use the chart in the statistics panel to follow your progress"
 
 #ASReview final dataset
 
-The analysis with ASReview endeded with 81 articles until we find a stop criterium
+The analysis with ASReview endeded with 92 articles until we find a stop criterium
 
-![Caption for the picture.](asreview/capture_final.png)
+![Caption for the picture.](asreview/capture_final2.png)
 
 Select only select articles
 ```{r}
-data_asreview <- read.xlsx2(file = "asreview/asreview_result_dropout-prediction-a-systematic-literature-review.xlsx",sheetIndex = 1,)
+data_asreview <- read.xlsx2(file = "asreview/asreview_result_dropout-prediction-a-systematic-literature-review-v3_FINAL.xlsx",sheetIndex = 1,)
 str(data_asreview)
 data_asreview <- data_asreview[data_asreview$final_included==1,]
 
 str(data_asreview)
 
 ```
+# Copy DOIs to clipboard to import to Zotero
+
 ```{r}
 text<-as.character(data_asreview$doi)
 text
@@ -399,12 +483,11 @@ writeClipboard(text)
 length(text)
 ```
 
-# Final list 78 records 
+# Final list 91 records 
 
 ```{r}
 data_asreview %>% select(title,doi) %>% distinct(title,.keep_all = TRUE) %>% arrange(title)
 ```
 
-
-EXPORT THE FINAL LIST TO DO T
+# Merge ASReview selected articles with existing data for final analysis
 

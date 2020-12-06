@@ -1,0 +1,135 @@
+
+JavaScript is disabled on your browser. Please enable JavaScript to use all the features on this page. Skip to main content Skip to article
+Elsevier logo ScienceDirect
+
+    Journals & Books 
+
+Pedro Sobreiro
+Brought to you by: B-on Consortium of Portugal
+ 
+Download full text in PDF Download
+Share
+Export
+Advanced
+Outline
+
+    Abstract
+    Keywords
+    References 
+
+Elsevier
+Procedia Computer Science
+Volume 31 , 2014, Pages 423-430
+Procedia Computer Science
+Prediction of Customer Attrition of Commercial Banks based on SVM Model ☆
+Author links open overlay panel Benlan He a b Yong Shi c Qian Wan d Xi Zhao c
+Show more
+https://doi.org/10.1016/j.procs.2014.05.286 Get rights and content
+Under a Creative Commons license
+open access
+Abstract
+
+Currently, Chinese commercial banks are facing triple tremendous pressure, including financial disintermediation, interest rate marketization and Internet finance. Meanwhile, increasing financial consumption demand of customers further intensifies the competition among commercial banks. To increase their profits for continuing operations and enhance the core competitiveness, commercial banks must avoid the loss of customers while acquiring new customers. This paper discusses commercial bank customer churn prediction based on SVM model, and uses random sampling method to improve SVM model, considering the imbalance characteristics of customer data sets. The results show that this method can effectively enhance the prediction accuracy of the selected model.
+
+    Previous article in issue
+    Next article in issue 
+
+Keywords
+SVM Customer Attrition Prediction Random Sampling
+Download full text in PDF
+References
+
+[1]
+    Bhattacharya, C.B. . When customers are members: Customer retention in paid member ship contexts [J] .Journal of the Academy of Marketing Science, 1998, 26(1): 31-44.
+    Google Scholar
+[2]
+    Chandar,M., Laha,A., and Krishna,P. Modeling churn behavior of bank customers using predictive data mining techniques.[J]. National Conference on Soft Computing Techniques for Engineering Applications(SCT-2006). 2006,(3):24-26.
+    Google Scholar
+[3]
+    Popovic,D. and Basic, B.D.Churn Prediction Model in Retail Banking Using Fuzzy C-Means Algorithm[J].Informatica:2009(33):243-247.
+    Google Scholar
+[4]
+    Prasad,D. and Madhavi, S. Prediction of Churn Behavior of Bank Customer Customers Using Data Mining Tools[J].Business Intelligence Journal.2012,5(1):96-101.
+    Google Scholar
+[5]
+    Burez,J. and Poel, D.V.Handling Class Imbalance in Customer Churn Prediction[J]. Expert System with Applications.2009(36):4626-4636.
+    Google Scholar
+[6]
+    Xie,Y.Y.,Li,X.,Ngai,E.W.T. and Ying Weiyun. Customer Churn Prediction Using Improved Balanced Random Forests[J].Expert Systems with Applications. 2009(36):5445-5449.
+    Google Scholar
+[7]
+    Chiang,D.,Wang,Y., Lee,S., and Lin,C. Goal-oriented sequential pattern for Network Banking Churn Analysis. Expert Systems with Applications, 2003,25(3):293-302.
+    Google Scholar
+[8]
+    Mutanen,T.,Ahola,J. and Nousiainen,S.Customer Churn Prediction-A Case Study in Retail Banking[C]. ECML/PKDD2006 Workshop.2006:13-18.
+    Google Scholar
+[9]
+    Zhao,J. and Dang X.H.Bank Customer Churn Prediction Based on Support Vector Machine: Taking a Commercial Bank's VIP Customer Churn as the Example[J].IEEE. 2008:1-4.
+    Google Scholar
+[10]
+    Vapnik,V.N.The Nature of Statistical Learning Theory[M]. New York: Springer.1995.
+    Google Scholar
+[11]
+    Drummond,C., Holte,R.C.C4.5, Class Imbalance, and cost sensitivity: Why under-sampling beats over-sampling. Workshop on Learning from Imbalanced data sets II, International Conference on Machine Learning.
+    Google Scholar
+[12]
+    Ling,C., Li,C.Data Mining for Direct Marketing problems and solutions. Proceedings of the fourth international conference on knowledge discovery and data mining. New York, NY:AAAI Press.
+    Google Scholar
+[13]
+    Chen,C.,Liaw,A. And Breiman, L. Using Random Forests to Learn Imbalanced Data[J]. Technical Report666, Statistics Department, University of California at Berkeley, 2004.
+    Google Scholar
+
+☆
+
+    Selection and peer-review under responsibility of the Organizing Committee of ITQM 2014.
+
+View Abstract
+Copyright © 2014 Published by Elsevier B.V.
+Part of special issue:
+2nd International Conference on Information Technology and Quantitative Management, ITQM 2014
+Edited by
+Yong Shi , Alexander Lepskiy , Fuad Aleskerov
+Download full issue
+Other articles from this issue
+
+    Predicting Caesarean Section by Applying Nearest Neighbor Analysis
+    2014, pp.
+    Download PDF View details
+    Optimizing the Electric Charge Station Network of EŞARJ
+    2014, pp.
+    Download PDF View details
+    Rule-based Expert Systems for Supporting University Students
+    2014, pp.
+    Download PDF View details
+
+View more articles
+Recommended articles
+Citing articles (26)
+Article Metrics
+Citations
+
+    Citation Indexes: 25 
+
+Captures
+
+    Exports-Saves: 6
+    Readers: 92 
+
+View details
+Elsevier logo
+
+    About ScienceDirect
+    Remote access
+    Shopping cart
+    Advertise
+    Contact and support
+    Terms and conditions
+    Privacy policy 
+
+We use cookies to help provide and enhance our service and tailor content and ads. By continuing you agree to the use of cookies .
+
+Copyright © 2020 Elsevier B.V. or its licensors or contributors. ScienceDirect ® is a registered trademark of Elsevier B.V.
+
+ScienceDirect ® is a registered trademark of Elsevier B.V.
+PDF Help
+View PDF

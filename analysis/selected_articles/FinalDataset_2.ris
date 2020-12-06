@@ -1,0 +1,2222 @@
+TY  - CONF
+TI  - A Case Study for the Churn Prediction in Turksat Internet Service Subscription
+AU  - Gök, Mehmet
+AU  - Özyer, Tansel
+AU  - Jida, Jamal
+T2  - the 2015 IEEE/ACM International Conference
+C1  - Paris, France
+C3  - Proceedings of the 2015 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining 2015 - ASONAM '15
+DA  - 2015///
+PY  - 2015
+DO  - 10.1145/2808797.2808821
+DP  - DOI.org (Crossref)
+SP  - 1220
+EP  - 1224
+LA  - en
+PB  - ACM Press
+SN  - 978-1-4503-3854-7
+UR  - http://dl.acm.org/citation.cfm?doid=2808797.2808821
+Y2  - 2020/11/02/16:47:43
+L1  - https://dl.acm.org/doi/pdf/10.1145/2808797.2808821
+ER  - 
+
+TY  - CONF
+TI  - Churn prediction model for effective gym customer retention
+AU  - Semrl, Jas
+AU  - Matei, Alexandru
+T2  - 2017 International Conference on Behavioral, Economic, Socio-cultural Computing (BESC)
+C1  - Krakow
+C3  - 2017 International Conference on Behavioral, Economic, Socio-cultural Computing (BESC)
+DA  - 2017/10//
+PY  - 2017
+DO  - 10.1109/BESC.2017.8256385
+DP  - DOI.org (Crossref)
+SP  - 1
+EP  - 3
+PB  - IEEE
+SN  - 978-1-5386-2365-7
+UR  - http://ieeexplore.ieee.org/document/8256385/
+Y2  - 2020/11/02/16:47:45
+L1  - https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=8256385&ref=
+ER  - 
+
+TY  - JOUR
+TI  - Applying data mining to telecom churn management
+AU  - Hung, Shin-Yuan
+AU  - Yen, David C.
+AU  - Wang, Hsiu-Yu
+T2  - Expert Systems with Applications
+DA  - 2006/10//
+PY  - 2006
+DO  - 10.1016/j.eswa.2005.09.080
+DP  - DOI.org (Crossref)
+VL  - 31
+IS  - 3
+SP  - 515
+EP  - 524
+J2  - Expert Systems with Applications
+LA  - en
+SN  - 09574174
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0957417405002654
+Y2  - 2020/11/02/16:48:16
+L1  - https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1232&context=pacis2004
+ER  - 
+
+TY  - JOUR
+TI  - Estimating the effect of word of mouth on churn and cross-buying in the mobile phone market with Markov logic networks
+AU  - Dierkes, Torsten
+AU  - Bichler, Martin
+AU  - Krishnan, Ramayya
+T2  - Decision Support Systems
+DA  - 2011/06//
+PY  - 2011
+DO  - 10.1016/j.dss.2011.01.002
+DP  - DOI.org (Crossref)
+VL  - 51
+IS  - 3
+SP  - 361
+EP  - 371
+J2  - Decision Support Systems
+LA  - en
+SN  - 01679236
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0167923611000273
+Y2  - 2020/11/02/16:48:27
+L1  - https://dss.in.tum.de/files/bichler-research/2011_dierkes_markov_logic_networks.pdf
+ER  - 
+
+TY  - CONF
+TI  - Customer Churn Prediction for a Software-as-a-Service Inventory Management Software Company: A Case Study in Thailand
+AU  - Amornvetchayakul, Phongsatorn
+AU  - Phumchusri, Naragain
+T2  - 2020 IEEE 7th International Conference on Industrial Engineering and Applications (ICIEA)
+C1  - Bangkok, Thailand
+C3  - 2020 IEEE 7th International Conference on Industrial Engineering and Applications (ICIEA)
+DA  - 2020/04//
+PY  - 2020
+DO  - 10.1109/ICIEA49774.2020.9102099
+DP  - DOI.org (Crossref)
+SP  - 514
+EP  - 518
+PB  - IEEE
+SN  - 978-1-72816-785-5
+ST  - Customer Churn Prediction for a Software-as-a-Service Inventory Management Software Company
+UR  - https://ieeexplore.ieee.org/document/9102099/
+Y2  - 2020/11/02/16:48:33
+L1  - https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=9102099&ref=
+ER  - 
+
+TY  - JOUR
+TI  - Micro- and macro-level churn analysis of large-scale mobile games
+AU  - Liu, Xi
+AU  - Xie, Muhe
+AU  - Wen, Xidao
+AU  - Chen, Rui
+AU  - Ge, Yong
+AU  - Duffield, Nick
+AU  - Wang, Na
+T2  - Knowledge and Information Systems
+DA  - 2020/04//
+PY  - 2020
+DO  - 10.1007/s10115-019-01394-7
+DP  - DOI.org (Crossref)
+VL  - 62
+IS  - 4
+SP  - 1465
+EP  - 1496
+J2  - Knowl Inf Syst
+LA  - en
+SN  - 0219-1377, 0219-3116
+UR  - http://link.springer.com/10.1007/s10115-019-01394-7
+Y2  - 2020/11/02/16:48:37
+L1  - https://arxiv.org/pdf/1901.06247
+ER  - 
+
+TY  - JOUR
+TI  - Estimating customer churn under competing risks
+AU  - Routh, Pallav
+AU  - Roy, Arkajyoti
+AU  - Meyer, Jeff
+T2  - Journal of the Operational Research Society
+DA  - 2020/08/06/
+PY  - 2020
+DO  - 10.1080/01605682.2020.1776166
+DP  - DOI.org (Crossref)
+SP  - 1
+EP  - 18
+J2  - Journal of the Operational Research Society
+LA  - en
+SN  - 0160-5682, 1476-9360
+UR  - https://www.tandfonline.com/doi/full/10.1080/01605682.2020.1776166
+Y2  - 2020/11/02/16:48:53
+L1  - https://www.tandfonline.com/doi/pdf/10.1080/01605682.2020.1776166
+ER  - 
+
+TY  - JOUR
+TI  - An efficient system for customer churn prediction through particle swarm optimization based feature selection model with simulated annealing
+AU  - Vijaya, J.
+AU  - Sivasankar, E.
+T2  - Cluster Computing
+DA  - 2019/09//
+PY  - 2019
+DO  - 10.1007/s10586-017-1172-1
+DP  - DOI.org (Crossref)
+VL  - 22
+IS  - S5
+SP  - 10757
+EP  - 10768
+J2  - Cluster Comput
+LA  - en
+SN  - 1386-7857, 1573-7543
+UR  - http://link.springer.com/10.1007/s10586-017-1172-1
+Y2  - 2020/11/02/16:48:56
+L1  - https://link.springer.com/content/pdf/10.1007%252Fs10586-017-1172-1.pdf
+ER  - 
+
+TY  - CONF
+TI  - Churn Prediction in Banking System using K-Means, LOF, and CBLOF
+AU  - Ullah, Irfan
+AU  - Hussain, Hameed
+AU  - Ali, Iftikhar
+AU  - Liaquat, Anum
+T2  - 2019 International Conference on Electrical, Communication, and Computer Engineering (ICECCE)
+C1  - Swat, Pakistan
+C3  - 2019 International Conference on Electrical, Communication, and Computer Engineering (ICECCE)
+DA  - 2019/07//
+PY  - 2019
+DO  - 10.1109/ICECCE47252.2019.8940667
+DP  - DOI.org (Crossref)
+SP  - 1
+EP  - 6
+PB  - IEEE
+SN  - 978-1-72813-825-1
+UR  - https://ieeexplore.ieee.org/document/8940667/
+Y2  - 2020/11/02/16:48:59
+L1  - https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=8940667&ref=
+ER  - 
+
+TY  - JOUR
+TI  - Behavioral attributes and financial churn prediction
+AU  - Kaya, Erdem
+AU  - Dong, Xiaowen
+AU  - Suhara, Yoshihiko
+AU  - Balcisoy, Selim
+AU  - Bozkaya, Burcin
+AU  - Pentland, Alex “Sandy”
+T2  - EPJ Data Science
+DA  - 2018/12//
+PY  - 2018
+DO  - 10.1140/epjds/s13688-018-0165-5
+DP  - DOI.org (Crossref)
+VL  - 7
+IS  - 1
+SP  - 41
+J2  - EPJ Data Sci.
+LA  - en
+SN  - 2193-1127
+UR  - https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-018-0165-5
+Y2  - 2020/11/02/16:49:03
+L1  - https://epjdatascience.springeropen.com/track/pdf/10.1140/epjds/s13688-018-0165-5
+ER  - 
+
+TY  - CONF
+TI  - Customer Churn Prediction Modelling Based on Behavioural Patterns Analysis using Deep Learning
+AU  - Agrawal, Sanket
+AU  - Das, Aditya
+AU  - Gaikwad, Amit
+AU  - Dhage, Sudhir
+T2  - 2018 International Conference on Smart Computing and Electronic Enterprise (ICSCEE)
+C1  - Shah Alam
+C3  - 2018 International Conference on Smart Computing and Electronic Enterprise (ICSCEE)
+DA  - 2018/07//
+PY  - 2018
+DO  - 10.1109/ICSCEE.2018.8538420
+DP  - DOI.org (Crossref)
+SP  - 1
+EP  - 6
+PB  - IEEE
+SN  - 978-1-5386-4836-0 978-1-5386-4838-4
+UR  - https://ieeexplore.ieee.org/document/8538420/
+Y2  - 2020/11/02/16:49:07
+L1  - https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=8538420&ref=
+ER  - 
+
+TY  - CONF
+TI  - An innovative optimized model to anticipate clients about immigration in telecom industry
+AU  - Naik, Midde Venkateswarlu
+AU  - Reddy, Sareddy Shiva
+T2  - 2017 3rd International Conference on Applied and Theoretical Computing and Communication Technology (iCATccT)
+C1  - Tumkur
+C3  - 2017 3rd International Conference on Applied and Theoretical Computing and Communication Technology (iCATccT)
+DA  - 2017/12//
+PY  - 2017
+DO  - 10.1109/ICATCCT.2017.8389139
+DP  - DOI.org (Crossref)
+SP  - 232
+EP  - 236
+PB  - IEEE
+SN  - 978-1-5386-1144-9
+UR  - https://ieeexplore.ieee.org/document/8389139/
+Y2  - 2020/11/02/16:49:10
+L1  - https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=8389139&ref=
+ER  - 
+
+TY  - JOUR
+TI  - On the operational efficiency of different feature types for telco Churn prediction
+AU  - Mitrović, Sandra
+AU  - Baesens, Bart
+AU  - Lemahieu, Wilfried
+AU  - De Weerdt, Jochen
+T2  - European Journal of Operational Research
+DA  - 2018/06//
+PY  - 2018
+DO  - 10.1016/j.ejor.2017.12.015
+DP  - DOI.org (Crossref)
+VL  - 267
+IS  - 3
+SP  - 1141
+EP  - 1155
+J2  - European Journal of Operational Research
+LA  - en
+SN  - 03772217
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0377221717311177
+Y2  - 2020/11/02/16:49:13
+L1  - https://eprints.soton.ac.uk/418897/1/On_the_Operational_Efficiency_of_Different_Feature_Types_for_Telco_Churn_Prediction_.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Profit-Based Model Selection for Customer Retention Using Individual Customer Lifetime Values
+AU  - Óskarsdóttir, María
+AU  - Baesens, Bart
+AU  - Vanthienen, Jan
+T2  - Big Data
+DA  - 2018/03//
+PY  - 2018
+DO  - 10.1089/big.2018.0015
+DP  - DOI.org (Crossref)
+VL  - 6
+IS  - 1
+SP  - 53
+EP  - 65
+J2  - Big Data
+LA  - en
+SN  - 2167-6461, 2167-647X
+UR  - http://www.liebertpub.com/doi/10.1089/big.2018.0015
+Y2  - 2020/11/02/16:49:16
+L1  - https://eprints.soton.ac.uk/421340/1/Profit_based_model_selection_for_customer_retention_using_individual_customer_lifetime_values.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Retention Futility: Targeting High-Risk Customers Might be Ineffective
+AU  - Ascarza, Eva
+T2  - Journal of Marketing Research
+AB  - Companies in a variety of sectors are increasingly managing customer churn proactively, generally by detecting customers at the highest risk of churning and targeting retention efforts towards them. While there is a vast literature on developing churn prediction models that identify customers at the highest risk of churning, no research has investigated whether it is indeed optimal to target those individuals. Combining two field experiments with machine learning techniques, the author demonstrates that customers identified as having the highest risk of churning are not necessarily the best targets for proactive churn programs. This finding is not only contrary to common wisdom but also suggests that retention programs are sometimes futile not because firms offer the wrong incentives but because they do not apply the right targeting rules. Accordingly, firms should focus their modeling efforts on identifying the observed heterogeneity in response to the intervention and to target customers on the basis of their sensitivity to the intervention, regardless of their risk of churning. This approach is empirically demonstrated to be significantly more effective than the standard practice of targeting customers with the highest risk of churning. More broadly, the author encourages firms and researchers using randomized trials (or A/B tests) to look beyond the average effect of interventions and leverage the observed heterogeneity in customers' response to select customer targets.
+DA  - 2018/02//
+PY  - 2018
+DO  - 10.1509/jmr.16.0163
+DP  - DOI.org (Crossref)
+VL  - 55
+IS  - 1
+SP  - 80
+EP  - 98
+J2  - Journal of Marketing Research
+LA  - en
+SN  - 0022-2437, 1547-7193
+ST  - Retention Futility
+UR  - http://journals.sagepub.com/doi/10.1509/jmr.16.0163
+Y2  - 2020/11/02/16:49:19
+ER  - 
+
+TY  - JOUR
+TI  - Benchmarking sampling techniques for imbalance learning in churn prediction
+AU  - Zhu, Bing
+AU  - Baesens, Bart
+AU  - Backiel, Aimée
+AU  - vanden Broucke, Seppe K. L. M.
+T2  - Journal of the Operational Research Society
+DA  - 2018/01/02/
+PY  - 2018
+DO  - 10.1057/s41274-016-0176-1
+DP  - DOI.org (Crossref)
+VL  - 69
+IS  - 1
+SP  - 49
+EP  - 65
+J2  - Journal of the Operational Research Society
+LA  - en
+SN  - 0160-5682, 1476-9360
+UR  - https://www.tandfonline.com/doi/full/10.1057/s41274-016-0176-1
+Y2  - 2020/11/02/16:49:21
+L1  - https://eprints.soton.ac.uk/421167/1/Benchmarking_sampling_techniques_for_imbalance_learning_in_churn_prediction.pdf
+ER  - 
+
+TY  - CHAP
+TI  - Churn and Non-churn of Customers in Banking Sector Using Extreme Learning Machine
+AU  - Mohanty, Ramakanta
+AU  - Naga Ratna Sree, C.
+T2  - Proceedings of the Second International Conference on Computational Intelligence and Informatics
+A2  - Bhateja, Vikrant
+A2  - Tavares, João Manuel R.S.
+A2  - Rani, B. Padmaja
+A2  - Prasad, V. Kamakshi
+A2  - Raju, K. Srujan
+CY  - Singapore
+DA  - 2018///
+PY  - 2018
+DP  - DOI.org (Crossref)
+VL  - 712
+SP  - 51
+EP  - 58
+PB  - Springer Singapore
+SN  - 978-981-10-8227-6 978-981-10-8228-3
+UR  - http://link.springer.com/10.1007/978-981-10-8228-3_6
+Y2  - 2020/11/02/16:49:24
+ER  - 
+
+TY  - CONF
+TI  - Scalable RFM-enriched Representation Learning for Churn Prediction
+AU  - Mitrovic, Sandra
+AU  - Singh, Gaurav
+AU  - Baesens, Bart
+AU  - Lemahieu, Wilfried
+AU  - de Weerdt, Jochen
+T2  - 2017 IEEE International Conference on Data Science and Advanced Analytics (DSAA)
+C1  - Tokyo, Japan
+C3  - 2017 IEEE International Conference on Data Science and Advanced Analytics (DSAA)
+DA  - 2017/10//
+PY  - 2017
+DO  - 10.1109/DSAA.2017.42
+DP  - DOI.org (Crossref)
+SP  - 79
+EP  - 88
+PB  - IEEE
+SN  - 978-1-5090-5004-8
+UR  - http://ieeexplore.ieee.org/document/8259766/
+Y2  - 2020/11/02/16:49:28
+L1  - https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=8259766&ref=
+ER  - 
+
+TY  - JOUR
+TI  - Intelligent data analysis approaches to churn as a business problem: a survey
+AU  - García, David L.
+AU  - Nebot, Àngela
+AU  - Vellido, Alfredo
+T2  - Knowledge and Information Systems
+DA  - 2017/06//
+PY  - 2017
+DO  - 10.1007/s10115-016-0995-z
+DP  - DOI.org (Crossref)
+VL  - 51
+IS  - 3
+SP  - 719
+EP  - 774
+J2  - Knowl Inf Syst
+LA  - en
+SN  - 0219-1377, 0219-3116
+ST  - Intelligent data analysis approaches to churn as a business problem
+UR  - http://link.springer.com/10.1007/s10115-016-0995-z
+Y2  - 2020/11/02/16:49:31
+L1  - https://upcommons.upc.edu/bitstream/2117/104247/3/DGarcia_etal_resubmit-2016-5-3-v2.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Comparison of supervised machine learning techniques for customer churn prediction based on analysis of customer behavior
+AU  - Khodabandehlou, Samira
+AU  - Zivari Rahman, Mahmoud
+T2  - Journal of Systems and Information Technology
+DA  - 2017/03/13/
+PY  - 2017
+DO  - 10.1108/JSIT-10-2016-0061
+DP  - DOI.org (Crossref)
+VL  - 19
+IS  - 1/2
+SP  - 65
+EP  - 93
+J2  - J of Systems and Info Tech
+LA  - en
+SN  - 1328-7265
+UR  - https://www.emerald.com/insight/content/doi/10.1108/JSIT-10-2016-0061/full/html
+Y2  - 2020/11/02/16:49:40
+ER  - 
+
+TY  - CONF
+TI  - Churn Prediction in Mobile Social Games: Towards a Complete Assessment Using Survival Ensembles
+AU  - Perianez, Africa
+AU  - Saas, Alain
+AU  - Guitart, Anna
+AU  - Magne, Colin
+T2  - 2016 IEEE International Conference on Data Science and Advanced Analytics (DSAA)
+C1  - Montreal, QC, Canada
+C3  - 2016 IEEE International Conference on Data Science and Advanced Analytics (DSAA)
+DA  - 2016/10//
+PY  - 2016
+DO  - 10.1109/DSAA.2016.84
+DP  - DOI.org (Crossref)
+SP  - 564
+EP  - 573
+PB  - IEEE
+SN  - 978-1-5090-5206-6
+ST  - Churn Prediction in Mobile Social Games
+UR  - http://ieeexplore.ieee.org/document/7796943/
+Y2  - 2020/11/02/16:49:41
+L1  - https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=7796943&ref=
+ER  - 
+
+TY  - CONF
+TI  - Application of Computational Intelligence to Predict Churn and Non-Churn of Customers in Indian Telecommunication
+AU  - Mohanty, Ramakanta
+AU  - Rani, K. Jhansi
+T2  - 2015 International Conference on Computational Intelligence and Communication Networks (CICN)
+C1  - Jabalpur, India
+C3  - 2015 International Conference on Computational Intelligence and Communication Networks (CICN)
+DA  - 2015/12//
+PY  - 2015
+DO  - 10.1109/CICN.2015.123
+DP  - DOI.org (Crossref)
+SP  - 598
+EP  - 603
+PB  - IEEE
+SN  - 978-1-5090-0076-0
+UR  - http://ieeexplore.ieee.org/document/7546164/
+Y2  - 2020/11/02/16:49:45
+L1  - https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=7546164&ref=
+ER  - 
+
+TY  - CONF
+TI  - Churn perdiction in the telecom business
+AU  - Esteves, Georgina
+AU  - Mendes-Moreira, Joao
+T2  - 2016 Eleventh International Conference on Digital Information Management (ICDIM)
+C1  - Porto, Portugal
+C3  - 2016 Eleventh International Conference on Digital Information Management (ICDIM)
+DA  - 2016/09//
+PY  - 2016
+DO  - 10.1109/ICDIM.2016.7829775
+DP  - DOI.org (Crossref)
+SP  - 254
+EP  - 259
+PB  - IEEE
+SN  - 978-1-5090-2641-8
+UR  - http://ieeexplore.ieee.org/document/7829775/
+Y2  - 2020/11/02/16:49:47
+L1  - https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=7829775&ref=
+ER  - 
+
+TY  - JOUR
+TI  - Feature-selection-based dynamic transfer ensemble model for customer churn prediction
+AU  - Xiao, Jin
+AU  - Xiao, Yi
+AU  - Huang, Anqiang
+AU  - Liu, Dunhu
+AU  - Wang, Shouyang
+T2  - Knowledge and Information Systems
+DA  - 2015/04//
+PY  - 2015
+DO  - 10.1007/s10115-013-0722-y
+DP  - DOI.org (Crossref)
+VL  - 43
+IS  - 1
+SP  - 29
+EP  - 51
+J2  - Knowl Inf Syst
+LA  - en
+SN  - 0219-1377, 0219-3116
+UR  - http://link.springer.com/10.1007/s10115-013-0722-y
+Y2  - 2020/11/02/16:49:55
+L1  - https://link.springer.com/content/pdf/10.1007%2Fs10115-013-0722-y.pdf
+ER  - 
+
+TY  - JOUR
+TI  - The Importance of Social Embeddedness: Churn Models at Mobile Providers: Social Embeddedness and Churn
+AU  - Benedek, Gábor
+AU  - Lublóy, Ágnes
+AU  - Vastag, Gyula
+T2  - Decision Sciences
+DA  - 2014/02//
+PY  - 2014
+DO  - 10.1111/deci.12057
+DP  - DOI.org (Crossref)
+VL  - 45
+IS  - 1
+SP  - 175
+EP  - 201
+J2  - Decision Sciences
+LA  - en
+SN  - 00117315
+ST  - The Importance of Social Embeddedness
+UR  - http://doi.wiley.com/10.1111/deci.12057
+Y2  - 2020/11/02/16:50:11
+L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/deci.12057
+ER  - 
+
+TY  - JOUR
+TI  - Profit optimizing customer churn prediction with Bayesian network classifiers
+AU  - Verbraken, Thomas
+AU  - Verbeke, Wouter
+AU  - Baesens, Bart
+T2  - Intelligent Data Analysis
+A2  - Smith-Miles, Kate
+A2  - Weber, Richard
+DA  - 2014/01/01/
+PY  - 2014
+DO  - 10.3233/IDA-130625
+DP  - DOI.org (Crossref)
+VL  - 18
+IS  - 1
+SP  - 3
+EP  - 24
+J2  - IDA
+SN  - 15714128, 1088467X
+UR  - https://www.medra.org/servlet/aliasResolver?alias=iospress&doi=10.3233/IDA-130625
+Y2  - 2020/11/02/16:50:16
+ER  - 
+
+TY  - CONF
+TI  - Applicability of machine-learning techniques in predicting customer defection
+AU  - Prasasti, Niken
+AU  - Ohwada, Hayato
+T2  - 2014 International Symposium on Technology Management and Emerging Technologies (ISTMET)
+C1  - Bandung, Indonesia
+C3  - 2014 International Symposium on Technology Management and Emerging Technologies
+DA  - 2014/05//
+PY  - 2014
+DO  - 10.1109/ISTMET.2014.6936498
+DP  - DOI.org (Crossref)
+SP  - 157
+EP  - 162
+PB  - IEEE
+SN  - 978-1-4799-3704-2 978-1-4799-3703-5
+UR  - http://ieeexplore.ieee.org/document/6936498/
+Y2  - 2020/11/02/16:50:19
+L1  - https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=6936498&ref=
+ER  - 
+
+TY  - JOUR
+TI  - Research on Customers Churn Prediction Model Based on Logistic
+AU  - Jiang, Min
+AU  - Chu, Na
+AU  - Bi, Xiao Ming
+T2  - Advanced Materials Research
+AB  - At present, the competition is increasingly fierce between the securities company, whether can effectively prevent the loss of users, reducing loss rate is a difficult problem at present each securities company urgently needs to solve. The model based on the principle of data mining, proposes a prediction method based on Logistic regression algorithm. Prediction model is built based on Logistic regression algorithm and the validity and accuracy of the model is verified by experiment, provides a new method and thinking for the securities company customer churn prediction.
+DA  - 2014/07//
+PY  - 2014
+DO  - 10.4028/www.scientific.net/AMR.989-994.1517
+DP  - DOI.org (Crossref)
+VL  - 989-994
+SP  - 1517
+EP  - 1521
+J2  - AMR
+SN  - 1662-8985
+UR  - https://www.scientific.net/AMR.989-994.1517
+Y2  - 2020/11/02/16:50:25
+ER  - 
+
+TY  - CHAP
+TI  - Preventing Churn in Telecommunications: The Forgotten Network
+AU  - Radosavljevik, Dejan
+AU  - van der Putten, Peter
+T2  - Advances in Intelligent Data Analysis XII
+A2  - Tucker, Allan
+A2  - Höppner, Frank
+A2  - Siebes, Arno
+A2  - Swift, Stephen
+A3  - Hutchison, David
+A3  - Kanade, Takeo
+A3  - Kittler, Josef
+A3  - Kleinberg, Jon M.
+A3  - Mattern, Friedemann
+A3  - Mitchell, John C.
+A3  - Naor, Moni
+A3  - Nierstrasz, Oscar
+A3  - Pandu Rangan, C.
+A3  - Steffen, Bernhard
+A3  - Sudan, Madhu
+A3  - Terzopoulos, Demetri
+A3  - Tygar, Doug
+A3  - Vardi, Moshe Y.
+A3  - Weikum, Gerhard
+CY  - Berlin, Heidelberg
+DA  - 2013///
+PY  - 2013
+DP  - DOI.org (Crossref)
+VL  - 8207
+SP  - 357
+EP  - 368
+PB  - Springer Berlin Heidelberg
+SN  - 978-3-642-41397-1 978-3-642-41398-8
+ST  - Preventing Churn in Telecommunications
+UR  - http://link.springer.com/10.1007/978-3-642-41398-8_31
+Y2  - 2020/11/02/16:50:38
+ER  - 
+
+TY  - JOUR
+TI  - Customer event history for churn prediction: How long is long enough?
+AU  - Ballings, Michel
+AU  - Van den Poel, Dirk
+T2  - Expert Systems with Applications
+DA  - 2012/12//
+PY  - 2012
+DO  - 10.1016/j.eswa.2012.07.006
+DP  - DOI.org (Crossref)
+VL  - 39
+IS  - 18
+SP  - 13517
+EP  - 13522
+J2  - Expert Systems with Applications
+LA  - en
+SN  - 09574174
+ST  - Customer event history for churn prediction
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0957417412008615
+Y2  - 2020/11/02/16:50:50
+L1  - https://biblio.ugent.be/publication/3120695/file/6784699.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Analytical CRM in banking and finance using SVM: a modified active learning-based rule extraction approach
+AU  - Farquad, M.A.H.
+AU  - Ravi, V.
+AU  - Raju, S. Bapi
+T2  - International Journal of Electronic Customer Relationship Management
+DA  - 2012///
+PY  - 2012
+DO  - 10.1504/IJECRM.2012.046470
+DP  - DOI.org (Crossref)
+VL  - 6
+IS  - 1
+SP  - 48
+J2  - IJECRM
+LA  - en
+SN  - 1750-0664, 1750-0672
+ST  - Analytical CRM in banking and finance using SVM
+UR  - http://www.inderscience.com/link.php?id=46470
+Y2  - 2020/11/02/16:51:10
+ER  - 
+
+TY  - CHAP
+TI  - Improving Customer Churn Prediction by Data Augmentation Using Pictorial Stimulus-Choice Data
+AU  - Ballings, Michel
+AU  - Van den Poel, Dirk
+AU  - Verhagen, Emmanuel
+T2  - Management Intelligent Systems
+A2  - Casillas, Jorge
+A2  - Martínez-López, Francisco J.
+A2  - Corchado Rodríguez, Juan Manuel
+CY  - Berlin, Heidelberg
+DA  - 2012///
+PY  - 2012
+DP  - DOI.org (Crossref)
+VL  - 171
+SP  - 217
+EP  - 226
+PB  - Springer Berlin Heidelberg
+SN  - 978-3-642-30863-5 978-3-642-30864-2
+UR  - http://link.springer.com/10.1007/978-3-642-30864-2_21
+Y2  - 2020/11/02/16:51:20
+L1  - https://biblio.ugent.be/publication/3121106/file/6784745.pdf
+ER  - 
+
+TY  - CONF
+TI  - Transfer Ensemble Model for Customer Churn Prediction with Imbalanced Class Distribution
+AU  - Wang, Yuan
+AU  - Xiao, Jin
+T2  - 2011 International Conference on Information Technology, Computer Engineering and Management Sciences (ICM)
+C1  - Nanjing, Jiangsu, China
+C3  - 2011 International Conference of Information Technology, Computer Engineering and Management Sciences
+DA  - 2011/09//
+PY  - 2011
+DO  - 10.1109/ICM.2011.397
+DP  - DOI.org (Crossref)
+SP  - 177
+EP  - 181
+PB  - IEEE
+SN  - 978-1-4577-1419-1 978-0-7695-4522-6
+UR  - http://ieeexplore.ieee.org/document/6113613/
+Y2  - 2020/11/02/16:51:28
+L1  - https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=6113613&ref=
+ER  - 
+
+TY  - JOUR
+TI  - A fuzzy prediction model for calling communities
+AU  - Kianmehr, Keivan
+AU  - Alhajj, Reda
+T2  - International Journal of Networking and Virtual Organisations
+DA  - 2011///
+PY  - 2011
+DO  - 10.1504/IJNVO.2011.037162
+DP  - DOI.org (Crossref)
+VL  - 8
+IS  - 1/2
+SP  - 75
+J2  - IJNVO
+LA  - en
+SN  - 1470-9503, 1741-5225
+UR  - http://www.inderscience.com/link.php?id=37162
+Y2  - 2020/11/02/16:51:44
+ER  - 
+
+TY  - CHAP
+TI  - Rule Extraction from Support Vector Machine Using Modified Active Learning Based Approach: An Application to CRM
+AU  - Hutchison, David
+AU  - Kanade, Takeo
+AU  - Kittler, Josef
+AU  - Kleinberg, Jon M.
+AU  - Mattern, Friedemann
+AU  - Mitchell, John C.
+AU  - Naor, Moni
+AU  - Nierstrasz, Oscar
+AU  - Pandu Rangan, C.
+AU  - Steffen, Bernhard
+AU  - Sudan, Madhu
+AU  - Terzopoulos, Demetri
+AU  - Tygar, Doug
+AU  - Vardi, Moshe Y.
+AU  - Weikum, Gerhard
+AU  - Farquad, M. A. H.
+AU  - Ravi, V.
+AU  - Raju, S. Bapi
+T2  - Knowledge-Based and Intelligent Information and Engineering Systems
+A2  - Setchi, Rossitza
+A2  - Jordanov, Ivan
+A2  - Howlett, Robert J.
+A2  - Jain, Lakhmi C.
+CY  - Berlin, Heidelberg
+DA  - 2010///
+PY  - 2010
+DP  - DOI.org (Crossref)
+VL  - 6276
+SP  - 461
+EP  - 470
+PB  - Springer Berlin Heidelberg
+SN  - 978-3-642-15386-0 978-3-642-15387-7
+ST  - Rule Extraction from Support Vector Machine Using Modified Active Learning Based Approach
+UR  - http://link.springer.com/10.1007/978-3-642-15387-7_50
+Y2  - 2020/11/02/16:51:48
+ER  - 
+
+TY  - CHAP
+TI  - Data Mining Using Rules Extracted from SVM: An Application to Churn Prediction in Bank Credit Cards
+AU  - Farquad, M. A. H.
+AU  - Ravi, V.
+AU  - Raju, S. Bapi
+T2  - Rough Sets, Fuzzy Sets, Data Mining and Granular Computing
+A2  - Sakai, Hiroshi
+A2  - Chakraborty, Mihir Kumar
+A2  - Hassanien, Aboul Ella
+A2  - Ślęzak, Dominik
+A2  - Zhu, William
+A3  - Hutchison, David
+A3  - Kanade, Takeo
+A3  - Kittler, Josef
+A3  - Kleinberg, Jon M.
+A3  - Mattern, Friedemann
+A3  - Mitchell, John C.
+A3  - Naor, Moni
+A3  - Nierstrasz, Oscar
+A3  - Pandu Rangan, C.
+A3  - Steffen, Bernhard
+A3  - Sudan, Madhu
+A3  - Terzopoulos, Demetri
+A3  - Tygar, Doug
+A3  - Vardi, Moshe Y.
+A3  - Weikum, Gerhard
+CY  - Berlin, Heidelberg
+DA  - 2009///
+PY  - 2009
+DP  - DOI.org (Crossref)
+VL  - 5908
+SP  - 390
+EP  - 397
+LA  - en
+PB  - Springer Berlin Heidelberg
+SN  - 978-3-642-10645-3 978-3-642-10646-0
+ST  - Data Mining Using Rules Extracted from SVM
+UR  - http://link.springer.com/10.1007/978-3-642-10646-0_47
+Y2  - 2020/11/02/16:52:01
+L1  - https://link.springer.com/content/pdf/10.1007%252F978-3-642-10646-0_47.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Handling class imbalance in customer churn prediction
+AU  - Burez, J.
+AU  - Van den Poel, D.
+T2  - Expert Systems with Applications
+DA  - 2009/04//
+PY  - 2009
+DO  - 10.1016/j.eswa.2008.05.027
+DP  - DOI.org (Crossref)
+VL  - 36
+IS  - 3
+SP  - 4626
+EP  - 4636
+J2  - Expert Systems with Applications
+LA  - en
+SN  - 09574174
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0957417408002121
+Y2  - 2020/11/02/16:52:23
+L1  - https://wps-feb.ugent.be/Papers/wp_08_517.pdf
+ER  - 
+
+TY  - CONF
+TI  - Construction of Bayesian Classifiers with GA for Predicting Customer Retention
+AU  - Shao, Hongmei
+AU  - Zheng, Gaofeng
+AU  - An, Fengxian
+T2  - 2008 Fourth International Conference on Natural Computation
+C1  - Jinan, Shandong, China
+C3  - 2008 Fourth International Conference on Natural Computation
+DA  - 2008///
+PY  - 2008
+DO  - 10.1109/ICNC.2008.724
+DP  - DOI.org (Crossref)
+SP  - 181
+EP  - 185
+PB  - IEEE
+SN  - 978-0-7695-3304-9
+UR  - http://ieeexplore.ieee.org/document/4666835/
+Y2  - 2020/11/02/16:52:31
+L1  - https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=4666835&ref=
+ER  - 
+
+TY  - JOUR
+TI  - Separating financial from commercial customer churn: A modeling step towards resolving the conflict between the sales and credit department
+AU  - Burez, J
+AU  - Vandenpoel, D
+T2  - Expert Systems with Applications
+DA  - 2008/07//
+PY  - 2008
+DO  - 10.1016/j.eswa.2007.07.036
+DP  - DOI.org (Crossref)
+VL  - 35
+IS  - 1-2
+SP  - 497
+EP  - 514
+J2  - Expert Systems with Applications
+LA  - en
+SN  - 09574174
+ST  - Separating financial from commercial customer churn
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0957417407002813
+Y2  - 2020/11/02/16:52:34
+L1  - https://wps-feb.ugent.be/Papers/wp_07_476.pdf
+ER  - 
+
+TY  - JOUR
+TI  - CRM at a pay-TV company: Using analytical models to reduce customer attrition by targeted marketing for subscription services
+AU  - Burez, Jonathan
+AU  - Van den Poel, Dirk
+T2  - Expert Systems with Applications
+DA  - 2007/02//
+PY  - 2007
+DO  - 10.1016/j.eswa.2005.11.037
+DP  - DOI.org (Crossref)
+VL  - 32
+IS  - 2
+SP  - 277
+EP  - 288
+J2  - Expert Systems with Applications
+LA  - en
+SN  - 09574174
+ST  - CRM at a pay-TV company
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0957417405003374
+Y2  - 2020/11/02/16:52:40
+L1  - https://wps-feb.ugent.be/Papers/wp_05_348.pdf
+ER  - 
+
+TY  - JOUR
+TI  - A novel evolutionary data mining algorithm with applications to churn prediction
+AU  - Wai-Ho Au
+AU  - Chan, K.C.C.
+AU  - Xin Yao
+T2  - IEEE Transactions on Evolutionary Computation
+DA  - 2003/12//
+PY  - 2003
+DO  - 10.1109/TEVC.2003.819264
+DP  - DOI.org (Crossref)
+VL  - 7
+IS  - 6
+SP  - 532
+EP  - 545
+J2  - IEEE Trans. Evol. Computat.
+LA  - en
+SN  - 1089-778X
+UR  - http://ieeexplore.ieee.org/document/1255389/
+Y2  - 2020/11/02/16:52:43
+L1  - https://www.cs.bham.ac.uk/~xin/papers/published_tec_DM_dec03.pdf
+ER  - 
+
+TY  - CHAP
+TI  - Fuzzy Clustering with Ensemble Classification Techniques to Improve the Customer Churn Prediction in Telecommunication Sector
+AU  - Vijaya, J.
+AU  - Sivasankar, E.
+AU  - Gayathri, S.
+T2  - Recent Developments in Machine Learning and Data Analytics
+A2  - Kalita, Jugal
+A2  - Balas, Valentina Emilia
+A2  - Borah, Samarjeet
+A2  - Pradhan, Ratika
+CY  - Singapore
+DA  - 2019///
+PY  - 2019
+DP  - DOI.org (Crossref)
+VL  - 740
+SP  - 261
+EP  - 274
+PB  - Springer Singapore
+SN  - 9789811312793 9789811312809
+UR  - http://link.springer.com/10.1007/978-981-13-1280-9_25
+Y2  - 2020/11/02/16:52:55
+ER  - 
+
+TY  - CHAP
+TI  - Customer Churn Models: A Comparison of Probability and Data Mining Approaches
+AU  - Jahromi, Ali Tamaddoni
+AU  - Stakhovych, Stanislav
+AU  - Ewing, Michael
+T2  - Looking Forward, Looking Back: Drawing on the Past to Shape the Future of Marketing
+A2  - Campbell, Colin
+A2  - Ma, Junzhao
+CY  - Cham
+DA  - 2016///
+PY  - 2016
+DP  - DOI.org (Crossref)
+SP  - 144
+EP  - 148
+PB  - Springer International Publishing
+SN  - 978-3-319-24182-1 978-3-319-24184-5
+ST  - Customer Churn Models
+UR  - http://link.springer.com/10.1007/978-3-319-24184-5_35
+Y2  - 2020/11/02/16:52:57
+L1  - https://link.springer.com/content/pdf/10.1007%252F978-3-319-24184-5_35.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Hybrid PPFCM-ANN model: an efficient system for customer churn prediction through probabilistic possibilistic fuzzy clustering and artificial neural network
+AU  - Sivasankar, E.
+AU  - Vijaya, J.
+T2  - Neural Computing and Applications
+DA  - 2019/11//
+PY  - 2019
+DO  - 10.1007/s00521-018-3548-4
+DP  - DOI.org (Crossref)
+VL  - 31
+IS  - 11
+SP  - 7181
+EP  - 7200
+J2  - Neural Comput & Applic
+LA  - en
+SN  - 0941-0643, 1433-3058
+ST  - Hybrid PPFCM-ANN model
+UR  - http://link.springer.com/10.1007/s00521-018-3548-4
+Y2  - 2020/11/02/16:52:59
+L1  - https://link.springer.com/content/pdf/10.1007%252Fs00521-018-3548-4.pdf
+ER  - 
+
+TY  - CHAP
+TI  - Ensembles of Probability Estimation Trees for Customer Churn Prediction
+AU  - De Bock, Koen W.
+AU  - Van den Poel, Dirk
+T2  - Trends in Applied Intelligent Systems
+A2  - García-Pedrajas, Nicolás
+A2  - Herrera, Francisco
+A2  - Fyfe, Colin
+A2  - Benítez, José Manuel
+A2  - Ali, Moonis
+CY  - Berlin, Heidelberg
+DA  - 2010///
+PY  - 2010
+DP  - DOI.org (Crossref)
+VL  - 6097
+SP  - 57
+EP  - 66
+PB  - Springer Berlin Heidelberg
+SN  - 978-3-642-13024-3 978-3-642-13025-0
+UR  - http://link.springer.com/10.1007/978-3-642-13025-0_7
+Y2  - 2020/11/02/16:53:01
+L1  - https://biblio.ugent.be/publication/1230867/file/6752294.pdf
+ER  - 
+
+TY  - CHAP
+TI  - Customer Churn Prediction for Broadband Internet Services
+AU  - Huang, B. Q.
+AU  - Kechadi, M-T.
+AU  - Buckley, B.
+T2  - Data Warehousing and Knowledge Discovery
+A2  - Pedersen, Torben Bach
+A2  - Mohania, Mukesh K.
+A2  - Tjoa, A Min
+CY  - Berlin, Heidelberg
+DA  - 2009///
+PY  - 2009
+DP  - DOI.org (Crossref)
+VL  - 5691
+SP  - 229
+EP  - 243
+PB  - Springer Berlin Heidelberg
+SN  - 978-3-642-03729-0 978-3-642-03730-6
+UR  - http://link.springer.com/10.1007/978-3-642-03730-6_19
+Y2  - 2020/11/02/16:53:05
+L1  - https://link.springer.com/content/pdf/10.1007%252F978-3-642-03730-6_19.pdf
+ER  - 
+
+TY  - JOUR
+TI  - A churn prediction model for prepaid customers in telecom using fuzzy classifiers
+AU  - Azeem, Muhammad
+AU  - Usman, Muhammad
+AU  - Fong, A. C. M.
+T2  - Telecommunication Systems
+DA  - 2017/12//
+PY  - 2017
+DO  - 10.1007/s11235-017-0310-7
+DP  - DOI.org (Crossref)
+VL  - 66
+IS  - 4
+SP  - 603
+EP  - 614
+J2  - Telecommun Syst
+LA  - en
+SN  - 1018-4864, 1572-9451
+UR  - http://link.springer.com/10.1007/s11235-017-0310-7
+Y2  - 2020/11/02/16:53:07
+L1  - https://link.springer.com/content/pdf/10.1007%2Fs11235-017-0310-7.pdf
+ER  - 
+
+TY  - CHAP
+TI  - Applying Fuzzy Data Mining to Telecom Churn Management
+AU  - Liao, Kuo-Hsiung
+AU  - Chueh, Hao-En
+T2  - Intelligent Computing and Information Science
+A2  - Chen, Ran
+CY  - Berlin, Heidelberg
+DA  - 2011///
+PY  - 2011
+DP  - DOI.org (Crossref)
+VL  - 134
+SP  - 259
+EP  - 264
+PB  - Springer Berlin Heidelberg
+SN  - 978-3-642-18128-3 978-3-642-18129-0
+UR  - http://link.springer.com/10.1007/978-3-642-18129-0_41
+Y2  - 2020/11/02/16:53:10
+ER  - 
+
+TY  - CHAP
+TI  - A Graph-Based Churn Prediction Model for Mobile Telecom Networks
+AU  - Saravanan, M.
+AU  - Vijay Raajaa, G. S.
+T2  - Advanced Data Mining and Applications
+A2  - Zhou, Shuigeng
+A2  - Zhang, Songmao
+A2  - Karypis, George
+A3  - Hutchison, David
+A3  - Kanade, Takeo
+A3  - Kittler, Josef
+A3  - Kleinberg, Jon M.
+A3  - Mattern, Friedemann
+A3  - Mitchell, John C.
+A3  - Naor, Moni
+A3  - Nierstrasz, Oscar
+A3  - Pandu Rangan, C.
+A3  - Steffen, Bernhard
+A3  - Sudan, Madhu
+A3  - Terzopoulos, Demetri
+A3  - Tygar, Doug
+A3  - Vardi, Moshe Y.
+A3  - Weikum, Gerhard
+CY  - Berlin, Heidelberg
+DA  - 2012///
+PY  - 2012
+DP  - DOI.org (Crossref)
+VL  - 7713
+SP  - 367
+EP  - 382
+PB  - Springer Berlin Heidelberg
+SN  - 978-3-642-35526-4 978-3-642-35527-1
+UR  - http://link.springer.com/10.1007/978-3-642-35527-1_31
+Y2  - 2020/11/02/16:53:12
+ER  - 
+
+TY  - CHAP
+TI  - Bayesian Network Approach to Predict Mobile Churn Motivations: Emphasis on General Bayesian Network, Markov Blanket, and What-If Simulation
+AU  - Lee, Kun Chang
+AU  - Jo, Nam Yong
+T2  - Future Generation Information Technology
+A2  - Kim, Tai-hoon
+A2  - Lee, Young-hoon
+A2  - Kang, Byeong-Ho
+A2  - Ślęzak, Dominik
+CY  - Berlin, Heidelberg
+DA  - 2010///
+PY  - 2010
+DP  - DOI.org (Crossref)
+VL  - 6485
+SP  - 304
+EP  - 313
+PB  - Springer Berlin Heidelberg
+SN  - 978-3-642-17568-8 978-3-642-17569-5
+ST  - Bayesian Network Approach to Predict Mobile Churn Motivations
+UR  - http://link.springer.com/10.1007/978-3-642-17569-5_30
+Y2  - 2020/11/02/16:53:14
+ER  - 
+
+TY  - JOUR
+TI  - Optimum profit-driven churn decision making: innovative artificial neural networks in telecom industry
+AU  - Jafari-Marandi, Ruholla
+AU  - Denton, Joshua
+AU  - Idris, Adnan
+AU  - Smith, Brian K.
+AU  - Keramati, Abbas
+T2  - Neural Computing and Applications
+DA  - 2020/09//
+PY  - 2020
+DO  - 10.1007/s00521-020-04850-6
+DP  - DOI.org (Crossref)
+VL  - 32
+IS  - 18
+SP  - 14929
+EP  - 14962
+J2  - Neural Comput & Applic
+LA  - en
+SN  - 0941-0643, 1433-3058
+ST  - Optimum profit-driven churn decision making
+UR  - http://link.springer.com/10.1007/s00521-020-04850-6
+Y2  - 2020/11/02/16:53:16
+L1  - https://link.springer.com/content/pdf/10.1007%2Fs00521-020-04850-6.pdf
+ER  - 
+
+TY  - CHAP
+TI  - Utilizing Customers’ Purchase and Contract Renewal Details to Predict Defection in the Cloud Software Industry
+AU  - Martono, Niken Prasasti
+AU  - Kanamori, Katsutoshi
+AU  - Ohwada, Hayato
+T2  - Knowledge Management and Acquisition for Smart Systems and Services
+A2  - Kim, Yang Sok
+A2  - Kang, Byeong Ho
+A2  - Richards, Deborah
+CY  - Cham
+DA  - 2014///
+PY  - 2014
+DP  - DOI.org (Crossref)
+VL  - 8863
+SP  - 138
+EP  - 149
+PB  - Springer International Publishing
+SN  - 978-3-319-13331-7 978-3-319-13332-4
+UR  - http://link.springer.com/10.1007/978-3-319-13332-4_12
+Y2  - 2020/11/02/16:53:18
+ER  - 
+
+TY  - JOUR
+TI  - Intelligent churn prediction in telecom: employing mRMR feature selection and RotBoost based ensemble classification
+AU  - Idris, Adnan
+AU  - Khan, Asifullah
+AU  - Lee, Yeon Soo
+T2  - Applied Intelligence
+DA  - 2013/10//
+PY  - 2013
+DO  - 10.1007/s10489-013-0440-x
+DP  - DOI.org (Crossref)
+VL  - 39
+IS  - 3
+SP  - 659
+EP  - 672
+J2  - Appl Intell
+LA  - en
+SN  - 0924-669X, 1573-7497
+ST  - Intelligent churn prediction in telecom
+UR  - http://link.springer.com/10.1007/s10489-013-0440-x
+Y2  - 2020/11/02/16:53:20
+L1  - https://link.springer.com/content/pdf/10.1007%252Fs10489-013-0440-x.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Applying CHAID for logistic regression diagnostics and classification accuracy improvement
+AU  - Antipov, Evgeny
+AU  - Pokryshevskaya, Elena
+T2  - Journal of Targeting, Measurement and Analysis for Marketing
+DA  - 2010/06//
+PY  - 2010
+DO  - 10.1057/jt.2010.3
+DP  - DOI.org (Crossref)
+VL  - 18
+IS  - 2
+SP  - 109
+EP  - 117
+J2  - J Target Meas Anal Mark
+LA  - en
+SN  - 1479-1862
+UR  - http://link.springer.com/10.1057/jt.2010.3
+Y2  - 2020/11/02/16:53:22
+L1  - https://link.springer.com/content/pdf/10.1057%2Fjt.2010.3.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Social network analysis in Telecom data
+AU  - Al-Molhem, Nour Raeef
+AU  - Rahal, Yasser
+AU  - Dakkak, Mustapha
+T2  - Journal of Big Data
+DA  - 2019/12//
+PY  - 2019
+DO  - 10.1186/s40537-019-0264-6
+DP  - DOI.org (Crossref)
+VL  - 6
+IS  - 1
+SP  - 99
+J2  - J Big Data
+LA  - en
+SN  - 2196-1115
+UR  - https://journalofbigdata.springeropen.com/articles/10.1186/s40537-019-0264-6
+Y2  - 2020/11/02/16:53:25
+L1  - https://journalofbigdata.springeropen.com/track/pdf/10.1186/s40537-019-0264-6
+ER  - 
+
+TY  - CHAP
+TI  - Churn Prediction in Telecommunication Industry Using Rough Set Approach
+AU  - Amin, Adnan
+AU  - Shehzad, Saeed
+AU  - Khan, Changez
+AU  - Ali, Imtiaz
+AU  - Anwar, Sajid
+T2  - New Trends in Computational Collective Intelligence
+A2  - Camacho, David
+A2  - Kim, Sang-Wook
+A2  - Trawiński, Bogdan
+CY  - Cham
+DA  - 2015///
+PY  - 2015
+DP  - DOI.org (Crossref)
+VL  - 572
+SP  - 83
+EP  - 95
+PB  - Springer International Publishing
+SN  - 978-3-319-10773-8 978-3-319-10774-5
+UR  - http://link.springer.com/10.1007/978-3-319-10774-5_8
+Y2  - 2020/11/02/16:53:29
+ER  - 
+
+TY  - JOUR
+TI  - Predicting customer churn through interpersonal influence
+AU  - Zhang, Xiaohang
+AU  - Zhu, Ji
+AU  - Xu, Shuhua
+AU  - Wan, Yan
+T2  - Knowledge-Based Systems
+AB  - Preventing customer churn is an important task for many enterprises and requires customer churn prediction. This paper investigates the effects of interpersonal influence on the accuracy of customer churn predictions and proposes a novel prediction model that is based on interpersonal influence and that combines the propagation process and customers’ personalized characters. Our contributions include the following: (1) the effects of interpersonal influence on prediction accuracy are evaluated while including determinants that other researchers proved effective, and several models are constructed based on machine learning and statistical methods and compared, assuring the validity of the evaluation; and (2) a novel prediction model based on interpersonal influence and information propagation is proposed. The dataset used in the empirical study was obtained from a leading mobile telecommunication service provider and contains the traditional and network attributes of over one million customers. The empirical results show that traditional classification models that incorporate interpersonal influence can greatly improve prediction accuracy, and our proposed prediction model outperforms the traditional models.
+DA  - 2012/04/01/
+PY  - 2012
+DO  - 10.1016/j.knosys.2011.12.005
+DP  - ScienceDirect
+VL  - 28
+SP  - 97
+EP  - 104
+J2  - Knowledge-Based Systems
+LA  - en
+SN  - 0950-7051
+UR  - http://www.sciencedirect.com/science/article/pii/S0950705111002693
+Y2  - 2020/11/02/17:53:45
+L1  - https://pdf.sciencedirectassets.com/271505/1-s2.0-S0950705112X00030/1-s2.0-S0950705111002693/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFIaCXVzLWVhc3QtMSJHMEUCIGtI9JMtKSQdw3gSlbggeQSi5T2eIJk1%2Fg8IoGYK23Y5AiEAk5AtCVy67mgXjgkgh2J7AlkAG3EYn11%2BC4dUFshig3EqvQMIq%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARADGgwwNTkwMDM1NDY4NjUiDLtw1%2FeQ5wl%2BfBuAEyqRA4%2BKTVnMwG4v6i3JwbfwGR%2FbUrmjDwZ2w6Z1gQAaaC2AYea0rjgUs2eYMV6Ax%2FpPV75xihPjuQ24ZLKWwRg2vjrMWyGGn4KaU7rU4ZBIrQtkAqT7jfKrfwGvwYbKrQwug6%2BQ6Fax5zW2E0gesODic4wO0BGON3rNBSMbABqds1JewdYZf7tNFgvjyAZs8Br80vWadNT0UznnOKIqsR92DfzEBeVygUNxp%2ByAwuPcDvu%2FNbbmfg0Cyn7Y0%2BrH%2FMthf9WfYYQLg5gWQwvS0%2BZvpc0tprz9af3LEJu4mFaDiZEENgta6OVG4qZKrWp8xt52qLtnnOjGKAS4XwncNckLZFlGI8AZMjUOPKgCjoerXlDOd6ABDls7xPDdnTcH%2F553Vky2pYCZY7Hr9wac%2BxMhlGsycSv%2F6%2Bv82ZZfEtKVClXgg516PmtrljwFiCvTh9cevn27CKp8%2FJWJVKl4ZadT%2FAFZnxS8h5ypyBoGMlE2hGnXjKsrjFTH3psdudsNOh2SVJo7psKtqXrRdK%2BqB4RYuD0VMPmIgf0FOusBocw2WNzpg6gq4F7WDNxdYrAep1PWrQ6ftXrZXtMw%2FZGQpPoc1c8L%2BokSzjuMrAeza0VY%2Fb8qeMQhA3pXlSMUWMSO6HXt0yYF15wzHyoqjE9xz%2BJ2BDogZY3w4g0h%2Fv2KU%2Fm0eBmQvG269JYeY9IO%2FKe2k8xUbdfOpASXx%2BolEwzl47JfCw%2FBb9J5BDXq8VGCysqNAVDXVsK698D5Ik7CWfsJVB7rwIqdjxruQj3i45tq7gyCVJpjpYtCB%2FMO77SV8fzR%2FMi8%2B%2FcUnvO2vNgsBviv3PaNa%2BQYax9fvz5%2FdD3bkDZ88EU2PMju%2Bg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T175345Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY7ZQQDHNR%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=60ed6ad32971891b1db4459a519dfb3f10b44f973ed854f834cb28b52d4f1701&hash=fa7ee8ba336c22826df23a9f89dc03f902041e149b0470015650a9287a7e96c4&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0950705111002693&tid=spdf-0d5c30c5-c0ef-441c-95ae-4bd965a4f53e&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S0950705111002693?via%3Dihub
+KW  - Telecommunications
+KW  - Churn prediction
+KW  - Interpersonal influence
+KW  - Propagation
+KW  - Social network
+ER  - 
+
+TY  - JOUR
+TI  - Customer churn prediction using improved balanced random forests
+AU  - Xie, Yaya
+AU  - Li, Xiu
+AU  - Ngai, E. W. T.
+AU  - Ying, Weiyun
+T2  - Expert Systems with Applications
+AB  - Churn prediction is becoming a major focus of banks in China who wish to retain customers by satisfying their needs under resource constraints. In churn prediction, an important yet challenging problem is the imbalance in the data distribution. In this paper, we propose a novel learning method, called improved balanced random forests (IBRF), and demonstrate its application to churn prediction. We investigate the effectiveness of the standard random forests approach in predicting customer churn, while also integrating sampling techniques and cost-sensitive learning into the approach to achieve a better performance than most existing algorithms. The nature of IBRF is that the best features are iteratively learned by altering the class distribution and by putting higher penalties on misclassification of the minority class. We apply the method to a real bank customer churn data set. It is found to improve prediction accuracy significantly compared with other algorithms, such as artificial neural networks, decision trees, and class-weighted core support vector machines (CWC-SVM). Moreover, IBRF also produces better prediction results than other random forests algorithms such as balanced random forests and weighted random forests.
+DA  - 2009/04/01/
+PY  - 2009
+DO  - 10.1016/j.eswa.2008.06.121
+DP  - ScienceDirect
+VL  - 36
+IS  - 3, Part 1
+SP  - 5445
+EP  - 5449
+J2  - Expert Systems with Applications
+LA  - en
+SN  - 0957-4174
+UR  - http://www.sciencedirect.com/science/article/pii/S0957417408004326
+Y2  - 2020/11/02/17:54:08
+L1  - https://pdf.sciencedirectassets.com/271506/1-s2.0-S0957417409X00023/1-s2.0-S0957417408004326/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFIaCXVzLWVhc3QtMSJHMEUCIGtI9JMtKSQdw3gSlbggeQSi5T2eIJk1%2Fg8IoGYK23Y5AiEAk5AtCVy67mgXjgkgh2J7AlkAG3EYn11%2BC4dUFshig3EqvQMIq%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARADGgwwNTkwMDM1NDY4NjUiDLtw1%2FeQ5wl%2BfBuAEyqRA4%2BKTVnMwG4v6i3JwbfwGR%2FbUrmjDwZ2w6Z1gQAaaC2AYea0rjgUs2eYMV6Ax%2FpPV75xihPjuQ24ZLKWwRg2vjrMWyGGn4KaU7rU4ZBIrQtkAqT7jfKrfwGvwYbKrQwug6%2BQ6Fax5zW2E0gesODic4wO0BGON3rNBSMbABqds1JewdYZf7tNFgvjyAZs8Br80vWadNT0UznnOKIqsR92DfzEBeVygUNxp%2ByAwuPcDvu%2FNbbmfg0Cyn7Y0%2BrH%2FMthf9WfYYQLg5gWQwvS0%2BZvpc0tprz9af3LEJu4mFaDiZEENgta6OVG4qZKrWp8xt52qLtnnOjGKAS4XwncNckLZFlGI8AZMjUOPKgCjoerXlDOd6ABDls7xPDdnTcH%2F553Vky2pYCZY7Hr9wac%2BxMhlGsycSv%2F6%2Bv82ZZfEtKVClXgg516PmtrljwFiCvTh9cevn27CKp8%2FJWJVKl4ZadT%2FAFZnxS8h5ypyBoGMlE2hGnXjKsrjFTH3psdudsNOh2SVJo7psKtqXrRdK%2BqB4RYuD0VMPmIgf0FOusBocw2WNzpg6gq4F7WDNxdYrAep1PWrQ6ftXrZXtMw%2FZGQpPoc1c8L%2BokSzjuMrAeza0VY%2Fb8qeMQhA3pXlSMUWMSO6HXt0yYF15wzHyoqjE9xz%2BJ2BDogZY3w4g0h%2Fv2KU%2Fm0eBmQvG269JYeY9IO%2FKe2k8xUbdfOpASXx%2BolEwzl47JfCw%2FBb9J5BDXq8VGCysqNAVDXVsK698D5Ik7CWfsJVB7rwIqdjxruQj3i45tq7gyCVJpjpYtCB%2FMO77SV8fzR%2FMi8%2B%2FcUnvO2vNgsBviv3PaNa%2BQYax9fvz5%2FdD3bkDZ88EU2PMju%2Bg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T175408Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY7ZQQDHNR%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=ed995afcd51229f36ead6932b5caa7a9f41ebaf8c0b4c83f57d9d9810fb25f3d&hash=626043aa46abc1b8a8023fe3a47c91634d28da078794b45ef13a8e39ba109647&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0957417408004326&tid=spdf-a18787a7-2fe9-4a14-b0e1-72807a19ce40&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S0957417408004326?via%3Dihub
+KW  - Churn prediction
+KW  - Random forests
+KW  - Imbalanced data
+ER  - 
+
+TY  - JOUR
+TI  - Dynamic classifier ensemble model for customer classification with imbalanced class distribution
+AU  - Xiao, Jin
+AU  - Xie, Ling
+AU  - He, Changzheng
+AU  - Jiang, Xiaoyi
+T2  - Expert Systems with Applications
+AB  - Customer classification is widely used in customer relationship management including churn prediction, credit scoring, cross-selling and so on. In customer classification, an important yet challenging problem is the imbalance of data distribution. In this paper, we combine ensemble learning with cost-sensitive learning, and propose a dynamic classifier ensemble method for imbalanced data (DCEID). For each test customer, it can adaptively select out the more appropriate one from the two kinds of dynamic ensemble approach: dynamic classifier selection (DCS) and dynamic ensemble selection (DES). Meanwhile, new cost-sensitive selection criteria for DCS and DES are constructed respectively to improve the classification ability for imbalanced data. We apply this method to a credit scoring dataset in UCI and a real churn prediction dataset from a telecommunication company. The experimental results show that the classification performance of DCEID is not only better than some static ensemble methods such as weighted random forests and improved balanced random forests, but also better than the existing DCS and DES strategies.
+DA  - 2012/02/15/
+PY  - 2012
+DO  - 10.1016/j.eswa.2011.09.059
+DP  - ScienceDirect
+VL  - 39
+IS  - 3
+SP  - 3668
+EP  - 3675
+J2  - Expert Systems with Applications
+LA  - en
+SN  - 0957-4174
+UR  - http://www.sciencedirect.com/science/article/pii/S0957417411013686
+Y2  - 2020/11/02/17:54:35
+L1  - https://pdf.sciencedirectassets.com/271506/1-s2.0-S0957417411X0012X/1-s2.0-S0957417411013686/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFIaCXVzLWVhc3QtMSJIMEYCIQDHU1fN3TEuyVTjW60Tz4B2Qiqam0fRBLozutfehTuCUAIhAIiRu4DhjklPFSqOJHohJj6Z9ZbZQuoie9ZnGnRVnpfJKr0DCKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMMDU5MDAzNTQ2ODY1Igzn8YhT3TZxQyfHWb0qkQNOVJNl2TIA%2Bhx11B3yFAp7Mfjdvjkg0TyJYdIp0PGOu%2B0cakkKIRqkKeKmK%2FmLJonL%2BArscfBvU6qtu46vxQt2DxKf5ubASgilHbViVnCPHvZK40Dk0aH9SnjYLtNenEn3QISq%2BK8xbnjPyCvdeyzoZogiiBvfFlJYwnWxodlU%2BKiasKfagz17MfJwfjnz%2BG%2Bhf4Kgo7dnX%2F5cQ%2BsVfeMUFUajyqBw0uG7%2FI5eS7hQbAtQTVjgMj29Z7T%2FwgwXMJSISD%2FxvQI%2BEyMz62ZSnyvkgHNpMxG%2Fzu7NuywKM7Lptl8f0%2FaGCBzvDLhdm92byk7r1DfCeRICrupAkHoMLoRCr5mDtKlZZXF7kcM77mr%2BWt9bvxj69Zf%2BnAGUQTNcEAkLTndyrl7LjvXzbf5UfuaAU0Q2eoQG0wFLWka1ZlT7ONkMRfUZ%2BkDcyOErKI8JHCWcuaPp4HsLjWGvHh9tWYu0YR6pA1w0ndFSKf1bsjo5wZ6sdlQ%2BlKJXxcx2%2BJkgjoQpjZn1sBwLP1atdliw4QQm9TC0iIH9BTrqAcr7hoGvs6IdaDxzxOkAqxoAd%2B8eU14606bsSRyuy16a7BC293t1xG2ixOfPGEl%2BO3RsP4xYHDOrq6iq0Z7uvLtiv5oUjI2drNzQW6ROA6n37f8PZcRtBZkeu6kKdlp2Vd4A7OxP23AI7U4teZG5wyLhLuSo5a7FxXe%2FRROwFGgtBmTVrlzrQhpx5wtXqlzRKy1%2FCjefenzq7LGc0z9dz5bdo4L21pXsCkA9Hwi81tFXdMtJpWCQrjbQlCBLV1ImsMvY1lgKSbVeI8f7EvleoGs4zgoSRmKhQOSEOoz0on8DSpE5wrJBHAj28Q%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T175435Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYYHBFCX44%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=6561d4ea07f62a48de81f3d112b6508e27f02527498ebf975f710c0d050b4170&hash=b660f13332ba023d3931fd5f9b208717b6c575190ce004f3989b0b68b85d8146&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0957417411013686&tid=spdf-8f75cc12-4e75-478e-b13f-201abc485a2b&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S0957417411013686?via%3Dihub
+KW  - Cost-sensitive learning
+KW  - Customer classification
+KW  - Dynamic classifier ensemble
+KW  - Imbalanced class distribution
+ER  - 
+
+TY  - JOUR
+TI  - Model of Customer Churn Prediction on Support Vector Machine
+AU  - Xia, Guo-en
+AU  - Jin, Wei-dong
+T2  - Systems Engineering - Theory & Practice
+AB  - To improve the prediction abilities of machine learning methods, a support vector machine (SVM) on structural risk minimization was applied to customer churn prediction. Researching customer churn prediction cases both in home and foreign carries, the method was compared with artifical neural network, decision tree, logistic regression, and naive bayesian classifier. It is found that the method enjoys the best accuracy rate, hit rate, covering rate, and lift coefficient, and therefore, provides an effective measurement for customer churn prediction.
+DA  - 2008/01/01/
+PY  - 2008
+DO  - 10.1016/S1874-8651(09)60003-X
+DP  - ScienceDirect
+VL  - 28
+IS  - 1
+SP  - 71
+EP  - 77
+J2  - Systems Engineering - Theory & Practice
+LA  - en
+SN  - 1874-8651
+UR  - http://www.sciencedirect.com/science/article/pii/S187486510960003X
+Y2  - 2020/11/02/17:55:05
+L2  - https://www.sciencedirect.com/science/article/pii/S187486510960003X?via%3Dihub
+KW  - telecommunication industry
+KW  - customer churn
+KW  - support vector machine (SVM)
+ER  - 
+
+TY  - JOUR
+TI  - Turning telecommunications call details to churn prediction: a data mining approach
+AU  - Wei, Chih-Ping
+AU  - Chiu, I-Tang
+T2  - Expert Systems with Applications
+AB  - As deregulation, new technologies, and new competitors open up the mobile telecommunications industry, churn prediction and management has become of great concern to mobile service providers. A mobile service provider wishing to retain its subscribers needs to be able to predict which of them may be at-risk of changing services and will make those subscribers the focus of customer retention efforts. In response to the limitations of existing churn-prediction systems and the unavailability of customer demographics in the mobile telecommunications provider investigated, we propose, design, and experimentally evaluate a churn-prediction technique that predicts churning from subscriber contractual information and call pattern changes extracted from call details. This proposed technique is capable of identifying potential churners at the contract level for a specific prediction time-period. In addition, the proposed technique incorporates the multi-classifier class-combiner approach to address the challenge of a highly skewed class distribution between churners and non-churners. The empirical evaluation results suggest that the proposed call-behavior-based churn-prediction technique exhibits satisfactory predictive effectiveness when more recent call details are employed for the churn prediction model construction. Furthermore, the proposed technique is able to demonstrate satisfactory or reasonable predictive power within the one-month interval between model construction and churn prediction. Using a previous demographics-based churn-prediction system as a reference, the lift factors attained by our proposed technique appear largely satisfactory.
+DA  - 2002/08/01/
+PY  - 2002
+DO  - 10.1016/S0957-4174(02)00030-1
+DP  - ScienceDirect
+VL  - 23
+IS  - 2
+SP  - 103
+EP  - 112
+J2  - Expert Systems with Applications
+LA  - en
+SN  - 0957-4174
+ST  - Turning telecommunications call details to churn prediction
+UR  - http://www.sciencedirect.com/science/article/pii/S0957417402000301
+Y2  - 2020/11/02/17:55:42
+L1  - https://pdf.sciencedirectassets.com/271506/1-s2.0-S0957417400X00619/1-s2.0-S0957417402000301/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFEaCXVzLWVhc3QtMSJIMEYCIQDMjh6lbwM8AAFP9M0wokVvzQcTuVypQ11o%2B%2BWiOdZg3gIhAIqE693bOQDF0MSYVSkYmY5QAlJzEyuc7OtbgUqjD9G7Kr0DCKr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMMDU5MDAzNTQ2ODY1Igyifr4AJMc3x1l4VysqkQOs3XNol2kmA2YYqEh%2FrQWEVwLfQttf4W6wH5hUTqZEo3PpN9UXFODiR7QU3bkqgY1alJzHO5sM%2F0QoLWCLgat7GYoA5BpJh3KB7GuRuVc6hpUNJ0Q1%2FX7sY%2BuPYj%2Ft2KFvO4flsGnJdZmVFB1WBLpscGbUFBygXWtIo2VFZq5eqNJBeS1pEc3MTx08%2BBOWA8fGgOm5pKol43bSttj1P0at4gjCaMph2upstli%2FrlKM4s4rh0nboZCo6m5oObbk954uOKhfUzgsHH2S3LXtBwH%2F5nDvueZ0o1kpRfFQkW6TArgT%2BLdrwenQlSq5a4yWnX%2FuaZTshHbpUKsgMtEUEfAj35arjOUesobNy%2BwRy88tkdYhL11bNsfQcZOSnfptQSCrb9wPDNTHKlqf9eQxgs3qeoqJBsz3U%2BOSyrUSd3750p70k5qTyZjvnwpb82P47z5rGnbShTwn2nGSgBQ67TS9yAb0rto0pqZNph6X0wCYeLznZicMUmLV4fe9KecIMJ5oyrB12h%2FbX%2B4aPRR5m8VvaDCi9oD9BTrqAapliWBPldVPFvwsJBnbJglJO1Kdh5ejqMzV60qN1PAGFetX1pHVP%2BveDNDlq7Mw361ASoIwW85q8rcMcIDvT1WUqFVAM7WzTgi06OCIemOjzzklCU4Ghqd4tns279meMObZvwdyyvE44xNwj3fUXHc62wSsljytrWmG5obow2AsAqLurrejst9pRlG8BICNNWqk5VYnRVIUdXiKPZW9VPKTIla%2B5hzc896okn5OuwltYqCyOmvyZ5fPo0hxHR2re6wWNIETv0%2F%2BA8ZzWeBFGv6vl%2BJ6xlb8mnMHQGdU6q5Mr4RWz%2BLvp%2B%2B56A%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T175542Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYQUNCH6VJ%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=0ea16c603122ea28cbb6f5f9cf79b2fe65c301ff872aa8a1945a11190135ef43&hash=b8a34847b744ca9178f66c4309c06d6215fd0fd5e016fcaf0058be5c6332e582&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0957417402000301&tid=spdf-e26ba199-d542-44a4-88c4-75c8f06fef39&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S0957417402000301?via%3Dihub
+KW  - Data mining
+KW  - Churn prediction
+KW  - Churn management
+KW  - Classification analysis
+KW  - Decision tree induction
+KW  - Multi-classifier class-combiner approach
+KW  - Telecommunications data mining
+ER  - 
+
+TY  - JOUR
+TI  - A big data analytics model for customer churn prediction in the retiree segment
+AU  - Shirazi, Farid
+AU  - Mohammadi, Mahbobeh
+T2  - International Journal of Information Management
+AB  - Undoubtedly, the change in consumers’ choices and expectations, stemming from the emerging technology and also significant availability of different products and services, created a highly competitive landscape in various customer service sectors, including the financial industry. Accordingly, the Canadian banking industry has also become highly competitive due to the threats and disruptions caused by not only direct competitors, but also new entrants to the market. The primary objective of this paper is to construct a predictive churn model by utilizing big data, including the structured archival data, integrated with unstructured data from sources such as online web pages, the number of website visits and phone conversation logs, for the first time in the financial industry. It also examines the effect of different aspects of customers’ behavior on churning decisions. The Datameer big data analytics tool on the Hadoop platform and predictive techniques using the SAS business intelligence system were applied to study the client retirement journey path and to create a churn prediction model. By deploying the above systems, we were able to uncover a wealth of data and information associated with over 3 million customers’ records within the retiree segment of the target bank, from 2011 to 2015.
+DA  - 2019/10/01/
+PY  - 2019
+DO  - 10.1016/j.ijinfomgt.2018.10.005
+DP  - ScienceDirect
+VL  - 48
+SP  - 238
+EP  - 253
+J2  - International Journal of Information Management
+LA  - en
+SN  - 0268-4012
+UR  - http://www.sciencedirect.com/science/article/pii/S0268401218301518
+Y2  - 2020/11/02/17:56:16
+L1  - https://pdf.sciencedirectassets.com/271677/1-s2.0-S0268401219X00031/1-s2.0-S0268401218301518/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFEaCXVzLWVhc3QtMSJIMEYCIQDMjh6lbwM8AAFP9M0wokVvzQcTuVypQ11o%2B%2BWiOdZg3gIhAIqE693bOQDF0MSYVSkYmY5QAlJzEyuc7OtbgUqjD9G7Kr0DCKr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMMDU5MDAzNTQ2ODY1Igyifr4AJMc3x1l4VysqkQOs3XNol2kmA2YYqEh%2FrQWEVwLfQttf4W6wH5hUTqZEo3PpN9UXFODiR7QU3bkqgY1alJzHO5sM%2F0QoLWCLgat7GYoA5BpJh3KB7GuRuVc6hpUNJ0Q1%2FX7sY%2BuPYj%2Ft2KFvO4flsGnJdZmVFB1WBLpscGbUFBygXWtIo2VFZq5eqNJBeS1pEc3MTx08%2BBOWA8fGgOm5pKol43bSttj1P0at4gjCaMph2upstli%2FrlKM4s4rh0nboZCo6m5oObbk954uOKhfUzgsHH2S3LXtBwH%2F5nDvueZ0o1kpRfFQkW6TArgT%2BLdrwenQlSq5a4yWnX%2FuaZTshHbpUKsgMtEUEfAj35arjOUesobNy%2BwRy88tkdYhL11bNsfQcZOSnfptQSCrb9wPDNTHKlqf9eQxgs3qeoqJBsz3U%2BOSyrUSd3750p70k5qTyZjvnwpb82P47z5rGnbShTwn2nGSgBQ67TS9yAb0rto0pqZNph6X0wCYeLznZicMUmLV4fe9KecIMJ5oyrB12h%2FbX%2B4aPRR5m8VvaDCi9oD9BTrqAapliWBPldVPFvwsJBnbJglJO1Kdh5ejqMzV60qN1PAGFetX1pHVP%2BveDNDlq7Mw361ASoIwW85q8rcMcIDvT1WUqFVAM7WzTgi06OCIemOjzzklCU4Ghqd4tns279meMObZvwdyyvE44xNwj3fUXHc62wSsljytrWmG5obow2AsAqLurrejst9pRlG8BICNNWqk5VYnRVIUdXiKPZW9VPKTIla%2B5hzc896okn5OuwltYqCyOmvyZ5fPo0hxHR2re6wWNIETv0%2F%2BA8ZzWeBFGv6vl%2BJ6xlb8mnMHQGdU6q5Mr4RWz%2BLvp%2B%2B56A%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T175616Z&X-Amz-SignedHeaders=host&X-Amz-Expires=299&X-Amz-Credential=ASIAQ3PHCVTYQUNCH6VJ%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5b5ca0ac2b35c8824cc4271a8d7a5169a838990195b7ae2b25f459c27cc5109e&hash=3d7fba42ad832916da033cf9efab3f1577677a6a530ea7849ce4e217a4267d52&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0268401218301518&tid=spdf-01540018-7059-4c8b-a9f8-fe60fdace2a1&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S0268401218301518?via%3Dihub
+KW  - Classification
+KW  - Business intelligence
+KW  - Customer lifetime value
+KW  - Big data
+KW  - Churn prediction model
+KW  - Hadoop
+KW  - Regression tree
+ER  - 
+
+TY  - JOUR
+TI  - A comparative analysis of data preparation algorithms for customer churn prediction: A case study in the telecommunication industry
+AU  - Coussement, Kristof
+AU  - Lessmann, Stefan
+AU  - Verstraeten, Geert
+T2  - Decision Support Systems
+AB  - Data preparation is a process that aims to convert independent (categorical and continuous) variables into a form appropriate for further analysis. We examine data-preparation alternatives to enhance the prediction performance for the commonly-used logit model. This study, conducted in a churn prediction modeling context, benchmarks an optimized logit model against eight state-of-the-art data mining techniques that use standard input data, including real-world cross-sectional data from a large European telecommunication provider. The results lead to following conclusions. (i) Analysts better acknowledge that the data-preparation technique they choose actually affects churn prediction performance; we find improvements of up to 14.5% in the area under the receiving operating characteristics curve and 34% in the top decile lift. (ii) The enhanced logistic regression also is competitive with more advanced single and ensemble data mining algorithms. This article concludes with some managerial implications and suggestions for further research, including evidence of the generalizability of the results for other business settings.
+DA  - 2017/03/01/
+PY  - 2017
+DO  - 10.1016/j.dss.2016.11.007
+DP  - ScienceDirect
+VL  - 95
+SP  - 27
+EP  - 36
+J2  - Decision Support Systems
+LA  - en
+SN  - 0167-9236
+ST  - A comparative analysis of data preparation algorithms for customer churn prediction
+UR  - http://www.sciencedirect.com/science/article/pii/S0167923616302020
+Y2  - 2020/11/02/17:56:35
+L1  - https://pdf.sciencedirectassets.com/271653/1-s2.0-S0167923617X00031/1-s2.0-S0167923616302020/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFIaCXVzLWVhc3QtMSJIMEYCIQDHU1fN3TEuyVTjW60Tz4B2Qiqam0fRBLozutfehTuCUAIhAIiRu4DhjklPFSqOJHohJj6Z9ZbZQuoie9ZnGnRVnpfJKr0DCKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMMDU5MDAzNTQ2ODY1Igzn8YhT3TZxQyfHWb0qkQNOVJNl2TIA%2Bhx11B3yFAp7Mfjdvjkg0TyJYdIp0PGOu%2B0cakkKIRqkKeKmK%2FmLJonL%2BArscfBvU6qtu46vxQt2DxKf5ubASgilHbViVnCPHvZK40Dk0aH9SnjYLtNenEn3QISq%2BK8xbnjPyCvdeyzoZogiiBvfFlJYwnWxodlU%2BKiasKfagz17MfJwfjnz%2BG%2Bhf4Kgo7dnX%2F5cQ%2BsVfeMUFUajyqBw0uG7%2FI5eS7hQbAtQTVjgMj29Z7T%2FwgwXMJSISD%2FxvQI%2BEyMz62ZSnyvkgHNpMxG%2Fzu7NuywKM7Lptl8f0%2FaGCBzvDLhdm92byk7r1DfCeRICrupAkHoMLoRCr5mDtKlZZXF7kcM77mr%2BWt9bvxj69Zf%2BnAGUQTNcEAkLTndyrl7LjvXzbf5UfuaAU0Q2eoQG0wFLWka1ZlT7ONkMRfUZ%2BkDcyOErKI8JHCWcuaPp4HsLjWGvHh9tWYu0YR6pA1w0ndFSKf1bsjo5wZ6sdlQ%2BlKJXxcx2%2BJkgjoQpjZn1sBwLP1atdliw4QQm9TC0iIH9BTrqAcr7hoGvs6IdaDxzxOkAqxoAd%2B8eU14606bsSRyuy16a7BC293t1xG2ixOfPGEl%2BO3RsP4xYHDOrq6iq0Z7uvLtiv5oUjI2drNzQW6ROA6n37f8PZcRtBZkeu6kKdlp2Vd4A7OxP23AI7U4teZG5wyLhLuSo5a7FxXe%2FRROwFGgtBmTVrlzrQhpx5wtXqlzRKy1%2FCjefenzq7LGc0z9dz5bdo4L21pXsCkA9Hwi81tFXdMtJpWCQrjbQlCBLV1ImsMvY1lgKSbVeI8f7EvleoGs4zgoSRmKhQOSEOoz0on8DSpE5wrJBHAj28Q%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T175635Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYYHBFCX44%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=864e4418ff695e5bc30cdd7fe41a22981eadfedef96dff11ad8ddceffe38a2a3&hash=4bc0a961d79fb4eb68d9926e4e1dd10db56311a3bce924bb135e38084fc2b554&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0167923616302020&tid=spdf-811ba138-0808-4148-8597-d2ad3b1d730e&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S0167923616302020?via%3Dihub
+KW  - Churn prediction
+KW  - Data preparation techniques
+KW  - Predictive analytics
+ER  - 
+
+TY  - JOUR
+TI  - An empirical evaluation of rotation-based ensemble classifiers for customer churn prediction
+AU  - De Bock, Koen W.
+AU  - Poel, Dirk Van den
+T2  - Expert Systems with Applications
+AB  - Several studies have demonstrated the superior performance of ensemble classification algorithms, whereby multiple member classifiers are combined into one aggregated and powerful classification model, over single models. In this paper, two rotation-based ensemble classifiers are proposed as modeling techniques for customer churn prediction. In Rotation Forests, feature extraction is applied to feature subsets in order to rotate the input data for training base classifiers, while RotBoost combines Rotation Forest with AdaBoost. In an experimental validation based on data sets from four real-life customer churn prediction projects, Rotation Forest and RotBoost are compared to a set of well-known benchmark classifiers. Moreover, variations of Rotation Forest and RotBoost are compared, implementing three alternative feature extraction algorithms: principal component analysis (PCA), independent component analysis (ICA) and sparse random projections (SRP). The performance of rotation-based ensemble classifier is found to depend upon: (i) the performance criterion used to measure classification performance, and (ii) the implemented feature extraction algorithm. In terms of accuracy, RotBoost outperforms Rotation Forest, but none of the considered variations offers a clear advantage over the benchmark algorithms. However, in terms of AUC and top-decile lift, results clearly demonstrate the competitive performance of Rotation Forests compared to the benchmark algorithms. Moreover, ICA-based Rotation Forests outperform all other considered classifiers and are therefore recommended as a well-suited alternative classification technique for the prediction of customer churn that allows for improved marketing decision making.
+DA  - 2011/09/15/
+PY  - 2011
+DO  - 10.1016/j.eswa.2011.04.007
+DP  - ScienceDirect
+VL  - 38
+IS  - 10
+SP  - 12293
+EP  - 12301
+J2  - Expert Systems with Applications
+LA  - en
+SN  - 0957-4174
+UR  - http://www.sciencedirect.com/science/article/pii/S0957417411005239
+Y2  - 2020/11/02/17:57:37
+L1  - https://pdf.sciencedirectassets.com/271506/1-s2.0-S0957417411X00076/1-s2.0-S0957417411005239/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFEaCXVzLWVhc3QtMSJIMEYCIQDMjh6lbwM8AAFP9M0wokVvzQcTuVypQ11o%2B%2BWiOdZg3gIhAIqE693bOQDF0MSYVSkYmY5QAlJzEyuc7OtbgUqjD9G7Kr0DCKr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMMDU5MDAzNTQ2ODY1Igyifr4AJMc3x1l4VysqkQOs3XNol2kmA2YYqEh%2FrQWEVwLfQttf4W6wH5hUTqZEo3PpN9UXFODiR7QU3bkqgY1alJzHO5sM%2F0QoLWCLgat7GYoA5BpJh3KB7GuRuVc6hpUNJ0Q1%2FX7sY%2BuPYj%2Ft2KFvO4flsGnJdZmVFB1WBLpscGbUFBygXWtIo2VFZq5eqNJBeS1pEc3MTx08%2BBOWA8fGgOm5pKol43bSttj1P0at4gjCaMph2upstli%2FrlKM4s4rh0nboZCo6m5oObbk954uOKhfUzgsHH2S3LXtBwH%2F5nDvueZ0o1kpRfFQkW6TArgT%2BLdrwenQlSq5a4yWnX%2FuaZTshHbpUKsgMtEUEfAj35arjOUesobNy%2BwRy88tkdYhL11bNsfQcZOSnfptQSCrb9wPDNTHKlqf9eQxgs3qeoqJBsz3U%2BOSyrUSd3750p70k5qTyZjvnwpb82P47z5rGnbShTwn2nGSgBQ67TS9yAb0rto0pqZNph6X0wCYeLznZicMUmLV4fe9KecIMJ5oyrB12h%2FbX%2B4aPRR5m8VvaDCi9oD9BTrqAapliWBPldVPFvwsJBnbJglJO1Kdh5ejqMzV60qN1PAGFetX1pHVP%2BveDNDlq7Mw361ASoIwW85q8rcMcIDvT1WUqFVAM7WzTgi06OCIemOjzzklCU4Ghqd4tns279meMObZvwdyyvE44xNwj3fUXHc62wSsljytrWmG5obow2AsAqLurrejst9pRlG8BICNNWqk5VYnRVIUdXiKPZW9VPKTIla%2B5hzc896okn5OuwltYqCyOmvyZ5fPo0hxHR2re6wWNIETv0%2F%2BA8ZzWeBFGv6vl%2BJ6xlb8mnMHQGdU6q5Mr4RWz%2BLvp%2B%2B56A%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T175737Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYQUNCH6VJ%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=a15e827b88b091760f85ef84cc1a7021e6a9c3224c7f52ee40688e1399d25af5&hash=1337add82ad1370231ccb251c7d5b4ab0627e32bbd2d09546f53a48e70955f10&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0957417411005239&tid=spdf-b0870c6e-6abe-4f25-93fc-c203b2f21fdb&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S0957417411005239?via%3Dihub
+KW  - Database marketing
+KW  - CRM
+KW  - AUC
+KW  - Customer churn prediction
+KW  - Ensemble classification
+KW  - ICA
+KW  - Lift
+KW  - Rotation Forest
+KW  - Rotation-based ensemble classifiers
+KW  - RotBoost
+ER  - 
+
+TY  - JOUR
+TI  - Building comprehensible customer churn prediction models with advanced rule induction techniques
+AU  - Verbeke, Wouter
+AU  - Martens, David
+AU  - Mues, Christophe
+AU  - Baesens, Bart
+T2  - Expert Systems with Applications
+AB  - Customer churn prediction models aim to detect customers with a high propensity to attrite. Predictive accuracy, comprehensibility, and justifiability are three key aspects of a churn prediction model. An accurate model permits to correctly target future churners in a retention marketing campaign, while a comprehensible and intuitive rule-set allows to identify the main drivers for customers to churn, and to develop an effective retention strategy in accordance with domain knowledge. This paper provides an extended overview of the literature on the use of data mining in customer churn prediction modeling. It is shown that only limited attention has been paid to the comprehensibility and the intuitiveness of churn prediction models. Therefore, two novel data mining techniques are applied to churn prediction modeling, and benchmarked to traditional rule induction techniques such as C4.5 and RIPPER. Both AntMiner+ and ALBA are shown to induce accurate as well as comprehensible classification rule-sets. AntMiner+ is a high performing data mining technique based on the principles of Ant Colony Optimization that allows to include domain knowledge by imposing monotonicity constraints on the final rule-set. ALBA on the other hand combines the high predictive accuracy of a non-linear support vector machine model with the comprehensibility of the rule-set format. The results of the benchmarking experiments show that ALBA improves learning of classification techniques, resulting in comprehensible models with increased performance. AntMiner+ results in accurate, comprehensible, but most importantly justifiable models, unlike the other modeling techniques included in this study.
+DA  - 2011/03/01/
+PY  - 2011
+DO  - 10.1016/j.eswa.2010.08.023
+DP  - ScienceDirect
+VL  - 38
+IS  - 3
+SP  - 2354
+EP  - 2364
+J2  - Expert Systems with Applications
+LA  - en
+SN  - 0957-4174
+UR  - http://www.sciencedirect.com/science/article/pii/S0957417410008067
+Y2  - 2020/11/02/17:58:32
+L1  - https://pdf.sciencedirectassets.com/271506/1-s2.0-S0957417410X00112/1-s2.0-S0957417410008067/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFIaCXVzLWVhc3QtMSJHMEUCICDX4uaN2QCLyAHbnsXx11YUZ3cUmuJWe5J9VPWsL4MuAiEArw9PXVTIoITX%2FcFrDXyyr6NHfjxbMW5dwSvAnXlpdJgqvQMIqv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARADGgwwNTkwMDM1NDY4NjUiDCQ0bquloTAqm%2B6ssSqRA9fzzrn7rO%2F2%2FST5OZCxsc8ywQ8IICG2pf9AtQkCRqUAkKBBuTgRYjch%2FujWyH8kqaPrzWmadUh3%2F0vZbxJGRLCMgNfc9YNMJ8N%2FhZ9sY4Kzj%2FbOJCUJRws7FKaxHWA7R1bDys%2Fdmjm0rWfiqzVCAO2%2Fi1YLUWYu6lCPgUUiJrgKwQfxh1axRyE1Daq4xtTGtYxg85bAbmFW4hUIn9Lg6i9BVPk1nM68uJ8As4yPwlBwbuxVs5CIdZuGnOD%2B27aHSJ0P3f3xEW8K6yJ4nKwqPDvJH4OJ%2BWkYZrWdxr718Q3hRZcc%2BsvSjMZtmlWtrq32odEuFmi8SeEbmv%2FhOaarm8veAwwGC5llcvV%2FUh%2BWlmq8QQ6EP1CBNa%2FHUSZemTNMrPKYuqoc4fTQ6AvIMLD5oV9%2BJCZioAmcbcgyWomMevVFbOGN%2BNxO32rI%2B3HjPEr0G4zmquil7%2BpCtn1z7M4QUXlwbRUR1Wwx47d66NZWovM1cPiKmjIp82WXjCwHGXeXEh1xX5IfaKmKsUhkyJjQ3qRfMPf9gP0FOusBirRUywLgVtpas%2BJEPGDPK%2F0wUjEIjW2cxKJaOv6ZczzEe0f5P%2FmISbsyDugf5HpB%2BUkjuB%2Fuht6DWG0oj0i0tlJrU%2B%2FQg%2B7FJkthZg8QRSTWFMGr8gj0Qf9ytksW%2BX57sF4ElOK9YUQi5%2B3oEF%2BH30pd1NTZONWUKCwWNiW0RehJ7n7yG2mJl%2BF1b3MqaVudPSPm5efdr4zjO8Ks4asRSRlYwtosg0o6hOC%2F8h%2BWfBEHJ7msqWGKusA6K3V1Ta3Kr3x3dI2YXyG8cEMCwSwQlzHEeRLwXq7Z%2FeTVNFVo6Y7zycQG5xmZWLVR%2Fg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T175832Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY4SKWL3OT%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f0000a69a41c9735d456beffa3e8a8d157d450d153733d4e07246d8029784bba&hash=7df400c712d613763eeb00ce0f5305721dcc81b027be84930e4308f58d0592c1&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0957417410008067&tid=spdf-c232c676-729f-415f-9041-c9b4e7bf6e16&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S0957417410008067?via%3Dihub
+KW  - Data mining
+KW  - ALBA
+KW  - Ant Colony Optimization
+KW  - Churn prediction
+KW  - Classification
+KW  - Comprehensible rule induction
+ER  - 
+
+TY  - JOUR
+TI  - Calling communities analysis and identification using machine learning techniques
+AU  - Kianmehr, Keivan
+AU  - Alhajj, Reda
+T2  - Expert Systems with Applications
+AB  - The analysis of social communities related logs has recently received considerable attention for its importance in shedding light on social concerns by identifying different groups, and hence helps in resolving issues like predicting terrorist groups. In the customer analysis domain, identifying calling communities can be used for determining a particular customer’s value according to the general pattern behavior of the community that the customer belongs to; this helps the effective targeted marketing design, which is significantly important for increasing profitability. In telecommunication industry, machine learning techniques have been applied to the Call Detail Record (CDR) for predicting customer behavior such as churn prediction. In this paper, we pursue identifying the calling communities and demonstrate how cluster analysis can be used to effectively identify communities using information derived from the CDR data. We use the information extracted from the cluster analysis to identify customer calling patterns. Customers calling patterns are then given to a classification algorithm to generate a classifier model for predicting the calling communities of a customer. We apply different machine learning techniques to build classifier models and compare them in terms of classification accuracy and computational performance. The reported test results demonstrate the applicability and effectiveness of the proposed approach.
+DA  - 2009/04/01/
+PY  - 2009
+DO  - 10.1016/j.eswa.2008.07.072
+DP  - ScienceDirect
+VL  - 36
+IS  - 3, Part 2
+SP  - 6218
+EP  - 6226
+J2  - Expert Systems with Applications
+LA  - en
+SN  - 0957-4174
+UR  - http://www.sciencedirect.com/science/article/pii/S0957417408004685
+Y2  - 2020/11/02/17:58:48
+L1  - https://pdf.sciencedirectassets.com/271506/1-s2.0-S0957417409X00035/1-s2.0-S0957417408004685/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFIaCXVzLWVhc3QtMSJHMEUCICDX4uaN2QCLyAHbnsXx11YUZ3cUmuJWe5J9VPWsL4MuAiEArw9PXVTIoITX%2FcFrDXyyr6NHfjxbMW5dwSvAnXlpdJgqvQMIqv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARADGgwwNTkwMDM1NDY4NjUiDCQ0bquloTAqm%2B6ssSqRA9fzzrn7rO%2F2%2FST5OZCxsc8ywQ8IICG2pf9AtQkCRqUAkKBBuTgRYjch%2FujWyH8kqaPrzWmadUh3%2F0vZbxJGRLCMgNfc9YNMJ8N%2FhZ9sY4Kzj%2FbOJCUJRws7FKaxHWA7R1bDys%2Fdmjm0rWfiqzVCAO2%2Fi1YLUWYu6lCPgUUiJrgKwQfxh1axRyE1Daq4xtTGtYxg85bAbmFW4hUIn9Lg6i9BVPk1nM68uJ8As4yPwlBwbuxVs5CIdZuGnOD%2B27aHSJ0P3f3xEW8K6yJ4nKwqPDvJH4OJ%2BWkYZrWdxr718Q3hRZcc%2BsvSjMZtmlWtrq32odEuFmi8SeEbmv%2FhOaarm8veAwwGC5llcvV%2FUh%2BWlmq8QQ6EP1CBNa%2FHUSZemTNMrPKYuqoc4fTQ6AvIMLD5oV9%2BJCZioAmcbcgyWomMevVFbOGN%2BNxO32rI%2B3HjPEr0G4zmquil7%2BpCtn1z7M4QUXlwbRUR1Wwx47d66NZWovM1cPiKmjIp82WXjCwHGXeXEh1xX5IfaKmKsUhkyJjQ3qRfMPf9gP0FOusBirRUywLgVtpas%2BJEPGDPK%2F0wUjEIjW2cxKJaOv6ZczzEe0f5P%2FmISbsyDugf5HpB%2BUkjuB%2Fuht6DWG0oj0i0tlJrU%2B%2FQg%2B7FJkthZg8QRSTWFMGr8gj0Qf9ytksW%2BX57sF4ElOK9YUQi5%2B3oEF%2BH30pd1NTZONWUKCwWNiW0RehJ7n7yG2mJl%2BF1b3MqaVudPSPm5efdr4zjO8Ks4asRSRlYwtosg0o6hOC%2F8h%2BWfBEHJ7msqWGKusA6K3V1Ta3Kr3x3dI2YXyG8cEMCwSwQlzHEeRLwXq7Z%2FeTVNFVo6Y7zycQG5xmZWLVR%2Fg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T175848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY4SKWL3OT%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=3ab61bc2f2337a1df8d98365c77438b94ea7c1b4e9e0c870424e83316a44c688&hash=d34e4bf0099d275e702086ff0ab229b2f6ad79bfc79cca78c6c06d95cd93d2a8&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0957417408004685&tid=spdf-4e94de2a-cc48-460b-8b18-b1ec01290e16&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S0957417408004685?via%3Dihub
+KW  - Machine learning
+KW  - Classification
+KW  - Clustering
+KW  - Customer behavior
+KW  - Social communities
+ER  - 
+
+TY  - JOUR
+TI  - Churn prediction in subscription services: An application of support vector machines while comparing two parameter-selection techniques
+AU  - Coussement, Kristof
+AU  - Van den Poel, Dirk
+T2  - Expert Systems with Applications
+AB  - CRM gains increasing importance due to intensive competition and saturated markets. With the purpose of retaining customers, academics as well as practitioners find it crucial to build a churn prediction model that is as accurate as possible. This study applies support vector machines in a newspaper subscription context in order to construct a churn model with a higher predictive performance. Moreover, a comparison is made between two parameter-selection techniques, needed to implement support vector machines. Both techniques are based on grid search and cross-validation. Afterwards, the predictive performance of both kinds of support vector machine models is benchmarked to logistic regression and random forests. Our study shows that support vector machines show good generalization performance when applied to noisy marketing data. Nevertheless, the parameter optimization procedure plays an important role in the predictive performance. We show that only when the optimal parameter-selection procedure is applied, support vector machines outperform traditional logistic regression, whereas random forests outperform both kinds of support vector machines. As a substantive contribution, an overview of the most important churn drivers is given. Unlike ample research, monetary value and frequency do not play an important role in explaining churn in this subscription-services application. Even though most important churn predictors belong to the category of variables describing the subscription, the influence of several client/company-interaction variables cannot be neglected.
+DA  - 2008/01/01/
+PY  - 2008
+DO  - 10.1016/j.eswa.2006.09.038
+DP  - ScienceDirect
+VL  - 34
+IS  - 1
+SP  - 313
+EP  - 327
+J2  - Expert Systems with Applications
+LA  - en
+SN  - 0957-4174
+ST  - Churn prediction in subscription services
+UR  - http://www.sciencedirect.com/science/article/pii/S0957417406002806
+Y2  - 2020/11/02/17:59:08
+L1  - https://pdf.sciencedirectassets.com/271506/1-s2.0-S0957417407X01283/1-s2.0-S0957417406002806/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFIaCXVzLWVhc3QtMSJIMEYCIQDHU1fN3TEuyVTjW60Tz4B2Qiqam0fRBLozutfehTuCUAIhAIiRu4DhjklPFSqOJHohJj6Z9ZbZQuoie9ZnGnRVnpfJKr0DCKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMMDU5MDAzNTQ2ODY1Igzn8YhT3TZxQyfHWb0qkQNOVJNl2TIA%2Bhx11B3yFAp7Mfjdvjkg0TyJYdIp0PGOu%2B0cakkKIRqkKeKmK%2FmLJonL%2BArscfBvU6qtu46vxQt2DxKf5ubASgilHbViVnCPHvZK40Dk0aH9SnjYLtNenEn3QISq%2BK8xbnjPyCvdeyzoZogiiBvfFlJYwnWxodlU%2BKiasKfagz17MfJwfjnz%2BG%2Bhf4Kgo7dnX%2F5cQ%2BsVfeMUFUajyqBw0uG7%2FI5eS7hQbAtQTVjgMj29Z7T%2FwgwXMJSISD%2FxvQI%2BEyMz62ZSnyvkgHNpMxG%2Fzu7NuywKM7Lptl8f0%2FaGCBzvDLhdm92byk7r1DfCeRICrupAkHoMLoRCr5mDtKlZZXF7kcM77mr%2BWt9bvxj69Zf%2BnAGUQTNcEAkLTndyrl7LjvXzbf5UfuaAU0Q2eoQG0wFLWka1ZlT7ONkMRfUZ%2BkDcyOErKI8JHCWcuaPp4HsLjWGvHh9tWYu0YR6pA1w0ndFSKf1bsjo5wZ6sdlQ%2BlKJXxcx2%2BJkgjoQpjZn1sBwLP1atdliw4QQm9TC0iIH9BTrqAcr7hoGvs6IdaDxzxOkAqxoAd%2B8eU14606bsSRyuy16a7BC293t1xG2ixOfPGEl%2BO3RsP4xYHDOrq6iq0Z7uvLtiv5oUjI2drNzQW6ROA6n37f8PZcRtBZkeu6kKdlp2Vd4A7OxP23AI7U4teZG5wyLhLuSo5a7FxXe%2FRROwFGgtBmTVrlzrQhpx5wtXqlzRKy1%2FCjefenzq7LGc0z9dz5bdo4L21pXsCkA9Hwi81tFXdMtJpWCQrjbQlCBLV1ImsMvY1lgKSbVeI8f7EvleoGs4zgoSRmKhQOSEOoz0on8DSpE5wrJBHAj28Q%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T175907Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYYHBFCX44%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=e783d5348ffcbbcb65bd378e000238efe96ea2add1e0b7c097f9fb7e9e32a404&hash=666e8fa87c51f39862f6c229bcde4b3aed1b020169aa07d35e340733196980c2&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0957417406002806&tid=spdf-4176d35e-6193-4b85-a425-39d581dc3f16&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S0957417406002806?via%3Dihub
+KW  - Data mining
+KW  - Churn prediction
+KW  - Support vector machines
+KW  - Parameter-selection technique
+KW  - Subscription services
+ER  - 
+
+TY  - JOUR
+TI  - Churn prediction using comprehensible support vector machine: An analytical CRM application
+AU  - Farquad, M. A. H.
+AU  - Ravi, Vadlamani
+AU  - Raju, S. Bapi
+T2  - Applied Soft Computing
+AB  - Support vector machine (SVM) is currently state-of-the-art for classification tasks due to its ability to model nonlinearities. However, the main drawback of SVM is that it generates “black box” model, i.e. it does not reveal the knowledge learnt during training in human comprehensible form. The process of converting such opaque models into a transparent model is often regarded as rule extraction. In this paper we proposed a hybrid approach for extracting rules from SVM for customer relationship management (CRM) purposes. The proposed hybrid approach consists of three phases. (i) During first phase; SVM-RFE (SVM-recursive feature elimination) is employed to reduce the feature set. (ii) Dataset with reduced features is then used in the second phase to obtain SVM model and support vectors are extracted. (iii) Rules are then generated using Naive Bayes Tree (NBTree) in the final phase. The dataset analyzed in this research study is about Churn prediction in bank credit card customer (Business Intelligence Cup 2004) and it is highly unbalanced with 93.24% loyal and 6.76% churned customers. Further we employed various standard balancing approaches to balance the data and extracted rules. It is observed from the empirical results that the proposed hybrid outperformed all other techniques tested. As the reduced feature dataset is used, it is also observed that the proposed approach extracts smaller length rules, thereby improving the comprehensibility of the system. The generated rules act as an early warning expert system to the bank management.
+DA  - 2014/06/01/
+PY  - 2014
+DO  - 10.1016/j.asoc.2014.01.031
+DP  - ScienceDirect
+VL  - 19
+SP  - 31
+EP  - 40
+J2  - Applied Soft Computing
+LA  - en
+SN  - 1568-4946
+ST  - Churn prediction using comprehensible support vector machine
+UR  - http://www.sciencedirect.com/science/article/pii/S1568494614000507
+Y2  - 2020/11/02/17:59:20
+L1  - https://pdf.sciencedirectassets.com/272229/1-s2.0-S1568494614X00049/1-s2.0-S1568494614000507/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFIaCXVzLWVhc3QtMSJHMEUCIGtI9JMtKSQdw3gSlbggeQSi5T2eIJk1%2Fg8IoGYK23Y5AiEAk5AtCVy67mgXjgkgh2J7AlkAG3EYn11%2BC4dUFshig3EqvQMIq%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARADGgwwNTkwMDM1NDY4NjUiDLtw1%2FeQ5wl%2BfBuAEyqRA4%2BKTVnMwG4v6i3JwbfwGR%2FbUrmjDwZ2w6Z1gQAaaC2AYea0rjgUs2eYMV6Ax%2FpPV75xihPjuQ24ZLKWwRg2vjrMWyGGn4KaU7rU4ZBIrQtkAqT7jfKrfwGvwYbKrQwug6%2BQ6Fax5zW2E0gesODic4wO0BGON3rNBSMbABqds1JewdYZf7tNFgvjyAZs8Br80vWadNT0UznnOKIqsR92DfzEBeVygUNxp%2ByAwuPcDvu%2FNbbmfg0Cyn7Y0%2BrH%2FMthf9WfYYQLg5gWQwvS0%2BZvpc0tprz9af3LEJu4mFaDiZEENgta6OVG4qZKrWp8xt52qLtnnOjGKAS4XwncNckLZFlGI8AZMjUOPKgCjoerXlDOd6ABDls7xPDdnTcH%2F553Vky2pYCZY7Hr9wac%2BxMhlGsycSv%2F6%2Bv82ZZfEtKVClXgg516PmtrljwFiCvTh9cevn27CKp8%2FJWJVKl4ZadT%2FAFZnxS8h5ypyBoGMlE2hGnXjKsrjFTH3psdudsNOh2SVJo7psKtqXrRdK%2BqB4RYuD0VMPmIgf0FOusBocw2WNzpg6gq4F7WDNxdYrAep1PWrQ6ftXrZXtMw%2FZGQpPoc1c8L%2BokSzjuMrAeza0VY%2Fb8qeMQhA3pXlSMUWMSO6HXt0yYF15wzHyoqjE9xz%2BJ2BDogZY3w4g0h%2Fv2KU%2Fm0eBmQvG269JYeY9IO%2FKe2k8xUbdfOpASXx%2BolEwzl47JfCw%2FBb9J5BDXq8VGCysqNAVDXVsK698D5Ik7CWfsJVB7rwIqdjxruQj3i45tq7gyCVJpjpYtCB%2FMO77SV8fzR%2FMi8%2B%2FcUnvO2vNgsBviv3PaNa%2BQYax9fvz5%2FdD3bkDZ88EU2PMju%2Bg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T175920Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY7ZQQDHNR%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4abf71ac7950bd8685223ce111a9bf7404da4b700f0d9e4f02b0ef11fc6d7611&hash=fa8588fa5736c5b49a012ea2a62498818a1168ae234d9896eb48b89185a5718c&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1568494614000507&tid=spdf-364fe489-8e91-42fa-a302-43255e2b3dad&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S1568494614000507?via%3Dihub
+KW  - Churn prediction
+KW  - Machine learning and customer relationship management
+KW  - Naive Bayes Tree
+KW  - Rule extraction
+KW  - Support vector machine
+ER  - 
+
+TY  - JOUR
+TI  - Credit card churn forecasting by logistic regression and decision tree
+AU  - Nie, Guangli
+AU  - Rowe, Wei
+AU  - Zhang, Lingling
+AU  - Tian, Yingjie
+AU  - Shi, Yong
+T2  - Expert Systems with Applications
+AB  - In this paper, two data mining algorithms are applied to build a churn prediction model using credit card data collected from a real Chinese bank. The contribution of four variable categories: customer information, card information, risk information, and transaction activity information are examined. The paper analyzes a process of dealing with variables when data is obtained from a database instead of a survey. Instead of considering the all 135 variables into the model directly, it selects the certain variables from the perspective of not only correlation but also economic sense. In addition to the accuracy of analytic results, the paper designs a misclassification cost measurement by taking the two types error and the economic sense into account, which is more suitable to evaluate the credit card churn prediction model. The algorithms used in this study include logistic regression and decision tree which are proven mature and powerful classification algorithms. The test result shows that regression performs a little better than decision tree.
+DA  - 2011/11/01/
+PY  - 2011
+DO  - 10.1016/j.eswa.2011.06.028
+DP  - ScienceDirect
+VL  - 38
+IS  - 12
+SP  - 15273
+EP  - 15285
+J2  - Expert Systems with Applications
+LA  - en
+SN  - 0957-4174
+UR  - http://www.sciencedirect.com/science/article/pii/S0957417411009237
+Y2  - 2020/11/02/17:59:47
+L1  - https://pdf.sciencedirectassets.com/271506/1-s2.0-S0957417411X0009X/1-s2.0-S0957417411009237/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFIaCXVzLWVhc3QtMSJIMEYCIQDHU1fN3TEuyVTjW60Tz4B2Qiqam0fRBLozutfehTuCUAIhAIiRu4DhjklPFSqOJHohJj6Z9ZbZQuoie9ZnGnRVnpfJKr0DCKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMMDU5MDAzNTQ2ODY1Igzn8YhT3TZxQyfHWb0qkQNOVJNl2TIA%2Bhx11B3yFAp7Mfjdvjkg0TyJYdIp0PGOu%2B0cakkKIRqkKeKmK%2FmLJonL%2BArscfBvU6qtu46vxQt2DxKf5ubASgilHbViVnCPHvZK40Dk0aH9SnjYLtNenEn3QISq%2BK8xbnjPyCvdeyzoZogiiBvfFlJYwnWxodlU%2BKiasKfagz17MfJwfjnz%2BG%2Bhf4Kgo7dnX%2F5cQ%2BsVfeMUFUajyqBw0uG7%2FI5eS7hQbAtQTVjgMj29Z7T%2FwgwXMJSISD%2FxvQI%2BEyMz62ZSnyvkgHNpMxG%2Fzu7NuywKM7Lptl8f0%2FaGCBzvDLhdm92byk7r1DfCeRICrupAkHoMLoRCr5mDtKlZZXF7kcM77mr%2BWt9bvxj69Zf%2BnAGUQTNcEAkLTndyrl7LjvXzbf5UfuaAU0Q2eoQG0wFLWka1ZlT7ONkMRfUZ%2BkDcyOErKI8JHCWcuaPp4HsLjWGvHh9tWYu0YR6pA1w0ndFSKf1bsjo5wZ6sdlQ%2BlKJXxcx2%2BJkgjoQpjZn1sBwLP1atdliw4QQm9TC0iIH9BTrqAcr7hoGvs6IdaDxzxOkAqxoAd%2B8eU14606bsSRyuy16a7BC293t1xG2ixOfPGEl%2BO3RsP4xYHDOrq6iq0Z7uvLtiv5oUjI2drNzQW6ROA6n37f8PZcRtBZkeu6kKdlp2Vd4A7OxP23AI7U4teZG5wyLhLuSo5a7FxXe%2FRROwFGgtBmTVrlzrQhpx5wtXqlzRKy1%2FCjefenzq7LGc0z9dz5bdo4L21pXsCkA9Hwi81tFXdMtJpWCQrjbQlCBLV1ImsMvY1lgKSbVeI8f7EvleoGs4zgoSRmKhQOSEOoz0on8DSpE5wrJBHAj28Q%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T175947Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYYHBFCX44%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b0271c301eb93e8ee995316b2f92d81bab2c9d792b1bd90b3b0c4a05c1f799bd&hash=695d0b3824917c17ce9d89b4e9fc3c6be6f4386aa4ef47d37bbed35efe2a0586&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0957417411009237&tid=spdf-883e988e-09f9-4b52-ad15-3ea0c82bbde7&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S0957417411009237?via%3Dihub
+KW  - Data mining
+KW  - Customer churn
+KW  - Logistic regression
+KW  - Credit card
+KW  - Decision tree
+ER  - 
+
+TY  - JOUR
+TI  - Customer churn prediction in the online gambling industry: The beneficial effect of ensemble learning
+AU  - Coussement, Kristof
+AU  - De Bock, Koen W.
+T2  - Journal of Business Research
+T3  - Advancing Research Methods in Marketing
+AB  - The online gambling industry is one of the most revenue generating branches of the entertainment business, resulting in fierce competition and saturated markets. Therefore it is essential to efficiently retain gamblers. Churn prediction is a promising new alternative in customer relationship management (CRM) to analyze customer retention. It is the process of identifying gamblers with a high probability to leave the company based on their past behavior. This study investigates whether churn prediction is a valuable option in the CRM palette of the online gambling companies. Using real-life data of poker players at bwin, single algorithms, CART decision trees and generalized additive models are benchmarked to their ensemble counterparts, random forests and GAMens. The results show that churn prediction is a valuable strategy to identify and profile those customers at risk. Furthermore, the performance of the ensembles is more robust and better than the single models.
+DA  - 2013/09/01/
+PY  - 2013
+DO  - 10.1016/j.jbusres.2012.12.008
+DP  - ScienceDirect
+VL  - 66
+IS  - 9
+SP  - 1629
+EP  - 1636
+J2  - Journal of Business Research
+LA  - en
+SN  - 0148-2963
+ST  - Customer churn prediction in the online gambling industry
+UR  - http://www.sciencedirect.com/science/article/pii/S0148296312003530
+Y2  - 2020/11/02/18:00:02
+L1  - https://pdf.sciencedirectassets.com/271680/1-s2.0-S0148296313X00074/1-s2.0-S0148296312003530/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFIaCXVzLWVhc3QtMSJHMEUCICDX4uaN2QCLyAHbnsXx11YUZ3cUmuJWe5J9VPWsL4MuAiEArw9PXVTIoITX%2FcFrDXyyr6NHfjxbMW5dwSvAnXlpdJgqvQMIqv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARADGgwwNTkwMDM1NDY4NjUiDCQ0bquloTAqm%2B6ssSqRA9fzzrn7rO%2F2%2FST5OZCxsc8ywQ8IICG2pf9AtQkCRqUAkKBBuTgRYjch%2FujWyH8kqaPrzWmadUh3%2F0vZbxJGRLCMgNfc9YNMJ8N%2FhZ9sY4Kzj%2FbOJCUJRws7FKaxHWA7R1bDys%2Fdmjm0rWfiqzVCAO2%2Fi1YLUWYu6lCPgUUiJrgKwQfxh1axRyE1Daq4xtTGtYxg85bAbmFW4hUIn9Lg6i9BVPk1nM68uJ8As4yPwlBwbuxVs5CIdZuGnOD%2B27aHSJ0P3f3xEW8K6yJ4nKwqPDvJH4OJ%2BWkYZrWdxr718Q3hRZcc%2BsvSjMZtmlWtrq32odEuFmi8SeEbmv%2FhOaarm8veAwwGC5llcvV%2FUh%2BWlmq8QQ6EP1CBNa%2FHUSZemTNMrPKYuqoc4fTQ6AvIMLD5oV9%2BJCZioAmcbcgyWomMevVFbOGN%2BNxO32rI%2B3HjPEr0G4zmquil7%2BpCtn1z7M4QUXlwbRUR1Wwx47d66NZWovM1cPiKmjIp82WXjCwHGXeXEh1xX5IfaKmKsUhkyJjQ3qRfMPf9gP0FOusBirRUywLgVtpas%2BJEPGDPK%2F0wUjEIjW2cxKJaOv6ZczzEe0f5P%2FmISbsyDugf5HpB%2BUkjuB%2Fuht6DWG0oj0i0tlJrU%2B%2FQg%2B7FJkthZg8QRSTWFMGr8gj0Qf9ytksW%2BX57sF4ElOK9YUQi5%2B3oEF%2BH30pd1NTZONWUKCwWNiW0RehJ7n7yG2mJl%2BF1b3MqaVudPSPm5efdr4zjO8Ks4asRSRlYwtosg0o6hOC%2F8h%2BWfBEHJ7msqWGKusA6K3V1Ta3Kr3x3dI2YXyG8cEMCwSwQlzHEeRLwXq7Z%2FeTVNFVo6Y7zycQG5xmZWLVR%2Fg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T180002Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY4SKWL3OT%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=ae7360061be6594a55d42370b2e0a200a3a5b3d3246a0344bf478a7ffbe407db&hash=79d960783ac394c2f231583cc22efd2d2186f978b8e98d705622572cd257bd40&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0148296312003530&tid=spdf-27f9705a-e403-4f5d-bac6-e2c8fb12ab10&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S0148296312003530?via%3Dihub
+KW  - Customer relationship management
+KW  - Random forests
+KW  - Customer churn prediction
+KW  - Ensemble algorithms
+KW  - GAMens
+KW  - Online gambling
+ER  - 
+
+TY  - JOUR
+TI  - Customer churn prediction in the telecommunication sector using a rough set approach
+AU  - Amin, Adnan
+AU  - Anwar, Sajid
+AU  - Adnan, Awais
+AU  - Nawaz, Muhammad
+AU  - Alawfi, Khalid
+AU  - Hussain, Amir
+AU  - Huang, Kaizhu
+T2  - Neurocomputing
+AB  - Customer churn is a critical and challenging problem affecting business and industry, in particular, the rapidly growing, highly competitive telecommunication sector. It is of substantial interest to both academic researchers and industrial practitioners, interested in forecasting the behavior of customers in order to differentiate the churn from non-churn customers. The primary motivation is the dire need of businesses to retain existing customers, coupled with the high cost associated with acquiring new ones. A review of the field has revealed a lack of efficient, rule-based Customer Churn Prediction (CCP) approaches in the telecommunication sector. This study proposes an intelligent rule-based decision-making technique, based on rough set theory (RST), to extract important decision rules related to customer churn and non-churn. The proposed approach effectively performs classification of churn from non-churn customers, along with prediction of those customers who will churn or may possibly churn in the near future. Extensive simulation experiments are carried out to evaluate the performance of our proposed RST based CCP approach using four rule-generation mechanisms, namely, the Exhaustive Algorithm (EA), Genetic Algorithm (GA), Covering Algorithm (CA) and the LEM2 algorithm (LA). Empirical results show that RST based on GA is the most efficient technique for extracting implicit knowledge in the form of decision rules from the publicly available, benchmark telecom dataset. Further, comparative results demonstrate that our proposed approach offers a globally optimal solution for CCP in the telecom sector, when benchmarked against several state-of-the-art methods. Finally, we show how attribute-level analysis can pave the way for developing a successful customer retention policy that could form an indispensable part of strategic decision making and planning process in the telecom sector.
+DA  - 2017/05/10/
+PY  - 2017
+DO  - 10.1016/j.neucom.2016.12.009
+DP  - ScienceDirect
+VL  - 237
+SP  - 242
+EP  - 254
+J2  - Neurocomputing
+LA  - en
+SN  - 0925-2312
+UR  - http://www.sciencedirect.com/science/article/pii/S0925231216314849
+Y2  - 2020/11/02/18:00:22
+L1  - https://pdf.sciencedirectassets.com/271597/1-s2.0-S0925231217X00106/1-s2.0-S0925231216314849/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFEaCXVzLWVhc3QtMSJIMEYCIQDMjh6lbwM8AAFP9M0wokVvzQcTuVypQ11o%2B%2BWiOdZg3gIhAIqE693bOQDF0MSYVSkYmY5QAlJzEyuc7OtbgUqjD9G7Kr0DCKr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMMDU5MDAzNTQ2ODY1Igyifr4AJMc3x1l4VysqkQOs3XNol2kmA2YYqEh%2FrQWEVwLfQttf4W6wH5hUTqZEo3PpN9UXFODiR7QU3bkqgY1alJzHO5sM%2F0QoLWCLgat7GYoA5BpJh3KB7GuRuVc6hpUNJ0Q1%2FX7sY%2BuPYj%2Ft2KFvO4flsGnJdZmVFB1WBLpscGbUFBygXWtIo2VFZq5eqNJBeS1pEc3MTx08%2BBOWA8fGgOm5pKol43bSttj1P0at4gjCaMph2upstli%2FrlKM4s4rh0nboZCo6m5oObbk954uOKhfUzgsHH2S3LXtBwH%2F5nDvueZ0o1kpRfFQkW6TArgT%2BLdrwenQlSq5a4yWnX%2FuaZTshHbpUKsgMtEUEfAj35arjOUesobNy%2BwRy88tkdYhL11bNsfQcZOSnfptQSCrb9wPDNTHKlqf9eQxgs3qeoqJBsz3U%2BOSyrUSd3750p70k5qTyZjvnwpb82P47z5rGnbShTwn2nGSgBQ67TS9yAb0rto0pqZNph6X0wCYeLznZicMUmLV4fe9KecIMJ5oyrB12h%2FbX%2B4aPRR5m8VvaDCi9oD9BTrqAapliWBPldVPFvwsJBnbJglJO1Kdh5ejqMzV60qN1PAGFetX1pHVP%2BveDNDlq7Mw361ASoIwW85q8rcMcIDvT1WUqFVAM7WzTgi06OCIemOjzzklCU4Ghqd4tns279meMObZvwdyyvE44xNwj3fUXHc62wSsljytrWmG5obow2AsAqLurrejst9pRlG8BICNNWqk5VYnRVIUdXiKPZW9VPKTIla%2B5hzc896okn5OuwltYqCyOmvyZ5fPo0hxHR2re6wWNIETv0%2F%2BA8ZzWeBFGv6vl%2BJ6xlb8mnMHQGdU6q5Mr4RWz%2BLvp%2B%2B56A%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T180021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYQUNCH6VJ%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=af844a62adebb8183eaff3652a46e79b5e817432861a7870e3035e4bb744e33a&hash=2f440fdfd0d167de094c24b4bd294e77ef7598e7bf224bd326b20afc8451809f&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0925231216314849&tid=spdf-9c855976-e256-40a6-a2cf-96b4f969b0b2&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S0925231216314849?via%3Dihub
+KW  - Data mining
+KW  - Churn prediction
+KW  - Classification
+KW  - Feature selection
+KW  - Rough Set theory
+ER  - 
+
+TY  - JOUR
+TI  - Development of a Bayesian Belief Network-based DSS for predicting and understanding freshmen student attrition
+AU  - Delen, Dursun
+AU  - Topuz, Kazim
+AU  - Eryarsoy, Enes
+T2  - European Journal of Operational Research
+T3  - Featured Cluster: Business Analytics: Defining the field and identifying a research agenda
+AB  - Student attrition – the departure from an institution of higher learning prior to the achievement of a degree or earning due educational credentials – is an administratively important, scientifically interesting and yet practically challenging problem for decision makers and researchers. This study aims to find the prominent variables and their conditional dependencies/interrelations that affect student attrition in college settings. Specifically, using a large and feature-rich dataset, proposed methodology successfully captures the probabilistic interactions between attrition (the dependent variable) and related factors (the independent variables) to reveal the underlying, potentially complex/non-linear relationships. The proposed methodology successfully predicts the individual students' attrition risk through a Bayesian Belief Network-driven probabilistic model. The findings suggest that the proposed probabilistic graphical/network method is capable of predicting student attrition with 84% in AUC – Area Under the Receiver Operating Characteristics Curve. Using a 2-by-2 investigational design framework, this body of research also compares the impact and contribution of data balancing and feature selection to the resultant prediction models. The results show that (1) the imbalanced dataset produces similar predictive results in detecting the at-risk students, and (2) the feature selection, which is the process of identifying and eliminating unnecessary/unimportant predictors, results in simpler, more understandable, interpretable, and actionable results without compromising on the accuracy of the prediction task.
+DA  - 2020/03/16/
+PY  - 2020
+DO  - 10.1016/j.ejor.2019.03.037
+DP  - ScienceDirect
+VL  - 281
+IS  - 3
+SP  - 575
+EP  - 587
+J2  - European Journal of Operational Research
+LA  - en
+SN  - 0377-2217
+UR  - http://www.sciencedirect.com/science/article/pii/S0377221719302954
+Y2  - 2020/11/02/18:00:37
+L1  - https://pdf.sciencedirectassets.com/271700/1-s2.0-S0377221719X00223/1-s2.0-S0377221719302954/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFIaCXVzLWVhc3QtMSJIMEYCIQDHU1fN3TEuyVTjW60Tz4B2Qiqam0fRBLozutfehTuCUAIhAIiRu4DhjklPFSqOJHohJj6Z9ZbZQuoie9ZnGnRVnpfJKr0DCKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMMDU5MDAzNTQ2ODY1Igzn8YhT3TZxQyfHWb0qkQNOVJNl2TIA%2Bhx11B3yFAp7Mfjdvjkg0TyJYdIp0PGOu%2B0cakkKIRqkKeKmK%2FmLJonL%2BArscfBvU6qtu46vxQt2DxKf5ubASgilHbViVnCPHvZK40Dk0aH9SnjYLtNenEn3QISq%2BK8xbnjPyCvdeyzoZogiiBvfFlJYwnWxodlU%2BKiasKfagz17MfJwfjnz%2BG%2Bhf4Kgo7dnX%2F5cQ%2BsVfeMUFUajyqBw0uG7%2FI5eS7hQbAtQTVjgMj29Z7T%2FwgwXMJSISD%2FxvQI%2BEyMz62ZSnyvkgHNpMxG%2Fzu7NuywKM7Lptl8f0%2FaGCBzvDLhdm92byk7r1DfCeRICrupAkHoMLoRCr5mDtKlZZXF7kcM77mr%2BWt9bvxj69Zf%2BnAGUQTNcEAkLTndyrl7LjvXzbf5UfuaAU0Q2eoQG0wFLWka1ZlT7ONkMRfUZ%2BkDcyOErKI8JHCWcuaPp4HsLjWGvHh9tWYu0YR6pA1w0ndFSKf1bsjo5wZ6sdlQ%2BlKJXxcx2%2BJkgjoQpjZn1sBwLP1atdliw4QQm9TC0iIH9BTrqAcr7hoGvs6IdaDxzxOkAqxoAd%2B8eU14606bsSRyuy16a7BC293t1xG2ixOfPGEl%2BO3RsP4xYHDOrq6iq0Z7uvLtiv5oUjI2drNzQW6ROA6n37f8PZcRtBZkeu6kKdlp2Vd4A7OxP23AI7U4teZG5wyLhLuSo5a7FxXe%2FRROwFGgtBmTVrlzrQhpx5wtXqlzRKy1%2FCjefenzq7LGc0z9dz5bdo4L21pXsCkA9Hwi81tFXdMtJpWCQrjbQlCBLV1ImsMvY1lgKSbVeI8f7EvleoGs4zgoSRmKhQOSEOoz0on8DSpE5wrJBHAj28Q%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T180037Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYYHBFCX44%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=bbf67d9bbe8960416f3629c3426bc13cc71925b57e949b17f2c0a90a29707e2a&hash=a709e68109ab713ba4c238b3b7f0b87c533c74220e204094e130a2d4eac0b84a&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0377221719302954&tid=spdf-68dbd34c-74ad-44c6-a3c1-12dff73c49fa&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S0377221719302954?via%3Dihub
+KW  - Prediction
+KW  - Student retention
+KW  - Bayesian Belief Network (BBN)
+KW  - Elastic net
+KW  - Imbalance data
+ER  - 
+
+TY  - JOUR
+TI  - Dynamic behavior based churn prediction in mobile telecom
+AU  - Alboukaey, Nadia
+AU  - Joukhadar, Ammar
+AU  - Ghneim, Nada
+T2  - Expert Systems with Applications
+AB  - Customer churn is one of the most challenging problems that affects revenue and customer base in mobile telecom operators. The success of retention campaigns depends not only on the accuracy of predicting potential churners, but with equal importance, it depends on the timing when the prediction is done. Previous works related to churn prediction presented models to predict churn monthly with a focus on the static behavior of customers, and even the studies that considered the dynamic behavior of the customer, looked mainly at the monthly level behavior. However, customer behavior is susceptible to changes over days of month, and during the time leading up to a customer decision to churn, he/she starts behaving differently. Therefore, considering monthly behavioral features negatively affects the predictive performance, because it ignores changes in behavior over days of month. Moreover, predicting churners on monthly basis will be late for customers who decided to leave at the beginning of the month because they will not be detected as churners until the next month. To address these issues, in this paper, we propose daily churn prediction instead of monthly based on the daily dynamic behavior of customer instead of his monthly one. More precisely, we represent customer’s daily behavior as multivariate time series and propose four models to predict churn daily based on this representation. Two models depend on features extracted from the multivariate time series, namely RFM-based model and statistics-based model. While the other models, exploit deep learning techniques for automatic feature extraction, namely LSTM-based model and CNN-based model. The predictive performance of the proposed models were investigated by evaluating them using a 150-day-long dataset collected from MTN operator in the country. The results showed that the daily models significantly outperform the monthly models in terms of predicting churners earlier and more accurately. Furthermore, the LSTM-based model significantly outperforms the CNN-based model. However, the prediction performances of the LSTM-based and the CNN-based models are equal to the prediction performance of the RFM-based model. Moreover, all of these three models significantly outperform the Statistics-based model.
+DA  - 2020/12/30/
+PY  - 2020
+DO  - 10.1016/j.eswa.2020.113779
+DP  - ScienceDirect
+VL  - 162
+SP  - 113779
+J2  - Expert Systems with Applications
+LA  - en
+SN  - 0957-4174
+UR  - http://www.sciencedirect.com/science/article/pii/S0957417420306035
+Y2  - 2020/11/02/18:00:53
+L1  - https://pdf.sciencedirectassets.com/271506/1-s2.0-S0957417420X00169/1-s2.0-S0957417420306035/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFIaCXVzLWVhc3QtMSJIMEYCIQDHU1fN3TEuyVTjW60Tz4B2Qiqam0fRBLozutfehTuCUAIhAIiRu4DhjklPFSqOJHohJj6Z9ZbZQuoie9ZnGnRVnpfJKr0DCKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMMDU5MDAzNTQ2ODY1Igzn8YhT3TZxQyfHWb0qkQNOVJNl2TIA%2Bhx11B3yFAp7Mfjdvjkg0TyJYdIp0PGOu%2B0cakkKIRqkKeKmK%2FmLJonL%2BArscfBvU6qtu46vxQt2DxKf5ubASgilHbViVnCPHvZK40Dk0aH9SnjYLtNenEn3QISq%2BK8xbnjPyCvdeyzoZogiiBvfFlJYwnWxodlU%2BKiasKfagz17MfJwfjnz%2BG%2Bhf4Kgo7dnX%2F5cQ%2BsVfeMUFUajyqBw0uG7%2FI5eS7hQbAtQTVjgMj29Z7T%2FwgwXMJSISD%2FxvQI%2BEyMz62ZSnyvkgHNpMxG%2Fzu7NuywKM7Lptl8f0%2FaGCBzvDLhdm92byk7r1DfCeRICrupAkHoMLoRCr5mDtKlZZXF7kcM77mr%2BWt9bvxj69Zf%2BnAGUQTNcEAkLTndyrl7LjvXzbf5UfuaAU0Q2eoQG0wFLWka1ZlT7ONkMRfUZ%2BkDcyOErKI8JHCWcuaPp4HsLjWGvHh9tWYu0YR6pA1w0ndFSKf1bsjo5wZ6sdlQ%2BlKJXxcx2%2BJkgjoQpjZn1sBwLP1atdliw4QQm9TC0iIH9BTrqAcr7hoGvs6IdaDxzxOkAqxoAd%2B8eU14606bsSRyuy16a7BC293t1xG2ixOfPGEl%2BO3RsP4xYHDOrq6iq0Z7uvLtiv5oUjI2drNzQW6ROA6n37f8PZcRtBZkeu6kKdlp2Vd4A7OxP23AI7U4teZG5wyLhLuSo5a7FxXe%2FRROwFGgtBmTVrlzrQhpx5wtXqlzRKy1%2FCjefenzq7LGc0z9dz5bdo4L21pXsCkA9Hwi81tFXdMtJpWCQrjbQlCBLV1ImsMvY1lgKSbVeI8f7EvleoGs4zgoSRmKhQOSEOoz0on8DSpE5wrJBHAj28Q%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T180053Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYYHBFCX44%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=3bf0d88bc083d324ae98fb0257e85694e99c05b021d289916e1466c233c68f09&hash=065817fc471e1de4651607a25cba274e4f436fd1bf3c303771ff5afc12c9021f&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0957417420306035&tid=spdf-c82c2a76-87e5-4798-ba13-9a3ae67c3b04&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S0957417420306035?via%3Dihub
+KW  - Machine learning
+KW  - Churn prediction
+KW  - Deep learning
+KW  - Dynamic behavior
+KW  - Mobile telecom
+KW  - RFM
+ER  - 
+
+TY  - JOUR
+TI  - Dynamic churn prediction framework with more effective use of rare event data: The case of private banking
+AU  - Gür Ali, Özden
+AU  - Arıtürk, Umut
+T2  - Expert Systems with Applications
+AB  - Customer churn prediction literature has been limited to modeling churn in the next (feasible) time period. On the other hand, lead time specific churn predictions can help businesses to allocate retention efforts across time, as well as customers, and identify early triggers and indicators of customer churn. We propose a dynamic churn prediction framework for generating training data from customer records, and leverage it for predicting customer churn within multiple horizons using standard classifiers. Further, we empirically evaluate the proposed approach in a case study about private banking customers in a European bank. The proposed framework includes customer observations from different time periods, and thus addresses the absolute rarity issue that is relevant for the most valuable customer segment of many companies. It also increases the sampling density in the training data and allows the models to generalize across behaviors in different time periods while incorporating the impact of the environmental drivers. As a result, this framework significantly increases the prediction accuracy across prediction horizons compared to the standard approach of one observation per customer; even when the standard approach is modified with oversampling to balance the data, or lags of customer behavior features are added as additional predictors. The proposed approach to dynamic churn prediction involves a set of independently trained horizon-specific binary classifiers that use the proposed dataset generation framework. In the absence of predictive dynamic churn models, we had to benchmark survival analysis which is used predominantly as a descriptive tool. The proposed method outperforms survival analysis in terms of predictive accuracy for all lead times, with a much lower variability. Further, unlike Cox regression, it provides horizon specific ranking of customers in terms of churn probability which allows allocation of retention efforts across customers and time periods.
+DA  - 2014/12/01/
+PY  - 2014
+DO  - 10.1016/j.eswa.2014.06.018
+DP  - ScienceDirect
+VL  - 41
+IS  - 17
+SP  - 7889
+EP  - 7903
+J2  - Expert Systems with Applications
+LA  - en
+SN  - 0957-4174
+ST  - Dynamic churn prediction framework with more effective use of rare event data
+UR  - http://www.sciencedirect.com/science/article/pii/S0957417414003595
+Y2  - 2020/11/02/18:01:10
+L1  - https://pdf.sciencedirectassets.com/271506/1-s2.0-S0957417414X00102/1-s2.0-S0957417414003595/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFEaCXVzLWVhc3QtMSJIMEYCIQDMjh6lbwM8AAFP9M0wokVvzQcTuVypQ11o%2B%2BWiOdZg3gIhAIqE693bOQDF0MSYVSkYmY5QAlJzEyuc7OtbgUqjD9G7Kr0DCKr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMMDU5MDAzNTQ2ODY1Igyifr4AJMc3x1l4VysqkQOs3XNol2kmA2YYqEh%2FrQWEVwLfQttf4W6wH5hUTqZEo3PpN9UXFODiR7QU3bkqgY1alJzHO5sM%2F0QoLWCLgat7GYoA5BpJh3KB7GuRuVc6hpUNJ0Q1%2FX7sY%2BuPYj%2Ft2KFvO4flsGnJdZmVFB1WBLpscGbUFBygXWtIo2VFZq5eqNJBeS1pEc3MTx08%2BBOWA8fGgOm5pKol43bSttj1P0at4gjCaMph2upstli%2FrlKM4s4rh0nboZCo6m5oObbk954uOKhfUzgsHH2S3LXtBwH%2F5nDvueZ0o1kpRfFQkW6TArgT%2BLdrwenQlSq5a4yWnX%2FuaZTshHbpUKsgMtEUEfAj35arjOUesobNy%2BwRy88tkdYhL11bNsfQcZOSnfptQSCrb9wPDNTHKlqf9eQxgs3qeoqJBsz3U%2BOSyrUSd3750p70k5qTyZjvnwpb82P47z5rGnbShTwn2nGSgBQ67TS9yAb0rto0pqZNph6X0wCYeLznZicMUmLV4fe9KecIMJ5oyrB12h%2FbX%2B4aPRR5m8VvaDCi9oD9BTrqAapliWBPldVPFvwsJBnbJglJO1Kdh5ejqMzV60qN1PAGFetX1pHVP%2BveDNDlq7Mw361ASoIwW85q8rcMcIDvT1WUqFVAM7WzTgi06OCIemOjzzklCU4Ghqd4tns279meMObZvwdyyvE44xNwj3fUXHc62wSsljytrWmG5obow2AsAqLurrejst9pRlG8BICNNWqk5VYnRVIUdXiKPZW9VPKTIla%2B5hzc896okn5OuwltYqCyOmvyZ5fPo0hxHR2re6wWNIETv0%2F%2BA8ZzWeBFGv6vl%2BJ6xlb8mnMHQGdU6q5Mr4RWz%2BLvp%2B%2B56A%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T180110Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYQUNCH6VJ%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=8df1c194e61c4d9f2c8e54d9e2d1c955830bd8b2ed42d00e7eca18eec184c0bc&hash=6e5aa4728eabf8da2161f2e706c848ffad92f23264e9b74c2468744f914210c2&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0957417414003595&tid=spdf-364d8b3d-f305-44af-b761-538a60616c86&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S0957417414003595?via%3Dihub
+KW  - Customer retention
+KW  - Data mining
+KW  - Customer relationship management
+KW  - Dynamic churn prediction
+KW  - Private banking
+KW  - Rare event
+KW  - Sampling
+KW  - Training data generation
+ER  - 
+
+TY  - JOUR
+TI  - Forecasting client retention — A machine-learning approach
+AU  - Schaeffer, Satu Elisa
+AU  - Rodriguez Sanchez, Sara Veronica
+T2  - Journal of Retailing and Consumer Services
+AB  - In the age of big data, companies store practically all data on any client transaction. Making use of this data is commonly done with machine-learning techniques so as to turn it into information that can be used to drive business decisions. Our interest lies in using data on prepaid unitary services in a business-to-business setting to forecast client retention: whether a particular client is at risk of being lost before they cease being clients. The purpose of such a forecast is to provide the company with an opportunity to reach out to such clients as an effort to ensure their retention. We work with monthly records of client transactions: each client is represented as a series of purchases and consumptions. We vary (1) the length of the time period used to make the forecast, (2) the length of a period of inactivity after which a client is assumed to be lost, and (3) how far in advance the forecast is made. Our experimental work finds that current machine-learning techniques able to adequately predict, well in advance, which clients will be lost. This knowledge permits a company to focus marketing efforts on such clients as early as three months in advance.
+DA  - 2020/01/01/
+PY  - 2020
+DO  - 10.1016/j.jretconser.2019.101918
+DP  - ScienceDirect
+VL  - 52
+SP  - 101918
+J2  - Journal of Retailing and Consumer Services
+LA  - en
+SN  - 0969-6989
+UR  - http://www.sciencedirect.com/science/article/pii/S0969698919302668
+Y2  - 2020/11/02/18:01:25
+L1  - https://pdf.sciencedirectassets.com/271706/1-s2.0-S0969698919X00065/1-s2.0-S0969698919302668/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFEaCXVzLWVhc3QtMSJIMEYCIQDMjh6lbwM8AAFP9M0wokVvzQcTuVypQ11o%2B%2BWiOdZg3gIhAIqE693bOQDF0MSYVSkYmY5QAlJzEyuc7OtbgUqjD9G7Kr0DCKr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMMDU5MDAzNTQ2ODY1Igyifr4AJMc3x1l4VysqkQOs3XNol2kmA2YYqEh%2FrQWEVwLfQttf4W6wH5hUTqZEo3PpN9UXFODiR7QU3bkqgY1alJzHO5sM%2F0QoLWCLgat7GYoA5BpJh3KB7GuRuVc6hpUNJ0Q1%2FX7sY%2BuPYj%2Ft2KFvO4flsGnJdZmVFB1WBLpscGbUFBygXWtIo2VFZq5eqNJBeS1pEc3MTx08%2BBOWA8fGgOm5pKol43bSttj1P0at4gjCaMph2upstli%2FrlKM4s4rh0nboZCo6m5oObbk954uOKhfUzgsHH2S3LXtBwH%2F5nDvueZ0o1kpRfFQkW6TArgT%2BLdrwenQlSq5a4yWnX%2FuaZTshHbpUKsgMtEUEfAj35arjOUesobNy%2BwRy88tkdYhL11bNsfQcZOSnfptQSCrb9wPDNTHKlqf9eQxgs3qeoqJBsz3U%2BOSyrUSd3750p70k5qTyZjvnwpb82P47z5rGnbShTwn2nGSgBQ67TS9yAb0rto0pqZNph6X0wCYeLznZicMUmLV4fe9KecIMJ5oyrB12h%2FbX%2B4aPRR5m8VvaDCi9oD9BTrqAapliWBPldVPFvwsJBnbJglJO1Kdh5ejqMzV60qN1PAGFetX1pHVP%2BveDNDlq7Mw361ASoIwW85q8rcMcIDvT1WUqFVAM7WzTgi06OCIemOjzzklCU4Ghqd4tns279meMObZvwdyyvE44xNwj3fUXHc62wSsljytrWmG5obow2AsAqLurrejst9pRlG8BICNNWqk5VYnRVIUdXiKPZW9VPKTIla%2B5hzc896okn5OuwltYqCyOmvyZ5fPo0hxHR2re6wWNIETv0%2F%2BA8ZzWeBFGv6vl%2BJ6xlb8mnMHQGdU6q5Mr4RWz%2BLvp%2B%2B56A%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T180125Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYQUNCH6VJ%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fb62f1374d8c2c4e7bcbf8e8872cb2cc0f5846c17840222db011c60fcb2678be&hash=e17da4cb0d2cd01156fab2d6ab3b7fad5f3e08119465e19e60c5f37ffa16eb6e&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0969698919302668&tid=spdf-3bc4d25d-734e-4be5-8be0-a5559502b32d&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S0969698919302668?via%3Dihub
+KW  - Machine learning
+KW  - Sales forecasting
+KW  - Client retention
+KW  - Prepaid unitary services
+ER  - 
+
+TY  - JOUR
+TI  - Improved churn prediction in telecommunication industry using data mining techniques
+AU  - Keramati, A.
+AU  - Jafari-Marandi, R.
+AU  - Aliannejadi, M.
+AU  - Ahmadian, I.
+AU  - Mozaffari, M.
+AU  - Abbasi, U.
+T2  - Applied Soft Computing
+AB  - To survive in today's telecommunication business it is imperative to distinguish customers who are not reluctant to move toward a competitor. Therefore, customer churn prediction has become an essential issue in telecommunication business. In such competitive business a reliable customer predictor will be regarded priceless. This paper has employed data mining classification techniques including Decision Tree, Artificial Neural Networks, K-Nearest Neighbors, and Support Vector Machine so as to compare their performances. Using the data of an Iranian mobile company, not only were these techniques experienced and compared to one another, but also we have drawn a parallel between some different prominent data mining software. Analyzing the techniques’ behavior and coming to know their specialties, we proposed a hybrid methodology which made considerable improvements to the value of some of the evaluations metrics. The proposed methodology results showed that above 95% accuracy for Recall and Precision is easily achievable. Apart from that a new methodology for extracting influential features in dataset was introduced and experienced.
+DA  - 2014/11/01/
+PY  - 2014
+DO  - 10.1016/j.asoc.2014.08.041
+DP  - ScienceDirect
+VL  - 24
+SP  - 994
+EP  - 1012
+J2  - Applied Soft Computing
+LA  - en
+SN  - 1568-4946
+UR  - http://www.sciencedirect.com/science/article/pii/S1568494614004062
+Y2  - 2020/11/02/18:01:45
+L1  - https://pdf.sciencedirectassets.com/272229/1-s2.0-S1568494614X00098/1-s2.0-S1568494614004062/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFEaCXVzLWVhc3QtMSJIMEYCIQDMjh6lbwM8AAFP9M0wokVvzQcTuVypQ11o%2B%2BWiOdZg3gIhAIqE693bOQDF0MSYVSkYmY5QAlJzEyuc7OtbgUqjD9G7Kr0DCKr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMMDU5MDAzNTQ2ODY1Igyifr4AJMc3x1l4VysqkQOs3XNol2kmA2YYqEh%2FrQWEVwLfQttf4W6wH5hUTqZEo3PpN9UXFODiR7QU3bkqgY1alJzHO5sM%2F0QoLWCLgat7GYoA5BpJh3KB7GuRuVc6hpUNJ0Q1%2FX7sY%2BuPYj%2Ft2KFvO4flsGnJdZmVFB1WBLpscGbUFBygXWtIo2VFZq5eqNJBeS1pEc3MTx08%2BBOWA8fGgOm5pKol43bSttj1P0at4gjCaMph2upstli%2FrlKM4s4rh0nboZCo6m5oObbk954uOKhfUzgsHH2S3LXtBwH%2F5nDvueZ0o1kpRfFQkW6TArgT%2BLdrwenQlSq5a4yWnX%2FuaZTshHbpUKsgMtEUEfAj35arjOUesobNy%2BwRy88tkdYhL11bNsfQcZOSnfptQSCrb9wPDNTHKlqf9eQxgs3qeoqJBsz3U%2BOSyrUSd3750p70k5qTyZjvnwpb82P47z5rGnbShTwn2nGSgBQ67TS9yAb0rto0pqZNph6X0wCYeLznZicMUmLV4fe9KecIMJ5oyrB12h%2FbX%2B4aPRR5m8VvaDCi9oD9BTrqAapliWBPldVPFvwsJBnbJglJO1Kdh5ejqMzV60qN1PAGFetX1pHVP%2BveDNDlq7Mw361ASoIwW85q8rcMcIDvT1WUqFVAM7WzTgi06OCIemOjzzklCU4Ghqd4tns279meMObZvwdyyvE44xNwj3fUXHc62wSsljytrWmG5obow2AsAqLurrejst9pRlG8BICNNWqk5VYnRVIUdXiKPZW9VPKTIla%2B5hzc896okn5OuwltYqCyOmvyZ5fPo0hxHR2re6wWNIETv0%2F%2BA8ZzWeBFGv6vl%2BJ6xlb8mnMHQGdU6q5Mr4RWz%2BLvp%2B%2B56A%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T180145Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYQUNCH6VJ%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=a5e3277fb0967790ebd58f925ae92a0eecab8b55c3d6db2a0d1d86423eb7e43e&hash=406383d2b9840d4fa3ff07210b0db9ba84c07ec5e5c01d8feab681c39809eea5&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1568494614004062&tid=spdf-7a04dbb9-cb85-4a76-9a1e-607c9c02e58e&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S1568494614004062?via%3Dihub
+KW  - Churn prediction
+KW  - SVM
+KW  - Decision tree
+KW  - ANN
+KW  - KNN
+KW  - Telecommunication
+ER  - 
+
+TY  - JOUR
+TI  - Improved marketing decision making in a customer churn prediction context using generalized additive models
+AU  - Coussement, Kristof
+AU  - Benoit, Dries F.
+AU  - Van den Poel, Dirk
+T2  - Expert Systems with Applications
+AB  - Nowadays, companies are investing in a well-considered CRM strategy. One of the cornerstones in CRM is customer churn prediction, where one tries to predict whether or not a customer will leave the company. This study focuses on how to better support marketing decision makers in identifying risky customers by using Generalized Additive Models (GAM). Compared to Logistic Regression, GAM relaxes the linearity constraint which allows for complex non-linear fits to the data. The contributions to the literature are three-fold: (i) it is shown that GAM is able to improve marketing decision making by better identifying risky customers; (ii) it is shown that GAM increases the interpretability of the churn model by visualizing the non-linear relationships with customer churn identifying a quasi-exponential, a U, an inverted U or a complex trend and (iii) marketing managers are able to significantly increase business value by applying GAM in this churn prediction context.
+DA  - 2010/03/15/
+PY  - 2010
+DO  - 10.1016/j.eswa.2009.07.029
+DP  - ScienceDirect
+VL  - 37
+IS  - 3
+SP  - 2132
+EP  - 2143
+J2  - Expert Systems with Applications
+LA  - en
+SN  - 0957-4174
+UR  - http://www.sciencedirect.com/science/article/pii/S0957417409007325
+Y2  - 2020/11/02/18:01:58
+L1  - https://pdf.sciencedirectassets.com/271506/1-s2.0-S0957417409X00138/1-s2.0-S0957417409007325/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFIaCXVzLWVhc3QtMSJHMEUCIGtI9JMtKSQdw3gSlbggeQSi5T2eIJk1%2Fg8IoGYK23Y5AiEAk5AtCVy67mgXjgkgh2J7AlkAG3EYn11%2BC4dUFshig3EqvQMIq%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARADGgwwNTkwMDM1NDY4NjUiDLtw1%2FeQ5wl%2BfBuAEyqRA4%2BKTVnMwG4v6i3JwbfwGR%2FbUrmjDwZ2w6Z1gQAaaC2AYea0rjgUs2eYMV6Ax%2FpPV75xihPjuQ24ZLKWwRg2vjrMWyGGn4KaU7rU4ZBIrQtkAqT7jfKrfwGvwYbKrQwug6%2BQ6Fax5zW2E0gesODic4wO0BGON3rNBSMbABqds1JewdYZf7tNFgvjyAZs8Br80vWadNT0UznnOKIqsR92DfzEBeVygUNxp%2ByAwuPcDvu%2FNbbmfg0Cyn7Y0%2BrH%2FMthf9WfYYQLg5gWQwvS0%2BZvpc0tprz9af3LEJu4mFaDiZEENgta6OVG4qZKrWp8xt52qLtnnOjGKAS4XwncNckLZFlGI8AZMjUOPKgCjoerXlDOd6ABDls7xPDdnTcH%2F553Vky2pYCZY7Hr9wac%2BxMhlGsycSv%2F6%2Bv82ZZfEtKVClXgg516PmtrljwFiCvTh9cevn27CKp8%2FJWJVKl4ZadT%2FAFZnxS8h5ypyBoGMlE2hGnXjKsrjFTH3psdudsNOh2SVJo7psKtqXrRdK%2BqB4RYuD0VMPmIgf0FOusBocw2WNzpg6gq4F7WDNxdYrAep1PWrQ6ftXrZXtMw%2FZGQpPoc1c8L%2BokSzjuMrAeza0VY%2Fb8qeMQhA3pXlSMUWMSO6HXt0yYF15wzHyoqjE9xz%2BJ2BDogZY3w4g0h%2Fv2KU%2Fm0eBmQvG269JYeY9IO%2FKe2k8xUbdfOpASXx%2BolEwzl47JfCw%2FBb9J5BDXq8VGCysqNAVDXVsK698D5Ik7CWfsJVB7rwIqdjxruQj3i45tq7gyCVJpjpYtCB%2FMO77SV8fzR%2FMi8%2B%2FcUnvO2vNgsBviv3PaNa%2BQYax9fvz5%2FdD3bkDZ88EU2PMju%2Bg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T180158Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY7ZQQDHNR%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5ce610771d0aba673d44de866a7e64994f322ad895e6c473267e68618bf1db08&hash=2c3d0d475297bfd7e54d5c258d791193a1c1d43e12f639de56a812db49222248&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0957417409007325&tid=spdf-f6716a62-1783-4a7b-9d51-30b7e97f15a6&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S0957417409007325?via%3Dihub
+KW  - Churn modeling
+KW  - Customer Relationship Management (CRM)
+KW  - Generalized Additive Models (GAM)
+KW  - Marketing decision making
+ER  - 
+
+TY  - JOUR
+TI  - Improving customer attrition prediction by integrating emotions from client/company interaction emails and evaluating multiple classifiers
+AU  - Coussement, Kristof
+AU  - Poel, Dirk Van den
+T2  - Expert Systems with Applications
+AB  - Predicting customer churn with the purpose of retaining customers is a hot topic in academy as well as in today’s business environment. Targeting the right customers for a specific retention campaign carries a high priority. This study focuses on two aspects in which churn prediction models could be improved by (i) relying on customer information type diversity and (ii) choosing the best performing classification technique. (i) With the upcoming interest in new media (e.g. blogs, emails,...), client/company interactions are facilitated. Consequently, new types of information are available which generate new opportunities to increase the prediction power of a churn model. This study contributes to the literature by finding evidence that adding emotions expressed in client/company emails increases the predictive performance of an extended RFM churn model. As a substantive contribution, an in-depth study of the impact of the emotionality indicators on churn behavior is done. (ii) This study compares three classification techniques – i.e. Logistic Regression, Support Vector Machines and Random Forests – to distinguish churners from non-churners. This paper shows that Random Forests is a viable opportunity to improve predictive performance compared to Support Vector Machines and Logistic Regression which both exhibit an equal performance.
+DA  - 2009/04/01/
+PY  - 2009
+DO  - 10.1016/j.eswa.2008.07.021
+DP  - ScienceDirect
+VL  - 36
+IS  - 3, Part 2
+SP  - 6127
+EP  - 6134
+J2  - Expert Systems with Applications
+LA  - en
+SN  - 0957-4174
+UR  - http://www.sciencedirect.com/science/article/pii/S095741740800479X
+Y2  - 2020/11/02/18:02:14
+L1  - https://pdf.sciencedirectassets.com/271506/1-s2.0-S0957417409X00035/1-s2.0-S095741740800479X/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFEaCXVzLWVhc3QtMSJIMEYCIQDMjh6lbwM8AAFP9M0wokVvzQcTuVypQ11o%2B%2BWiOdZg3gIhAIqE693bOQDF0MSYVSkYmY5QAlJzEyuc7OtbgUqjD9G7Kr0DCKr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMMDU5MDAzNTQ2ODY1Igyifr4AJMc3x1l4VysqkQOs3XNol2kmA2YYqEh%2FrQWEVwLfQttf4W6wH5hUTqZEo3PpN9UXFODiR7QU3bkqgY1alJzHO5sM%2F0QoLWCLgat7GYoA5BpJh3KB7GuRuVc6hpUNJ0Q1%2FX7sY%2BuPYj%2Ft2KFvO4flsGnJdZmVFB1WBLpscGbUFBygXWtIo2VFZq5eqNJBeS1pEc3MTx08%2BBOWA8fGgOm5pKol43bSttj1P0at4gjCaMph2upstli%2FrlKM4s4rh0nboZCo6m5oObbk954uOKhfUzgsHH2S3LXtBwH%2F5nDvueZ0o1kpRfFQkW6TArgT%2BLdrwenQlSq5a4yWnX%2FuaZTshHbpUKsgMtEUEfAj35arjOUesobNy%2BwRy88tkdYhL11bNsfQcZOSnfptQSCrb9wPDNTHKlqf9eQxgs3qeoqJBsz3U%2BOSyrUSd3750p70k5qTyZjvnwpb82P47z5rGnbShTwn2nGSgBQ67TS9yAb0rto0pqZNph6X0wCYeLznZicMUmLV4fe9KecIMJ5oyrB12h%2FbX%2B4aPRR5m8VvaDCi9oD9BTrqAapliWBPldVPFvwsJBnbJglJO1Kdh5ejqMzV60qN1PAGFetX1pHVP%2BveDNDlq7Mw361ASoIwW85q8rcMcIDvT1WUqFVAM7WzTgi06OCIemOjzzklCU4Ghqd4tns279meMObZvwdyyvE44xNwj3fUXHc62wSsljytrWmG5obow2AsAqLurrejst9pRlG8BICNNWqk5VYnRVIUdXiKPZW9VPKTIla%2B5hzc896okn5OuwltYqCyOmvyZ5fPo0hxHR2re6wWNIETv0%2F%2BA8ZzWeBFGv6vl%2BJ6xlb8mnMHQGdU6q5Mr4RWz%2BLvp%2B%2B56A%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T180214Z&X-Amz-SignedHeaders=host&X-Amz-Expires=299&X-Amz-Credential=ASIAQ3PHCVTYQUNCH6VJ%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5f8b89ea67383b9921e910dcb4ddf3280b742e057087e1fdb441339ef92634c5&hash=ab1fdaf6673ae1596ada7235016170cdbd400aa25b9f516a5472fcc0cdd1fabe&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S095741740800479X&tid=spdf-39c0e182-9f6d-46ce-af3a-aad3dfd5a6f3&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S095741740800479X?via%3Dihub
+KW  - Churn prediction
+KW  - Classification
+KW  - Subscription services
+KW  - Support Vector Machines
+KW  - Call center email
+KW  - Random Forests
+ER  - 
+
+TY  - JOUR
+TI  - Improving customer retention in financial services using kinship network information
+AU  - Benoit, Dries F.
+AU  - Van den Poel, Dirk
+T2  - Expert Systems with Applications
+AB  - This study investigates the advantage of social network mining in a customer retention context. A company that is able to identify likely churners in an early stage can take appropriate steps to prevent these potential churners from actually churning and subsequently increase profit. Academics and practitioners are constantly trying to optimize their predictive-analytics models by searching for better predictors. The aim of this study is to investigate if, in addition to the conventional sets of variables (socio-demographics, purchase history, etc.), kinship network based variables improve the predictive power of customer retention models. Results show that the predictive power of the churn model can indeed be improved by adding the social network (SNA-) based variables. Including network structure measures (i.e. degree, betweenness centrality and density) increase predictive accuracy, but contextual network based variables turn out to have the highest impact on discriminating churners from non-churners. For the majority of the latter type of network variables, the importance in the model is even higher than the individual level counterpart variable.
+DA  - 2012/10/01/
+PY  - 2012
+DO  - 10.1016/j.eswa.2012.04.016
+DP  - ScienceDirect
+VL  - 39
+IS  - 13
+SP  - 11435
+EP  - 11442
+J2  - Expert Systems with Applications
+LA  - en
+SN  - 0957-4174
+UR  - http://www.sciencedirect.com/science/article/pii/S0957417412006136
+Y2  - 2020/11/02/18:02:26
+L1  - https://pdf.sciencedirectassets.com/271506/1-s2.0-S0957417412X00095/1-s2.0-S0957417412006136/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFIaCXVzLWVhc3QtMSJHMEUCICDX4uaN2QCLyAHbnsXx11YUZ3cUmuJWe5J9VPWsL4MuAiEArw9PXVTIoITX%2FcFrDXyyr6NHfjxbMW5dwSvAnXlpdJgqvQMIqv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARADGgwwNTkwMDM1NDY4NjUiDCQ0bquloTAqm%2B6ssSqRA9fzzrn7rO%2F2%2FST5OZCxsc8ywQ8IICG2pf9AtQkCRqUAkKBBuTgRYjch%2FujWyH8kqaPrzWmadUh3%2F0vZbxJGRLCMgNfc9YNMJ8N%2FhZ9sY4Kzj%2FbOJCUJRws7FKaxHWA7R1bDys%2Fdmjm0rWfiqzVCAO2%2Fi1YLUWYu6lCPgUUiJrgKwQfxh1axRyE1Daq4xtTGtYxg85bAbmFW4hUIn9Lg6i9BVPk1nM68uJ8As4yPwlBwbuxVs5CIdZuGnOD%2B27aHSJ0P3f3xEW8K6yJ4nKwqPDvJH4OJ%2BWkYZrWdxr718Q3hRZcc%2BsvSjMZtmlWtrq32odEuFmi8SeEbmv%2FhOaarm8veAwwGC5llcvV%2FUh%2BWlmq8QQ6EP1CBNa%2FHUSZemTNMrPKYuqoc4fTQ6AvIMLD5oV9%2BJCZioAmcbcgyWomMevVFbOGN%2BNxO32rI%2B3HjPEr0G4zmquil7%2BpCtn1z7M4QUXlwbRUR1Wwx47d66NZWovM1cPiKmjIp82WXjCwHGXeXEh1xX5IfaKmKsUhkyJjQ3qRfMPf9gP0FOusBirRUywLgVtpas%2BJEPGDPK%2F0wUjEIjW2cxKJaOv6ZczzEe0f5P%2FmISbsyDugf5HpB%2BUkjuB%2Fuht6DWG0oj0i0tlJrU%2B%2FQg%2B7FJkthZg8QRSTWFMGr8gj0Qf9ytksW%2BX57sF4ElOK9YUQi5%2B3oEF%2BH30pd1NTZONWUKCwWNiW0RehJ7n7yG2mJl%2BF1b3MqaVudPSPm5efdr4zjO8Ks4asRSRlYwtosg0o6hOC%2F8h%2BWfBEHJ7msqWGKusA6K3V1Ta3Kr3x3dI2YXyG8cEMCwSwQlzHEeRLwXq7Z%2FeTVNFVo6Y7zycQG5xmZWLVR%2Fg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T180226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY4SKWL3OT%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=a35e594b6183a25dffd752a71a60abce3ee7662b801d41325c5fe7393ad5160a&hash=1bd5c038ce46f9b2132703abd2608e925cce520c12b1263f5ddd8a82d29a2c47&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0957417412006136&tid=spdf-35d89759-89b4-44c9-8d5d-8cee99753f88&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S0957417412006136?via%3Dihub
+KW  - Random forests
+KW  - CRM
+KW  - Predictive analytics
+KW  - Financial services
+KW  - Kinship network
+KW  - Network based marketing
+KW  - Social network analysis (SNA)
+ER  - 
+
+TY  - JOUR
+TI  - Including high-cardinality attributes in predictive models: A case study in churn prediction in the energy sector
+AU  - Moeyersoms, Julie
+AU  - Martens, David
+T2  - Decision Support Systems
+AB  - High-cardinality attributes are categorical attributes that contain a very large number of distinct values, like for example: family names, ZIP codes or bank account numbers. Within a predictive modeling setting, such features could be highly informative as it might be useful to know that people live in the same village or pay with the same bank account number. Despite this notable and intuitive advantage, high-cardinality attributes are rarely used in predictive modeling. The main reason for this is that including these attributes by using traditional transformation methods is either impossible due to anonymization of the data (when using semantic grouping of the values) or will vastly increase the dimensionality of the data set (when using dummy encoding), thereby making it difficult or even impossible for most classification techniques to build prediction models. The main contributions of this work are (1) the introduction of several possible transformation functions coming from different domains and contexts, that allow the inclusion of high-cardinality features in predictive models. (2) Using a unique data set of a large energy company with more than 1 million customers, we show that adding such features indeed improves the predictive performance of the model significantly. Moreover, (3) we empirically demonstrate that having more data leads to better prediction models, which is not observed for “traditional” data. As such, we also contribute to the area of big data analytics.
+DA  - 2015/04/01/
+PY  - 2015
+DO  - 10.1016/j.dss.2015.02.007
+DP  - ScienceDirect
+VL  - 72
+SP  - 72
+EP  - 81
+J2  - Decision Support Systems
+LA  - en
+SN  - 0167-9236
+ST  - Including high-cardinality attributes in predictive models
+UR  - http://www.sciencedirect.com/science/article/pii/S0167923615000275
+Y2  - 2020/11/02/18:02:48
+L1  - https://pdf.sciencedirectassets.com/271653/1-s2.0-S0167923615X00030/1-s2.0-S0167923615000275/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFIaCXVzLWVhc3QtMSJHMEUCICDX4uaN2QCLyAHbnsXx11YUZ3cUmuJWe5J9VPWsL4MuAiEArw9PXVTIoITX%2FcFrDXyyr6NHfjxbMW5dwSvAnXlpdJgqvQMIqv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARADGgwwNTkwMDM1NDY4NjUiDCQ0bquloTAqm%2B6ssSqRA9fzzrn7rO%2F2%2FST5OZCxsc8ywQ8IICG2pf9AtQkCRqUAkKBBuTgRYjch%2FujWyH8kqaPrzWmadUh3%2F0vZbxJGRLCMgNfc9YNMJ8N%2FhZ9sY4Kzj%2FbOJCUJRws7FKaxHWA7R1bDys%2Fdmjm0rWfiqzVCAO2%2Fi1YLUWYu6lCPgUUiJrgKwQfxh1axRyE1Daq4xtTGtYxg85bAbmFW4hUIn9Lg6i9BVPk1nM68uJ8As4yPwlBwbuxVs5CIdZuGnOD%2B27aHSJ0P3f3xEW8K6yJ4nKwqPDvJH4OJ%2BWkYZrWdxr718Q3hRZcc%2BsvSjMZtmlWtrq32odEuFmi8SeEbmv%2FhOaarm8veAwwGC5llcvV%2FUh%2BWlmq8QQ6EP1CBNa%2FHUSZemTNMrPKYuqoc4fTQ6AvIMLD5oV9%2BJCZioAmcbcgyWomMevVFbOGN%2BNxO32rI%2B3HjPEr0G4zmquil7%2BpCtn1z7M4QUXlwbRUR1Wwx47d66NZWovM1cPiKmjIp82WXjCwHGXeXEh1xX5IfaKmKsUhkyJjQ3qRfMPf9gP0FOusBirRUywLgVtpas%2BJEPGDPK%2F0wUjEIjW2cxKJaOv6ZczzEe0f5P%2FmISbsyDugf5HpB%2BUkjuB%2Fuht6DWG0oj0i0tlJrU%2B%2FQg%2B7FJkthZg8QRSTWFMGr8gj0Qf9ytksW%2BX57sF4ElOK9YUQi5%2B3oEF%2BH30pd1NTZONWUKCwWNiW0RehJ7n7yG2mJl%2BF1b3MqaVudPSPm5efdr4zjO8Ks4asRSRlYwtosg0o6hOC%2F8h%2BWfBEHJ7msqWGKusA6K3V1Ta3Kr3x3dI2YXyG8cEMCwSwQlzHEeRLwXq7Z%2FeTVNFVo6Y7zycQG5xmZWLVR%2Fg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T180248Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY4SKWL3OT%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=76c219dfa8106a2b7e2a3d310e24df7a56889d7b68d2efd2335f9ed5b8e0cc8d&hash=25a601bb8acb9788f9b267424b6420029b016dee8e28d927c7030b73ed2579ec&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0167923615000275&tid=spdf-34193dc5-ac9c-42bd-8530-292a79f8901a&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S0167923615000275?via%3Dihub
+KW  - Data mining
+KW  - Churn prediction
+KW  - Predictive modeling
+KW  - High-cardinality attributes
+ER  - 
+
+TY  - JOUR
+TI  - Modeling churn using customer lifetime value
+AU  - Glady, Nicolas
+AU  - Baesens, Bart
+AU  - Croux, Christophe
+T2  - European Journal of Operational Research
+AB  - The definition and modeling of customer loyalty have been central issues in customer relationship management since many years. Recent papers propose solutions to detect customers that are becoming less loyal, also called churners. The churner status is then defined as a function of the volume of commercial transactions. In the context of a Belgian retail financial service company, our first contribution is to redefine the notion of customer loyalty by considering it from a customer-centric viewpoint instead of a product-centric one. We hereby use the customer lifetime value (CLV) defined as the discounted value of future marginal earnings, based on the customer’s activity. Hence, a churner is defined as someone whose CLV, thus the related marginal profit, is decreasing. As a second contribution, the loss incurred by the CLV decrease is used to appraise the cost to misclassify a customer by introducing a new loss function. In the empirical study, we compare the accuracy of various classification techniques commonly used in the domain of churn prediction, including two cost-sensitive classifiers. Our final conclusion is that since profit is what really matters in a commercial environment, standard statistical accuracy measures for prediction need to be revised and a more profit oriented focus may be desirable.
+DA  - 2009/08/16/
+PY  - 2009
+DO  - 10.1016/j.ejor.2008.06.027
+DP  - ScienceDirect
+VL  - 197
+IS  - 1
+SP  - 402
+EP  - 411
+J2  - European Journal of Operational Research
+LA  - en
+SN  - 0377-2217
+UR  - http://www.sciencedirect.com/science/article/pii/S0377221708004840
+Y2  - 2020/11/02/18:03:04
+L1  - https://pdf.sciencedirectassets.com/271700/1-s2.0-S0377221708X0027X/1-s2.0-S0377221708004840/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFIaCXVzLWVhc3QtMSJIMEYCIQDHU1fN3TEuyVTjW60Tz4B2Qiqam0fRBLozutfehTuCUAIhAIiRu4DhjklPFSqOJHohJj6Z9ZbZQuoie9ZnGnRVnpfJKr0DCKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMMDU5MDAzNTQ2ODY1Igzn8YhT3TZxQyfHWb0qkQNOVJNl2TIA%2Bhx11B3yFAp7Mfjdvjkg0TyJYdIp0PGOu%2B0cakkKIRqkKeKmK%2FmLJonL%2BArscfBvU6qtu46vxQt2DxKf5ubASgilHbViVnCPHvZK40Dk0aH9SnjYLtNenEn3QISq%2BK8xbnjPyCvdeyzoZogiiBvfFlJYwnWxodlU%2BKiasKfagz17MfJwfjnz%2BG%2Bhf4Kgo7dnX%2F5cQ%2BsVfeMUFUajyqBw0uG7%2FI5eS7hQbAtQTVjgMj29Z7T%2FwgwXMJSISD%2FxvQI%2BEyMz62ZSnyvkgHNpMxG%2Fzu7NuywKM7Lptl8f0%2FaGCBzvDLhdm92byk7r1DfCeRICrupAkHoMLoRCr5mDtKlZZXF7kcM77mr%2BWt9bvxj69Zf%2BnAGUQTNcEAkLTndyrl7LjvXzbf5UfuaAU0Q2eoQG0wFLWka1ZlT7ONkMRfUZ%2BkDcyOErKI8JHCWcuaPp4HsLjWGvHh9tWYu0YR6pA1w0ndFSKf1bsjo5wZ6sdlQ%2BlKJXxcx2%2BJkgjoQpjZn1sBwLP1atdliw4QQm9TC0iIH9BTrqAcr7hoGvs6IdaDxzxOkAqxoAd%2B8eU14606bsSRyuy16a7BC293t1xG2ixOfPGEl%2BO3RsP4xYHDOrq6iq0Z7uvLtiv5oUjI2drNzQW6ROA6n37f8PZcRtBZkeu6kKdlp2Vd4A7OxP23AI7U4teZG5wyLhLuSo5a7FxXe%2FRROwFGgtBmTVrlzrQhpx5wtXqlzRKy1%2FCjefenzq7LGc0z9dz5bdo4L21pXsCkA9Hwi81tFXdMtJpWCQrjbQlCBLV1ImsMvY1lgKSbVeI8f7EvleoGs4zgoSRmKhQOSEOoz0on8DSpE5wrJBHAj28Q%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T180303Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYYHBFCX44%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4083c05c345414c7fe7753d665727fbb437cd36b65f746cd43acd9ae380a10a3&hash=785d7e9a44fd9e4fb9057332c7b62e502191a661525d0f6504becdab37017473&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0377221708004840&tid=spdf-856278cd-57fe-43e9-9898-58cff094d478&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S0377221708004840?via%3Dihub
+KW  - Churn prediction
+KW  - Classification
+KW  - Customer lifetime value
+KW  - Prediction models
+ER  - 
+
+TY  - JOUR
+TI  - New insights into churn prediction in the telecommunication sector: A profit driven data mining approach
+AU  - Verbeke, Wouter
+AU  - Dejaeger, Karel
+AU  - Martens, David
+AU  - Hur, Joon
+AU  - Baesens, Bart
+T2  - European Journal of Operational Research
+AB  - Customer churn prediction models aim to indicate the customers with the highest propensity to attrite, allowing to improve the efficiency of customer retention campaigns and to reduce the costs associated with churn. Although cost reduction is their prime objective, churn prediction models are typically evaluated using statistically based performance measures, resulting in suboptimal model selection. Therefore, in the first part of this paper, a novel, profit centric performance measure is developed, by calculating the maximum profit that can be generated by including the optimal fraction of customers with the highest predicted probabilities to attrite in a retention campaign. The novel measure selects the optimal model and fraction of customers to include, yielding a significant increase in profits compared to statistical measures. In the second part an extensive benchmarking experiment is conducted, evaluating various classification techniques applied on eleven real-life data sets from telecom operators worldwide by using both the profit centric and statistically based performance measures. The experimental results show that a small number of variables suffices to predict churn with high accuracy, and that oversampling generally does not improve the performance significantly. Finally, a large group of classifiers is found to yield comparable performance.
+DA  - 2012/04/01/
+PY  - 2012
+DO  - 10.1016/j.ejor.2011.09.031
+DP  - ScienceDirect
+VL  - 218
+IS  - 1
+SP  - 211
+EP  - 229
+J2  - European Journal of Operational Research
+LA  - en
+SN  - 0377-2217
+ST  - New insights into churn prediction in the telecommunication sector
+UR  - http://www.sciencedirect.com/science/article/pii/S0377221711008599
+Y2  - 2020/11/02/18:03:18
+L1  - https://pdf.sciencedirectassets.com/271700/1-s2.0-S0377221711X00085/1-s2.0-S0377221711008599/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFIaCXVzLWVhc3QtMSJIMEYCIQDHU1fN3TEuyVTjW60Tz4B2Qiqam0fRBLozutfehTuCUAIhAIiRu4DhjklPFSqOJHohJj6Z9ZbZQuoie9ZnGnRVnpfJKr0DCKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMMDU5MDAzNTQ2ODY1Igzn8YhT3TZxQyfHWb0qkQNOVJNl2TIA%2Bhx11B3yFAp7Mfjdvjkg0TyJYdIp0PGOu%2B0cakkKIRqkKeKmK%2FmLJonL%2BArscfBvU6qtu46vxQt2DxKf5ubASgilHbViVnCPHvZK40Dk0aH9SnjYLtNenEn3QISq%2BK8xbnjPyCvdeyzoZogiiBvfFlJYwnWxodlU%2BKiasKfagz17MfJwfjnz%2BG%2Bhf4Kgo7dnX%2F5cQ%2BsVfeMUFUajyqBw0uG7%2FI5eS7hQbAtQTVjgMj29Z7T%2FwgwXMJSISD%2FxvQI%2BEyMz62ZSnyvkgHNpMxG%2Fzu7NuywKM7Lptl8f0%2FaGCBzvDLhdm92byk7r1DfCeRICrupAkHoMLoRCr5mDtKlZZXF7kcM77mr%2BWt9bvxj69Zf%2BnAGUQTNcEAkLTndyrl7LjvXzbf5UfuaAU0Q2eoQG0wFLWka1ZlT7ONkMRfUZ%2BkDcyOErKI8JHCWcuaPp4HsLjWGvHh9tWYu0YR6pA1w0ndFSKf1bsjo5wZ6sdlQ%2BlKJXxcx2%2BJkgjoQpjZn1sBwLP1atdliw4QQm9TC0iIH9BTrqAcr7hoGvs6IdaDxzxOkAqxoAd%2B8eU14606bsSRyuy16a7BC293t1xG2ixOfPGEl%2BO3RsP4xYHDOrq6iq0Z7uvLtiv5oUjI2drNzQW6ROA6n37f8PZcRtBZkeu6kKdlp2Vd4A7OxP23AI7U4teZG5wyLhLuSo5a7FxXe%2FRROwFGgtBmTVrlzrQhpx5wtXqlzRKy1%2FCjefenzq7LGc0z9dz5bdo4L21pXsCkA9Hwi81tFXdMtJpWCQrjbQlCBLV1ImsMvY1lgKSbVeI8f7EvleoGs4zgoSRmKhQOSEOoz0on8DSpE5wrJBHAj28Q%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T180318Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYYHBFCX44%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=00520f4a0192796e2ca4a3d65cf481f1711ec7a9fc71525605b371cfa6cc791f&hash=05196c8001e9776f1799339903b136b848b0a5438094de0a2dc5d44ba968568b&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0377221711008599&tid=spdf-ae28caf5-5158-41d6-afea-a4103bec3447&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S0377221711008599?via%3Dihub
+KW  - Data mining
+KW  - Churn prediction
+KW  - Oversampling
+KW  - Input selection
+KW  - Profit
+KW  - Telecommunication sector
+ER  - 
+
+TY  - JOUR
+TI  - Prediction of Customer Attrition of Commercial Banks based on SVM Model
+AU  - He, Benlan
+AU  - Shi, Yong
+AU  - Wan, Qian
+AU  - Zhao, Xi
+T2  - Procedia Computer Science
+T3  - 2nd International Conference on Information Technology and Quantitative Management, ITQM 2014
+AB  - Currently, Chinese commercial banks are facing triple tremendous pressure, including financial disintermediation, interest rate marketization and Internet finance. Meanwhile, increasing financial consumption demand of customers further intensifies the competition among commercial banks. To increase their profits for continuing operations and enhance the core competitiveness, commercial banks must avoid the loss of customers while acquiring new customers. This paper discusses commercial bank customer churn prediction based on SVM model, and uses random sampling method to improve SVM model, considering the imbalance characteristics of customer data sets. The results show that this method can effectively enhance the prediction accuracy of the selected model.
+DA  - 2014/01/01/
+PY  - 2014
+DO  - 10.1016/j.procs.2014.05.286
+DP  - ScienceDirect
+VL  - 31
+SP  - 423
+EP  - 430
+J2  - Procedia Computer Science
+LA  - en
+SN  - 1877-0509
+UR  - http://www.sciencedirect.com/science/article/pii/S1877050914004633
+Y2  - 2020/11/02/18:03:36
+L2  - https://www.sciencedirect.com/science/article/pii/S1877050914004633?via%3Dihub
+L2  - https://www.sciencedirect.com/science/article/pii/S1877050914004633?via%3Dihub
+KW  - SVM Customer Attrition Prediction Random Sampling
+ER  - 
+
+TY  - JOUR
+TI  - Reconciling performance and interpretability in customer churn prediction using ensemble learning based on generalized additive models
+AU  - De Bock, Koen W.
+AU  - Van den Poel, Dirk
+T2  - Expert Systems with Applications
+AB  - To build a successful customer churn prediction model, a classification algorithm should be chosen that fulfills two requirements: strong classification performance and a high level of model interpretability. In recent literature, ensemble classifiers have demonstrated superior performance in a multitude of applications and data mining contests. However, due to an increased complexity they result in models that are often difficult to interpret. In this study, GAMensPlus, an ensemble classifier based upon generalized additive models (GAMs), in which both performance and interpretability are reconciled, is presented and evaluated in a context of churn prediction modeling. The recently proposed GAMens, based upon Bagging, the Random Subspace Method and semi-parametric GAMs as constituent classifiers, is extended to include two instruments for model interpretability: generalized feature importance scores, and bootstrap confidence bands for smoothing splines. In an experimental comparison on data sets of six real-life churn prediction projects, the competitive performance of the proposed algorithm over a set of well-known benchmark algorithms is demonstrated in terms of four evaluation metrics. Further, the ability of the technique to deliver valuable insight into the drivers of customer churn is illustrated in a case study on data from a European bank. Firstly, it is shown how the generalized feature importance scores allow the analyst to identify the relative importance of churn predictors in function of the criterion that is used to measure the quality of the model predictions. Secondly, the ability of GAMensPlus to identify nonlinear relationships between predictors and churn probabilities is demonstrated.
+DA  - 2012/06/15/
+PY  - 2012
+DO  - 10.1016/j.eswa.2012.01.014
+DP  - ScienceDirect
+VL  - 39
+IS  - 8
+SP  - 6816
+EP  - 6826
+J2  - Expert Systems with Applications
+LA  - en
+SN  - 0957-4174
+UR  - http://www.sciencedirect.com/science/article/pii/S0957417412000164
+Y2  - 2020/11/02/18:04:10
+L1  - https://pdf.sciencedirectassets.com/271506/1-s2.0-S0957417412X00046/1-s2.0-S0957417412000164/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFEaCXVzLWVhc3QtMSJIMEYCIQDMjh6lbwM8AAFP9M0wokVvzQcTuVypQ11o%2B%2BWiOdZg3gIhAIqE693bOQDF0MSYVSkYmY5QAlJzEyuc7OtbgUqjD9G7Kr0DCKr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMMDU5MDAzNTQ2ODY1Igyifr4AJMc3x1l4VysqkQOs3XNol2kmA2YYqEh%2FrQWEVwLfQttf4W6wH5hUTqZEo3PpN9UXFODiR7QU3bkqgY1alJzHO5sM%2F0QoLWCLgat7GYoA5BpJh3KB7GuRuVc6hpUNJ0Q1%2FX7sY%2BuPYj%2Ft2KFvO4flsGnJdZmVFB1WBLpscGbUFBygXWtIo2VFZq5eqNJBeS1pEc3MTx08%2BBOWA8fGgOm5pKol43bSttj1P0at4gjCaMph2upstli%2FrlKM4s4rh0nboZCo6m5oObbk954uOKhfUzgsHH2S3LXtBwH%2F5nDvueZ0o1kpRfFQkW6TArgT%2BLdrwenQlSq5a4yWnX%2FuaZTshHbpUKsgMtEUEfAj35arjOUesobNy%2BwRy88tkdYhL11bNsfQcZOSnfptQSCrb9wPDNTHKlqf9eQxgs3qeoqJBsz3U%2BOSyrUSd3750p70k5qTyZjvnwpb82P47z5rGnbShTwn2nGSgBQ67TS9yAb0rto0pqZNph6X0wCYeLznZicMUmLV4fe9KecIMJ5oyrB12h%2FbX%2B4aPRR5m8VvaDCi9oD9BTrqAapliWBPldVPFvwsJBnbJglJO1Kdh5ejqMzV60qN1PAGFetX1pHVP%2BveDNDlq7Mw361ASoIwW85q8rcMcIDvT1WUqFVAM7WzTgi06OCIemOjzzklCU4Ghqd4tns279meMObZvwdyyvE44xNwj3fUXHc62wSsljytrWmG5obow2AsAqLurrejst9pRlG8BICNNWqk5VYnRVIUdXiKPZW9VPKTIla%2B5hzc896okn5OuwltYqCyOmvyZ5fPo0hxHR2re6wWNIETv0%2F%2BA8ZzWeBFGv6vl%2BJ6xlb8mnMHQGdU6q5Mr4RWz%2BLvp%2B%2B56A%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T180409Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYQUNCH6VJ%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=e32c2d73d2129602625c78385dbede9f0d6be18a7ccf40eaebba350ca9ff50ba&hash=8f5b827f4a5881daf2435e455b3b3ca885b387a0ec03bce262136d80695a7899&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0957417412000164&tid=spdf-dbf8a100-42a2-4571-b1c0-34517636ce1f&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S0957417412000164?via%3Dihub
+KW  - Database marketing
+KW  - Customer churn prediction
+KW  - Ensemble classification
+KW  - GAMens
+KW  - Generalized additive models (GAMs)
+KW  - Model interpretability
+ER  - 
+
+TY  - JOUR
+TI  - Social network analysis for customer churn prediction
+AU  - Verbeke, Wouter
+AU  - Martens, David
+AU  - Baesens, Bart
+T2  - Applied Soft Computing
+AB  - This study examines the use of social network information for customer churn prediction. An alternative modeling approach using relational learning algorithms is developed to incorporate social network effects within a customer churn prediction setting, in order to handle large scale networks, a time dependent class label, and a skewed class distribution. An innovative approach to incorporate non-Markovian network effects within relational classifiers and a novel parallel modeling setup to combine a relational and non-relational classification model are introduced. The results of two real life case studies on large scale telco data sets are presented, containing both networked (call detail records) and non-networked (customer related) information about millions of subscribers. A significant impact of social network effects, including non-Markovian effects, on the performance of a customer churn prediction model is found, and the parallel model setup is shown to boost the profits generated by a retention campaign.
+DA  - 2014/01/01/
+PY  - 2014
+DO  - 10.1016/j.asoc.2013.09.017
+DP  - ScienceDirect
+VL  - 14
+SP  - 431
+EP  - 446
+J2  - Applied Soft Computing
+LA  - en
+SN  - 1568-4946
+UR  - http://www.sciencedirect.com/science/article/pii/S1568494613003116
+Y2  - 2020/11/02/18:04:48
+L1  - https://pdf.sciencedirectassets.com/272229/1-s2.0-S1568494613X00146/1-s2.0-S1568494613003116/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFEaCXVzLWVhc3QtMSJIMEYCIQDMjh6lbwM8AAFP9M0wokVvzQcTuVypQ11o%2B%2BWiOdZg3gIhAIqE693bOQDF0MSYVSkYmY5QAlJzEyuc7OtbgUqjD9G7Kr0DCKr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMMDU5MDAzNTQ2ODY1Igyifr4AJMc3x1l4VysqkQOs3XNol2kmA2YYqEh%2FrQWEVwLfQttf4W6wH5hUTqZEo3PpN9UXFODiR7QU3bkqgY1alJzHO5sM%2F0QoLWCLgat7GYoA5BpJh3KB7GuRuVc6hpUNJ0Q1%2FX7sY%2BuPYj%2Ft2KFvO4flsGnJdZmVFB1WBLpscGbUFBygXWtIo2VFZq5eqNJBeS1pEc3MTx08%2BBOWA8fGgOm5pKol43bSttj1P0at4gjCaMph2upstli%2FrlKM4s4rh0nboZCo6m5oObbk954uOKhfUzgsHH2S3LXtBwH%2F5nDvueZ0o1kpRfFQkW6TArgT%2BLdrwenQlSq5a4yWnX%2FuaZTshHbpUKsgMtEUEfAj35arjOUesobNy%2BwRy88tkdYhL11bNsfQcZOSnfptQSCrb9wPDNTHKlqf9eQxgs3qeoqJBsz3U%2BOSyrUSd3750p70k5qTyZjvnwpb82P47z5rGnbShTwn2nGSgBQ67TS9yAb0rto0pqZNph6X0wCYeLznZicMUmLV4fe9KecIMJ5oyrB12h%2FbX%2B4aPRR5m8VvaDCi9oD9BTrqAapliWBPldVPFvwsJBnbJglJO1Kdh5ejqMzV60qN1PAGFetX1pHVP%2BveDNDlq7Mw361ASoIwW85q8rcMcIDvT1WUqFVAM7WzTgi06OCIemOjzzklCU4Ghqd4tns279meMObZvwdyyvE44xNwj3fUXHc62wSsljytrWmG5obow2AsAqLurrejst9pRlG8BICNNWqk5VYnRVIUdXiKPZW9VPKTIla%2B5hzc896okn5OuwltYqCyOmvyZ5fPo0hxHR2re6wWNIETv0%2F%2BA8ZzWeBFGv6vl%2BJ6xlb8mnMHQGdU6q5Mr4RWz%2BLvp%2B%2B56A%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T180448Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYQUNCH6VJ%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=48242d15fce3c7637eeec457d3c71a1a7eae4c3f6d70c673ee499344f967fc6d&hash=d118b0445ec341e1ec38fd513aa7e16fee49e775249283ebc18245cf00d01a2c&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1568494613003116&tid=spdf-d853ad82-dc4b-472e-bcbe-6150fc83d531&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S1568494613003116?via%3Dihub
+KW  - Data mining
+KW  - Customer churn prediction
+KW  - Profit
+KW  - CDR data
+KW  - Relational classification
+KW  - Social networks
+ER  - 
+
+TY  - JOUR
+TI  - Staying Power of Churn Prediction Models
+AU  - Risselada, Hans
+AU  - Verhoef, Peter C.
+AU  - Bijmolt, Tammo H. A.
+T2  - Journal of Interactive Marketing
+AB  - In this paper, we study the staying power of various churn prediction models. Staying power is defined as the predictive performance of a model in a number of periods after the estimation period. We examine two methods, logit models and classification trees, both with and without applying a bagging procedure. Bagging consists of averaging the results of multiple models that have each been estimated on a bootstrap sample from the original sample. We test the models using customer data of two firms from different industries, namely the internet service provider and insurance markets. The results show that the classification tree in combination with a bagging procedure outperforms the other three methods. It is shown that the ability to identify high risk customers of this model is similar for the in-period and one-period-ahead forecasts. However, for all methods the staying power is rather low, as the predictive performance deteriorates considerably within a few periods after the estimation period. This is due to the fact that both the parameter estimates change over time and the fact that the variables that are significant differ between periods. Our findings indicate that churn models should be adapted regularly. We provide a framework for database analysts to reconsider their methods used for churn modeling and to assess for how long they can use an estimated model.
+DA  - 2010/08/01/
+PY  - 2010
+DO  - 10.1016/j.intmar.2010.04.002
+DP  - ScienceDirect
+VL  - 24
+IS  - 3
+SP  - 198
+EP  - 208
+J2  - Journal of Interactive Marketing
+LA  - en
+SN  - 1094-9968
+UR  - http://www.sciencedirect.com/science/article/pii/S1094996810000253
+Y2  - 2020/11/02/18:05:04
+L1  - https://pdf.sciencedirectassets.com/277809/1-s2.0-S1094996810X00044/1-s2.0-S1094996810000253/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFIaCXVzLWVhc3QtMSJIMEYCIQDHU1fN3TEuyVTjW60Tz4B2Qiqam0fRBLozutfehTuCUAIhAIiRu4DhjklPFSqOJHohJj6Z9ZbZQuoie9ZnGnRVnpfJKr0DCKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMMDU5MDAzNTQ2ODY1Igzn8YhT3TZxQyfHWb0qkQNOVJNl2TIA%2Bhx11B3yFAp7Mfjdvjkg0TyJYdIp0PGOu%2B0cakkKIRqkKeKmK%2FmLJonL%2BArscfBvU6qtu46vxQt2DxKf5ubASgilHbViVnCPHvZK40Dk0aH9SnjYLtNenEn3QISq%2BK8xbnjPyCvdeyzoZogiiBvfFlJYwnWxodlU%2BKiasKfagz17MfJwfjnz%2BG%2Bhf4Kgo7dnX%2F5cQ%2BsVfeMUFUajyqBw0uG7%2FI5eS7hQbAtQTVjgMj29Z7T%2FwgwXMJSISD%2FxvQI%2BEyMz62ZSnyvkgHNpMxG%2Fzu7NuywKM7Lptl8f0%2FaGCBzvDLhdm92byk7r1DfCeRICrupAkHoMLoRCr5mDtKlZZXF7kcM77mr%2BWt9bvxj69Zf%2BnAGUQTNcEAkLTndyrl7LjvXzbf5UfuaAU0Q2eoQG0wFLWka1ZlT7ONkMRfUZ%2BkDcyOErKI8JHCWcuaPp4HsLjWGvHh9tWYu0YR6pA1w0ndFSKf1bsjo5wZ6sdlQ%2BlKJXxcx2%2BJkgjoQpjZn1sBwLP1atdliw4QQm9TC0iIH9BTrqAcr7hoGvs6IdaDxzxOkAqxoAd%2B8eU14606bsSRyuy16a7BC293t1xG2ixOfPGEl%2BO3RsP4xYHDOrq6iq0Z7uvLtiv5oUjI2drNzQW6ROA6n37f8PZcRtBZkeu6kKdlp2Vd4A7OxP23AI7U4teZG5wyLhLuSo5a7FxXe%2FRROwFGgtBmTVrlzrQhpx5wtXqlzRKy1%2FCjefenzq7LGc0z9dz5bdo4L21pXsCkA9Hwi81tFXdMtJpWCQrjbQlCBLV1ImsMvY1lgKSbVeI8f7EvleoGs4zgoSRmKhQOSEOoz0on8DSpE5wrJBHAj28Q%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T180503Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYYHBFCX44%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=edfedf2f58b20f7ad5a541f60c74895fdf984814173bca1a41199151bb480050&hash=7533ebeea20fe4ad52f1943c53c388a16c8179c0555ccb842eec307c610b8220&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1094996810000253&tid=spdf-06b41bb4-a559-4ef9-b09d-e404e6897644&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S1094996810000253?via%3Dihub
+KW  - Churn prediction
+KW  - Customer relationship management
+KW  - Scoring models
+ER  - 
+
+TY  - JOUR
+TI  - Variable selection by association rules for customer churn prediction of multimedia on demand
+AU  - Tsai, Chih-Fong
+AU  - Chen, Mao-Yuan
+T2  - Expert Systems with Applications
+AB  - Multimedia on demand (MOD) is an interactive system that provides a number of value-added services in addition to traditional TV services, such as video on demand and interactive online learning. This opens a new marketing and managerial problem for the telecommunication industry to retain valuable MOD customers. Data mining techniques have been widely applied to develop customer churn prediction models, such as neural networks and decision trees in the domain of mobile telecommunication. However, much related work focuses on developing the prediction models per se. Few studies consider the pre-processing step during data mining whose aim is to filter out unrepresentative data or information. This paper presents the important processes of developing MOD customer churn prediction models by data mining techniques. They contain the pre-processing stage for selecting important variables by association rules, which have not been applied before, the model construction stage by neural networks (NN) and decision trees (DT), which are widely adapted in the literature, and four evaluation measures including prediction accuracy, precision, recall, and F-measure, all of which have not been considered to examine the model performance. The source data are based on one telecommunication company providing the MOD services in Taiwan, and the experimental results show that using association rules allows the DT and NN models to provide better prediction performances over a chosen validation dataset. In particular, the DT model performs better than the NN model. Moreover, some useful and important rules in the DT model, which show the factors affecting a high proportion of customer churn, are also discussed for the marketing and managerial purpose.
+DA  - 2010/03/15/
+PY  - 2010
+DO  - 10.1016/j.eswa.2009.06.076
+DP  - ScienceDirect
+VL  - 37
+IS  - 3
+SP  - 2006
+EP  - 2015
+J2  - Expert Systems with Applications
+LA  - en
+SN  - 0957-4174
+UR  - http://www.sciencedirect.com/science/article/pii/S0957417409006459
+Y2  - 2020/11/02/18:05:34
+L1  - https://pdf.sciencedirectassets.com/271506/1-s2.0-S0957417409X00138/1-s2.0-S0957417409006459/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFIaCXVzLWVhc3QtMSJHMEUCIGtI9JMtKSQdw3gSlbggeQSi5T2eIJk1%2Fg8IoGYK23Y5AiEAk5AtCVy67mgXjgkgh2J7AlkAG3EYn11%2BC4dUFshig3EqvQMIq%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARADGgwwNTkwMDM1NDY4NjUiDLtw1%2FeQ5wl%2BfBuAEyqRA4%2BKTVnMwG4v6i3JwbfwGR%2FbUrmjDwZ2w6Z1gQAaaC2AYea0rjgUs2eYMV6Ax%2FpPV75xihPjuQ24ZLKWwRg2vjrMWyGGn4KaU7rU4ZBIrQtkAqT7jfKrfwGvwYbKrQwug6%2BQ6Fax5zW2E0gesODic4wO0BGON3rNBSMbABqds1JewdYZf7tNFgvjyAZs8Br80vWadNT0UznnOKIqsR92DfzEBeVygUNxp%2ByAwuPcDvu%2FNbbmfg0Cyn7Y0%2BrH%2FMthf9WfYYQLg5gWQwvS0%2BZvpc0tprz9af3LEJu4mFaDiZEENgta6OVG4qZKrWp8xt52qLtnnOjGKAS4XwncNckLZFlGI8AZMjUOPKgCjoerXlDOd6ABDls7xPDdnTcH%2F553Vky2pYCZY7Hr9wac%2BxMhlGsycSv%2F6%2Bv82ZZfEtKVClXgg516PmtrljwFiCvTh9cevn27CKp8%2FJWJVKl4ZadT%2FAFZnxS8h5ypyBoGMlE2hGnXjKsrjFTH3psdudsNOh2SVJo7psKtqXrRdK%2BqB4RYuD0VMPmIgf0FOusBocw2WNzpg6gq4F7WDNxdYrAep1PWrQ6ftXrZXtMw%2FZGQpPoc1c8L%2BokSzjuMrAeza0VY%2Fb8qeMQhA3pXlSMUWMSO6HXt0yYF15wzHyoqjE9xz%2BJ2BDogZY3w4g0h%2Fv2KU%2Fm0eBmQvG269JYeY9IO%2FKe2k8xUbdfOpASXx%2BolEwzl47JfCw%2FBb9J5BDXq8VGCysqNAVDXVsK698D5Ik7CWfsJVB7rwIqdjxruQj3i45tq7gyCVJpjpYtCB%2FMO77SV8fzR%2FMi8%2B%2FcUnvO2vNgsBviv3PaNa%2BQYax9fvz5%2FdD3bkDZ88EU2PMju%2Bg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T180534Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY7ZQQDHNR%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c6ee65fd46017af65230eb950b53813362bbf1d87409ba7436a43d3cc6391750&hash=72480eb0706f84ecfa7833684f3ae11a2dc18911f84e71dd1ed7276717a53b0a&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0957417409006459&tid=spdf-d781f8ef-051d-42dc-a92d-85ee9cc7f213&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S0957417409006459?via%3Dihub
+KW  - Data mining
+KW  - Neural networks
+KW  - Decision trees
+KW  - Customer churn prediction
+KW  - Association rules
+KW  - Multimedia on demand
+ER  - 
+
+TY  - JOUR
+TI  - Why you should stop predicting customer churn and start using uplift models
+AU  - Devriendt, Floris
+AU  - Berrevoets, Jeroen
+AU  - Verbeke, Wouter
+T2  - Information Sciences
+AB  - Uplift modeling has received increasing interest in both the business analytics research community and the industry as an improved paradigm for predictive analytics for data-driven operational decision-making. The literature, however, does not provide conclusive empirical evidence that uplift modeling outperforms predictive modeling. Case studies that directly compare both approaches are lacking, and the performance of predictive models and uplift models as reported in various experimental studies cannot be compared indirectly since different evaluation measures are used to assess their performance. Therefore, in this paper, we introduce a novel evaluation metric called the maximum profit uplift (MPU) measure that allows assessing the performance in terms of the maximum potential profit that can be achieved by adopting an uplift model. This measure, developed for evaluating customer churn uplift models, extends the maximum profit measure for evaluating customer churn prediction models. While introducing the MPU measure, we describe the generally applicable liftup curve and liftup measure for evaluating uplift models as counterparts of the lift curve and lift measure that are broadly used to evaluate predictive models. These measures are subsequently applied to assess and compare the performance of customer churn prediction and uplift models in a case study that applies uplift modeling to customer retention in the financial industry. We observe that uplift models outperform predictive models and lead to improved profitability of retention campaigns.
+DA  - 2019/12/31/
+PY  - 2019
+DO  - 10.1016/j.ins.2019.12.075
+DP  - ScienceDirect
+J2  - Information Sciences
+LA  - en
+SN  - 0020-0255
+UR  - http://www.sciencedirect.com/science/article/pii/S0020025519312022
+Y2  - 2020/11/02/18:05:50
+L2  - https://www.sciencedirect.com/science/article/pii/S0020025519312022?via%3Dihub
+KW  - Customer retention
+KW  - Customer churn prediction
+KW  - Maximum profit
+KW  - Prescriptive analytics
+KW  - Uplift modeling
+ER  - 
+

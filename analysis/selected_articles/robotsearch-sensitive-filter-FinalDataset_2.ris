@@ -1,0 +1,100 @@
+TY  - JOUR
+TI  - Estimating the effect of word of mouth on churn and cross-buying in the mobile phone market with Markov logic networks
+AU  - Dierkes, Torsten
+AU  - Bichler, Martin
+AU  - Krishnan, Ramayya
+T2  - Decision Support Systems
+DA  - 2011/06//
+PY  - 2011
+DO  - 10.1016/j.dss.2011.01.002
+DP  - DOI.org (Crossref)
+VL  - 51
+IS  - 3
+SP  - 361
+EP  - 371
+J2  - Decision Support Systems
+LA  - en
+SN  - 01679236
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0167923611000273
+Y2  - 2020/11/02/16:48:27
+L1  - https://dss.in.tum.de/files/bichler-research/2011_dierkes_markov_logic_networks.pdf
+ER  - 
+ZM  - svm
+ZS  - 0.3631059297732231
+ZT  - sensitive
+ZC  - 0.0691768267655864
+ZR  - True
+ZP  - -1
+
+
+
+
+TY  - JOUR
+TI  - Retention Futility: Targeting High-Risk Customers Might be Ineffective
+AU  - Ascarza, Eva
+T2  - Journal of Marketing Research
+AB  - Companies in a variety of sectors are increasingly managing customer churn proactively, generally by detecting customers at the highest risk of churning and targeting retention efforts towards them. While there is a vast literature on developing churn prediction models that identify customers at the highest risk of churning, no research has investigated whether it is indeed optimal to target those individuals. Combining two field experiments with machine learning techniques, the author demonstrates that customers identified as having the highest risk of churning are not necessarily the best targets for proactive churn programs. This finding is not only contrary to common wisdom but also suggests that retention programs are sometimes futile not because firms offer the wrong incentives but because they do not apply the right targeting rules. Accordingly, firms should focus their modeling efforts on identifying the observed heterogeneity in response to the intervention and to target customers on the basis of their sensitivity to the intervention, regardless of their risk of churning. This approach is empirically demonstrated to be significantly more effective than the standard practice of targeting customers with the highest risk of churning. More broadly, the author encourages firms and researchers using randomized trials (or A/B tests) to look beyond the average effect of interventions and leverage the observed heterogeneity in customers' response to select customer targets.
+DA  - 2018/02//
+PY  - 2018
+DO  - 10.1509/jmr.16.0163
+DP  - DOI.org (Crossref)
+VL  - 55
+IS  - 1
+SP  - 80
+EP  - 98
+J2  - Journal of Marketing Research
+LA  - en
+SN  - 0022-2437, 1547-7193
+ST  - Retention Futility
+UR  - http://journals.sagepub.com/doi/10.1509/jmr.16.0163
+Y2  - 2020/11/02/16:49:19
+ER  - 
+ZM  - svm
+ZS  - 0.24624067093532606
+ZT  - sensitive
+ZC  - 0.0691768267655864
+ZR  - True
+ZP  - -1
+
+
+
+
+TY  - JOUR
+TI  - Customer churn prediction in the online gambling industry: The beneficial effect of ensemble learning
+AU  - Coussement, Kristof
+AU  - De Bock, Koen W.
+T2  - Journal of Business Research
+T3  - Advancing Research Methods in Marketing
+AB  - The online gambling industry is one of the most revenue generating branches of the entertainment business, resulting in fierce competition and saturated markets. Therefore it is essential to efficiently retain gamblers. Churn prediction is a promising new alternative in customer relationship management (CRM) to analyze customer retention. It is the process of identifying gamblers with a high probability to leave the company based on their past behavior. This study investigates whether churn prediction is a valuable option in the CRM palette of the online gambling companies. Using real-life data of poker players at bwin, single algorithms, CART decision trees and generalized additive models are benchmarked to their ensemble counterparts, random forests and GAMens. The results show that churn prediction is a valuable strategy to identify and profile those customers at risk. Furthermore, the performance of the ensembles is more robust and better than the single models.
+DA  - 2013/09/01/
+PY  - 2013
+DO  - 10.1016/j.jbusres.2012.12.008
+DP  - ScienceDirect
+VL  - 66
+IS  - 9
+SP  - 1629
+EP  - 1636
+J2  - Journal of Business Research
+LA  - en
+SN  - 0148-2963
+ST  - Customer churn prediction in the online gambling industry
+UR  - http://www.sciencedirect.com/science/article/pii/S0148296312003530
+Y2  - 2020/11/02/18:00:02
+L1  - https://pdf.sciencedirectassets.com/271680/1-s2.0-S0148296313X00074/1-s2.0-S0148296312003530/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFIaCXVzLWVhc3QtMSJHMEUCICDX4uaN2QCLyAHbnsXx11YUZ3cUmuJWe5J9VPWsL4MuAiEArw9PXVTIoITX%2FcFrDXyyr6NHfjxbMW5dwSvAnXlpdJgqvQMIqv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARADGgwwNTkwMDM1NDY4NjUiDCQ0bquloTAqm%2B6ssSqRA9fzzrn7rO%2F2%2FST5OZCxsc8ywQ8IICG2pf9AtQkCRqUAkKBBuTgRYjch%2FujWyH8kqaPrzWmadUh3%2F0vZbxJGRLCMgNfc9YNMJ8N%2FhZ9sY4Kzj%2FbOJCUJRws7FKaxHWA7R1bDys%2Fdmjm0rWfiqzVCAO2%2Fi1YLUWYu6lCPgUUiJrgKwQfxh1axRyE1Daq4xtTGtYxg85bAbmFW4hUIn9Lg6i9BVPk1nM68uJ8As4yPwlBwbuxVs5CIdZuGnOD%2B27aHSJ0P3f3xEW8K6yJ4nKwqPDvJH4OJ%2BWkYZrWdxr718Q3hRZcc%2BsvSjMZtmlWtrq32odEuFmi8SeEbmv%2FhOaarm8veAwwGC5llcvV%2FUh%2BWlmq8QQ6EP1CBNa%2FHUSZemTNMrPKYuqoc4fTQ6AvIMLD5oV9%2BJCZioAmcbcgyWomMevVFbOGN%2BNxO32rI%2B3HjPEr0G4zmquil7%2BpCtn1z7M4QUXlwbRUR1Wwx47d66NZWovM1cPiKmjIp82WXjCwHGXeXEh1xX5IfaKmKsUhkyJjQ3qRfMPf9gP0FOusBirRUywLgVtpas%2BJEPGDPK%2F0wUjEIjW2cxKJaOv6ZczzEe0f5P%2FmISbsyDugf5HpB%2BUkjuB%2Fuht6DWG0oj0i0tlJrU%2B%2FQg%2B7FJkthZg8QRSTWFMGr8gj0Qf9ytksW%2BX57sF4ElOK9YUQi5%2B3oEF%2BH30pd1NTZONWUKCwWNiW0RehJ7n7yG2mJl%2BF1b3MqaVudPSPm5efdr4zjO8Ks4asRSRlYwtosg0o6hOC%2F8h%2BWfBEHJ7msqWGKusA6K3V1Ta3Kr3x3dI2YXyG8cEMCwSwQlzHEeRLwXq7Z%2FeTVNFVo6Y7zycQG5xmZWLVR%2Fg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201102T180002Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY4SKWL3OT%2F20201102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=ae7360061be6594a55d42370b2e0a200a3a5b3d3246a0344bf478a7ffbe407db&hash=79d960783ac394c2f231583cc22efd2d2186f978b8e98d705622572cd257bd40&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0148296312003530&tid=spdf-27f9705a-e403-4f5d-bac6-e2c8fb12ab10&sid=4c39a48a63a40348d88aafd33daa89c2cd1cgxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S0148296312003530?via%3Dihub
+KW  - Customer relationship management
+KW  - Random forests
+KW  - Customer churn prediction
+KW  - Ensemble algorithms
+KW  - GAMens
+KW  - Online gambling
+ER  - 
+ZM  - svm
+ZS  - 0.1115592803131689
+ZT  - sensitive
+ZC  - 0.0691768267655864
+ZR  - True
+ZP  - -1
+
+
+

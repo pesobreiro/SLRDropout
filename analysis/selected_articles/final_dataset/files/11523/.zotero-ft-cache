@@ -1,0 +1,173 @@
+
+JavaScript is disabled on your browser. Please enable JavaScript to use all the features on this page. Skip to main content Skip to article
+Elsevier logo ScienceDirect
+
+    Journals & Books 
+
+Pedro Sobreiro
+Brought to you by: B-on Consortium of Portugal
+ 
+Download full text in PDF Download
+Share
+Export
+Advanced
+Outline
+
+    Abstract
+    Key Words
+    References 
+
+Elsevier
+Systems Engineering - Theory & Practice
+Volume 28, Issue 1 , January 2008, Pages 71-77
+Systems Engineering - Theory & Practice
+RESEARCH PAPER
+Model of Customer Churn Prediction on Support Vector Machine
+Author links open overlay panel Guo-en XIA a Wei-dong JIN b
+Show more
+https://doi.org/10.1016/S1874-8651(09)60003-X Get rights and content
+Abstract
+
+To improve the prediction abilities of machine learning methods, a support vector machine (SVM) on structural risk minimization was applied to customer churn prediction. Researching customer churn prediction cases both in home and foreign carries, the method was compared with artifical neural network, decision tree, logistic regression, and naive bayesian classifier. It is found that the method enjoys the best accuracy rate, hit rate, covering rate, and lift coefficient, and therefore, provides an effective measurement for customer churn prediction.
+
+    Previous article in issue
+    Next article in issue 
+
+Key Words
+customer churn
+support vector machine (SVM)
+telecommunication industry
+Download full text in PDF
+References
+
+1
+    SM Keaveney Customer switching behavior in service industries: An exploratory study
+    Journal of Marketing, 59 (2) (1995), pp. 71-82
+    View Record in Scopus Google Scholar
+2
+    MC Mozer, R Wolniewicz, DB Grimes, et al. Predicting subscriber dissatisfaction and improving retention in the wireless telecommunications industry
+    IEEE Transactions on Neural Networks, 11 (3) (2000), pp. 690-696
+    View Record in Scopus Google Scholar
+3
+    AD Athanassopoulos Customer satisfaction cues to support market segmentation and explain switching behavior
+    Journal of Business Research, 47 (3) (2000), pp. 191-207
+    Article Download PDF View Record in Scopus Google Scholar
+4
+    CB Bhattacharya When customers are members: Customer retention in paid membership contexts
+    Journal of the Academy of Marketing Science, 26 (1) (1998), pp. 31-44
+    CrossRef View Record in Scopus Google Scholar
+5
+    PW Chih, IT Chiu Turning telecommunications call details to churn prediction: A data mining approach
+    Expert Systems with Applications, 23 (2) (2002), pp. 103-112
+    Google Scholar
+6
+    HS Kim, CH Yoon Determinants of subscriber churn and customer loyalty in the Korean mobile telephony market
+    Telecommunications Policy, 28 (9) (2004), pp. 751-765
+    Article Download PDF View Record in Scopus Google Scholar
+7
+    Rosset S, Neumann E. Integrating customer value considerations into predictive modeling. Third IEEE International Conference on Data Mining, 2003: 1–8.
+    Google Scholar
+8
+    Nath S V. Data warehousing and mining: Customer churn analysis in the wireless industry. A thesis submitted to the faculty of the college of business in partial fulfillment of the requirements for the degree of master of business administration, May 2003.
+    Google Scholar
+9
+    Yi Ming, Hui Wan, Lei Li, et.al. Multidimensional model-based clustering for user behavior mining in telecommunications industry. Proceeding of the third international conference on machine learning and cybernetics, Shanghai, 2004: 26–29.
+    Google Scholar
+10
+    Yan L, Miller D J, Mozer M C, et al. Improving prediction of customer behavior in nonstationary environments. Proc of the International Joint Conference on Neural Net-works, 2001: 2258–2263.
+    Google Scholar
+11
+    A Ultch Emergent self-organizing feature maps used for prediction and prevention of churn in mobile phone markets
+    Jornal of Targeting, 4 (10) (2002), pp. 401-425
+    Google Scholar
+12
+    W Au, KCC Chen, X Yao A novel evolutionary data mining algorithm with applications to churn prediction
+    Evolutionary Computation, IEEE Transactions, 7 (6) (2003), pp. 532-545
+    View Record in Scopus Google Scholar
+13
+    VN Vapnik
+    The nature of statistical learning theory, Publishing House of Electronics Industry, Beijing (2004)
+    Google Scholar
+14
+    GE Xia, WD Jin Tradeoff of errors of two types in customer churn prediction
+    Journal of Marketing Scinece, 2 (4) (2006), pp. 1-7
+    View Record in Scopus Google Scholar
+15
+    C Cortes, V Vapnik Support vector networks
+    Machine Learning, 20 (1995), pp. 273-297
+    CrossRef View Record in Scopus Google Scholar
+16
+    CW Hsu, CJ Lin A comparison of methods for multiclass support vector machines
+    IEEE Transactions On Neural Networks, 13 (2) (2002), pp. 415-425
+    View Record in Scopus Google Scholar
+17
+    JC Platt, N Cristianini, TJ Shawe Large margin DAG's for multiclass classification
+    Advances in Neural Information Processing Systems (12) (2000), pp. 547-553
+    View Record in Scopus Google Scholar
+18
+    SM Heong, et al. Support vector machines with binary tree architecture for multiclass classification
+    Neural Information Processing Letters and Reviews, 2 (3) (2004), pp. 47-51
+    Google Scholar
+19
+    Merz C J, Murphy P M. UCI Repository of machine learning databases [ http://www.ics.uci.edu/∼mlearn/MLRe-pository.html ]. Irvine, CA: University of Califor-nia, Department of Information and Computer Science.
+    Google Scholar
+20
+    Wei Y, Jutla D N, Sivakumar S C. A churn strategy alignment model for managers in mobile telecomcommunication. Networks and Services Research Conference, Proceedings of the 3rd Annual16-18 May 2005: 48–53.
+    Google Scholar
+21
+    KR Muller, S Mika, G Rrtsch, et al. An introduction to kernel based learning algorithms
+    IEEE Transactions on Neural Networks, 12 (2) (2001), pp. 181-202
+    View Record in Scopus Google Scholar
+22
+    AJ Smla
+    Learining with kernels, Fechnical University of Berlin, Berlin (1998)
+    Google Scholar
+
+    Foundation item: Supported by the National Natural Science Foundation of China (No.6057214); and Science Foundation for Young Scholar of Guangxi (No.0832102)
+
+View Abstract
+Copyright © 2008 Systems Engineering Society of China. Published by Elsevier Ltd. All rights reserved.
+Recommended articles
+
+    Customer event history for churn prediction: How long is long enough?
+    Expert Systems with Applications, Volume 39, Issue 18, 2012, pp. 13517-13522
+    Download PDF View details
+    Credit card churn forecasting by logistic regression and decision tree
+    Expert Systems with Applications, Volume 38, Issue 12, 2011, pp. 15273-15285
+    Download PDF View details
+    Customer churn prediction in the telecommunication sector using a rough set approach
+    Neurocomputing, Volume 237, 2017, pp. 242-254
+    Download PDF View details
+
+1 2 Next
+Citing articles (75)
+Article Metrics
+Citations
+
+    Citation Indexes: 73 
+
+Captures
+
+    Readers: 138 
+
+Social Media
+
+    Shares, Likes & Comments: 2 
+
+View details
+Elsevier logo
+
+    About ScienceDirect
+    Remote access
+    Shopping cart
+    Advertise
+    Contact and support
+    Terms and conditions
+    Privacy policy 
+
+We use cookies to help provide and enhance our service and tailor content and ads. By continuing you agree to the use of cookies .
+
+Copyright © 2020 Elsevier B.V. or its licensors or contributors. ScienceDirect ® is a registered trademark of Elsevier B.V.
+
+ScienceDirect ® is a registered trademark of Elsevier B.V.
+View PDF

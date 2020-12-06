@@ -1,0 +1,233 @@
+---
+title: 'Dropout Prediction: A Systematic Literature Review'
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+  html_notebook: default
+  pdf_document: default
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. For the analysis of the articles selected after the abstract teste
+screening for the Systematic Review. 
+https://cran.r-project.org/web/packages/bibtex/bibtex.pdf
+
+
+This was developed with quanteda version 1.1.1, installation instructions available [here][1], [vignetes][2]. The pdfs where 
+readed with [readtext][3] which suport functions for importing and handling text files and formatted text files with additional-data, 
+such: '.csv', '.tab', '.json', '.xml', '.html', '.pdf', '.doc', '.docx', '.rtf', '.xls', '.xlsx', and others.
+
+[1]: https://cran.r-project.org/web/packages/quanteda/index.html
+[2]: https://cran.r-project.org/web/packages/quanteda/vignettes/quickstart.html
+[3]: https://cran.r-project.org/web/packages/readtext/index.html
+
+```
+Benoit, K., Watanabe, K., Wang, H., Nulty, P., Obeng, A., Müller, S., & Matsuo, A. (2018). quanteda: An R package for the quantitative analysis of textual data. Journal of Open Source Software, 3(30), 774. https://doi.org/10.21105/joss.00774
+```
+
+Silge & Robinson (2016) developed [tidytext] to make text mining tasks easier, more effective and consistent with 
+tools already in wide use. This package provides commands that allow you to convert text to and from tidy formats. 
+Allow analysis and visualisation: sentiment analysis, tf-idf statistics, n-grams or topic modelling. Best for visualization 
+of the output
+
+[4]: https://www.tidytextmining.com/
+
+We will be using also [revtools ][5] Screening is usually achieved by manually sorting titles or abstracts one at a time. screen_topics offers 
+an alternative by allowing the user to group data by any column in the input dataset,  and running a topic model on the resulting data. 
+This allows a great deal of flexibility to locate patterns in journals,  years,  or authors,  rather than just articles.   
+Data points can be selected or excluded individually, or by topic.
+
+[5]: https://cran.r-project.org/web/packages/revtools/index.html
+
+
+```{r}
+# get rmarkdown directory
+caminho<-getwd()
+# set working directory
+setwd(caminho)
+```
+
+
+# Import Libraries
+```{r message=FALSE, warning=FALSE}
+# Setup library
+library('quanteda')
+library('readtext')
+library('revtools')
+```
+
+# revtools
+
+
+```{r}
+data_revtools<-read_bibliography("asreview/asreview_result_dropout-prediction-a-systematic-literature-review-v3_FINAL.csv")
+data_revtools<- data_revtools[data_revtools$final_included==1,]
+#analysis_revtools<-screen_topics(data_revtools)
+#analysis_revtools
+```
+## Creating a document-term matrix for the title
+min_freq: minimum proportion of entries that a term must be found in to be retained in the analysis. Defaults to 0.01.
+We have adjusted to 0.05
+
+```{r}
+library(lattice)
+library(ggplot2)
+
+x_dtm<-make_dtm(data_revtools$title,min_freq = 0.05)
+
+#create a matrix of the document term-matrix
+x_dtm_matrix <- as.matrix(x_dtm)
+#apply function to calculate columns totals
+totals<-apply(x_dtm_matrix,MARGIN = 2,sum)
+par(las=2)
+barplot(totals,ylim = c(0,max(totals)+5),main = "Title words frequency",ylab = "number occurrences")
+
+#create dataframe
+df_dtm<-data.frame(totals)
+df_dtm$words<-row.names(df_dtm)
+                   
+ggplot(data = df_dtm,aes(x=words,y=totals)) +
+  labs(title = "Common words in the paper title",y = "freq")+ #modify legend and plot labels
+  geom_bar(stat = "identity") + coord_flip()+
+  geom_text(aes(label=totals),hjust=-1.6)
+
+```
+
+```{r}
+x_dtm<-make_dtm(data_revtools$abstract,min_freq = 0.20)
+#create a matrix of the document term-matrix
+x_dtm_matrix <- as.matrix(x_dtm)
+#apply function to calculate columns totals
+totals<-apply(x_dtm_matrix,MARGIN = 2,sum)
+#create dataframe
+df_dtm<-data.frame(totals)
+df_dtm$words<-row.names(df_dtm)
+                   
+ggplot(data = df_dtm,aes(x=words,y=totals)) +
+  labs(title = "Common words in the abstract text",y = "freq")+ #modify legend and plot labels
+  geom_bar(stat = "identity") + coord_flip()+
+  geom_text(aes(label=totals),hjust=-1.6)
+
+
+```
+#Select only select articles
+```{r}
+pdf.files  <- list.files(path=caminho,recursive=T,pattern="pdf$",full.names=TRUE)
+```
+88 PDFs to analyse
+
+# Reading the PDFs
+```{r message=FALSE, warning=FALSE}
+pdfs<-readtext(pdf.files[1],docvarsfrom = "filenames", sep = "_", docvarnames = c("author", "year","title"))
+for (file in pdf.files[2:length(pdf.files)]) {
+  pdf<-readtext(file,docvarsfrom = "filenames", sep = "_", docvarnames = c("author", "year","title"))
+  pdfs <- rbind(pdfs,pdf)
+}
+pdfs
+# Transform the journal articles into a corpus object
+pdfs_corpus  <- corpus(pdfs)
+summary(pdfs_corpus, 5)
+getwd()
+write.csv2(pdfs,file = "teste.csv")
+```
+
+# Build a document feature matrix
+```{r}
+pdfs_corpus  <- corpus(pdfs[1:10,])
+corpus_DFM <- dfm(pdfs_corpus, tolower = TRUE, stem = FALSE, remove = c('@',"et", "al", "fig", "table", "ml", "http", stopwords(language = 'en',source = "smart")),
+                  remove_punct = TRUE, remove_numbers = TRUE)
+
+dfm_sort(corpus_DFM)
+```
+
+
+```{r}
+stopwords("english")
+```
+
+
+```{r}
+textplot_wordcloud(corpus_DFM, min.freq = 30, random.order=F, rot.per = .10,colors = RColorBrewer::brewer.pal(8,'Dark2')) 
+```
+
+```{r}
+#summary(corpus_DFM)
+topfeatures(corpus_DFM, 100)
+```
+
+
+```{r}
+library(quanteda.textmodels)
+tmod_wf <- textmodel_wordfish(corpus_DFM,c(6,5))
+summary(tmod_wf)
+```
+
+# Extract data from PDFs
+## Images
+```{r}
+pdf.files
+for(image in pdf.files) {
+  
+}
+#imageFiles <-PDF_extractImages(pdf.files[2])
+```
+## Tables
+Creating a list of lists. Lists are indexed with double brackets.
+```{r}
+library("tabulizer")
+library(utils)
+
+pb = txtProgressBar(min = 0, max = length(pdf.files), initial = 0,)
+tab = list()
+for (i in 1:length(pdf.files)){
+  setTxtProgressBar(pb,i)
+  try(
+    tab[[i]]<-extract_tables(pdf.files[i]),
+    silent = TRUE
+    )
+}
+
+```
+### Identifying elements 
+Perceber quais são os artigos que abordam isto.... tentar fazer um quadro global
+Por exemplo x artigos abordam AUC, sensitivy.... blá... blá... 
+
+Estão exemplos no Edge
+AOC
+```{r}
+# Where is AUC
+grep("AUC",tab)
+
+grep("AUC",tab[[6]][[4]])
+```
+
+PDF Scraping in R with tabulizer: 
+1. https://www.r-bloggers.com/2019/09/pdf-scraping-in-r-with-tabulizer/
+2. https://www.charlesbordet.com/en/extract-pdf/#extract-the-right-information
+3. https://www.r-bloggers.com/2018/01/how-to-extract-data-from-a-pdf-file-with-r/
+4. https://github.com/ropensci/tabulizer
+5. https://datascienceplus.com/extracting-tables-from-pdfs-in-r-using-the-tabulizer-package/
+
+```{r}
+tab[[6]][[4]]
+
+# table headers get extracted as rows with bad formatting. Dump them.
+final <- as.data.frame(tab[[6]][[4]])
+final
+# Column names
+headers <- c('Dataset', 'Method', 'AUC', 'H-measure', 'Measure','Mean EMP', 'Median EMP')
+
+# Apply custom column names
+names(final) <- headers
+final
+
+```
+
+
+```{r}
+library(writexl)
+write_xlsx(as.data.frame(tab),path = 'tables.xlsx')
+```
+
+
+
