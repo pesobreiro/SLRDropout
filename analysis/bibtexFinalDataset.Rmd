@@ -189,11 +189,3 @@ tb<-table(data_asreview$category)
 
 barchart(tb,horizontal = FALSE, scales = list(x = list(rot = 45)),ylab='Number of articles',xlab='category')
 ```
-
-
-
-
-
-
-
-
