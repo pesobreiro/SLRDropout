@@ -1,0 +1,650 @@
+---
+title: 'Dropout Prediction: A Systematic Literature Review'
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  html_notebook: default
+  word_document: default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. With the
+cleaning of a dataframe used in a Systematic Review.
+<https://cran.r-project.org/web/packages/bibtex/bibtex.pdf>
+
+This was tested with bib2df version 1.1.1, installation instructions
+available [here](https://docs.ropensci.org/bib2df/), and one example
+[here](https://docs.ropensci.org/bib2df/articles/bib2df.html). Github
+project is available [here](https://github.com/ropensci/bib2df)
+
+Is better to confirm that the files are in UTF-8 encoding. The bibtex
+files must be checked. There should be spaces between "=":
+
+    @Article{Binmore2008,
+      Title = {Do Conventions Need to Be Common Knowledge?},
+      Author = {Binmore, Ken},
+      Journal = {Topoi},
+      Year = {2008},
+      Number = {1},
+      Pages = {17--27},
+      Volume = {27}
+    }
+
+This code correct that:
+
+    tx<-readLines(file)
+    tx2<-gsub(pattern = "=\\{",replacement = " = {",x = tx)
+    writeLines(text = tx2,con = 'corrected_scopus.bib')
+
+The metagear package
+
+# Import Libraries
+
+```{r message=FALSE, warning=FALSE}
+# Setup library
+library(bib2df)
+library(bibtex)
+library(tibble)
+library(dplyr)
+library(readxl)
+library(kableExtra) #Exportar tabelas para latex
+library(ggplot2)
+
+
+# get rmarkdown directory
+caminho<-getwd()
+# set working directory
+setwd(caminho)
+```
+
+\#Select only select articles
+
+```{r}
+data_asreview <- read_excel("asreview/asreview_result_dropout-prediction-a-systematic-literature-review-v3_FINAL.xlsx")
+str(data_asreview)
+data_asreview <- data_asreview[data_asreview$final_included==1,]
+
+str(data_asreview)
+
+```
+
+# Copy DOIs to clipboard to import to Zotero
+
+```{r}
+text<-as.character(data_asreview$doi)
+text
+
+# writeClipboard(text)
+
+length(text)
+```
+
+# Final list 91 records
+
+Os artigos foram importados e vamos comparar quantos tempos no zotero e
+quantos tivemos no Wasnt possible to retrieve - A Case of Churn
+Prediction in Telecommunications Industry Duplicates: - Improving
+customer churn prediction by data augmentation using pictorial
+stimulus-choice data - Preventing Churn in Telecommunications: The
+Forgotten Network - Churn Prediction Model for Effective Gym Customer
+Retention
+
+PDFs available to analyze 88.
+
+```{r}
+articles.remove=c('A Case of Churn Prediction in Telecommunications Industry',
+                  'Improving customer churn prediction by data augmentation using pictorial stimulus-choice data',
+                  'Churn Prediction Model for Effective Gym Customer Retention',
+                  'Preventing churn in telecommunications: The forgotten network')
+
+data_asreview %>%subset(subset = (title %in% articles.remove)) %>% arrange(title)
+```
+
+Remover o que não interessa
+
+```{r}
+articles.remove=c('399','400','284','264')
+
+data_asreview<-data_asreview %>%subset(subset = !(record_id %in% articles.remove)) %>% arrange(title)
+```
+
+'C:/nuvem/Dropbox/doutoramento/tese/SLRDropout/analysis/selected_articles/final_dataset/FinalDataset.bib'
+
+```{r}
+data_asreview %>% select(title,doi) %>% distinct(title,.keep_all = TRUE) %>% arrange(title)
+```
+
+## 
+
+```{r message=FALSE, warning=FALSE}
+library(metagear)
+```
+
+### Prisma Flow diagram
+
+phases \<- c("START_PHASE: 448 of studies identified through database
+searching", "START_PHASE: \# of additional studies identified through
+other sources", "\# of studies after duplicates removed", "\# of studies
+with title and abstract screened", "EXCLUDE_PHASE: \# of studies
+excluded", "\# of full-text articles assessed for eligibility",
+"EXCLUDE_PHASE: \# of full-text excluded, not fitting eligibility
+criteria", "\# of studies included in qualitative synthesis",
+"EXCLUDE_PHASE: \# studies excluded, incomplete data reported", "final
+\# of studies included in quantitative synthesis (meta-analysis)")
+
+```{r}
+phases <- c("START_PHASE: 448 of studies identified through database searching",
+            "420 of studies after duplicates removed",
+            "EXCLUDE_PHASE: 28 duplicate articles where removed",
+            "402 of studies with title and abstract screened",
+            "EXCLUDE_PHASE: 13 of studies due missing information title and DOI, and 5 where books",
+            "91 of full-text articles assessed for eligibility",
+            "EXCLUDE_PHASE: 311 of full-text excluded, not fitting eligibility criteria",
+            "87 articles with full access",
+            "EXCLUDE_PHASE: 4 articles we did not have full text access ",
+            "final 87 of studies included in qualitative analysis")
+#plot_PRISMA(phases,colWidth = 40, design = c(fontSize=10))
+plot_PRISMA(phases,colWidth = 40, design = "cinnamonMint")
+```
+
+```{r}
+str(data_asreview)
+```
+
+## Articles by Year
+
+```{r barplot_year,warning=FALSE}
+library(lattice)
+#Create contigency table for source column
+tb<-table(data_asreview$year)
+barchart(tb,horizontal = FALSE, scales = list(x = list(rot = 45)),ylab='Number of articles',xlab='years')
+
+
+d<-ggplot(data = data_asreview,mapping = aes(x = factor(data_asreview$year)))
+  d+geom_bar()+labs(x='Years',y='Number of articles') + theme_classic()+
+  theme(axis.text.x = element_text(angle = 45,vjust = 0.5))
+
+  
+tb
+```
+
+## Articles by Journal
+
+```{r}
+# edit(data_asreview)
+```
+
+```{r barplot_source_journal, fig.height=6, fig.width=15, warning=FALSE}
+library(lattice)
+#Create contingency table for source column
+tb<-table(substr(data_asreview$journal[!data_asreview$journal==''], start = 1, stop = 40))
+
+barchart(tb,horizontal = FALSE, scales = list(x = list(rot = 45)),ylab='Number of articles',xlab='years')
+```
+
+A bit messy. Trying to regroup the magazines... replace conferences with
+conference...
+
+```{r}
+jornais<-data_asreview %>% 
+  select(journal) %>%
+  group_by(journal) %>%
+  summarize(count = n())
+
+
+str(jornais)
+
+# Select all NaNs
+jornais[is.na.data.frame(jornais)]<-"Conference"
+
+#view(jornais)
+# Replace journals with one occurrence with others
+
+#jornais[jornais$count==1,] <- "others"
+
+
+#length(jornais[jornais$count==1,])
+
+
+#jornais<-jornais %>% 
+#  select(journal) %>%
+#  group_by(journal) %>%
+#  summarize(count = n())
+#
+```
+
+```{r barplot_source_journal_final, fig.height=6, fig.width=15, warning=FALSE}
+d<-ggplot(data = jornais,mapping = aes(x = journal,y = count))
+d+geom_col()+coord_flip()+labs(x='Jornal',y='Number of articles') + theme_classic()
+```
+
+Replace long text "Lecture Notes in Computer Science (.....)" with
+"Lecture Notes in Computer Science"
+
+```{r}
+#grepl return an vector logical values
+jornais$journal[grepl("^Lecture Notes in",x = jornais$journal)]<-"Lecture Notes in Computer Science"
+```
+
+```{r}
+table(substr(data_asreview$journal, start = 1, stop = 40))
+
+journals <- unique(data_asreview$journal)
+sort(journals)
+sort(journals[grepl(pattern = "Conference|conference",x = journals)])
+
+```
+
+## Articles by Sources
+
+```{r barplot_sources, warning=FALSE}
+#Create contigency table for source column
+tb<-table(data_asreview$source)
+
+barchart(tb,horizontal = FALSE, scales = list(x = list(rot = 45)),ylab='Number of articles',xlab='source')
+
+tb
+
+d<-ggplot(data = data_asreview,mapping = aes(x = factor(data_asreview$source)))
+  d+geom_bar()+labs(x='Source',y='Number of articles') + theme_classic()+
+  theme(axis.text.x = element_text(angle = 0,vjust = 0.5))
+
+```
+
+## Articles by Category
+
+```{r barplot_category, warning=FALSE}
+library(lattice)
+#Create contigency table for source column
+tb<-table(data_asreview$category)
+
+barchart(tb,horizontal = FALSE, scales = list(x = list(rot = 45)),ylab='Number of articles',xlab='category')
+
+
+d<-ggplot(data = data_asreview,mapping = aes(x = factor(data_asreview$category)))
+  d+geom_bar()+labs(x='Category',y='Number of articles') + theme_classic()+
+  theme(axis.text.x = element_text(angle = 0,vjust = 0.5))
+
+```
+
+## Final table of selected articles
+
+data_articles %\>% select(year,title) %\>% kbl() %\>% kable_minimal()
+%\>% kable_styling()
+
+```{r}
+
+data_asreview %>%
+  select(author,title) %>%
+  kable("latex")
+
+data_asreview %>% select(author,title,source) %>% arrange(author)
+
+print(data_asreview[,c("doi","author","year","source","title")])
+```
+
+## Define business area
+
+The identification of the business area followed a quick analysis of the
+paper. Some articles the business area identification was easy,
+identified in the title, others in the abstract. The more complex cases
+was used the sumarisation provided in the jupyter notebook
+'analisePDFs_artigos.ipynb' using BART.
+
+```{r}
+data_asreview$businessArea = ''
+
+# hung_applying_2006
+data_asreview$businessArea[data_asreview$doi=='https://doi.org/10.1016/j.eswa.2005.09.080']='Telecom'
+# dierkes_estimating_2011
+data_asreview$businessArea[data_asreview$doi=='https://doi.org/10.1016/j.dss.2011.01.002']='Telecom'
+# liu_micro-_2020
+data_asreview$businessArea[data_asreview$doi=='10.1007/s10115-019-01394-7']='Gamming'
+#kaya_behavioral_2018
+data_asreview$businessArea[data_asreview$doi=='10.1140/epjds/s13688-018-0165-5']='Financial'
+#mitrovic_operational_2018
+data_asreview$businessArea[data_asreview$doi=='10.1016/j.ejor.2017.12.015'] = 'Telecom'
+#oskarsdottir_profit-based_2018
+data_asreview$businessArea[data_asreview$doi=='10.1089/big.2018.0015'] = 'Financial and Telecom'
+#zhu_benchmarking_2018
+data_asreview$businessArea[data_asreview$doi=='10.1057/s41274-016-0176-1'] = 'Telecom'
+#garcia_intelligent_2017
+data_asreview$businessArea[data_asreview$doi=='10.1007/s10115-016-0995-z']='Financial and Telecom'
+#ballings_customer_2012
+data_asreview$businessArea[data_asreview$doi=='10.1016/j.eswa.2012.07.006']='Media'
+#burez_handling_2009
+data_asreview$businessArea[data_asreview$doi=='10.1016/j.eswa.2008.05.027']='Media'
+#burez_crm_2007
+data_asreview$businessArea[data_asreview$doi=='10.1016/j.eswa.2005.11.037']='Media'
+#garcia-pedrajas_ensembles_2010
+data_asreview$businessArea[data_asreview$doi=='10.1007/978-3-642-13025-0_7']='Financial and retail'
+#antipov_applying_2010
+data_asreview$businessArea[data_asreview$doi=='10.1057/jt.2010.3']='Financial and retail'
+#al-molhem_social_2019
+data_asreview$businessArea[data_asreview$doi=='10.1186/s40537-019-0264-6']='Financial and retail'
+#gok_case_2015
+data_asreview$businessArea[data_asreview$doi=='10.1145/2808797.2808821']='Telecom'
+#azeem_churn_2017
+data_asreview$businessArea[data_asreview$doi=='10.1007/s11235-017-0310-7']='Telecom'
+#agrawal_customer_2018
+data_asreview$businessArea[data_asreview$doi=='10.1109/ICSCEE.2018.8538420']='Telecom'
+#amornvetchayakul_customer_2020
+data_asreview$businessArea[data_asreview$doi=='10.1109/ICIEA49774.2020.9102099']='Software'
+#benedek_importance_2014
+data_asreview$businessArea[data_asreview$doi=='10.1111/deci.12057']='Telecom'
+#esteves_churn_2016
+data_asreview$businessArea[data_asreview$doi=='10.1109/ICDIM.2016.7829775']='Telecom'
+#hutchison_data_2009
+data_asreview$businessArea[data_asreview$doi=='10.1007/978-3-642-10646-0_47']='Telecom'
+#jafari-marandi_optimum_2020
+data_asreview$businessArea[data_asreview$doi=='10.1007/s00521-020-04850-6']='Telecom'
+#campbell_customer_2016 > This article as to be removed retail industry using customer data from CDNow
+data_asreview$businessArea[data_asreview$doi=='10.1007/978-3-319-24184-5_35']='Retail'
+#mitrovic_scalable_2017
+data_asreview$businessArea[data_asreview$doi=='10.1109/DSAA.2017.42']='Telecom'
+#pedersen_customer_2009
+data_asreview$businessArea[data_asreview$doi=='10.1007/978-3-642-03730-6_19']='Telecom'
+#idris_intelligent_2013
+data_asreview$businessArea[data_asreview$doi=='10.1007/s10489-013-0440-x']='Telecom'
+#mohanty_application_2015
+data_asreview$businessArea[data_asreview$doi=='10.1109/CICN.2015.123']='Telecom'
+#wang_transfer_2011
+data_asreview$businessArea[data_asreview$doi=='10.1109/ICM.2011.397']='Telecom'
+#xiao_feature-selection-based_2015
+data_asreview$businessArea[data_asreview$doi=='10.1007/s10115-013-0722-y']='Telecom'
+#vijaya_efficient_2019
+data_asreview$businessArea[data_asreview$doi=='10.1007/s10586-017-1172-1']='Telecom'
+#semrl_churn_2017 Fitness industry
+data_asreview$businessArea[data_asreview$doi=='10.1109/BESC.2017.8256385']='Sport'
+#shao_construction_2008
+data_asreview$businessArea[data_asreview$doi=='10.1109/ICNC.2008.724']='Financial'
+#sivasankar_hybrid_2019
+data_asreview$businessArea[data_asreview$doi=='10.1007/s00521-018-3548-4']='Telecom'
+#ullah_churn_2019
+data_asreview$businessArea[data_asreview$doi=='10.1109/ICECCE47252.2019.8940667']='Financial'
+#perianez_churn_2016
+data_asreview$businessArea[data_asreview$doi=='10.1109/DSAA.2016.84']='Gamming'
+#prasasti_applicability_2014
+data_asreview$businessArea[data_asreview$doi=='10.1109/ISTMET.2014.6936498']='Software'
+#routh_estimating_2020
+data_asreview$businessArea[data_asreview$doi=='10.1080/01605682.2020.1776166']='Hospitality'
+#naik_innovative_2017
+data_asreview$businessArea[data_asreview$doi=='10.1109/ICATCCT.2017.8389139']='Telecom'
+#zhang_predicting_2012
+data_asreview$businessArea[data_asreview$doi=='10.1016/j.knosys.2011.12.005']='Telecom'
+#xie_customer_2009
+data_asreview$businessArea[data_asreview$doi=='10.1016/j.eswa.2008.06.121']='Financial'
+#xiao_dynamic_2012
+data_asreview$businessArea[data_asreview$doi=='10.1016/j.eswa.2011.09.059']='Financial and Telecom'
+#wei_turning_2002
+data_asreview$businessArea[data_asreview$doi=='10.1016/S0957-4174(02)00030-1']='Telecom'
+#shirazi_big_2019
+data_asreview$businessArea[data_asreview$doi=='https://doi.org/10.1016/j.ijinfomgt.2018.10.005']='Financial'
+#coussement_comparative_2017
+data_asreview$businessArea[data_asreview$doi=='https://doi.org/10.1016/j.dss.2016.11.007']='Telecom'
+#de_bock_empirical_2011
+data_asreview$businessArea[data_asreview$doi=='https://doi.org/10.1016/j.eswa.2011.04.007']='Financial,Telecom and Retail'
+#verbeke_building_2011
+data_asreview$businessArea[data_asreview$doi=='10.1016/j.eswa.2010.08.023']='Telecom'
+#kianmehr_calling_2009
+data_asreview$businessArea[data_asreview$doi=='https://doi.org/10.1016/j.eswa.2008.07.072']='Telecom'
+#coussement_churn_2008
+data_asreview$businessArea[data_asreview$doi=='10.1016/j.eswa.2006.09.038']='Media'
+#farquad_churn_2014
+data_asreview$businessArea[data_asreview$doi=='https://doi.org/10.1016/j.asoc.2014.01.031']='Financial'
+#nie_credit_2011
+data_asreview$businessArea[data_asreview$doi=='10.1016/j.eswa.2011.06.028']='Financial'
+#coussement_customer_2013
+data_asreview$businessArea[data_asreview$doi=='10.1016/j.jbusres.2012.12.008']='Gambling'
+#amin_customer_2017
+data_asreview$businessArea[data_asreview$doi=='https://doi.org/10.1016/j.neucom.2016.12.009']='Telecom'
+#delen_development_2020
+data_asreview$businessArea[data_asreview$doi=='https://doi.org/10.1016/j.ejor.2019.03.037']='Education'
+#alboukaey_dynamic_2020
+data_asreview$businessArea[data_asreview$doi=='10.1016/j.eswa.2020.113779']='Telecom'
+#gur_ali_dynamic_2014
+data_asreview$businessArea[data_asreview$doi=='10.1016/j.eswa.2014.06.018']='Financial'
+#schaeffer_forecasting_2020
+data_asreview$businessArea[data_asreview$doi=='https://doi.org/10.1016/j.jretconser.2019.101918']='Logistic'
+#keramati_improved_2014
+data_asreview$businessArea[data_asreview$doi=='https://doi.org/10.1016/j.asoc.2014.08.041']='Telecom'
+#coussement_improved_2010
+data_asreview$businessArea[data_asreview$doi=='10.1016/j.eswa.2009.07.029']='Media'
+#coussement_improving_2009
+data_asreview$businessArea[data_asreview$doi=='10.1016/j.eswa.2008.07.021']='Media'
+#benoit_improving_2012
+data_asreview$businessArea[data_asreview$doi=='10.1016/j.eswa.2012.04.016']='Financial'
+#moeyersoms_including_2015
+data_asreview$businessArea[data_asreview$doi=='10.1016/j.dss.2015.02.007']='Energy'
+#glady_modeling_2009
+data_asreview$businessArea[data_asreview$doi=='10.1016/j.ejor.2008.06.027']='Financial'
+#verbeke_new_2012
+data_asreview$businessArea[data_asreview$doi=='10.1016/j.ejor.2011.09.031']='Telecom'
+#verbeke_social_2014
+data_asreview$businessArea[data_asreview$doi=='10.1016/j.asoc.2013.09.017']='Telecom'
+#risselada_staying_2010 internet service provider and insurance markets
+data_asreview$businessArea[data_asreview$doi=='https://doi.org/10.1016/j.intmar.2010.04.002']='Financial and Telecom'
+#tsai_variable_2010 Multimedia on demand (MOD)
+data_asreview$businessArea[data_asreview$doi=='10.1016/j.eswa.2009.06.076']='Media'
+#chen_applying_2011
+data_asreview$businessArea[data_asreview$doi=='10.1007/978-3-642-18129-0_41']='Telecom'
+#kim_bayesian_2010
+data_asreview$businessArea[data_asreview$doi=='10.1007/978-3-642-17569-5_30']='Telecom'
+#mohanty_application_2015
+data_asreview$businessArea[data_asreview$doi=='10.1109/CICN.2015.123']='Telecom'
+#khodabandehlou_comparison_2017 > This article as to be removed retail 
+data_asreview$businessArea[data_asreview$doi=='10.1108/JSIT-10-2016-0061']='Retail'
+#kalita_fuzzy_2019
+data_asreview$businessArea[data_asreview$doi=='10.1007/978-981-13-1280-9_25']='Telecom'
+#hutchison_preventing_2013
+data_asreview$businessArea[data_asreview$doi=='10.1007/978-3-642-41398-8_31']='Telecom'
+#verbraken_profit_2014
+data_asreview$businessArea[data_asreview$doi=='10.3233/IDA-130625']='Telecom'
+#jiang_research_2014
+data_asreview$businessArea[data_asreview$doi=='10.4028/www.scientific.net/AMR.989-994.1517']='Security'
+#ascarza_retention_2018
+data_asreview$businessArea[data_asreview$doi=='10.1509/jmr.16.0163']='Telecom and Media'
+#hutchison_rule_2010
+data_asreview$businessArea[data_asreview$doi=='10.1007/978-3-642-15387-7_50']='Financial'
+#kim_utilizing_2014
+data_asreview$businessArea[data_asreview$doi=='10.1007/978-3-319-13332-4_12']='Software'
+#hutchison_graph-based_2012
+data_asreview$businessArea[data_asreview$doi=='10.1007/978-3-642-35527-1_31']='Telecom'
+#farquad_analytical_2012
+data_asreview$businessArea[data_asreview$doi=='10.1504/IJECRM.2012.046470']='Financial'
+#kianmehr_fuzzy_2011
+data_asreview$businessArea[data_asreview$doi=='10.1504/IJNVO.2011.037162']='Telecom'
+#casillas_improving_2012
+data_asreview$businessArea[data_asreview$doi=='10.1007/978-3-642-30864-2_21']='Media'
+#burez_separating_2008 #Pay Tv Subscription services
+data_asreview$businessArea[data_asreview$doi=='10.1016/j.eswa.2007.07.036']='Media'
+#de_bock_reconciling_2012 Financial and telecom contractual and 
+# non-contractual DYI supplies, supermarket and mail order garments
+data_asreview$businessArea[data_asreview$doi=='10.1016/j.eswa.2012.01.014']='Financial and Telecom'
+#devriendt_why_2019
+data_asreview$businessArea[data_asreview$doi=='https://doi.org/10.1016/j.ins.2019.12.075']='Financial'
+#gok_case_2015
+data_asreview$businessArea[data_asreview$doi=='10.1145/2808797.2808821']='Financial'
+#he_prediction_2014
+data_asreview$businessArea[data_asreview$doi=='10.1016/j.procs.2014.05.286']='Financial'
+#idris_intelligent_2013
+data_asreview$businessArea[data_asreview$doi=='10.1007/s10489-013-0440-x']='Telecom'
+#bhateja_churn_2018
+data_asreview$businessArea[data_asreview$doi=='10.1007/978-981-10-8228-3_6']='Financial'
+#wai-ho_au_novel_2003 applied to others databases to test "Zoo Database","DNA Database",
+#"Credit Card Database,"Diabetes Database","Satellite Image Database,"Social Database","PBX Database"
+data_asreview$businessArea[data_asreview$doi=='10.1109/TEVC.2003.819264']='Telecom'
+#xia_model_2008
+data_asreview$businessArea[data_asreview$doi=='https://doi.org/10.1016/S1874-8651(09)60003-X']='Telecom'
+
+str(data_asreview)
+
+print(data_asreview[,c("doi","author","year","source","businessArea")])
+```
+
+## Articles by year and business area
+
+```{r}
+g <- ggplot(data = data_asreview,aes(x = factor(businessArea)))+theme_minimal()+geom_bar(position = 'stack')
+g +labs(x='Business area',y='Number of articles') + theme_classic()+theme(axis.text.x = element_text(angle = 0,vjust = 0.5))+coord_flip()
+```
+
+```{r}
+library(RColorBrewer)
+g<-ggplot(data = data_asreview) + aes(x = factor(substr(year,3,4)), fill = businessArea)+geom_bar()
+g +labs(x='Years',y='Number of articles') + theme_classic()+theme(axis.text.x = element_text(angle = 0,vjust = 0.5)) + scale_colour_brewer(palette = "Greens")
+g
+g+scale_colour_brewer()
+
+colourCount = length(unique(data_asreview$year))
+# Provide more one color to avoid 
+# Error: Insufficient values in manual scale
+myColors <- colorRampPalette(brewer.pal(8, "Spectral"))(colourCount+1) 
+g+scale_fill_manual(values = myColors) +labs(x='Years',y='Number of articles')+ theme_classic()
+ggsave('C:/nuvem/Dropbox/doutoramento/tese/1.sistematicReview/5f7ef8936c611800011b7ceb/figures/figure_articlesByBusinessArea.png')
+
+g+scale_fill_grey(start=0.1,end=0.8) +labs(x='Years',y='Number of articles')+ theme_classic()
+
+```
+
+```{r message=FALSE, warning=FALSE}
+library(gridExtra)
+# total de artigos por ano e business area
+by_business<- data_asreview %>%
+                  group_by(year,businessArea)
+
+resumo<-summarize(by_business,count = n())
+
+g1<-ggplot() + geom_point(data = resumo, aes(x = substr(year,3,4), y = businessArea, size = count)) +
+  theme_classic() + 
+  labs(x='Years',y='Business Area',size = 'Number\nArticles') +
+  theme(legend.position="left")
+
+# total de artigos por business area
+g2 <- ggplot(data = data_asreview,aes(x = factor(businessArea)))+
+  theme_classic()+
+  geom_bar(position = 'stack') +
+  labs(x='',y='Articles') + 
+  theme(axis.text.y=element_blank())+
+  coord_flip()
+
+# criar um boxplot com o número citações
+#g3 <- ggplot(data_asreview, aes(x=, y=len, fill=dose)) +
+#  geom_boxplot()
+
+
+grid.arrange(g1,g2,widths = c(3,0.7))
+
+g <- arrangeGrob(g1, g2, widths = c(3,0.7)) #generates g
+ggsave(file="C:/nuvem/Dropbox/doutoramento/tese/1.sistematicReview/5f7ef8936c611800011b7ceb/figures/figure_articlesByBusinessArea.png", g) #saves g
+ 
+ggsave('C:/nuvem/Dropbox/doutoramento/tese/1.sistematicReview/5f7ef8936c611800011b7ceb/figures/figure_articlesByBusinessArea_old.png')
+
+```
+
+## Publications in 2008 and 2014
+
+The number of publications
+
+```{r}
+str(data_asreview)
+print(data_asreview[data_asreview$year<'2008',c("year","title","author","journal","businessArea")])
+
+print(data_asreview[data_asreview$year=='2008',c("year","title","author","journal","businessArea")])
+
+print(data_asreview[data_asreview$year=='2014',c("year","title","author","journal","businessArea")])
+```
+
+## Publications addressing telecomunications, financial and media
+
+```{r}
+print(data_asreview[data_asreview$businessArea=='Telecom',c("year","title","author","journal","businessArea","bibtexkey")])
+print(data_asreview[data_asreview$businessArea=='Financial',c("year","title","author","journal","businessArea","bibtexkey")])
+print(data_asreview[data_asreview$businessArea=='Media',c("year","title","author","journal","businessArea","bibtexkey")])
+```
+
+## Publications totals by business area
+
+```{r}
+table(data_asreview$businessArea)
+
+articles_by_businessArea<-summarize(group_by(data_asreview,businessArea),n = n(),.groups = 'keep')
+articles_by_businessArea$freq = articles_by_businessArea$n/sum(articles_by_businessArea$n)*100
+
+articles_by_businessArea
+
+```
+
+```{r message=FALSE, warning=FALSE}
+# Easy with the janitor package
+library("janitor")
+
+tabyl(data_asreview$businessArea)
+```
+
+```{r}
+print(data_asreview[data_asreview$businessArea=='Financial and retail',c("year","title","author","journal","businessArea","bibtexkey")])
+print(data_asreview[data_asreview$businessArea=='Financial,Telecom and Retail',c("year","title","author","journal","businessArea","bibtexkey")])
+print(data_asreview[data_asreview$businessArea=='Telecom and Media',c("year","title","author","journal","businessArea","bibtexkey")])
+print(data_asreview[data_asreview$businessArea=='Financial and Telecom',c("year","title","author","journal","businessArea","bibtexkey")])
+```
+
+## Logistic, Hospitality, Education
+
+```{r}
+print(data_asreview[data_asreview$businessArea=='Logistic',c("year","title","author","journal","businessArea","bibtexkey")])
+
+print(data_asreview[data_asreview$businessArea=='Hospitality',c("year","title","author","journal","businessArea","bibtexkey")])
+
+print(data_asreview[data_asreview$businessArea=='Education',c("year","title","author","journal","businessArea","bibtexkey")])
+```
+
+## Common words in the title and abstract
+
+```{r message=FALSE, warning=FALSE}
+library(revtools)
+library(gridExtra)
+
+# Title frequencies
+x_dtm<-make_dtm(data_asreview$title,min_freq = 0.06)
+
+#create a matrix of the document term-matrix
+x_dtm_matrix <- as.matrix(x_dtm)
+#apply function to calculate columns totals
+totals<-apply(x_dtm_matrix,MARGIN = 2,sum)
+
+#create dataframe
+df_dtm<-data.frame(totals)
+df_dtm$words<-row.names(df_dtm)
+                   
+g1<-ggplot(data = df_dtm,aes(x=words,y=totals)) +
+  labs(title = "title",x='',y = "freq")+ #modify legend and plot labels
+  geom_bar(stat = "identity") + coord_flip()+
+  geom_text(aes(label=totals),hjust=-1.6) + theme_classic()
+
+# frequencia no abstract
+x_dtm<-make_dtm(data_asreview$abstract,min_freq = 0.20)
+
+#create a matrix of the document term-matrix
+x_dtm_matrix <- as.matrix(x_dtm)
+#apply function to calculate columns totals
+totals<-apply(x_dtm_matrix,MARGIN = 2,sum)
+
+#create dataframe
+df_dtm<-data.frame(totals)
+df_dtm$words<-row.names(df_dtm)
+                   
+g2<-ggplot(data = df_dtm,aes(x=words,y=totals)) +
+  labs(title = "abstract",x='',y = "freq")+ #modify legend and plot labels
+  geom_bar(stat = "identity") + coord_flip()+
+  geom_text(aes(label=totals),hjust=-1.6) + theme_classic()
+
+
+library(cowplot)
+plot_grid(g1, g2, align = "h", ncol = 2, rel_heights = c(1/2, 1/2))
+
+ggsave("../../1.sistematicReview/5f7ef8936c611800011b7ceb/figures/commonWords.png")
+```
