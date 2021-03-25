@@ -116,5 +116,5 @@ Science Direct incomplete items where 8, Scopus 11 and IEEE 1. Remaining 429. 16
 2.	ASReview orders the publications in such a way that you see the most relevant publications first
 3.	Stopping criterium could be stopping after n presented abstracts were labeled irrelevant, or if your time is up. You can use the chart in the statistics panel to follow your progress" 
 
-Data processing is available in a [R Script](analysis/bibtexCleaning.Rmd) 
+Data processing is available in a [R Script](analysis/1.PhD_bibtexCleaning.Rmd), [quantitative analysis](analysis/2.PhD_bibtexFinalDataset.Rmd) and some [text mining](analysis/3.PhD_pdfAnalysis.Rmd) in the selected articles 
 
