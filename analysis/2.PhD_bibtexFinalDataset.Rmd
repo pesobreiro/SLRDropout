@@ -648,11 +648,12 @@ plot_grid(g1, g2, align = "h", ncol = 2, rel_heights = c(1/2, 1/2))
 
 ggsave("../../1.sistematicReview/5f7ef8936c611800011b7ceb/figures/commonWords.png")
 ```
-# Export 
+
+# Export
+
 ```{r}
 library(writexl)
 
 write_xlsx(data_asreview,path = "qualitativeAnalysisArticles.xlsx")
 
 ```
-
